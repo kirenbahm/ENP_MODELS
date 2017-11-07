@@ -1,0 +1,32 @@
+// Created     : 2015-02-4 9:56:27
+// DLL id      : C:\Program Files (x86)\DHI\2011\Bin\pfs2004.dll
+// PFS version : Jan  6 2011 20:45:15
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'Water Level [ft]'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 128, 0, 128, 0
+      RGB_Color_Value = 85, 0, 171, 200000
+      RGB_Color_Value = 42, 0, 213, 400000
+      RGB_Color_Value = 0, 0, 255, 600000
+      RGB_Color_Value = 0, 56, 225, 700000
+      RGB_Color_Value = 0, 111, 195, 800000
+      RGB_Color_Value = 0, 166, 166, 900000
+      RGB_Color_Value = 0, 196, 110, 1e+006
+      RGB_Color_Value = 0, 226, 55, 1.5e+006
+      RGB_Color_Value = 0, 255, 0, 2e+006
+      RGB_Color_Value = 85, 255, 0, 3e+006
+      RGB_Color_Value = 170, 255, 0, 4e+006
+      RGB_Color_Value = 255, 255, 0, 5e+006
+      RGB_Color_Value = 255, 170, 0, 6e+006
+      RGB_Color_Value = 255, 85, 0, 7e+006
+      RGB_Color_Value = 255, 0, 0, 9e+006
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+

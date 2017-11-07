@@ -1,0 +1,316 @@
+// Created     : 2016-06-21 11:24:30
+// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+// type = 2
+
+[ECO_LAB_SETUP]
+   DESCRIPTION = ''
+   ONLINE_HELP = ''
+   DOCUMENTATION = 'Report GIT June 2016'
+   [MISC]
+      DESCRIPTION = 'Miscellaneous Description'
+      ONLINE_HELP = 'Miscellaneous Online help'
+      DOCUMENTATION = 'Report GIT June 2016'
+      ECOLAB_VERSION = 2016.001
+      PARSER_VERSION = 2016.001
+      DOCUMENT_REVISION = 6
+      RANDSEED = 0
+      DEBUG_LEVEL = 0
+      DEBUG_LOG = ''
+      RANDOM_PARTICLE_DIR = 'NO'
+      BUILD_SPATIAL_TREE = 'NO'
+      CHECKSUM = '0'
+      OPTIMISE = 'YES'
+      TRIGONOMETRICS = 'Degree'
+   EndSect  // MISC
+
+   [STATE_VARIABLES]
+      DESCRIPTION = ''
+      ONLINE_HELP = ''
+      DOCUMENTATION = ''
+      [STATE_VARIABLE_1]
+         SYMBOL = 'TPaq'
+         ID = 1
+         DESCRIPTION = 'Total Dissolved Phosphorus'
+         ONLINE_HELP = 'Total Dissolved Phosphorus'
+         DOCUMENTATION = 'Report GIT June 2016'
+         SCOPE = 'WC'
+         TRANSPORT = 'ADVECTION_DISPERSION'
+         EUM_TYPE = 100404
+         UNIT = 'mg/l'
+         DEFAULT_VALUE = 0.005
+         MIN_VALUE = 0
+         MAX_VALUE = 100
+      EndSect  // STATE_VARIABLE_1
+
+      [STATE_VARIABLE_2]
+         SYMBOL = 'TPfx'
+         ID = 2
+         DESCRIPTION = 'TP sorbed on floc'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         SCOPE = 'WC'
+         TRANSPORT = 'FIXED'
+         EUM_TYPE = 100404
+         UNIT = 'mg/l'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = 0
+         MAX_VALUE = 1000
+      EndSect  // STATE_VARIABLE_2
+
+      [STATE_VARIABLE_3]
+         SYMBOL = 'TRACER'
+         ID = 3
+         DESCRIPTION = 'Conservative Tracer'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         SCOPE = 'WC'
+         TRANSPORT = 'ADVECTION_DISPERSION'
+         EUM_TYPE = 100404
+         UNIT = 'mg/l'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = 0
+         MAX_VALUE = 1000
+      EndSect  // STATE_VARIABLE_3
+
+      [STATE_VARIABLE_4]
+         SYMBOL = 'TPpw'
+         ID = 4
+         DESCRIPTION = 'TP in Pore Water = TPaq'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         SCOPE = 'WC'
+         TRANSPORT = 'ADVECTION_DISPERSION'
+         EUM_TYPE = 100404
+         UNIT = 'mg/l'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = 0
+         MAX_VALUE = 100
+      EndSect  // STATE_VARIABLE_4
+
+   EndSect  // STATE_VARIABLES
+
+   [CONSTANTS]
+      DESCRIPTION = ''
+      ONLINE_HELP = ''
+      DOCUMENTATION = ''
+      [CONSTANT_1]
+         SYMBOL = 'KU'
+         ID = 5
+         DESCRIPTION = 'Uptake Rate'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         IS_USER_SPECIFIED = 'YES'
+         BUILT_IN_ID = -1
+         SCOPE = 'NOT_SPECIFIED'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         EUM_TYPE = 999
+         UNIT = '/d'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = 0
+         MAX_VALUE = 100
+      EndSect  // CONSTANT_1
+
+      [CONSTANT_2]
+         SYMBOL = 'KR'
+         ID = 6
+         DESCRIPTION = 'Release Rate'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         IS_USER_SPECIFIED = 'YES'
+         BUILT_IN_ID = -1
+         SCOPE = 'NOT_SPECIFIED'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         EUM_TYPE = 999
+         UNIT = '/d'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = 0
+         MAX_VALUE = 100
+      EndSect  // CONSTANT_2
+
+      [CONSTANT_3]
+         SYMBOL = 'KFpw'
+         ID = 7
+         DESCRIPTION = 'K forward exchange pore water'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         IS_USER_SPECIFIED = 'YES'
+         BUILT_IN_ID = -1
+         SCOPE = 'NOT_SPECIFIED'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         EUM_TYPE = 999
+         UNIT = 'undefined'
+         DEFAULT_VALUE = 0.01
+         MIN_VALUE = 0
+         MAX_VALUE = 100
+      EndSect  // CONSTANT_3
+
+      [CONSTANT_4]
+         SYMBOL = 'KBpw'
+         ID = 8
+         DESCRIPTION = 'K backward exchange pore water'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         IS_USER_SPECIFIED = 'YES'
+         BUILT_IN_ID = -1
+         SCOPE = 'NOT_SPECIFIED'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         EUM_TYPE = 999
+         UNIT = 'undefined'
+         DEFAULT_VALUE = 0.01
+         MIN_VALUE = 0
+         MAX_VALUE = 100
+      EndSect  // CONSTANT_4
+
+   EndSect  // CONSTANTS
+
+   [FORCINGS]
+      DESCRIPTION = ''
+      ONLINE_HELP = ''
+      DOCUMENTATION = ''
+      [FORCING_1]
+         SYMBOL = 'DEPTH'
+         ID = 9
+         DESCRIPTION = 'Depth of Overland Flow'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         IS_USER_SPECIFIED = 'NO'
+         BUILT_IN_ID = 55
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         EUM_TYPE = 999
+         UNIT = 'auto'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = -100000000
+         MAX_VALUE = 100000000
+      EndSect  // FORCING_1
+
+      [FORCING_2]
+         SYMBOL = 'DT'
+         ID = 10
+         DESCRIPTION = 'MSHE Time Step'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         IS_USER_SPECIFIED = 'NO'
+         BUILT_IN_ID = 55
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         EUM_TYPE = 999
+         UNIT = 'auto'
+         DEFAULT_VALUE = 0
+         MIN_VALUE = -100000000
+         MAX_VALUE = 100000000
+      EndSect  // FORCING_2
+
+   EndSect  // FORCINGS
+
+   [AUXILIARY_VARIABLES]
+      DESCRIPTION = ''
+      ONLINE_HELP = ''
+      DOCUMENTATION = ''
+   EndSect  // AUXILIARY_VARIABLES
+
+   [PROCESSES]
+      DESCRIPTION = ''
+      ONLINE_HELP = ''
+      DOCUMENTATION = ''
+      [PROCESS_1]
+         SYMBOL = 'WC_ADS'
+         ID = 11
+         DESCRIPTION = 'Adsorption in water column on floc'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         OUTPUT = 'YES'
+         PROCESS_TYPE = 'TRANSFORMATION'
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         UNIT = 'undefined'
+         EXPRESSION = '"KU*MAX(0,TPaq)"'
+      EndSect  // PROCESS_1
+
+      [PROCESS_2]
+         SYMBOL = 'WC_DES'
+         ID = 12
+         DESCRIPTION = 'Desorption in water column from floc'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         OUTPUT = 'YES'
+         PROCESS_TYPE = 'TRANSFORMATION'
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         UNIT = 'undefined'
+         EXPRESSION = '"KR*MAX(0,TPfx)"'
+      EndSect  // PROCESS_2
+
+      [PROCESS_3]
+         SYMBOL = 'RZERO'
+         ID = 13
+         DESCRIPTION = 'Process_3 Description'
+         ONLINE_HELP = 'Process_3 Online help'
+         DOCUMENTATION = ''
+         OUTPUT = 'YES'
+         PROCESS_TYPE = 'TRANSFORMATION'
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         UNIT = 'undefined'
+         EXPRESSION = '"0"'
+      EndSect  // PROCESS_3
+
+      [PROCESS_4]
+         SYMBOL = 'WC_FPW'
+         ID = 14
+         DESCRIPTION = 'Forward exchange with pore water'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         OUTPUT = 'YES'
+         PROCESS_TYPE = 'TRANSFORMATION'
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         UNIT = 'undefined'
+         EXPRESSION = '"KFpw*MAX(0,TPaq)"'
+      EndSect  // PROCESS_4
+
+      [PROCESS_5]
+         SYMBOL = 'WC_BPW'
+         ID = 15
+         DESCRIPTION = 'Backward exchange with pore water'
+         ONLINE_HELP = ''
+         DOCUMENTATION = 'Report GIT June 2016'
+         OUTPUT = 'YES'
+         PROCESS_TYPE = 'TRANSFORMATION'
+         SCOPE = 'WC'
+         SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
+         UNIT = 'undefined'
+         EXPRESSION = '"KBpw*MAX(0,TPpw)"'
+      EndSect  // PROCESS_5
+
+   EndSect  // PROCESSES
+
+   [DERIVED_OUTPUTS]
+      DESCRIPTION = ''
+      ONLINE_HELP = ''
+      DOCUMENTATION = ''
+   EndSect  // DERIVED_OUTPUTS
+
+   [STATE_VARIABLE_EQUATIONS]
+      [STATE_VARIABLE_EQUATION_1]
+         TPaq = '"-WC_ADS + WC_DES - WC_FPW + WC_BPW"'
+      EndSect  // STATE_VARIABLE_EQUATION_1
+
+      [STATE_VARIABLE_EQUATION_2]
+         TPfx = '"+WC_ADS - WC_DES"'
+      EndSect  // STATE_VARIABLE_EQUATION_2
+
+      [STATE_VARIABLE_EQUATION_3]
+         TRACER = '"RZERO"'
+      EndSect  // STATE_VARIABLE_EQUATION_3
+
+      [STATE_VARIABLE_EQUATION_4]
+         TPpw = '"+ WC_FPW - WC_BPW"'
+      EndSect  // STATE_VARIABLE_EQUATION_4
+
+   EndSect  // STATE_VARIABLE_EQUATIONS
+
+EndSect  // ECO_LAB_SETUP
+
+

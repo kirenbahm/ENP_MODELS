@@ -1,0 +1,32 @@
+// Created     : 2016-06-16 7:46:55
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'Overland concentration, TPaq [mu-g/m^3]'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 128, 0, 128, 0
+      RGB_Color_Value = 85, 0, 171, 333.333
+      RGB_Color_Value = 42, 0, 213, 666.667
+      RGB_Color_Value = 0, 0, 255, 1000
+      RGB_Color_Value = 0, 56, 225, 1333.33
+      RGB_Color_Value = 0, 111, 195, 1666.67
+      RGB_Color_Value = 0, 166, 166, 2000
+      RGB_Color_Value = 0, 196, 110, 2333.33
+      RGB_Color_Value = 0, 226, 55, 2666.67
+      RGB_Color_Value = 0, 255, 0, 3000
+      RGB_Color_Value = 85, 255, 0, 3333.33
+      RGB_Color_Value = 170, 255, 0, 3666.67
+      RGB_Color_Value = 255, 255, 0, 4000
+      RGB_Color_Value = 255, 170, 0, 4333.33
+      RGB_Color_Value = 255, 85, 0, 4666.67
+      RGB_Color_Value = 255, 0, 0, 5000
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+

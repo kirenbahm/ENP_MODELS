@@ -1,0 +1,32 @@
+// Created     : 2012-11-11 15:40:33
+// DLL id      : C:\Program Files (x86)\DHI\2011\Bin\pfs2004.dll
+// PFS version : Jan  6 2011 20:45:15
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'Optimized Hydraulic Conductivity SAS [ft/day]'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 128, 0, 128, 0
+      RGB_Color_Value = 85, 0, 171, 800
+      RGB_Color_Value = 42, 0, 213, 2000
+      RGB_Color_Value = 0, 0, 255, 2200
+      RGB_Color_Value = 0, 56, 225, 2400
+      RGB_Color_Value = 0, 111, 195, 2600
+      RGB_Color_Value = 0, 166, 166, 3000
+      RGB_Color_Value = 0, 196, 110, 4000
+      RGB_Color_Value = 0, 226, 55, 5000
+      RGB_Color_Value = 0, 255, 0, 6000
+      RGB_Color_Value = 85, 255, 0, 7000
+      RGB_Color_Value = 170, 255, 0, 8000
+      RGB_Color_Value = 255, 255, 0, 10000
+      RGB_Color_Value = 255, 170, 0, 12000
+      RGB_Color_Value = 255, 85, 0, 14000
+      RGB_Color_Value = 255, 0, 0, 25000
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+

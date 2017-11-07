@@ -1,0 +1,95 @@
+// Created     : 2017-11-7 13:10:12
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[Run11]
+   format_version = 107, 'MIKEZero, 2016'
+   Comment = ''
+   [Models]
+      hd = false, false
+      ad = true
+      st = false
+      wq = true, 1, 0
+      rr = false
+      ff = false
+      da = false
+      ice = false
+      SimMode = 0
+      QSS = 0
+   EndSect  // Models
+
+   [Input]
+      nwk = |.\M11.nwk11|
+      xs = |.\M11.xns11|
+      bnd = |.\M11_WQ.bnd11|
+      rr = ||
+      hd = |.\M11.hd11|
+      ad = |.\M11.ad11|
+      wq = |.\ECOLAB_MIKE11.ecolab11|
+      st = ||
+      ff = ||
+      rhd = |..\..\..\Result\M04_V0201_00WQ_TEMPLATE.she - Result Files\M11_WM.res11|
+      rrr = ||
+      da = ||
+      ice = ||
+   EndSect  // Input
+
+   [Simulation]
+      [Simulation_Period]
+         start = 2000, 1, 1, 0, 0, 0
+         end = 2000, 12, 31, 0, 0, 0
+         TimeStepType = 0
+         timestep = 1
+         timestepunit = 2
+         dtFileName = ||
+         dtItemName = ''
+         dtItemNo = 0
+         ddtMin = 1
+         ddtMax = 30
+         idtMinMaxUnit = 2
+         ddtChangeRatio = 1.3
+         bDelB_BFlag = true
+         dDelB_BVal = 0.01
+         dDelB_BLim = 0.01
+         bDelQFlag = false
+         dDelQVal = 1
+         bDelQ_QFlag = true
+         dDelQ_QVal = 0.01
+         dDelQ_QLim = 0.01
+         bDelhFlag = false
+         dDelhVal = 0.01
+         bDelh_hFlag = true
+         dDelh_hVal = 0.01
+         dDelh_hLim = 0.01
+         bCourantFlagHD = false
+         dCourantValHD = 10
+         bCourantFlagAD = true
+         dCourantValAD = 1
+         ST_timestep_multiplier = 1
+         RR_timestep_multiplier = 1
+      EndSect  // Simulation_Period
+
+      [Initial_Conditions]
+         hd = 0, ||, false, 1990, 1, 1, 12, 0, 0
+         ad = 0, ||, false, 1990, 1, 1, 12, 0, 0
+         st = 0, ||, false, 1990, 1, 1, 12, 0, 0
+         rr = 0, ||, false, 1990, 1, 1, 12, 0, 0
+      EndSect  // Initial_Conditions
+
+   EndSect  // Simulation
+
+   [Results]
+      hd = ||, '', 1, 1
+      ad = |..\..\..\Result\M04_V0201_00WQ_TEMPLATE.she - Result Files\M11_WQ.res11|, '', 1, 1
+      st = ||, '', 1, 0
+      rr = ||, '', 1, 0
+   EndSect  // Results
+
+EndSect  // Run11
+
+[SYSTEM]
+   ResultRootFolder = |..\..\..\Result|
+   UseCustomResultFolder = false
+   CustomResultFolder = ||
+EndSect  // SYSTEM
+

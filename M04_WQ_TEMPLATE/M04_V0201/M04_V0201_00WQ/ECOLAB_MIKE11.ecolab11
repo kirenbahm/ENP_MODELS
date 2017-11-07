@@ -1,0 +1,557 @@
+// Created     : 2016-11-18 6:55:57
+// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[M11Ecolab]
+   [Global_Variables]
+      Solver_definition_File = |.\ECOLAB_OC_4D.ecolab|
+      Integration_Method = 2
+      Update_Frequency = 1
+      Disable_Process_Calculations = false
+      Model = 27
+      No_of_State_Variables = 6
+      No_of_Time_Variables = 0
+      No_of_Constants = 16
+      No_of_forcings = 3
+      No_of_auxiliary_variables = 11
+      No_of_processes = 15
+      No_of_output_auxiliary = 8
+      No_of_output_processes = 14
+      No_of_output_derived = 11
+   EndSect  // Global_Variables
+
+   [STATE_VARIABLES]
+      [State_Variables_ID]
+         ID = 1
+         Description = 'TPaq'
+         Output = false
+         Transport = true
+         EUM_Type = 100404
+         Unit = 'mg/l'
+         Initial_Value = 0.01
+      EndSect  // State_Variables_ID
+
+      [State_Variables_ID]
+         ID = 2
+         Description = 'Concentrations in Floc'
+         Output = false
+         Transport = true
+         EUM_Type = 100404
+         Unit = 'mg/l'
+         Initial_Value = 0.1
+      EndSect  // State_Variables_ID
+
+      [State_Variables_ID]
+         ID = 3
+         Description = 'Dissolved phosphorus in sediment pore water'
+         Output = false
+         Transport = false
+         EUM_Type = 100437
+         Unit = 'g/m^2'
+         Initial_Value = 0.1
+      EndSect  // State_Variables_ID
+
+      [State_Variables_ID]
+         ID = 4
+         Description = 'Adsorbed Total Phosphorus in sediment'
+         Output = false
+         Transport = false
+         EUM_Type = 100437
+         Unit = 'g/m^2'
+         Initial_Value = 10
+      EndSect  // State_Variables_ID
+
+      [State_Variables_ID]
+         ID = 5
+         Description = 'Suspended solids'
+         Output = false
+         Transport = true
+         EUM_Type = 100404
+         Unit = 'mg/l'
+         Initial_Value = 50
+      EndSect  // State_Variables_ID
+
+      [State_Variables_ID]
+         ID = 6
+         Description = 'Mass of sediment'
+         Output = false
+         Transport = false
+         EUM_Type = 100437
+         Unit = 'g/m^2'
+         Initial_Value = 10000
+      EndSect  // State_Variables_ID
+
+   EndSect  // STATE_VARIABLES
+
+   [LOCALLISTSV]
+   EndSect  // LOCALLISTSV
+
+   [TIME_VARIABLES]
+   EndSect  // TIME_VARIABLES
+
+   [CONSTANTS]
+      [Constants_ID]
+         ID = 7
+         Description = 'Organic-carbon partitioning coefficient'
+         Symbol = 'koc'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'l/kg'
+         Default_value = 50000
+         Global = false
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 8
+         Description = 'Desorption rate in water'
+         Symbol = 'kw'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'per day'
+         Default_value = 1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 9
+         Description = 'Desorption rate in sediment'
+         Symbol = 'ks'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'per day'
+         Default_value = 0.1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 10
+         Description = 'Fraction of organic carbon in suspended solids SS'
+         Symbol = 'focw'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'dimensionless'
+         Default_value = 0.1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 11
+         Description = 'Fraction of organic carbon in sediment'
+         Symbol = 'focs'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'dimensionless'
+         Default_value = 0.2
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 12
+         Description = 'Thickness of water film'
+         Symbol = 'dzwf'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'mm'
+         Default_value = 0.1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 13
+         Description = 'Ratio between thickness of diffusion layer in sediment and sediment thickness'
+         Symbol = 'fdzds'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'dimensionless'
+         Default_value = 0.2
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 14
+         Description = 'Factor for diffusion due to bioturbation etc.'
+         Symbol = 'fbiot'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'dimensionless'
+         Default_value = 1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 15
+         Description = 'Molecular weight'
+         Symbol = 'mw'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'g/mole'
+         Default_value = 92
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 16
+         Description = 'ECO Lab time step'
+         Symbol = 'dt'
+         User_specified = false
+         Built_in_id = 65
+         Unit = 'Seconds'
+         Default_value = 30
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 17
+         Description = 'Density of dry sediment'
+         Symbol = 'dds'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'kg/m3 bulk'
+         Default_value = 250
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 18
+         Description = 'Porosity of sediment'
+         Symbol = 'pors'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'm3 H20 / m3 Bulk'
+         Default_value = 0.8
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 19
+         Description = 'Settling velocity of SS'
+         Symbol = 'vsm'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'm/day'
+         Default_value = 0.1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 20
+         Description = 'Resuspension rate'
+         Symbol = 'resrat'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'gDW/m2/day'
+         Default_value = 1000
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 21
+         Description = 'Particle production rate'
+         Symbol = 'parpro'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'gDW/m2/day'
+         Default_value = 1
+         Global = true
+      EndSect  // Constants_ID
+
+      [Constants_ID]
+         ID = 22
+         Description = 'Critical current velocity for sediment resuspension'
+         Symbol = 'ucrit'
+         User_specified = true
+         Built_in_id = -1
+         Unit = 'm/s'
+         Default_value = 1
+         Global = false
+      EndSect  // Constants_ID
+
+   EndSect  // CONSTANTS
+
+   [LOCALLISTC]
+   EndSect  // LOCALLISTC
+
+   [FORCINGS]
+      [Forcings_ID]
+         ID = 23
+         Description = 'Thickness of actual layer in computational grid'
+         User_specified = false
+         Built_in_id = 4
+         Unit = 'm'
+         TSType = 1
+         Default_value = 2
+         File_Name = ||
+         Item_No = 0
+         Item_Label = ''
+      EndSect  // Forcings_ID
+
+      [Forcings_ID]
+         ID = 24
+         Description = 'Total water depth'
+         User_specified = false
+         Built_in_id = 10
+         Unit = 'm'
+         TSType = 1
+         Default_value = 8
+         File_Name = ||
+         Item_No = 0
+         Item_Label = ''
+      EndSect  // Forcings_ID
+
+      [Forcings_ID]
+         ID = 25
+         Description = 'Current Speed'
+         User_specified = false
+         Built_in_id = 11
+         Unit = 'm/s'
+         TSType = 1
+         Default_value = 0.2
+         File_Name = ||
+         Item_No = 0
+         Item_Label = ''
+      EndSect  // Forcings_ID
+
+   EndSect  // FORCINGS
+
+   [Output_Auxiliary]
+      [Output_ID]
+         ID = 26
+         Description = 'Diffusion coefficient water'
+         Unit = 'cm2/s'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 27
+         Description = 'Grain density of sediment'
+         Unit = 'g/m3'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 28
+         Description = 'Sediment layer thickness'
+         Unit = 'm'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 32
+         Description = 'Diffusion from sediment'
+         Unit = 'gME/m2/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 33
+         Description = 'Current Speed adjusted for sediment build up'
+         Unit = 'm/s'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 34
+         Description = 'Water fraction of bulk volume'
+         Unit = 'm3 H20 / m3 Bulk'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 35
+         Description = 'On-off switch for resuspension'
+         Unit = 'on/off'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 36
+         Description = 'On-off switch for maximum SS in water'
+         Unit = 'on/off'
+         Select = false
+      EndSect  // Output_ID
+
+   EndSect  // Output_Auxiliary
+
+   [Output_Processes]
+      [Output_ID]
+         ID = 37
+         Description = 'Adsorption to suspended solids in water column per volume'
+         Unit = 'gME/m3 bulk/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 38
+         Description = 'Adsorption to sediment per area'
+         Unit = 'gME/m2/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 39
+         Description = 'Desorption from suspended solids in water column per volume'
+         Unit = 'gME/m3 bulk/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 40
+         Description = 'Desorption from sediment per area'
+         Unit = 'gME/m2/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 41
+         Description = 'Production of SS in surface layer per volume'
+         Unit = 'gDW/m3/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 42
+         Description = 'Sedimentation of adsorbed TP per area'
+         Unit = 'gME/m2/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 43
+         Description = 'Sedimentation of adsorbed TP per volume'
+         Unit = 'gME/m3/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 44
+         Description = 'Sedimentation of SS per area'
+         Unit = 'gDW/m2/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 45
+         Description = 'Sedimentation of SS per volume'
+         Unit = 'gDW/m3/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 46
+         Description = 'Resuspension of SS per area'
+         Unit = 'gDW/m2/d'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 47
+         Description = 'Resuspension of SS per volume'
+         Unit = 'gDW/m3/d'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 48
+         Description = 'Resuspension of adsorped heavy metal per area'
+         Unit = 'gME/m2/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 49
+         Description = 'Resuspension of adsorped heavy metal per volume'
+         Unit = 'gME/m3/day'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 50
+         Description = 'Diffusion to water column from sediment per volume'
+         Unit = 'gME/m3 H20/day'
+         Select = false
+      EndSect  // Output_ID
+
+   EndSect  // Output_Processes
+
+   [Output_Derived]
+      [Output_ID]
+         ID = 52
+         Description = 'Tot TP water 3'
+         Unit = 'gME/m3'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 53
+         Description = 'Tot TP water 2'
+         Unit = 'gME/m2'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 54
+         Description = 'Tot TP sediment'
+         Unit = 'gME/m2'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 55
+         Description = 'Total TP water+sediment'
+         Unit = 'gME/m2'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 56
+         Description = 'Sorped TP gME/gSS'
+         Unit = 'gME/gSS'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 57
+         Description = 'Sed TP gSS/gDW'
+         Unit = 'gSS/gDW'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 58
+         Description = 'Equilibrium wat'
+         Unit = 'times absorped'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 59
+         Description = 'Equilibrium sed'
+         Unit = 'times absorped'
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 60
+         Description = 'Mass balance check sed'
+         Unit = ''
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 61
+         Description = 'Mass balance check sed + wc'
+         Unit = ''
+         Select = false
+      EndSect  // Output_ID
+
+      [Output_ID]
+         ID = 62
+         Description = 'SHMS_OLD_DEF'
+         Unit = ''
+         Select = false
+      EndSect  // Output_ID
+
+   EndSect  // Output_Derived
+
+EndSect  // M11Ecolab
+

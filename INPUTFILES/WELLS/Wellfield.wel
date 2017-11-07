@@ -1,0 +1,297 @@
+// Created     : 2017-08-30 14:2:17
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[MAP]
+   [GEOMETRY]
+      x0 = 494900
+      y0 = 2790099
+      x1 = 556900
+      y1 = 2853299
+      OverlayFilename = ||
+   EndSect  // GEOMETRY
+
+EndSect  // MAP
+
+[SOIL]
+   [DEFAULT_DATA]
+      SoilTextOn = 1
+      MapTextOn = 1
+   EndSect  // DEFAULT_DATA
+
+EndSect  // SOIL
+
+[WEL_CFG]
+   [WELLDATA]
+      Touched = 0
+      NoWells = 2
+      IncludeFractureWell = 0
+      [WELLNO_1]
+         ID = 'MD WWF'
+         XCOR = 553644
+         YCOR = 2842618
+         LEVEL = 1.524
+         WELLDEPTH1 = 19.812
+         WELL_FIELD_ID = 0
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -16.764
+               Bottom = -19.812
+               AbstrUsed = 1
+               AbstrRedFactor = 1
+               Radius = 0.25
+               Storage = 0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\MDWWF-15mgd.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 1
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_1
+
+      [WELLNO_2]
+         ID = 'FKAA'
+         XCOR = 549500
+         YCOR = 2814000
+         LEVEL = 2.4384
+         WELLDEPTH1 = 21.9456
+         WELL_FIELD_ID = 0
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -18.8976
+               Bottom = -21.9456
+               AbstrUsed = 1
+               AbstrRedFactor = 1
+               Radius = 0.25
+               Storage = 0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\FKAA-50.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 1
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_2
+
+   EndSect  // WELLDATA
+
+   [WELLFIELD]
+      Touched = 0
+      NoWellFields = 0
+   EndSect  // WELLFIELD
+
+   [Foreground]
+      Touched = 0
+      NumberOfLayers = 5
+      [OVERLAY_1]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0
+            BMP_X1 = 10000
+            BMP_Y0 = 0
+            BMP_Y1 = 10000
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\monptsV14-6sel1.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 2
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 255
+            LineThickness = 0.3
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 0
+            LineColorB = 0
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_1
+
+      [OVERLAY_2]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0
+            BMP_X1 = 10000
+            BMP_Y0 = 0
+            BMP_Y1 = 10000
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\STRUCTSv002ND.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 8
+            PointColorR = 255
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.3
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 0
+            LineColorB = 0
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_2
+
+      [OVERLAY_3]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0
+            BMP_X1 = 10000
+            BMP_Y0 = 0
+            BMP_Y1 = 10000
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\Roads-mod.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 7
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.3
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 0
+            LineColorB = 0
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_3
+
+      [OVERLAY_4]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0
+            BMP_X1 = 10000
+            BMP_Y0 = 0
+            BMP_Y1 = 10000
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\sfwmd_canals_dec08_P.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 7
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.3
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 0
+            LineColorB = 0
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_4
+
+      [OVERLAY_5]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0
+            BMP_X1 = 10000
+            BMP_Y0 = 0
+            BMP_Y1 = 10000
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\M3ENPpoly.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 7
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.3
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 0
+            LineColorB = 0
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_5
+
+   EndSect  // Foreground
+
+   [Background]
+      Touched = 0
+      NumberOfLayers = 0
+   EndSect  // Background
+
+EndSect  // WEL_CFG
+

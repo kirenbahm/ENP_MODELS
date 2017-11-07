@@ -1,0 +1,28 @@
+// Created     : 2012-10-10 16:0:12
+// DLL id      : C:\Program Files (x86)\DHI\2011\bin\pfs2004.dll
+// PFS version : Jan  6 2011 20:45:15
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'depth of overland water [feet]'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 255, 255, 255, 0
+      RGB_Color_Value = 255, 255, 255, 0.25
+      RGB_Color_Value = 255, 255, 255, 0.3
+      RGB_Color_Value = 255, 255, 0, 0.6
+      RGB_Color_Value = 140, 255, 26, 0.85
+      RGB_Color_Value = 0, 255, 0, 1.25
+      RGB_Color_Value = 0, 210, 83, 1.5
+      RGB_Color_Value = 0, 166, 166, 1.75
+      RGB_Color_Value = 0, 83, 211, 2
+      RGB_Color_Value = 0, 0, 255, 2.5
+      RGB_Color_Value = 64, 0, 191, 3.5
+      RGB_Color_Value = 128, 0, 128, 4.61535
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+

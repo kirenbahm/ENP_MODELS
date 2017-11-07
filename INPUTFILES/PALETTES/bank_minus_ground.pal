@@ -1,0 +1,28 @@
+// Created     : 2016-08-3 17:8:52
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'Palette'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 0, 0, 255, -1
+      RGB_Color_Value = 0, 50, 255, -0.6
+      RGB_Color_Value = 0, 100, 255, -0.3
+      RGB_Color_Value = 0, 150, 255, -0.1
+      RGB_Color_Value = 0, 200, 255, -0.05
+      RGB_Color_Value = 0, 250, 255, -0.01
+      RGB_Color_Value = 192, 192, 192, 0.01
+      RGB_Color_Value = 255, 200, 0, 0.05
+      RGB_Color_Value = 255, 150, 0, 0.1
+      RGB_Color_Value = 255, 100, 0, 0.3
+      RGB_Color_Value = 255, 50, 0, 0.6
+      RGB_Color_Value = 255, 0, 0, 1
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+

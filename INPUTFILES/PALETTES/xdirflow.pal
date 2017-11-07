@@ -1,0 +1,32 @@
+// Created     : 2014-09-16 13:15:52
+// DLL id      : C:\Program Files (x86)\DHI\2011\Bin\pfs2004.dll
+// PFS version : Jan  6 2011 20:45:15
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'groundwater flow in x-direction [m^3/s]'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 128, 0, 128, -0.001
+      RGB_Color_Value = 255, 128, 192, -0.0005
+      RGB_Color_Value = 0, 0, 255, -0.0004
+      RGB_Color_Value = 0, 111, 195, -0.0003
+      RGB_Color_Value = 0, 166, 166, -0.0002
+      RGB_Color_Value = 255, 255, 255, -0.0001
+      RGB_Color_Value = 255, 255, 255, 0
+      RGB_Color_Value = 255, 255, 255, 0.0001
+      RGB_Color_Value = 0, 226, 55, 0.0002
+      RGB_Color_Value = 0, 255, 0, 0.0003
+      RGB_Color_Value = 85, 255, 0, 0.0005
+      RGB_Color_Value = 170, 255, 0, 0.001
+      RGB_Color_Value = 255, 255, 0, 0.005
+      RGB_Color_Value = 255, 170, 0, 0.01
+      RGB_Color_Value = 255, 85, 0, 0.025
+      RGB_Color_Value = 255, 0, 0, 0.05
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+

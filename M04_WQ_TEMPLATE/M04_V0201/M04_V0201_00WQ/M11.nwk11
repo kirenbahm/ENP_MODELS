@@ -1,0 +1,127 @@
+// Created     : 2017-08-1 14:42:20
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[MIKE_11_Network_editor]
+   [FORMAT_VERSION]
+      verno = 115
+   EndSect  // FORMAT_VERSION
+
+   [DATA_AREA]
+      x0 = 0
+      y0 = 0
+      x1 = 3000
+      y1 = 3000
+      projection = 'NON-UTM'
+   EndSect  // DATA_AREA
+
+   [POINTS]
+      point = 1, 1000, 1500, 0, 0, 0
+      point = 2, 2000.000000000001, 1500, 0, 1000.000000000001, 0
+      point = 3, 1490, 2400, 0, 0, 0
+      point = 4, 1500, 1610, 0, 790.0632886041473, 0
+      point = 5, 1500, 1500, 0, 500, 0
+   EndSect  // POINTS
+
+   [BRANCHES]
+      [branch]
+         definitions = 'RIVER_H', 'MODEL', 0, 1000.000000000001, 0, 10000, 0
+         connections = '', -1e-155, '', -1e-155
+         points = 1, 5, 2
+      EndSect  // branch
+
+      [branch]
+         definitions = 'RIVER_V', 'MODEL', 0, 790.0632886041473, 0, 10000, 0
+         connections = '', -1e-155, 'RIVER_H', 500
+         points = 3, 4
+      EndSect  // branch
+
+   EndSect  // BRANCHES
+
+   [STRUCTURE_MODULE]
+      Structure_Version = 1, 1
+      [CROSSSECTIONS]
+         CrossSectionDataBridge = 'xns11'
+         CrossSectionFile = ||
+      EndSect  // CROSSSECTIONS
+
+      [WEIR]
+      EndSect  // WEIR
+
+      [CULVERTS]
+      EndSect  // CULVERTS
+
+      [PUMPS]
+      EndSect  // PUMPS
+
+      [REGULATING_STR]
+      EndSect  // REGULATING_STR
+
+      [CONTROL_STR]
+      EndSect  // CONTROL_STR
+
+      [DAMBREAK_STR]
+      EndSect  // DAMBREAK_STR
+
+      [BRIDGE]
+      EndSect  // BRIDGE
+
+      [USER_DEFINED]
+      EndSect  // USER_DEFINED
+
+      [TABULATED]
+      EndSect  // TABULATED
+
+      [ENERGYBALANCE]
+      EndSect  // ENERGYBALANCE
+
+      [MIKE12_HYDRAU]
+      EndSect  // MIKE12_HYDRAU
+
+   EndSect  // STRUCTURE_MODULE
+
+   [CATCHMENT]
+   EndSect  // CATCHMENT
+
+   [COMPUTATIONAL_SETUP]
+      SaveAllGridPoints = true
+   EndSect  // COMPUTATIONAL_SETUP
+
+   [MIKESHECOUPLING]
+      MikeSheCoupling = 'RIVER_H', 0, 1000, 1, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'RIVER_V', 0, 790.0632886041473, 1, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+   EndSect  // MIKESHECOUPLING
+
+   [CHANNELROUTING]
+   EndSect  // CHANNELROUTING
+
+   [FLOOD_QQ]
+   EndSect  // FLOOD_QQ
+
+   [FLOOD_HQ]
+   EndSect  // FLOOD_HQ
+
+   [FLOOD_ORIFICE]
+   EndSect  // FLOOD_ORIFICE
+
+   [DIVERSION]
+   EndSect  // DIVERSION
+
+   [ALIGNMENTLINE]
+   EndSect  // ALIGNMENTLINE
+
+   [JUNCTION]
+   EndSect  // JUNCTION
+
+   [MIKE11_ROUTING]
+   EndSect  // MIKE11_ROUTING
+
+   [MODFLOW]
+      CalculateLevels = 0
+   EndSect  // MODFLOW
+
+   [LAYER_FILES]
+   EndSect  // LAYER_FILES
+
+EndSect  // MIKE_11_Network_editor
+

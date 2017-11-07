@@ -1,0 +1,48 @@
+// Created     : 2016-11-14 10:2:2
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
+
+[PALETTE_FILE]
+   [MIKEZero_Palette_Definition]
+      Palette_Title = 'Palette'
+      Palette_Type = 1
+      Locked = false
+      Topmost_Value = false
+      Nice_Value = true
+      RGB_Delete_Color = 255, 255, 255
+      RGB_Color_Value = 176, 226, 255, 5.4
+      RGB_Color_Value = 171, 220, 252, 5.6
+      RGB_Color_Value = 167, 214, 250, 5.8
+      RGB_Color_Value = 163, 208, 247, 6
+      RGB_Color_Value = 159, 203, 245, 6.2
+      RGB_Color_Value = 155, 197, 242, 6.4
+      RGB_Color_Value = 151, 191, 240, 6.6
+      RGB_Color_Value = 147, 186, 238, 6.8
+      RGB_Color_Value = 143, 180, 235, 7
+      RGB_Color_Value = 139, 174, 233, 7.2
+      RGB_Color_Value = 135, 169, 230, 7.4
+      RGB_Color_Value = 131, 163, 228, 7.6
+      RGB_Color_Value = 127, 157, 225, 7.8
+      RGB_Color_Value = 123, 152, 223, 8
+      RGB_Color_Value = 119, 146, 221, 8.2
+      RGB_Color_Value = 115, 140, 218, 8.4
+      RGB_Color_Value = 110, 135, 216, 8.6
+      RGB_Color_Value = 106, 129, 213, 8.8
+      RGB_Color_Value = 102, 123, 211, 9
+      RGB_Color_Value = 98, 118, 209, 9.2
+      RGB_Color_Value = 94, 112, 206, 9.4
+      RGB_Color_Value = 90, 106, 204, 9.6
+      RGB_Color_Value = 86, 101, 201, 9.8
+      RGB_Color_Value = 82, 95, 199, 10
+      RGB_Color_Value = 78, 89, 196, 10.2
+      RGB_Color_Value = 74, 84, 194, 10.4
+      RGB_Color_Value = 70, 78, 192, 10.6
+      RGB_Color_Value = 66, 72, 189, 10.8
+      RGB_Color_Value = 62, 67, 187, 11
+      RGB_Color_Value = 58, 61, 184, 11.2
+      RGB_Color_Value = 54, 55, 182, 11.4
+      RGB_Color_Value = 50, 50, 180, 11.6
+   EndSect  // MIKEZero_Palette_Definition
+
+EndSect  // PALETTE_FILE
+
