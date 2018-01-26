@@ -1,0 +1,96 @@
+%%% ------------------------------------------------------------------------
+%%% compile by running pdflatex, bibtex, pdflatex, pdflatex
+%%% ------------------------------------------------------------------------
+
+\include{0.report_data}
+
+\documentclass[twoside,12pt]{article}
+
+\include{0.sfnrc_style}
+
+\usepackage{natbib}
+\usepackage{sidecap}  % for side captions
+\usepackage{graphicx}
+
+\begin{document}
+\pagestyle{sfnrctech1}
+
+%%% ------------------------------------------------------------------------
+%%% COVER PAGE:
+%%% ------------------------------------------------------------------------
+%\include{0.cover_page}
+
+%%% ------------------------------------------------------------------------
+%%% TITLE PAGE:
+%%% ------------------------------------------------------------------------
+%\include{0.title_page}
+
+%%% ------------------------------------------------------------------------
+%%% EXECUTIVE SUMMARY:
+%%% ------------------------------------------------------------------------
+\pagenumbering{roman} % use roman numerals for page numbers
+\setcounter{page}{1}  % begin numbering pages here
+
+%\include{0.exec_summary}
+
+%%% ------------------------------------------------------------------------
+%%% TABLE OF CONTENTS:
+%%% ------------------------------------------------------------------------
+\begingroup
+\sffamily
+\tableofcontents
+\endgroup
+\cleardoublepage
+
+%%% ------------------------------------------------------------------------
+%%% AUTHORS AND ACKNOWLEDGEMENTS:
+%%% ------------------------------------------------------------------------
+%\include{0.authors_acknowledgements}
+
+%%% ------------------------------------------------------------------------
+%%% FOREWORD:
+%%% ------------------------------------------------------------------------
+%\include{0.foreword}
+
+%%% ------------------------------------------------------------------------
+%%% REPORT TEXT:
+%%% ------------------------------------------------------------------------
+
+\pagenumbering{arabic} % use arabic numbers for pages
+
+\normalsize
+\include{5.m11_operations}
+
+
+%%% ------------------------------------------------------------------------
+%%% LITERATURE CITED:
+%%% ------------------------------------------------------------------------
+
+%\tiny
+%\color[rgb]{1,1,1}
+%\color[rgb]{0.9,0.9,0.9}
+%\bibliographystyle{0.development}
+%\bibliographystyle{abbrvnat}
+%\bibliography{0.bib11b-keb}
+
+\color{black}
+\include{0.bibliography}
+
+
+%%% ------------------------------------------------------------------------
+%%% APPENDICES:
+%%% ------------------------------------------------------------------------
+
+% \hspace values below need to match with \renewcommand*\l@section{\@dottedtocline values in sfnrc_style.tex
+\addtocontents{toc}{\protect\vspace{1.0em}\hspace{-1.5em}APPENDICES (Electronic copy only)\par\protect}
+
+\addtocontents{toc}{\protect\vspace{0.5em}A: \titleinfoAppendixA\par\protect}
+\addtocontents{toc}{\protect\vspace{0.5em}B: \titleinfoAppendixB\par\protect}
+
+
+%%% -----------------------------------------------------------------
+%%% END MATTER:
+%%% -----------------------------------------------------------------
+
+\cleardoublepage
+\end{document}

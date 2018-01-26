@@ -48,6 +48,54 @@
                      ShowOnMap="false"
                   />
                </File>
+               <File
+                  RelPath="..\Result\.gitignore"
+                  Notes=""
+                  State="25"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
+                  RelPath=".\M06_V01\M06_V01xx_00WM_CAL"
+                  Notes=""
+                  State="36"
+                  SortType="-1"
+                  FolderType="0"
+               >
+               </File>
+               <File
+                  RelPath=".\M06_V01\M06_V01xx_00WM_CAL\M06_V01xx_00WM_CAL.she"
+                  Notes=""
+                  State="1"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
             </Files>
             <FolderTypes>
                <FolderType
