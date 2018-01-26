@@ -1,6 +1,6 @@
 %=================================================================
 %=================================================================
-\section{M11 Operations Part 2}
+\section{M11 Operations and Boundary Conditions}
 %=================================================================
 %=================================================================
 
@@ -11,29 +11,10 @@ Note that the last priority for each Control Definition will always evaluate to 
 
 The timestep for the MIKE11/MIKE1D model is a Fixed Time Step set to 2 minutes.
 
-%----------------------------------------------------------
-\subsection{Canal Operations: Tram Road Borrow Canal}
-%----------------------------------------------------------
-\begin{figure}[!h]
-  \begin{center}
-  \includegraphics[width=6.5in]{../figs/S12s_IOPops.png}
-  \caption{Tram Road Culverts IOP Operations}
-  \label{fig:TRCiop}
-  \end{center}
-\end{figure}
 
-Currently there are no culverts in this road in the model, therefore no operations.
-
-The model also does not include the four barrel culverts in the Old Tamiami Trail Borrow canal under the north end of the Tram Road, or the structure connecting the Tram road borrow canal to the Old Tamiami Trail borrow canal.
-
-\clearpage
-%=================================================================
-%=================================================================
-
-
-%----------------------------------------------------------
-\subsection{Canal Operations: L-67A, L-67C, and the Pocket}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: L-67A, L-67C, and Pocket Canals}
+%=============================================================================================
 
 %----------------------------------------------------------
 \subsubsection{L-67A}
@@ -77,9 +58,25 @@ The pocket canal has no control structures or boundary conditions, and has open 
 
 \clearpage
 
-%----------------------------------------------------------
-\subsection{Canal Operations: L-29}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: Tram Road Canals (ROAD\_SRS and ROAD\_SRS\_E}
+%=============================================================================================
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=6.5in]{../figs/S12s_IOPops.png}
+  \caption{Tram Road Culverts IOP Operations}
+  \label{fig:TRCiop}
+  \end{center}
+\end{figure}
+
+Currently there are no culverts in this road in the model, therefore no operations.
+
+The model also does not include the four barrel culverts in the Old Tamiami Trail Borrow canal under the north end of the Tram Road, or the structure connecting the Tram road borrow canal to the Old Tamiami Trail borrow canal.
+
+\clearpage
+%=============================================================================================
+\subsection{Operations: L-29 Canal}
+%=============================================================================================
 
 %----------------------------------------------------------
 \subsubsection{S343A}
@@ -219,62 +216,6 @@ The M11 model implements each of these culverts with prescribed flow.
 \subsubsection{S14}
 %----------------------------------------------------------
 Not in model.
-
-\clearpage
-%----------------------------------------------------------
-\subsubsection{L29 plug between S14 and S12A}
-%----------------------------------------------------------
-Name: L29plugWofS12
-
-The L29 is plugged between S14 and S12A, and separates the western reach of L29 from WCA3A.
-
-In the model, this plug is implemented as a closed control structure.
-
-%\begin{figure}[!h]
-%  \begin{center}
-%  \includegraphics[width=4.0in]{../figs/L29plug.png}
-%  \caption{"L29 plug" location.}
-%  \label{fig:L29plug}
-%  \end{center}
-%\end{figure}
-%
-%\begin{figure}[!h]
-%  \begin{center}
-%  \includegraphics[width=6.0in]{../figs/S12A_area.png}
-%  \caption{S12A area, including S14 and L29 "plug".}
-%  \label{fig:s12aarea}
-%  \end{center}
-%\end{figure}
-
-\begin{packed_items}
-\item Priority 1: Closed
-\end{packed_items}
-
-%\begin{figure}[!ht] \begin{center}
-%  % Requires \usepackage{graphicx}
-%  \includegraphics[width=6.5in]{MODEL/FIGURE/L29plugWofS12_HW_TS.png}
-%  \caption[Headwater at structure L29plugWofS12]{Headwater at structure L29plugWofS12}\label{fig:L29plugWofS12_HW:STRUCTURE}\end{center}
-%\end{figure}
-%
-%\begin{figure}[!ht] \begin{center}
-%  % Requires \usepackage{graphicx}
-%  \includegraphics[width=6.5in]{MODEL/FIGURE/L29plugWofS12_TW_TS.png}
-%  \caption[Tailwater at structure L29plugWofS12]{Tailwater at structure L29plugWofS12}\label{fig:L29plugWofS12_TW:STRUCTURE}\end{center}
-%\end{figure}
-%
-%\begin{figure}[!ht] \begin{center}
-%  % Requires \usepackage{graphicx}
-%  \includegraphics[width=6.5in]{MODEL/FIGURE/L29plugWofS12_Q_TS.png}
-%  \caption[Flowrate at structure L29plugWofS12]{Flowrate at structure L29plugWofS12}\label{fig:L29plugWofS12_Q:STRUCTURE}\end{center}
-%\end{figure}
-
-%\begin{figure}[!ht] \begin{center}
-%  % Requires \usepackage{graphicx}
-%  \includegraphics[width=6.5in]{MODEL/FIGURE/L29plugWofS12_Q-acc.png}
-%  \caption[Accumulated flow at structure L29plugWofS12]{Accumulated flow at structure L29plugWofS12}\label{fig:L29plugWofS12_Q:ACC}\end{center}
-%\end{figure}
-
-
 
 \clearpage
 %----------------------------------------------------------
@@ -807,9 +748,9 @@ When conditions permit (i.e., no S-334 regulatory releases and G-3273 and L-29 c
 Connected to L30, C-4, and L31N.
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: L-67EXT}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: L-67EXT Canal}
+%=============================================================================================
 \subsubsection{S12E}
 %----------------------------------------------------------
 
@@ -976,9 +917,10 @@ Implemented as an overflow weir with sill level at 5.8 ft.
 %\end{figure}
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: L-30}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: L-30 Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{North Boundary}
 %----------------------------------------------------------
@@ -1153,9 +1095,10 @@ The Max speed for gate opening is 1 ft/sec.
 
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-4}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: C-4 Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S336}
 %----------------------------------------------------------
@@ -1251,9 +1194,10 @@ Prescribed stage as G119\_TW.
 
 \clearpage
 
-%----------------------------------------------------------
-\subsection{Canal Operations: L-31N}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: L-31N Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{G211}
 %----------------------------------------------------------
@@ -1938,10 +1882,10 @@ The second control structure (S332D2) operates after July. It allows additional 
 
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-357}
-%----------------------------------------------------------
-In order to provide enhanced flood protection for the remaining 8.5 SMA (Las Palmas), the canal C-357, the levee L-357 and the pump station S-357 were built.
+%=============================================================================================
+\subsection{Operations: C-357 and C-358 Canals}
+%=============================================================================================
+The C-357 and C-358 canals and associated structures were built to provide enhanced flood protection for the remaining 8.5 Square Mile Are (known also as Las Palmas).
 
 %%----------------------------------------------------------
 \subsubsection{S357  (Pump)}
@@ -1987,11 +1931,6 @@ The pumps were operational in 1999.
 
 
 
-\clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-358}
-%----------------------------------------------------------
-
 %%----------------------------------------------------------
 \subsubsection{S358 (Pump)S357N\_Q ???}
 %----------------------------------------------------------
@@ -2027,9 +1966,10 @@ The pumps were operational in 1999.
 
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-1W}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: C-1W Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S338}
 %----------------------------------------------------------
@@ -2130,9 +2070,10 @@ Prescribed head timeseries, set to S148TW.
 %\end{figure}
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-102}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: C-102 Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S194}
 %----------------------------------------------------------
@@ -2241,9 +2182,10 @@ Prescribed head timeseries, set to BC\_S194TW-S165HW.dfs0.
 %\end{figure}
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-103}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: C-103 Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S196}
 %----------------------------------------------------------
@@ -2458,9 +2400,10 @@ Prescribed head timeseries, set to S179HW.
 %\end{figure}
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: L-31W}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: L-31W Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S174}
 %----------------------------------------------------------
@@ -2683,9 +2626,10 @@ This structure is located on the Levee 31W borrow canal approximately 1.5 miles 
 
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-111}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: C-111 Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S176}
 %----------------------------------------------------------
@@ -3242,9 +3186,10 @@ Prescribed head timeseries, set to BC\_S197\_TW.dfs0%, as shown in Figure~\ref{f
 %\end{figure}
 
 \clearpage
-%----------------------------------------------------------
-\subsection{Canal Operations: C-111E}
-%----------------------------------------------------------
+%=============================================================================================
+\subsection{Operations: C-111E Canal}
+%=============================================================================================
+
 %----------------------------------------------------------
 \subsubsection{S178}
 %----------------------------------------------------------
@@ -3330,8 +3275,5 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 
 \clearpage
 
-%----------------------------------------------------------
-%----------------------------------------------------------
-%----------------------------------------------------------
 
 \cleardoublepage
