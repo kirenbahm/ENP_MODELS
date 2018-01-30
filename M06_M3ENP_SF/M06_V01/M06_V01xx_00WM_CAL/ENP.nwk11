@@ -1,4 +1,4 @@
-// Created     : 2018-01-30 11:20:35
+// Created     : 2018-01-30 12:16:18
 // DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
 // PFS version : Apr  4 2017 19:09:27
 
@@ -30933,6 +30933,11 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 1, 0, 22.65347727359999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'L-30', 2216.528816616, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
@@ -31007,6 +31012,11 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 0, 1, 0.0, |..\..\..\INPUTFILES\BC1D\BC_S335_TW.dfs0|, 'S335_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 1, 0, 22.65347727359999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -31129,11 +31139,6 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |..\..\..\INPUTFILES\BC1D\BC_S335_TW.dfs0|, 'S335_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 2, 0, 22.65347727359999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
