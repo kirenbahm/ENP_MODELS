@@ -1464,9 +1464,8 @@ The S-173 structure closes if the difference in water level between upstream and
 The Max speed for gate opening is 0.008 $ft^3/sec^2$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode>0$ and S331P flow $<$ 0.1 cfs, and S176HW $<$ 5.5 ft, discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
-\item Priority 2: If $Mode=0$ and S331S\_TW $<$ $S331STW_{obs}$, discharge according to control strategy in Table~\ref{tab:CS-S331SB}.
-\item Priority 3: Close when headwater is less than 0.0 ft.
+\item Priority 1: If $Mode>=0$ and S331P flow $<=$ 0.0 cfs, and S176HW $<$ 5.5 ft, discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
+\item Priority 2: Close when headwater is less than 0.0 ft.
 \end{packed_items}
 
 \footnotesize
