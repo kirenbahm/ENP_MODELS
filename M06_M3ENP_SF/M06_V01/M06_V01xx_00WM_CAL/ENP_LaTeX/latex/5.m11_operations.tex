@@ -1402,7 +1402,7 @@ The second is the S-331P pumps, a set of three pumps, and third is the S-331S st
 \textbf{S331\_S173 (This is the S173 structure).}
 %-----------------
 
-The S-173 structure closes if the difference in water level between upstream and downstream is negative to prevent having S-331S discharge recirculate back upstream.
+The S-173 structure closes if the difference in water level between upstream and downstream is negative to prevent having S-331S discharge recirculate back upstream. The structure is modeled as Discharge using a rating curve.
 %Otherwise the structure opens if the headwater at S-176 falls below 5.5 feet and S-331 pumps are off.
 %The Control Strategy in M11 is shown in Table~\ref{tab:CS-S173ops}.
 
@@ -1413,10 +1413,9 @@ The S-173 structure closes if the difference in water level between upstream and
 %\end{itemize}
 
 \begin{packed_items}
-\item Priority 1: If $Mode>0$ and  HW-TW $<$ 0 ft, Close.
-\item Priority 2: If $Mode>0$ and  S331P flow $>$ 0 cfs, Close.
-\item Priority 3: \textcolor[rgb]{1.00,0.00,0.00}{If $Mode>0$ and  S331P flow $>$ 0 cfs, discharge according to control strategy in Table~\ref{tab:CS-S173ops}.}
-\item Priority 4: Close when headwater is less than 0.0 ft.
+\item Priority 1: If $Mode=>0$ and  S331P flow $>$ 0 cfs, Close. %all modes
+\item Priority 2: If $Mode=>0$ and  S331P flow $<=$ 0 cfs, and TW $<=$ $S331TW_{obs}$, discharge tabulated according to control strategy in Table~\ref{tab:CS-S173ops}.}
+\item Priority 3: Close when headwater is less than 0.0 ft.
 \end{packed_items}
 
 \footnotesize
@@ -1445,7 +1444,6 @@ The S-173 structure closes if the difference in water level between upstream and
 \end{tabular}
 \end{table}
 \normalsize
-
 
 %-----------------
 \textbf{S331 Siphon.}
