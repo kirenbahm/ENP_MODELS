@@ -1,4 +1,4 @@
-// Created     : 2018-01-30 10:35:5
+// Created     : 2018-01-30 11:20:35
 // DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
 // PFS version : Apr  4 2017 19:09:27
 
@@ -29075,50 +29075,12 @@ model'
             [logical_statement]
                LS_parameter = 1, 5, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 35, 'L-31N', 17189.01312, '', 0, 'L-31N', 17255.09376, 0, 0, 0.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = 'L-31N-S173', 122.876183508, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-31N-S173', 122.876183508, 'S331_S173', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.0999999999999999, 0, 0.0999999999999999, 0.0999999999999999
-               [control_strategy]
-                  data = 0.0, 0.0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 2, 5, 35, 8, 0.0
-               [logical_operands]
                   logicaloperand = 5, 'L-31N', 17217.66432, 'S331P', 0, '', 0.0, 2, 0, 0.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -29149,14 +29111,19 @@ model'
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 0, 33, 5, 0.0
+               LS_parameter = 2, 0, 33, 5, 0.0
                [logical_operands]
-                  logicaloperand = 5, 'L-31N', 17217.66432, 'S331P', 0, '', 0.0, 2, 0, 0.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 5, 'L-31N', 17217.66432, 'S331P', 0, '', 0.0, 1, 0, 0.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 1, 1, 0.0, |..\..\..\INPUTFILES\BC1D\BC_S331_TW.dfs0|, 'S331_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -29199,7 +29166,7 @@ model'
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 4, 5, 35, 8, 0.0
+               LS_parameter = 3, 5, 35, 8, 0.0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
