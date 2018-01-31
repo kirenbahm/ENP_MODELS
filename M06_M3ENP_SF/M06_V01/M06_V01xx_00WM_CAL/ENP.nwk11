@@ -1,4 +1,4 @@
-// Created     : 2018-01-30 12:16:18
+// Created     : 2018-01-30 19:37:34
 // DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
 // PFS version : Apr  4 2017 19:09:27
 
@@ -30651,8 +30651,8 @@ model'
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.10312, -2.100072
-                  data = 1.886712, 1.88976
+                  data = -2.10312, -2.07264
+                  data = 1.85928, 1.88976
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -30690,8 +30690,8 @@ model'
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.100072, -2.10312
-                  data = 1.88976, 1.886712
+                  data = -2.07264, -2.10312
+                  data = 1.88976, 1.85928
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -30729,8 +30729,8 @@ model'
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.10312, -2.100072
-                  data = 1.886712, 1.88976
+                  data = -2.10312, -2.07264
+                  data = 1.85928, 1.88976
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -30768,8 +30768,8 @@ model'
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.0999999999999999, 0, 0.0999999999999999, 0.0999999999999999
                [control_strategy]
-                  data = -2.100072, -2.10312
-                  data = 1.88976, 1.886712
+                  data = -2.07264, -2.10312
+                  data = 1.88976, 1.85928
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0

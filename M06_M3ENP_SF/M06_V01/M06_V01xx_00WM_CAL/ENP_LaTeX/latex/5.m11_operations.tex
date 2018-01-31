@@ -644,6 +644,8 @@ When supplemental deliveries are not being made, this structure is closed.
 When regulatory releases are being made from Conservation Area 3A, this structure is operated in conjunction with S-333 to maintain a maximum stage of 7.05 ft at the L-29-1 culvert \cite{corp2005, SFWMD1994}.
 Higher stages cause flooding at the Indian Village adjacent to the canal.
 
+This structure is set to Underflow.
+
 %Weir Crest
 %    Net Length 29.0 feet
 %    Elevation -6.9 feet
@@ -664,61 +666,61 @@ Higher stages cause flooding at the Indian Village adjacent to the canal.
 The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2-minute timestep.
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334openB}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S334\_TW_{obs}$ and $Q_{str}>800$ cfs,  operate according to Table~\ref{tab:CS-S334closeB}.
+\item Priority 5: If $Mode=0$ and $H_{ds}<S334\_TW_{obs}$  $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 6: If $Mode=0$ and $H_{ds}>S334\_TW_{obs}$ and $Q_{str}>800$ cfs,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S334closeB}.
+\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
 \end{packed_items}
+
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for S334 open (units are ft. NGVD29)}
+%\label{tab:CS-S334open}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{Current Gate Level} & \textbf{Gate Level}\\
+%\hline
+%-6.90	& -6.89       \\
+%6.19	& 6.20   \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for S334 close (Units are ft. NGVD29)}
+%\label{tab:CS-S334close}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{Current Gate Level} & \textbf{Gate Level}\\
+%\hline
+%-6.89	& -6.90       \\
+%6.20	& 6.19   \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+
 
 \footnotesize
 \begin{table}[!h]
 \centering
 \caption{Control strategy for S334 open (units are ft. NGVD29)}
-\label{tab:CS-S334open}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{Current Gate Level} & \textbf{Gate Level}\\
-\hline
--6.90	& -6.89       \\
-6.19	& 6.20   \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for S334 close (Units are ft. NGVD29)}
-\label{tab:CS-S334close}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{Current Gate Level} & \textbf{Gate Level}\\
-\hline
--6.89	& -6.90       \\
-6.20	& 6.19   \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for S334 open B (units are ft. NGVD29)}
 \label{tab:CS-S334openB}
 \begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--6.90	& -6.80       \\
+-6.9	& -6.8       \\
 6.1	& 6.2   \\
 \hline
 \end{tabular}
@@ -728,13 +730,13 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 \footnotesize
 \begin{table}[!h]
 \centering
-\caption{Control strategy for S334 close B (units are ft. NGVD29)}
+\caption{Control strategy for S334 close (units are ft. NGVD29)}
 \label{tab:CS-S334closeB}
 \begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--6.80	& -6.90       \\
+-6.8	& -6.9       \\
 6.2	& 6.1   \\
 \hline
 \end{tabular}
