@@ -481,14 +481,14 @@ The M11 model implements this structure using a prescribed tailwater timeseries,
 The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2-minute timestep.
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S333\_TW_{obs}$ and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S333\_TW_{obs}$ and $Q_{str}>1300$ cfs,  operate according to Table~\ref{tab:CS-S333close}.
+\item Priority 5: If $Mode=0$ and $H_{ds}<S333\_TW_{obs}$, and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 6: If $Mode=0$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
 \item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S333close}.
 \end{packed_items}
@@ -502,8 +502,8 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--3.10	& -3.09       \\
-8.49	& 8.50   \\
+-3.1	& -3       \\
+8.4	& 8.5   \\
 \hline
 \end{tabular}
 \end{table}
@@ -518,8 +518,8 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--3.09	& -3.10       \\
-8.5	& 8.49   \\
+-3	& -3.1       \\
+8.5	& 8.4   \\
 \hline
 \end{tabular}
 \end{table}
@@ -2029,7 +2029,7 @@ The pumps were operational in 1999.
 \subsubsection{S338}
 %----------------------------------------------------------
 The structure S-338 provides discharge into C-1W from L-31N for both water supply and flood control.
-Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a gated, double-barreled, 84-inch, CMP culvert. S338 supplies water to the C-l area to maintain adequate canal stages, to prevent saltwater intrusion at east coast structures, to provide water to the root zone of growing plants, and to permit groundwater withdrawals for water supply. S338 also provides flood control releases from the area between Krome Avenue and L-31N and north of S331. This structure is normally closed except during flood events when the gates are opened fully. This structure is set to Underflow. 
+Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a gated, double-barreled, 84-inch, CMP culvert. S338 supplies water to the C-l area to maintain adequate canal stages, to prevent saltwater intrusion at east coast structures, to provide water to the root zone of growing plants, and to permit groundwater withdrawals for water supply. S338 also provides flood control releases from the area between Krome Avenue and L-31N and north of S331. This structure is normally closed except during flood events when the gates are opened fully. This structure is set to Underflow.
 
 \begin{figure}[!h]
   \begin{center}
