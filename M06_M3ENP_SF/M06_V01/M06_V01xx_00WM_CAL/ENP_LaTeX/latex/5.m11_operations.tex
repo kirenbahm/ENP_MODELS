@@ -136,6 +136,8 @@ The model also does not include the four barrel culverts in the Old Tamiami Trai
 \subsubsection{S343A}
 %----------------------------------------------------------
 
+This structure is implemented in MIKE 1D as a Discharge structure with a Max Rate of change of 1 $cfs/s$.
+
 \begin{figure}[!h]
   \begin{center}
   \includegraphics[width=6.5in]{../figs/S343-S344_IOPops.png}
@@ -179,6 +181,8 @@ The M11 model implements this structure with prescribed flow.
 %----------------------------------------------------------
 \subsubsection{S343B}
 %----------------------------------------------------------
+
+This structure is implemented in MIKE 1D as a Discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 \begin{figure}[!h]
   \begin{center}
@@ -417,7 +421,7 @@ These four structures are reinforced concrete, gated spillways with the discharg
 S333 is operated to make releases from Conservation Area 3A into the Tamiami Canal.
 
 Purpose:
-This structure functions principally to make water deliveries from Conservation Area 3A to south and eastern Dade County to Shark River and Taylor Slough areas of the Everglades National Park. It can be used to make regulation releases from Conservation Area 3A.
+This structure functions principally to make water deliveries from Conservation Area 3A to south and eastern Dade County to Shark River and Taylor Slough areas of the Everglades National Park. It can be used to make regulation releases from Conservation Area 3A. This structure is implemented in MIKE 1D as an Underflow structure.
 
 %%Operating Criteria:
 %%When this structure is operated to make deliveries to south or east Dade County from Conservation Area 3, it may be operated alone or with S-337. The total delivery will be the amount necessary to maintain the appropriate stages at S-331, S-25B and S-22. During such transfer operations, the headwater stage at S-334 will be maintained between 5.0 and 6.0.
@@ -790,6 +794,8 @@ When conditions permit (i.e., G-3273 and L-29 constraints), discharges from S-35
 Column 2:
 When conditions permit (i.e., no S-334 regulatory releases and G-3273 and L-29 constraints), discharges from S-356 will go into L-29. Pumping will be limited to the amount of seepage into L-31N in the reach between S-335 and G-211. A technical team will evaluate pumping limits and operations. The pumps will be operated accordingly.
 
+This structure is implemented in MIKE 1D as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+
 \begin{packed_items}
 \item Priority 1: If $Mode=1$: Closed
 \item Priority 2: If $Mode=2$: Closed
@@ -868,6 +874,8 @@ This structure is a two-barreled corrugated metal pipe culvert, located in the b
 This structure increases the proportion of overland flow with respect to canal flow from the S-12D discharge into the Everglades National Park.
 Normally, this structure is closed. It is opened only during unusually dry conditions when the minimum deliveries to the ENP cannot otherwise be made. It is operated in conjunction with S-347 and S-12D.
 
+This structure is implemented in MIKE 1D as an Overflow structure with a Max Rate of change of 0.000138 $ft/s$.
+
 %%Type Corrugated metal pipe culverts with upstream control
 %%Number of barrels: 2
 %%Size of barrels: 72 inches
@@ -924,6 +932,9 @@ culvert.
 This structure increases the proportion of overland flow with respect to canal flow from the S-12D discharge into the Everglades National Park.
 
 Normally, this structure is closed. It is opened only during unusually dry conditions when the minimum deliveries to the ENP cannot otherwise be made. It is operated in conjunction with S-346 and S-12D.
+
+This structure is implemented in MIKE 1D as an Overflow structure with a Max Rate of change of 0.000138 $ft/s$.
+
 
 %%Design
 %%Discharge rate 165 cfs
@@ -1116,6 +1127,8 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 
 The Max speed for gate opening is 1 ft/sec.
 
+PROPOSED STRUCTURE CHANGE: Combine S335taba nd S445 into one single structure.
+
 \begin{packed_items}
 \item Priority 1: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
 \item Priority 2: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
@@ -1163,7 +1176,7 @@ The Max speed for gate opening is 1 ft/sec.
 Structure 336 is located in the Tamiami Canal (C-4), where the L-30 and L-31N borrow
 canals intersect. S-336 is a gated, three barrel, 54-inch, CMP culvert.This structure permits supplemental deliveries from WCA 3 to help fulfill water needs in eastern Dade County via the L-30 or L-29 canals. It also can be used to discharge excess water from WCA 3A when capacity is available in the Tamiami Canal. This structure is set to Discharge.
 
-The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2-minute timestep.
+This structure is implemented in MIKE 1D as a Discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 \begin{packed_items}
 \item Priority 1: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
@@ -1660,35 +1673,73 @@ The pumps were turned on in 2004. They were initially referred to as the S332B P
   \end{center}
 \end{figure}
 
+This structure is implemented in MIKE 1D as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+
 In the model the pumps discharge according to the following rules:
+
 \begin{packed_items}
-\item Priority 1: When Hups $<$ 0, discharge according to Table~\ref{tab:CS-S332BN}
-\item Priority 2: When Hups $>$ 0, remain unchanged
-\item Priority 3: When stage $<$ 0.0, close
+\item Priority 1: When Hds $>$ 9.0, close (this should reflect any design criteria for the detention area)
+\item Priority 2: When HW $>$ 4,7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BN0}
+\item Priority 3: When HW $>$ 4,7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BN1}
+\item Priority 4: When HW $>$ 4,7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BN2}
+\item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
 \footnotesize
 \begin{table}[!h]
 \centering
 \caption{Control strategy for S332BN}
-\label{tab:CS-S332BN}
+\label{tab:CS-S332BN0}
 \begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
 0.00 &  0   \\
-4.40 &  0   \\
-4.45 &  0   \\
-4.50 &  0   \\
-4.55 &  50  \\
-4.60 &  75  \\
-4.68 &  75  \\
-4.70 &  100 \\
-4.78 &  125 \\
-4.80 &  150 \\
-4.85 &  200 \\
-4.90 &  250 \\
-10.0 &  250 \\
+4.70 &  0 \\
+4.71 &  125 \\
+5.00 &  250 \\
+6.00 &  325 \\
+12.0 &  325 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332BN}
+\label{tab:CS-S332BN1}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0.00 &  0   \\
+4.70 &  0 \\
+4.71 &  125 \\
+5.00 &  250 \\
+6.00 &  325 \\
+12.0 &  325 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332BN}
+\label{tab:CS-S332BN2}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0.00 &  0   \\
+4.50 &  0 \\
+4.51 &  125 \\
+5.80 &  250 \\
+6.00 &  325 \\
+12.0 &  325 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1734,41 +1785,77 @@ The pumps were turned on in 2004. They were initially referred to as the S332B P
   \end{center}
 \end{figure}
 
+This structure is implemented in MIKE 1D as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 In the model the pumps discharge according to the following rules:
+
 \begin{packed_items}
-\item Priority 1: When HW $>$ 4.650 ft, discharge according to Table~\ref{tab:CS-S332BW}
-\item Priority 2: When HW $>$ 4.5 ft, remain unchanged
-\item Priority 3: When stage $<$ 0.0, close
+\item Priority 1: When Hds $>$ 9.0, close (this should reflect any design criteria for the detention area)
+\item Priority 2: When HW $>$ 4,7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BW0}
+\item Priority 3: When HW $>$ 4,7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BW1}
+\item Priority 4: When HW $>$ 4,7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BW2}
+\item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
 \footnotesize
 \begin{table}[!h]
 \centering
 \caption{Control strategy for S332BW}
-\label{tab:CS-S332BW}
+\label{tab:CS-S332BW0}
 \begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
 0.00 &  0   \\
-4.40 &  0   \\
-4.45 &  0   \\
-4.50 &  0   \\
-4.55 &  50  \\
-4.60 &  75  \\
-4.68 &  75  \\
-4.70 &  130 \\
-4.78 &  130 \\
-4.80 &  265 \\
-4.85 &  265 \\
-4.90 &  265 \\
-10.0 &  265 \\
+4.70 &  0 \\
+4.71 &  125 \\
+5.00 &  250 \\
+6.00 &  250 \\
+12.0 &  250 \\
 \hline
 \end{tabular}
 \end{table}
 \normalsize
 
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332BW}
+\label{tab:CS-S332BW1}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0.00 &  0   \\
+4.70 &  0 \\
+4.71 &  125 \\
+5.00 &  250 \\
+6.00 &  250 \\
+12.0 &  250 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332BW}
+\label{tab:CS-S332BW2}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0.00 &  0   \\
+4.50 &  0 \\
+4.51 &  125 \\
+5.80 &  250 \\
+6.00 &  250 \\
+12.0 &  250 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
 
 %The resulting cumulative flow through S332BW1 is shown on Figure \ref{fig:S332BW1_QACC:STRUCTURE}:
 
@@ -1800,7 +1887,7 @@ In the model the pumps discharge according to the following rules:
 %----------------------------------------------------------
 \subsubsection{S332C Pump}
 %----------------------------------------------------------
-Pump station S-332C started operating in 2002 and all pumps are directed into the SDA through halfmile long culverts, preventing direct seepage back to L-31N.
+Pump station S-332C started operating in 2002 and all pumps are directed into the SDA through halfmile long culverts, preventing direct seepage back to L-31N. This structure is implemented in MIKE 1D as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 
 \begin{figure}[!h]
@@ -1861,11 +1948,10 @@ The S-332D pump station was constructed in 1999 and all pumps deliver water to t
   \end{center}
 \end{figure}
 
-Pumped up to 500 cfs from Jul 16 (or the end of the breeding season, as confirmed by FWS) to Nov 31; 325 cfs from Dec 1 to Jan 31; and 165 cfs* from Feb 1 to Jul 15. Meet Taylor Slough Rainfall formula consistent with marsh restoration (No L-31W constraint)
+Pumped up to 500 cfs from Jul 16 (or the end of the breeding season, as confirmed by FWS) to Nov 31; 325 cfs from Dec 1 to Jan 31; and 165 cfs* from Feb 1 to Jul 15. Meet Taylor Slough Rainfall formula consistent with marsh restoration (No L-31W constraint). This structure is implemented in MIKE 1D as a Discharge structure with Max Speed of 1 $cfs/s$.
 
 
-In the model two control structures are implemented at the same location, to allow for different operations during the wet and dry seasons.
-The first control structure (S332D1) operates all year.  The S332D1 control strategy is as follows:
+In the model two control structures are implemented at the same location, to allow for different operations during the wet and dry seasons. The first control structure (S332D1) operates all year.  The S332D1 control strategy is as follows:
 
 \begin{packed_items}
 \item Priority 1: When HW $>$ 4.6 ft, discharge according to Column 1 of Table~\ref{tab:CS-S332D}
@@ -1909,6 +1995,74 @@ The second control structure (S332D2) operates after July. It allows additional 
 \end{table}
 \normalsize
 
+PROPOSED STRUCTURE OPERATION: It is proposed to combine structures S332D1 and S332D2 (which are two operation setups for structure S332) into one single operation set up which will be called S332D:
+
+\begin{packed_items}
+\item Priority 1: When HW $<$ 4.65 and $Mode>=0$ structure is Close
+\item Priority 2: When HW $<$ 4.5 and $Mode>=1$ structure is Close
+\item Priority 3: When HW $<$ 4.65 and $Mode>=2$ structure is Close
+\item Priority 4: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
+\item Priority 5: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
+\item Priority 6: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
+\item Priority 7: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
+\item Priority 8: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
+\item Priority 9: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
+\item Priority 10: When stage $<$ 0.0, close
+\end{packed_items}
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategies for S332D}
+\label{tab:CS-S332DA}
+\begin{tabular}{l|rr}
+\hline
+\textbf{HW (ft)} &  \textbf{S332D} \\
+\textbf{       } & \textbf{Q (cfs)} \\
+\hline
+4	     &    165  \\
+10	     &    165  \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategies for S332D}
+\label{tab:CS-S332DB}
+\begin{tabular}{l|rr}
+\hline
+\textbf{HW (ft)} &  \textbf{S332D} \\
+\textbf{       } & \textbf{Q (cfs)} \\
+\hline
+4	     &    325  \\
+10	     &    500  \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategies for S332D}
+\label{tab:CS-S332DC}
+\begin{tabular}{l|rr}
+\hline
+\textbf{HW (ft)} &  \textbf{S332D} \\
+\textbf{       } & \textbf{Q (cfs)} \\
+\hline
+4	     &    325  \\
+10	     &    325  \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+
 %The resulting cumulative flow through S332D is shown on Figure \ref{fig:S332D_QACC:STRUCTURE}:
 
 %\begin{figure}[!ht] \begin{center}
@@ -1945,7 +2099,7 @@ The C-357 and C-358 canals and associated structures were built to provide enhan
 %%----------------------------------------------------------
 \subsubsection{S357  (Pump)}
 %----------------------------------------------------------
-The pumps were operational in 1999.
+The pumps were operational in 1999. 
 
 \begin{packed_items}
 \item Priority 1: Closed
@@ -1955,10 +2109,13 @@ The pumps were operational in 1999.
 %%----------------------------------------------------------
 \subsubsection{S357\_Q (Pump)}
 %----------------------------------------------------------
-
+This structure is implemented in MIKE 1D as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 \begin{packed_items}
 \item Priority 1: $Q = Q_{obs}$
 \end{packed_items}
+
+
+PROPOSED STRUCTURE SETUP: It is proposed to combine the two structures into a single structure which is implemented in MIKE 1D as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 %\begin{figure}[!ht] \begin{center}
 %  % Requires \usepackage{graphicx}
@@ -2029,7 +2186,8 @@ The pumps were operational in 1999.
 \subsubsection{S338}
 %----------------------------------------------------------
 The structure S-338 provides discharge into C-1W from L-31N for both water supply and flood control.
-Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a gated, double-barreled, 84-inch, CMP culvert. S338 supplies water to the C-l area to maintain adequate canal stages, to prevent saltwater intrusion at east coast structures, to provide water to the root zone of growing plants, and to permit groundwater withdrawals for water supply. S338 also provides flood control releases from the area between Krome Avenue and L-31N and north of S331. This structure is normally closed except during flood events when the gates are opened fully. This structure is set to Underflow.
+Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a gated, double-barreled, 84-inch, CMP culvert. S338 supplies water to the C-l area to maintain adequate canal stages, to prevent saltwater intrusion at east coast structures, to provide water to the root zone of growing plants, and to permit groundwater withdrawals for water supply. S338 also provides flood control releases from the area between Krome Avenue and L-31N and north of S331. This structure is normally closed except during flood events when the gates are opened fully. This structure is implemented in MIKE 1D as a Discharge structure with a Max Rate of change of 0.000138 $ft/s$.
+
 
 \begin{figure}[!h]
   \begin{center}
@@ -2501,7 +2659,7 @@ The structure is located on the L-31W borrow canal near its junction with Canal 
 %----------------------------------------------------------
 \subsubsection{S332DX1}
 %----------------------------------------------------------
-This structure is a series of culverts connecting the S332D High Head Cell to the L31W canal. It is intended to direct water from the HHC northward into the SDA.
+This structure is a series of culverts connecting the S332D High Head Cell to the L31W canal. It is intended to direct water from the HHC northward into the SDA. This structure is implemented in MIKE 1D as an Underflow structure.
 
 \begin{packed_items}
 \item Priority 1: Closed
