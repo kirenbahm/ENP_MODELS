@@ -1695,7 +1695,7 @@ This structure is implemented in MIKE 11 as a discharge structure with a Max Rat
 In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
-\item Priority 1: When Hds $>$ 9.0, close (this should reflect any design criteria for the detention area)
+\item Priority 1: When Hds $>$ 99.999, close (this is a placeholder to reflect any design criteria for the detention area)
 \item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN0}
 \item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN1}
 \item Priority 4: If $Mode=2$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN2}
@@ -3207,9 +3207,9 @@ Structure S18C maintains optimum water control stages upstream in Canal 111; it 
 %----------------------------------------------------------
 \subsubsection{S197}
 %----------------------------------------------------------
-This structure is located near the mouth of Canal 111 about 3 miles from the shore of Manatee Bay and 750 feet east of U.S. Highway 1. The structure maintains optimum upstream water control stage in Canal 111 and prevents saline intrusion during high tides. Most of the time S197 diverts discharge from S18C overland to the panhandle of the Everglades National Park and releases water only during major floods according to the established guidelines. 
+This structure is located near the mouth of Canal 111 about 3 miles from the shore of Manatee Bay and 750 feet east of U.S. Highway 1. The structure maintains optimum upstream water control stage in Canal 111 and prevents saline intrusion during high tides. Most of the time S197 diverts discharge from S18C overland to the panhandle of the Everglades National Park and releases water only during major floods according to the established guidelines.
 
-This structure is a thirteen-barreled corrugated metal pipe culvert. 
+This structure is a thirteen-barreled corrugated metal pipe culvert.
 
 The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-10 with 7 culverts, and S197-13 with 3 culverts (S197-03, S197-07 and S197-13) corresponding to opening of 3, 4 and 6 additional culverts (simulating opening of 3, 7 and 13 culverts total).
 
