@@ -1,4 +1,4 @@
-// Created     : 2018-02-1 11:4:17
+// Created     : 2018-02-1 12:9:20
 // DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
 // PFS version : Apr  4 2017 19:09:27
 
@@ -25912,7 +25912,7 @@ model'
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 4, 0, 8, 0.0
+               LS_parameter = 1, 5, 0, 8, 0.0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
