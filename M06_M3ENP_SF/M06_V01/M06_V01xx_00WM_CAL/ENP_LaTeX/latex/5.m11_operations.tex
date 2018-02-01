@@ -677,7 +677,7 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 \item Priority 4: If $Mode=2$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
 \item Priority 5: If $Mode=0$ and $H_{ds}<S334\_TW_{obs}$  $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S334\_TW_{obs}$ and $Q_{str}>800$ cfs,  operate according to Table~\ref{tab:CS-S334close}.
+\item Priority 6: If $Mode=0$ and $H_{ds}>S334\_TW_{obs}$   operate according to Table~\ref{tab:CS-S334close}.
 \item[]
 \item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
 \end{packed_items}
@@ -1048,7 +1048,7 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 
 \begin{packed_items}
 \item Priority 1: If $Mode=1$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
-\item Priority 2: If $Mode=1$ and \textcolor[rgb]{1.00,0.00,0.00}{$H_{ds}>S335\_HW_{obs}$},  operate according to Table~\ref{tab:CS-S335close}.
+\item Priority 2: If $Mode=1$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
 \item[]
 \item Priority 3: If $Mode=2$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
@@ -1428,8 +1428,8 @@ The S-173 structure closes if the difference in water level between upstream and
 %\end{itemize}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=>0$ and  S331P flow $>$ 0 cfs, Close. %all modes
-\item Priority 2: If $Mode=>0$ and  S331P flow $<=$ 0 cfs, and TW $<=$ $S331TW_{obs}$, discharge tabulated according to control strategy in Table~\ref{tab:CS-S173ops}.
+\item Priority 1: If $Mode>=0$ and  S331P flow $>$ 0 cfs, Close. %all modes
+\item Priority 2: If $Mode>=0$ and  S331P flow $<=$ 0 cfs, and TW $<=$ $S331TW_{obs}$, discharge tabulated according to control strategy in Table~\ref{tab:CS-S173ops}.
 \item Priority 3: Close when headwater is less than 0.0 ft.
 \end{packed_items}
 
@@ -1696,9 +1696,9 @@ In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
 \item Priority 1: When Hds $>$ 9.0, close (this should reflect any design criteria for the detention area)
-\item Priority 2: When HW $>$ 4.7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BN0}
-\item Priority 3: When HW $>$ 4.7 ft, and $Mode=1$ discharge according to Table~\ref{tab:CS-S332BN1}
-\item Priority 4: When HW $>$ 4.7 ft, and $Mode=2$ discharge according to Table~\ref{tab:CS-S332BN2}
+\item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN0}
+\item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN1}
+\item Priority 4: If $Mode=2$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN2}
 \item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
@@ -1808,9 +1808,9 @@ In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
 \item Priority 1: When Hds $>$ 9.0, close (this should reflect any design criteria for the detention area)
-\item Priority 2: When HW $>$ 4.7 ft, and $Mode=0$ discharge according to Table~\ref{tab:CS-S332BW0}
-\item Priority 3: When HW $>$ 4.7 ft, and $Mode=1$ discharge according to Table~\ref{tab:CS-S332BW1}
-\item Priority 4: When HW $>$ 4.7 ft, and $Mode=2$ discharge according to Table~\ref{tab:CS-S332BW2}
+\item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW0}
+\item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW1}
+\item Priority 4: If $Mode=2$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW2}
 \item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
@@ -3207,7 +3207,11 @@ Structure S18C maintains optimum water control stages upstream in Canal 111; it 
 %----------------------------------------------------------
 \subsubsection{S197}
 %----------------------------------------------------------
-This structure is located near the mouth of Canal 111 about 3 miles from the shore of Manatee Bay and 750 feet east of U.S. Highway 1. The structure maintains optimum upstream water control stage in Canal 111 and prevents saline intrusion during high tides. Most of the time S197 diverts discharge from S18C overland to the panhandle of the Everglades National Park and releases water only during major floods according to the established guidelines. This structure is a thirteen-barreled corrugated metal pipe culvert. The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-10 with 7 culverts, and S197-13 with 3 culverts (S197-03, S197-07 and S197-13) corresponding to opening of 3, 4 and 6 additional culverts (simulating opening of 3, 7 and 13 culverts total).
+This structure is located near the mouth of Canal 111 about 3 miles from the shore of Manatee Bay and 750 feet east of U.S. Highway 1. The structure maintains optimum upstream water control stage in Canal 111 and prevents saline intrusion during high tides. Most of the time S197 diverts discharge from S18C overland to the panhandle of the Everglades National Park and releases water only during major floods according to the established guidelines. 
+
+This structure is a thirteen-barreled corrugated metal pipe culvert. 
+
+The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-10 with 7 culverts, and S197-13 with 3 culverts (S197-03, S197-07 and S197-13) corresponding to opening of 3, 4 and 6 additional culverts (simulating opening of 3, 7 and 13 culverts total).
 
 The culverts 4 through 13 have been replaced since 2010.
 
