@@ -1,4 +1,4 @@
-// Created     : 2018-01-31 15:47:48
+// Created     : 2018-01-31 19:54:39
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -29816,7 +29816,7 @@ model'
             [logical_statement]
                LS_parameter = 1, 5, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 2.7432, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 0, 2.7432, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
