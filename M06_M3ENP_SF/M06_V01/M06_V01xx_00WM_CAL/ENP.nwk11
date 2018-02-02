@@ -1,4 +1,4 @@
-// Created     : 2018-02-1 21:47:35
+// Created     : 2018-02-1 22:12:42
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -27219,7 +27219,7 @@ model'
             [logical_statement]
                LS_parameter = 1, 0, 35, 0, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 0, 0, 1.3716, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.40208, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27244,8 +27244,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.9143999999999999, -0.9113519999999999
-                  data = 1.520952, 1.524
+                  data = -0.9143999999999999, -0.8839199999999998
+                  data = 1.49352, 1.524
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27258,7 +27258,7 @@ model'
             [logical_statement]
                LS_parameter = 2, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.3716, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 0, 0, 1.34112, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27283,8 +27283,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.9113519999999999, -0.9143999999999999
-                  data = 1.524, 1.520952
+                  data = -0.8839199999999998, -0.9143999999999999
+                  data = 1.524, 1.49352
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27322,8 +27322,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.9143999999999999, -0.9113519999999999
-                  data = 1.520952, 1.524
+                  data = -0.9143999999999999, -0.8839199999999998
+                  data = 1.49352, 1.524
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27336,7 +27336,7 @@ model'
             [logical_statement]
                LS_parameter = 4, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 0, 1, 0, |..\..\..\INPUTFILES\BC1D\BC_S178_TW.dfs0|, 'S178.tail_water', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 1, 0, |..\..\..\INPUTFILES\BC1D\BC_S178_TW.dfs0|, 'S178.tail_water', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27361,8 +27361,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.9113519999999999, -0.9143999999999999
-                  data = 1.524, 1.520952
+                  data = -0.8839199999999998, -0.9143999999999999
+                  data = 1.524, 1.49352
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27393,8 +27393,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.9113519999999999, -0.9143999999999999
-                  data = 1.524, 1.520952
+                  data = -0.8839199999999998, -0.9143999999999999
+                  data = 1.524, 1.49352
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0

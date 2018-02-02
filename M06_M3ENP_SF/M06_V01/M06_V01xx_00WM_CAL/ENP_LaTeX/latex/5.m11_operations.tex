@@ -3374,17 +3374,17 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 %\item Priority 3 (default): S178 is unchanged for any other condition
 %\end{itemize}
 
-\textcolor[rgb]{1.00,0.00,0.00}{
+%\textcolor[rgb]{1.00,0.00,0.00}{
 \begin{packed_items}
-\item Priority 1: If $Mode>=0$ and $H_{us}<4.5 ft$, operate according to Table~\ref{tab:CS-S178open}.
-\item Priority 2: If $Mode>0$ and $H_{us}>4.5 ft$, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 1: If $Mode>0$ and $H_{us}>4.6 ft$, operate according to Table~\ref{tab:CS-S178open}.
+\item Priority 2: If $Mode>0$ and $H_{us}<4.4 ft$, operate according to Table~\ref{tab:CS-S178close}.
 \item[]
 \item Priority 3: If $Mode=0$ and $H_{ds}<S178TW_{obs}$, operate according to Table~\ref{tab:CS-S178open}.
-\item Priority 4: If $Mode=0$ and $H_{ds}<S178TW_{obs}$, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 4: If $Mode=0$ and $H_{ds}>S178TW_{obs}$, operate according to Table~\ref{tab:CS-S178close}.
 \item[]
 \item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S178close}.
 \end{packed_items}
-}
+%}
 
 \footnotesize
 \begin{table}[!h]
@@ -3395,8 +3395,8 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--3.00	& -2.99       \\
-4.99	& 5.00   \\
+-3	& -2.9       \\
+4.9	& 5   \\
 \hline
 \end{tabular}
 \end{table}
@@ -3411,8 +3411,8 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--2.99	& -3.00       \\
-5.00	& 4.99   \\
+-2.9	& -3       \\
+5	& 4.9   \\
 \hline
 \end{tabular}
 \end{table}
