@@ -3214,7 +3214,9 @@ This structure is a thirteen-barreled corrugated metal pipe culvert.
 
 The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-10 with 7 culverts, and S197-13 with 3 culverts (S197-03, S197-07 and S197-13) corresponding to opening of 3, 4 and 6 additional culverts (simulating opening of 3, 7 and 13 culverts total).
 
-The culverts 4 through 13 have been replaced since 2010.
+The culverts 4 through 13 have been replaced since 2010. 
+
+This structure (comprised by 13 culverts) is defined as Underflow with max rate of change of 0.000138 ft/s.
 
 \begin{figure}[!h]
   \begin{center}
@@ -3250,7 +3252,7 @@ Priorities for S197-03, (3 gates):
 \item Priority 1: If S-18C HW $>$ 2.8 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-177 HW $>$ 4.1 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: If stage $<$ 0.0, unchanged.
+\item Priority 4: If stage $<$ 0.0, close.
 \end{packed_items}
 
 
@@ -3259,7 +3261,7 @@ Priorities for S197-10, (7 gates):
 \item Priority 1: If S-18C HW $>$ 3.1 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If \textcolor[rgb]{1.00,0.00,0.00}{Average 24 for hours??? S-197 HW} $>$ 4.2 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: If stage $<$ 0.0, unchanged.
+\item Priority 4: If stage $<$ 0.0, close.
 \end{packed_items}
 
 
@@ -3268,7 +3270,7 @@ Priorities for S197-13, (3 gates):
 \item Priority 1: If S-18C HW $>$ 3.3 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-177 HW $>$ 4.3 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: If stage $<$ 0.0, unchanged.
+\item Priority 4: If stage $<$ 0.0, close.
 \end{packed_items}
 
 
@@ -3281,8 +3283,8 @@ Priorities for S197-13, (3 gates):
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--8.00	& -7.99       \\
--1.01	& -1.00   \\
+-8	& -7.9       \\
+-1	& -0.91   \\
 \hline
 \end{tabular}
 \end{table}
