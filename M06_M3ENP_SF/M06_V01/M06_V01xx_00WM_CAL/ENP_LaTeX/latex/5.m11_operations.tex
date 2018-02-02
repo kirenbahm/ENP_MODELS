@@ -1283,6 +1283,8 @@ As a result, frequent gate operations at this structure are impracticable and st
 The goal is to keep stages generally between 5.5 ft. and 6.0 ft., upstream of the structure insofar as practicable.
 It is recognized that during flood control operations or making water supply deliveries that stages outside this range either high or low may occur for extended periods of time.
 
+This structure is set in MIKE 11 as Underflow with max rate of change of 0.000138 ft/s.
+
 
 %?% The structure consists of 10 culverts and is operated to maintain low canal stages between G-211 and S-331 during flood control operations for the lands west of the protective levee system.
 %?% The recent addition of the S-357 complex should allow for a modification of the operational strategy.
@@ -1295,17 +1297,16 @@ It is recognized that during flood control operations or making water supply del
   \end{center}
 \end{figure}
 
-The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2-minute timestep.
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 1: If $Mode=1$ and $H_{us}>6.0 ft$, and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-G211open}.
 \item Priority 2: If $Mode=1$ and $H_{us}<5.5 ft$, operate according to Table~\ref{tab:CS-G211close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>5.7 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 3: If $Mode=2$ and $H_{us}>5.7 ft$, and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-G211open}.
 \item Priority 4: If $Mode=2$ and $H_{us}<5.3 ft$, operate according to Table~\ref{tab:CS-G211close}.
 \item[]
 \item Priority 5: If $Mode=0$ and $H_{ds}<G211\_TW_{obs}$ and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>G211\_TW_{obs}$ and $Q_{str}>800$ cfs, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 6: If $Mode=0$ and $H_{ds}>G211\_TW_{obs}$, operate according to Table~\ref{tab:CS-G211close}.
 \item[]
 \item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-G211close}.
 \end{packed_items}

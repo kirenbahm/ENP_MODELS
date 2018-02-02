@@ -1,4 +1,4 @@
-// Created     : 2018-02-2 6:4:47
+// Created     : 2018-02-2 6:11:31
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -25627,6 +25627,11 @@ model'
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 22.65347727359999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'L-31N', 11332.10000784, '', 0, '', 0, 0, 0, 0, 0, 0
@@ -25701,6 +25706,11 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.73736, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 22.65347727359999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
