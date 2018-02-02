@@ -1,4 +1,4 @@
-// Created     : 2018-02-1 21:31:20
+// Created     : 2018-02-1 21:39:41
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -28022,6 +28022,11 @@ model'
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 8.495053977599998, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-103', 4890.00000408, '', 0, '', 0, 0, 0, 0, 0, 0
@@ -28096,6 +28101,11 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.49352, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 8.495053977599998, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28178,6 +28188,11 @@ model'
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 8.495053977599998, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-103', 4890.00000408, '', 0, '', 0, 0, 0, 0, 0, 0
@@ -28207,7 +28222,7 @@ model'
             [logical_statement]
                LS_parameter = 6, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 0, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation

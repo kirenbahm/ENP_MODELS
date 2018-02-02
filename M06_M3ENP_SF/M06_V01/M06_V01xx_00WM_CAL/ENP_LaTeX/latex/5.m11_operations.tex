@@ -2351,6 +2351,9 @@ Prescribed head timeseries, set to BC\_S194TW-S165HW.dfs0.
 \subsubsection{S196}
 %----------------------------------------------------------
 This structure is a double-barreled reinforced concrete pipe culvert, located on Canal 102 at Krome Avenue about 7 miles north of Homestead. Control is effected by manually operated sluice gates mounted on a reinforced concrete head structure. This structure is installed as a drainage divide structure and as a control for stages in C-102 to the west. It is sized to permit limited runoff to the east when capacity is available and to provide a supplemental supply during the dry period.
+
+This structure is defined as Underflow with rate of change of 0.000138 ft/s.
+
 %
 %The MIKE 11 model implements the following operations \cite{corp2005, SFWMD1994}:
 %
@@ -2369,14 +2372,14 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>5.5 ft$, operate according to Table~\ref{tab:CS-S196open}.
+\item Priority 1: If $Mode=1$ and $H_{us}>5.5 ft$, and $Q_{str}<300$ cfs, operate according to Table~\ref{tab:CS-S196open}.
 \item Priority 2: If $Mode=1$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S196close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, operate according to Table~\ref{tab:CS-S196open}.
+\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, and $Q_{str}<300$ cfs, operate according to Table~\ref{tab:CS-S196open}.
 \item Priority 4: If $Mode=2$ and $H_{us}<4.5 ft$, operate according to Table~\ref{tab:CS-S196close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{us}>5.5 ft$, operate according to Table~\ref{tab:CS-S196open}.
-\item Priority 6: If \textcolor[rgb]{1.00,0.00,0.00}{$Mode<0$} and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 5: If $Mode=0$ and $H_{us}>5.5 ft$, and $Q_{str}<300$ cfs, operate according to Table~\ref{tab:CS-S196open}.
+\item Priority 6: If $Mode=0$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S196close}.
 \item[]
 \item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S196close}.
 \end{packed_items}
