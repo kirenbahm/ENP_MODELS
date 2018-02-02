@@ -1,4 +1,4 @@
-// Created     : 2018-02-2 14:57:45
+// Created     : 2018-02-2 17:48:50
 // DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
 // PFS version : Apr  4 2017 19:09:27
 
@@ -25837,11 +25837,6 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 2, 0, 22.65347727359999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
                EndSect  // logical_operands
 
                controlpoint = 'L-31N', 11332.10000784, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
@@ -26374,7 +26369,7 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 0, 1, 0.0, |..\..\..\INPUTFILES\BC1D\BC_S167_TW.dfs0|, 'S167_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.79832, |..\..\..\INPUTFILES\BC1D\BC_S167_TW.dfs0|, 'S167_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -26394,8 +26389,8 @@ model'
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.12192, -0.1524
-                  data = 1.9812, 1.95072
+                  data = -0.1524, -0.12192
+                  data = 1.95072, 1.9812
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -26413,7 +26408,7 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |..\..\..\INPUTFILES\BC1D\BC_S167_TW.dfs0|, 'S167_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 0, 0, 1.55448, |..\..\..\INPUTFILES\BC1D\BC_S167_TW.dfs0|, 'S167_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -26646,6 +26641,11 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 0, 0, 33.98021591039999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-111', 8.222366516879999, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
@@ -26720,6 +26720,11 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.49352, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 0, 0, 33.98021591039999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -26842,11 +26847,6 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |..\..\..\INPUTFILES\BC1D\BC_S176_TW.dfs0|, 'S176_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 2, 0, 33.98021591039999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -27153,11 +27153,6 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 2, 0, 48.13863920639999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
                EndSect  // logical_operands
 
                controlpoint = 'C-111', 8992.310184, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
@@ -27245,7 +27240,7 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -27756,6 +27751,11 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 0, 0, 14.158423296, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
@@ -27834,6 +27834,11 @@ model'
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 0, 0, 14.158423296, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
@@ -27908,6 +27913,11 @@ model'
                   EndSect  // LOSummation
 
                   logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.6764, |..\..\..\INPUTFILES\BC1D\BC_S194_TW.dfs0|, 'S194_TW', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 0, 0, 14.158423296, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -28459,6 +28469,7 @@ model'
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
+                  data = 0.0, 0.0
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
