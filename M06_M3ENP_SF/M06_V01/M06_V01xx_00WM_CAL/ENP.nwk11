@@ -1,4 +1,4 @@
-// Created     : 2018-02-2 5:53:24
+// Created     : 2018-02-2 6:4:47
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -26281,12 +26281,12 @@ model'
             [logical_statement]
                LS_parameter = 1, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 1, 0, 1.79832, |..\..\..\INPUTFILES\BC1D\BC_S167_TW.dfs0|, 'S167_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.79832, |..\..\..\INPUTFILES\BC1D\BC_S167_TW.dfs0|, 'S167_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26320,7 +26320,7 @@ model'
             [logical_statement]
                LS_parameter = 2, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26359,7 +26359,7 @@ model'
             [logical_statement]
                LS_parameter = 3, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26384,8 +26384,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.1524, -0.149352
-                  data = 1.978152, 1.9812
+                  data = -0.12192, -0.1524
+                  data = 1.9812, 1.95072
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -26398,7 +26398,7 @@ model'
             [logical_statement]
                LS_parameter = 4, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26423,8 +26423,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.149352, -0.1524
-                  data = 1.9812, 1.978152
+                  data = -0.12192, -0.1524
+                  data = 1.9812, 1.95072
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -26455,8 +26455,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -0.149352, -0.1524
-                  data = 1.9812, 1.978152
+                  data = -0.12192, -0.1524
+                  data = 1.9812, 1.95072
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -26592,6 +26592,7 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
+                  data = 0, 0
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0

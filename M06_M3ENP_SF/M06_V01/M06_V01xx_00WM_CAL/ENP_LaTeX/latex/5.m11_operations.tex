@@ -2454,13 +2454,13 @@ This structure is a reinforced concrete, gated spillway with discharge controlle
 
 
 \begin{packed_items}
-\item Priority 1: If $Mode=0$ and \textcolor[rgb]{1.00,0.00,0.00}{$H_{us}<=5.9 ft$}, operate according to Table~\ref{tab:CS-S167open}.
-\item Priority 2: If $Mode=0$ and $H_{us}<5.1 ft$, operate according to Table~\ref{tab:CS-S167close}.
+\item Priority 1: If $Mode>0$ and $H_{us}>5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
+\item Priority 2: If $Mode>0$ and $H_{us}<5.1 ft$, operate according to Table~\ref{tab:CS-S167close}.
 \item[]
-\item Priority 3: If $Mode>0$ and \textcolor[rgb]{1.00,0.00,0.00}{$H_{ds}<S167TW_{obs}$}, operate according to Table~\ref{tab:CS-S167open2}.
-\item Priority 4: If $Mode>0$ and \textcolor[rgb]{1.00,0.00,0.00}{$H_{ds}>S167TW_{obs}$}, operate according to Table~\ref{tab:CS-S167close2}.
+\item Priority 3: If $Mode=0$ and $H_{us}>5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
+\item Priority 4: If $Mode=0$ and $H_{us}<5.1 ft$, operate according to Table~\ref{tab:CS-S167close}.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S167close2}.
+\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S167close}.
 \end{packed_items}
 
 \footnotesize
@@ -2495,37 +2495,37 @@ This structure is a reinforced concrete, gated spillway with discharge controlle
 \end{table}
 \normalsize
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy 2 for S167 open (units are ft. NGVD29)}
-\label{tab:CS-S167open2}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{Current Gate Level} & \textbf{Gate Level}\\
-\hline
--0.5	& -0.49       \\
-6.49	& 6.5   \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy 2 for S167 close (units are ft. NGVD29)}
-\label{tab:CS-S167close2}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{Current Gate Level} & \textbf{Gate Level}\\
-\hline
--0.49	& -0.5       \\
-6.5	& 6.49   \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy 2 for S167 open (units are ft. NGVD29)}
+%\label{tab:CS-S167open2}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{Current Gate Level} & \textbf{Gate Level}\\
+%\hline
+%-0.5	& -0.49       \\
+%6.49	& 6.5   \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy 2 for S167 close (units are ft. NGVD29)}
+%\label{tab:CS-S167close2}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{Current Gate Level} & \textbf{Gate Level}\\
+%\hline
+%-0.49	& -0.5       \\
+%6.5	& 6.49   \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
 %\begin{figure}[!ht] \begin{center}
 %  % Requires \usepackage{graphicx}
