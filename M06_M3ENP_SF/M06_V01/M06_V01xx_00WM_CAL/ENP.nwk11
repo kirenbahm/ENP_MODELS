@@ -1,4 +1,4 @@
-// Created     : 2018-02-1 22:12:42
+// Created     : 2018-02-2 5:49:44
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -26932,6 +26932,11 @@ model'
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 48.13863920639999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-111', 8992.310184, '', 0, '', 0, 0, 0, 0, 0, 0
@@ -26947,8 +26952,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.0999999999999999, 0, 0.0999999999999999, 0.0999999999999999
                [control_strategy]
-                  data = -2.16408, -2.161032
-                  data = 2.100072, 2.10312
+                  data = -2.16408, -2.1336
+                  data = 2.07264, 2.10312
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -26986,8 +26991,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.161032, -2.16408
-                  data = 2.10312, 2.100072
+                  data = -2.1336, -2.16408
+                  data = 2.10312, 2.07264
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27010,6 +27015,11 @@ model'
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 48.13863920639999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
                EndSect  // logical_operands
 
                controlpoint = 'C-111', 8992.310184, '', 0, '', 0, 0, 0, 0, 0, 0
@@ -27025,8 +27035,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.16408, -2.161032
-                  data = 2.100072, 2.10312
+                  data = -2.16408, -2.1336
+                  data = 2.07264, 2.10312
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27064,8 +27074,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.161032, -2.16408
-                  data = 2.10312, 2.100072
+                  data = -2.1336, -2.16408
+                  data = 2.10312, 2.07264
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27108,8 +27118,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.16408, -2.161032
-                  data = 2.097024, 2.10312
+                  data = -2.16408, -2.1336
+                  data = 2.07264, 2.10312
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27152,8 +27162,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.161032, -2.16408
-                  data = 2.10312, 2.100072
+                  data = -2.1336, -2.16408
+                  data = 2.10312, 2.07264
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -27184,8 +27194,8 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.161032, -2.16408
-                  data = 2.10312, 2.100072
+                  data = -2.1336, -2.16408
+                  data = 2.10312, 2.07264
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0

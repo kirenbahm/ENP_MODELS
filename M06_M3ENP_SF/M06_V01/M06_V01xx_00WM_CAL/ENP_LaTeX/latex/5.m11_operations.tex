@@ -2971,10 +2971,10 @@ Structure S177 maintains optimum water control upstream in Canal 111; it passes 
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 1: If $Mode=1$ and $H_{us}>4.2 ft$, and $Q_{str}<1700$ cfs, operate according to Table~\ref{tab:CS-S177open}.
 \item Priority 2: If $Mode=1$ and $H_{us}<3.6 ft$, operate according to Table~\ref{tab:CS-S177close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 3: If $Mode=2$ and $H_{us}>4.2 ft$, and $Q_{str}<1700$ cfs, operate according to Table~\ref{tab:CS-S177open}.
 \item Priority 4: If $Mode=2$ and $H_{us}<3.6 ft$, operate according to Table~\ref{tab:CS-S177close}.
 \item[]
 \item Priority 5: If $Mode=0$ and $H_{ds}<S177TW_{obs}$, and $Q_{str}<1700$ cfs, operate according to Table~\ref{tab:CS-S177open}.
@@ -2992,8 +2992,8 @@ Structure S177 maintains optimum water control upstream in Canal 111; it passes 
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--7.1	& -7.09       \\
-6.89	& 6.9   \\
+-7.1	& -7       \\
+6.8	& 6.9   \\
 \hline
 \end{tabular}
 \end{table}
@@ -3008,8 +3008,8 @@ Structure S177 maintains optimum water control upstream in Canal 111; it passes 
 \hline
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
--7.09	& -7.1       \\
-6.9	& 6.89   \\
+-7	& -7.1       \\
+6.9	& 6.8   \\
 \hline
 \end{tabular}
 \end{table}
