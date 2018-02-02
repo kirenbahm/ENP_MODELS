@@ -233,7 +233,7 @@ The M11 model implements this structure with prescribed flow.
 %----------------------------------------------------------
 \subsubsection{Culverts 24-28}
 
-The M11 model implements each of these culverts with prescribed flow.
+The M11 model implements each of these culverts with prescribed flow with maximum rate of change of 1 $cfs/s$.
 
 \begin{packed_items}
 \item Priority 1: $Q = Q_{obs}$
@@ -281,6 +281,8 @@ Not in model.
 %----------------------------------------------------------
 
 These four structures are reinforced concrete, gated spillways with the discharge of each controlled by six cable operated, vertical lift gates. Operation of gates is manually controlled, and the gates are operated in accordance with the seasonal operational criteria. The structures are located in Levee 29 (U.S. Highway 41) on the south perimeter of Conservation Area 3A, about 30 miles west of Miami. These structures provide the principal means of discharge from Conservation Area 3A. Relatively minor discharge can also be made by S-151 into Conservation Area 3B. Structures 12A, B, C, and D provide the principal means of discharge to the Everglades National Park.
+
+Structures 12A-D are implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$.
 
 %\paragraph{IOP Operational Guidance}
 %
@@ -560,6 +562,9 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 %----------------------------------------------------------
 
 Culverts 41-59 are implemented in the model as both Culvert structures and Control Structures. Each is described below. The Tamiami Trail Bridge is one mile long, and replaced Culvert 57 when it was built. (Note: Section Type for all culverts is 'closed', meaning the roof of the culvert is not open to the air above.)
+
+The M11 model implements each of these culverts with prescribed flow with maximum rate of change of 1 $cfs/s$. In the model Culverts 41-59 are closed structures the observed timeseries are used for calibration. Previously the observed timeseries were applied as specified discharge.
+
 
 \paragraph{Culverts:}
 
@@ -1216,6 +1221,7 @@ This structure is implemented in MIKE 11 as a Discharge structure with a Max Rat
 
 This structure is a double-barreled, 72 inches corrugated metal pipe culvert located on the Tamiami Canal about 1/4 mile east of the Krome Avenue crossing of the Tamiami Canal 19 miles west of Miami. Control is effected by manually operated sluice gates mounted on a frame erected on the upstream or west end of the structure.This structure permits supplemental deliveries from Conservation Area 3 to supply water needs in eastern Dade County via the L-30 or L-29 canals. It also can be used to discharge limited quantities of excess water from Conservation Area 3A or from the L-31N, L-29 and L-30 drainage basins east and south of Conservation Area 3B when capacity is available in the Tamiami Canal.
 
+This structure is implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$.
 
 \begin{packed_items}
 \item Priority 1: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
@@ -1418,7 +1424,8 @@ The second is the S-331P pumps, a set of three pumps, and third is the S-331S st
 \textbf{S331\_S173 (This is the S173 structure).}
 %-----------------
 
-The S-173 structure closes if the difference in water level between upstream and downstream is negative to prevent having S-331S discharge recirculate back upstream. The structure is modeled as Discharge using a rating curve.
+The S-173 structure closes if the difference in water level between upstream and downstream is negative to prevent having S-331S discharge recirculate back upstream. The structure is modeled as Discharge using a rating curve Twith maximum rate of change of 1 $cfs/s$.
+
 %Otherwise the structure opens if the headwater at S-176 falls below 5.5 feet and S-331 pumps are off.
 %The Control Strategy in M11 is shown in Table~\ref{tab:CS-S173ops}.
 
@@ -1475,7 +1482,7 @@ The S-173 structure closes if the difference in water level between upstream and
 %\item Priority 2: Close when headwater is less than 0.0 ft.
 %\end{packed_items}
 
-The Max change of discharge rate is 1 $cfs/s$.
+This structure is implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$ and a rating curve.
 
 \begin{packed_items}
 \item Priority 1: If $Mode>=0$ and S331P flow $<=$ 0.0 cfs, and S176HW $<$ 5.5 ft, discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
@@ -1905,7 +1912,9 @@ In the model the pumps discharge according to the following rules:
 %----------------------------------------------------------
 \subsubsection{S332C Pump}
 %----------------------------------------------------------
-Pump station S-332C started operating in 2002 and all pumps are directed into the SDA through halfmile long culverts, preventing direct seepage back to L-31N. This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+Pump station S-332C started operating in 2002 and all pumps are directed into the SDA through halfmile long culverts, preventing direct seepage back to L-31N.
+
+This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 
 \begin{figure}[!h]
@@ -1966,7 +1975,9 @@ The S-332D pump station was constructed in 1999 and all pumps deliver water to t
   \end{center}
 \end{figure}
 
-Pumped up to 500 cfs from Jul 16 (or the end of the breeding season, as confirmed by FWS) to Nov 31; 325 cfs from Dec 1 to Jan 31; and 165 cfs* from Feb 1 to Jul 15. Meet Taylor Slough Rainfall formula consistent with marsh restoration (No L-31W constraint). This structure is implemented in MIKE 11 as a Discharge structure with Max Speed of 1 $cfs/s$.
+Pumped up to 500 cfs from Jul 16 (or the end of the breeding season, as confirmed by FWS) to Nov 31; 325 cfs from Dec 1 to Jan 31; and 165 cfs* from Feb 1 to Jul 15. Meet Taylor Slough Rainfall formula consistent with marsh restoration (No L-31W constraint).
+
+This structure is implemented in MIKE 11 as a Discharge structure with Max Speed of 1 $cfs/s$.
 
 
 In the model two control structures are implemented at the same location, to allow for different operations during the wet and dry seasons. The first control structure (S332D1) operates all year.  The S332D1 control strategy is as follows:
@@ -2062,6 +2073,7 @@ The pumps were operational in 1999.
 \subsubsection{S357\_Q (Pump)}
 %----------------------------------------------------------
 This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+
 \begin{packed_items}
 \item Priority 1: $Q = Q_{obs}$
 \end{packed_items}
@@ -2890,9 +2902,12 @@ The structure is located on Canal 111 about 5 miles west of Homestead. This stru
 %----------------------------------------------------------
 \subsubsection{S200 Pump}
 %----------------------------------------------------------
-Pump Station S200 is one of key components of the northern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. The main north portion of the project includes the Frog Pond Detention Area (FPDA), the Frog Pond Header Distribution Channel, and Pump Station S200. The primary purpose of Pump Station S200 is to re-direct to the west up to 225 cfs of excess water from C111 Canal into FPDA. Pump Station S200 with design capacity of 225 cfs is located downstream of the existing S-176 structure, north of Ingraham Highway and west of the C-111 Canal along the northern boundary of the FPDA. This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
+Pump Station S200 is one of key components of the northern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. The main north portion of the project includes the Frog Pond Detention Area (FPDA), the Frog Pond Header Distribution Channel, and Pump Station S200. The primary purpose of Pump Station S200 is to re-direct to the west up to 225 cfs of excess water from C111 Canal into FPDA. Pump Station S200 with design capacity of 225 cfs is located downstream of the existing S-176 structure, north of Ingraham Highway and west of the C-111 Canal along the northern boundary of the FPDA.
+
+This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
 
 The complex was constructed post model period, thus no observed data is available for comparison.
+
 Control Strategy for S200:
 
 \begin{packed_items}
@@ -3049,8 +3064,9 @@ Structure S177 maintains optimum water control upstream in Canal 111; it passes 
 A recent addition is the S199 pumps just north of S-177, which pump into the Aerojet borrow canal, a SFWMD complex which was designed as a hydraulic barrier between the wetlands and the low stages of the C-111 canal.
 The project intends to enhance flow through Taylor Slough, and continue the low canal and wetland stages south of S-177.
 
-Pump Station S199 is one of key components of the southern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. Pump Station S199 consists of three identical electric pumps each with capacity of 75 cfs.Pump Station S199 is located on the west side of the C-111 Canal, south of Ingraham Highway and north of the S-177 gate structure with an excavated inlet canal connecting S-199 to the C-111 Canal. This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
+Pump Station S199 is one of key components of the southern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. Pump Station S199 consists of three identical electric pumps each with capacity of 75 cfs.Pump Station S199 is located on the west side of the C-111 Canal, south of Ingraham Highway and north of the S-177 gate structure with an excavated inlet canal connecting S-199 to the C-111 Canal.
 
+This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
 
 This feature was completed after the model time period (1987 to 2010), so no data is available for comparison.
 
@@ -3219,7 +3235,7 @@ This structure is a thirteen-barreled corrugated metal pipe culvert.
 
 The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-10 with 7 culverts, and S197-13 with 3 culverts (S197-03, S197-07 and S197-13) corresponding to opening of 3, 4 and 6 additional culverts (simulating opening of 3, 7 and 13 culverts total).
 
-The culverts 4 through 13 have been replaced since 2010. 
+The culverts 4 through 13 have been replaced since 2010.
 
 This structure (comprised by 13 culverts) is defined as Underflow with max rate of change of 0.000138 ft/s.
 
@@ -3448,6 +3464,14 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 
 \clearpage
 \subsection{Proposed Modifications to be considered}
+
+\subsubsection{Culverts 41 to 59}
+
+Remove the Discharge structures and keep the culvert as gravity flow.
+
+\subsubsection{Culverts 24 to 28}
+
+Implement all culverts as gravity flow (use the discharge timeseries for calibration).
 
 %----------------------------------------------------------
 \subsubsection{S335tab}
