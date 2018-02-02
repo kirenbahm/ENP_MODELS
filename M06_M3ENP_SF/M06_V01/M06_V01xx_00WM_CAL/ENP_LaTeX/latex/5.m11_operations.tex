@@ -2258,13 +2258,13 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>5.5 ft$, operate according to Table~\ref{tab:CS-S194open}.
+\item Priority 1: If $Mode=1$ and $H_{us}>5.5 ft$, and $Q_{str}<500$ cfs, operate according to Table~\ref{tab:CS-S194open}.
 \item Priority 2: If $Mode=1$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S194close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, operate according to Table~\ref{tab:CS-S194open}.
-\item Priority 4: If \textcolor[rgb]{1.00,0.00,0.00}{$Mode=1$} and $H_{us}<4.5 ft$, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, and $Q_{str}<500$ cfs, operate according to Table~\ref{tab:CS-S194open}.
+\item Priority 4: If $Mode=2$ and $H_{us}<4.5 ft$, operate according to Table~\ref{tab:CS-S194close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{us}>5.5 ft$, operate according to Table~\ref{tab:CS-S194open}.
+\item Priority 5: If $Mode=0$ and $H_{us}>5.5 ft$, and $Q_{str}<500$ cfs, operate according to Table~\ref{tab:CS-S194open}.
 \item Priority 6: If $Mode=0$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S194close}.
 \item[]
 \item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S194close}.
