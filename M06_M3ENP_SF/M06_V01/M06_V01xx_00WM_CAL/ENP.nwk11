@@ -1,4 +1,4 @@
-// Created     : 2018-02-8 12:54:34
+// Created     : 2018-02-8 13:32:23
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -26489,7 +26489,7 @@ model'
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 4.876799999999999, -0.4571999999999999, 4.206239999999999e-005, true, -0.4571999999999999, true, 1.6764, 0
+            Attributes = 1, 1, 0.63, 4.876799999999999, -0.4571999999999999, 4.206239999999999e-005, true, -0.4571999999999999, true, 3.2004, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -26540,7 +26540,7 @@ model'
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 2.1336, -1.524, 4.206239999999999e-005, true, 0, false, 0.6095999999999999, 0
+            Attributes = 1, 3, 0.63, 2.1336, -1.524, 4.206239999999999e-005, true, 0, false, 0.6095999999999999, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -26625,7 +26625,7 @@ model'
             HorizOffset = 0
             GateHeight = 2.4384
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 6.095999999999999, -0.3048, 4.206239999999999e-005, true, -0.3048, true, 2.1336, 0
+            Attributes = 1, 1, 0.63, 6.095999999999999, -0.3048, 4.206239999999999e-005, true, -0.3048, true, 2.7432, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -27229,7 +27229,7 @@ model'
             HorizOffset = 0
             GateHeight = 2.4384
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 3.6576, -0.9143999999999999, 4.206239999999999e-005, true, -0.9143999999999999, true, 1.524, 0
+            Attributes = 1, 1, 0.63, 3.048, -0.9143999999999999, 4.206239999999999e-005, true, -0.9143999999999999, true, 1.524, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -27438,7 +27438,7 @@ model'
             HorizOffset = 0
             GateHeight = 3.870959999999999
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 3, 0.63, 6.705599999999999, -2.1336, 4.206239999999999e-005, true, -2.1336, true, 1.73736, 0
+            Attributes = 1, 2, 0.63, 13.4112, -2.1336, 4.206239999999999e-005, true, -2.1336, true, 1.73736, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -28339,7 +28339,7 @@ model'
             HorizOffset = 0
             GateHeight = 2.1336
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 3, 0.63, 2.1336, -2.4384, 4.206239999999999e-005, true, 0, true, -0.3048, 0
+            Attributes = 1, 3, 0.63, 2.1336, -2.4384, 4.206239999999999e-005, true, -2.4384, true, -0.3048, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -28497,7 +28497,7 @@ model'
             HorizOffset = 13
             GateHeight = 2.1336
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 7, 0.63, 2.1336, -2.4384, 4.206239999999999e-005, true, 0, true, -0.3048, 0
+            Attributes = 1, 7, 0.63, 2.1336, -2.4384, 4.206239999999999e-005, true, -2.4384, true, -0.3048, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -28655,7 +28655,7 @@ model'
             HorizOffset = 25
             GateHeight = 2.1336
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 3, 0.63, 2.1336, -2.4384, 4.206239999999999e-005, true, 0, true, -0.3048, 0
+            Attributes = 1, 3, 0.63, 2.1336, -2.4384, 4.206239999999999e-005, true, -2.4384, true, -0.3048, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -29066,7 +29066,7 @@ model'
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 8, 0.63, 1.3716, 0, 4.206239999999999e-005, false, 0, false, 0, 0
+            Attributes = 1, 8, 0.63, 1.524, 0, 4.206239999999999e-005, false, 0, false, 0, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -30600,7 +30600,7 @@ model'
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 4, 0.63, 1.3716, 0, 4.206239999999999e-005, false, 0, false, 0, 0
+            Attributes = 1, 4, 0.63, 1.524, 0, 4.206239999999999e-005, false, 0, false, 0, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -31256,7 +31256,7 @@ model'
             HorizOffset = 0
             GateHeight = 3.718559999999999
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 6.095999999999999, -1.28016, 4.206239999999999e-005, true, -1.28016, true, 2.4384, 0
+            Attributes = 1, 1, 0.63, 6.095999999999999, -1.28016, 4.206239999999999e-005, true, -1.28016, true, 1.524, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -31531,209 +31531,6 @@ model'
                [control_strategy]
                   data = -1.24968, -1.28016
                   data = 2.4384, 2.40792
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-         EndSect  // control_str_data
-
-         [control_str_data]
-            Location = 'L-30', 2216.528816616, 'S335tab', 'model'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0, 0
-               InitialArea = 0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0
-            GateHeight = 0
-            HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 2, 1, 0.63, 0, 0, 0.02831684659199999, true, 0, false, 0, 0
-            RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
-            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
-            [logical_statement]
-               LS_parameter = 1, 5, 0, 5, 0
-               [logical_operands]
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 0, 1.8288, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-30', 2216.528816616, 'S335tab', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 2, 5, 33, 5, 0
-               [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.88976, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-30', 2216.528816616, 'S335tab', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-                  data = 0.06095999999999999, 2.831684659199999
-                  data = 0.12192, 4.813863920639999
-                  data = 0.18288, 6.229706250239998
-                  data = 0.24384, 6.796043182079997
-                  data = 0.3048, 7.362380113919998
-                  data = 0.3657599999999999, 7.928717045759997
-                  data = 0.4267199999999999, 8.495053977599998
-                  data = 0.6095999999999999, 8.495053977599998
-                  data = 0.6705599999999999, 8.495053977599998
-                  data = 0.7315199999999998, 14.8663444608
-                  data = 0.8534399999999999, 16.168919404032
-                  data = 3.048, 33.13071051263999
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 3, 5, 0, 5, 0
-               [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.76784, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-30', 2216.528816616, 'S335tab', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 4, 5, 2, 5, 0
-               [logical_operands]
-                  logicaloperand = 14, '', 0, '', 0, '', 0, 0, 0, 6, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 2, 'L-31N', 11332.09824, '', 0, '', 0, 2, 0, 0.2831684659199999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = 'L-31N', 11332.09824, 'G211', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-30', 2216.528816616, 'S335tab', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = -28.31684659199999, 0
-                  data = 0, 0
-                  data = 28.31684659199999, 14.158423296
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 5, 5, 0, 5, 0
-               [logical_operands]
-                  [LOSummation]
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-30', 2216.528816616, 'S335tab', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -32268,7 +32065,7 @@ model'
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 0, 2, 0.63, 1.8288, 2.1336, 4.206239999999999e-005, true, 2.1336, false, 0, 0
+            Attributes = 0, 2, 0.63, 1.8288, 0, 4.206239999999999e-005, true, 2.1336, false, 0, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -32320,7 +32117,7 @@ model'
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 0, 1, 0.63, 1.8288, 1.76784, 4.206239999999999e-005, true, 1.76784, false, 0, 0
+            Attributes = 0, 2, 0.63, 1.8288, 0.1524, 4.206239999999999e-005, true, 1.76784, false, 0, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
@@ -32537,59 +32334,7 @@ model'
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-357', 5524.804799999999, 'S357_Q', 'model'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0, 0
-               InitialArea = 0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0
-            GateHeight = 0
-            HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 2, 1, 0.63, 0, 0, 0.02831684659199999, false, 0, false, 0, 0
-            RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
-            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
-            [logical_statement]
-               LS_parameter = 1, 0, 10, 5, 0
-               [logical_operands]
-                  [LOSummation]
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'C-357', 5524.804799999999, 'S357_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S357_Q.dfs0|, 'S357_Q', 1, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-         EndSect  // control_str_data
-
-         [control_str_data]
-            Location = 'C-358', 1250.000000376, 'S357N_Q', 'model'
+            Location = 'C-358', 1250.000000376, 'S357N', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
