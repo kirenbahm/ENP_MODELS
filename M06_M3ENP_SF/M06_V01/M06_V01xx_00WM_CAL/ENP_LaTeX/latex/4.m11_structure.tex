@@ -1,0 +1,380 @@
+%=================================================================
+%=================================================================
+\section{M11 Physical Layout}
+%=================================================================
+%=================================================================
+
+\scriptsize
+\begin{table}[h]
+\caption{Control Structure Specifications}
+\label{tab:struc-specs1}
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+{ID}            & {Type}        & Num.     & Width       & Sill         & Max         & Initial         & Max       \\
+                &               & Gates    & (ft)        & Level        & Speed       & Value           & Value     \\
+                &               &          &             & (ft)         &             &                 &           \\
+\hline
+{C110culv}      & Overflow      & 1        & 6           & 2            & 0.0353      & 2               & -            \\
+{C110plug01}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug02}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug03}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug04}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug05}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug06}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug07}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug08}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug09}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{C110plug10}    & Overflow      & 1        & 196.85      & -18          & 0.0353      & -18             & -            \\
+{CUL24}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL25}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL26}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL27}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL28}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL41}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL42}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL43}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL44}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL45}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL46}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL47}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL48}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL49}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL50}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL51}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL52}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL53}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL54}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL55}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL56}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL58}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+{CUL59}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -            \\
+\hline
+\end{tabular}
+
+* \cite{corp2005}
+
+- indicates this values is not set for this structure
+
+N/A indicates this parameter is not applicable to this type of structure
+\end{table}
+\normalsize
+
+\scriptsize
+\begin{table}[h]
+\caption{Control Structure Specifications (cont'd)}
+\label{tab:struc-specs2}
+\begin{tabular}{@{}lccccccccc@{}}
+\toprule
+{ID}            & {Type}        & Num.     & Width       & Sill         & Max         & Initial         & Max     & Documentation  \\
+                &               & Gates    & (ft)        & Level        & Speed       & Value           & Value   & Date           \\
+                &               &          &             & (ft)         &             &                 &         &                \\
+\hline
+{G119}          & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       & 5/13/1993      \\
+{G211}          & Underflow     & 6*       & 6*          & -2.5*        & 0.00148     & -2.5*           & 3.5*    & 1/12/2000*      \\
+{G737S}         & Underflow     & 1        & 4.5         & -1           & 0.00148     & -1              & 3.5     &                 \\
+{L29plugWofS12} & Discharge     & 1        & N/A         & N/A          & 1           & -               & -       &                 \\
+{S12A\_Q}       & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &                 \\
+{S12B\_Q}       & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &                 \\
+{S12C\_Q}       & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &                 \\
+{S12D\_Q}       & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &                 \\
+{S12E}          & Underflow     & 1        & 9.84        & 5            & 0.00148     & 5               & 16.4    &                 \\
+{S167}          & Underflow     & 1*       & 12*         & -0.5*        & 0.00148     & -0.5*           & 6.5*    & 11/18/1997*      \\
+{S174}          & Underflow     & 1*       & 16*         & -1.5*        & 0.00148     & -1.5*           & 5.5     & 12/5/1995*      \\
+{S175}          & Underflow     & 1        & 7*          & -5*          & 0.00148     & -5*             & -       & 12/5/1995*      \\
+{S176}          & Underflow     & 1*       & 20*         & -1*          & 0.00148     & -1*             & 7       & 12/5/1995*      \\
+{S177}          & Underflow     & 1*       & 22*         & -7.1*        & 0.00148     &   -7.1*         & 6.9*    & 6/17/1994*      \\
+{S178}          & Underflow     & 1*       & 12          & -3*          & 0.00148     & -3*             & 5*      & 6/17/1994*      \\
+{S18C}          & Underflow     & 3        & 22          & -7*          & 0.00148     & -7*             & 5.7*    & 6/20/1997*      \\
+{S194}          & Underflow     & 2*       & 7*          & -3.5*        & 0.00148     & -3.5*           & 3.5*    & 6/17/1994*      \\
+{S196}          & Underflow     & 1*       & 7*          & -3.5*        & 0.00148     & -3.5*           & 3.5*    & 6/17/1994*      \\
+{S197-03}       & Underflow     & 3*       & 7*          & -8*          & 0.00148     & 0               & -1*     & 5/11/1993*      \\
+{S197-10}       & Underflow     & 7*       & 7*          & -8*          & 0.00148     & 0               & -1*     & 5/11/1993*      \\
+{S197-13}       & Underflow     & 3*       & 7*          & -8*          & 0.00148     & 0               & -1*     & 5/11/1993*      \\
+{S199}          & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &                 \\
+{S200}          & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &                 \\
+{S328}          & Underflow     & 8        & 4.5         & 0            & 0.00148     & -               & -       &                 \\
+\hline
+\end{tabular}
+
+* \cite{corp2005}
+
+S-328 As-Built Drawings 2002.pdf
+
+- indicates this values is not set for this structure
+
+N/A indicates this parameter is not applicable to this type of structure
+\end{table}
+\normalsize
+
+\scriptsize
+\begin{table}[h]
+\caption{Control Structure Specifications (cont'd)}
+\label{tab:struc-specs3}
+\begin{tabular}{@{}lccccccccc@{}}
+\toprule
+{ID}            & {Type}        & Num.     & Width       & Sill         & Max         & Initial         & Max     & Documentation  \\
+                &               & Gates    & (ft)        & Level        & Speed       & Value           & Value   & Date           \\
+                &               &          &             & (ft)         &             &                 &         &                \\
+\hline
+{S331\_S173}    & Discharge     & 1*       & 6*          & -2.5         & 1           & 0               & 339     & 1/11/2001*  \\
+{S331P}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & 1160    & 1/10/2000*  \\
+{S331S}         & Discharge     & 1        & N/A         & N/A          & 1           & 0               & 400     &             \\
+{S332BN1}       & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &             \\
+{S332BW1}       & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &             \\
+{S332C1}        & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &             \\
+{S332D1}        & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &             \\
+{S332D2}        & Discharge     & 1        & N/A         & N/A          & 1           & 0               & -       &             \\
+{S332DX1}       & Underflow     & 4        & 4.5         & 0            & 0.00148     & -               & -       &             \\
+{S333}          & Underflow     & 1*       & 29*         & -3.1*        & 0.00148     & -3.1*           & 8.5*    & 1/10/2000*  \\
+{S334}          & Underflow     & 1*       & 29*         & -6.9*        & 0.00148     & -6.9*           & 6.2*    & 3/30/1999*  \\
+{S335}          & Underflow     & 1*       & 20*         & -4.2*        & 0.00148     & -4.2*           & 8       & 3/12/1999*  \\
+{S335tab}       & Discharge     & 1        & N/A         & N/A          & 1           &  0              & -       &             \\
+{S336}          & Discharge     & 1        & N/A         & N/A          & 1           &  0              & -       & 6/12/1994*  \\
+{S338}          & Underflow     & 2*       & 7*          & -4.5*        & 0.00148     &  -4.5*          & 2.5*    & 12/5/1995*  \\
+{S343A}         & Discharge     & 1        & N/A         & N/A          & 1           &  -              & -       &             \\
+{S343B}         & Discharge     & 1        & N/A         & N/A          & 1           &  -              & -       &             \\
+{S346}          & Overflow      & 2*       & 6*          & 7            & 0.00148     &  7              & -       & 5/13/1993*  \\
+{S347}          & Overflow      & 1        & 6*          & 5.8          & 0.00148     &  5.8            & -       & 5/13/1993*  \\
+{S356}          & Discharge     & 1        & N/A         & N/A          & 1           &  0              & -       &             \\
+{S357}          & Discharge     & 1        & N/A         & N/A          & 1           &  -              & -       &             \\
+{S357\_Q}       & Discharge     & 1        & N/A         & N/A          & 1           &  -              & -       &             \\
+{S357N\_Q}      & Discharge     & 1        & N/A         & N/A          & 1           &  -              & -       &             \\
+\hline
+\end{tabular}
+
+* \cite{corp2005}
+
+- indicates this values is not set for this structure
+
+N/A indicates this parameter is not applicable to this type of structure
+\end{table}
+\normalsize
+
+\begin{table}[]
+\caption{Culvert Specifications}
+\label{tab:culv-specs1}
+\begin{tabular}{@{}lcccccccccc@{}}
+\toprule
+Culvert       & Valve      & Num.     & Geom.& Width  & Height & Diam.    & Len.   & Upstr.    & Dwnstr.    \\
+Name          & Reg.       &          & Type & (ft)   & (ft)   & (ft)     & (ft)   & Inv.(ft)  & Inv.(ft)   \\
+\midrule
+culvert\_41   & None       & 3        & Circ &        &       & 4.5      & 61.6   & 4.7       & 5          \\
+culvert\_42   & None       & 3        & Circ &        &       & 5        & 61     & 4.4       & 4.5        \\
+culvert\_43   & None       & 3        & Circ &        &       & 5        & 61     & 3.8       & 4.2        \\
+culvert\_44   & None       & 3        & Circ &        &       & 4.5      & 62     & 3.8       & 4          \\
+culvert\_45   & None       & 3        & Circ &        &       & 5        & 85     & 4.2       & 4.2        \\
+culvert\_46   & None       & 3        & Circ &        &       & 4        & 60.5   & 3.6       & 4.1        \\
+culvert\_47   & None       & 3        & Circ &        &       & 5        & 61.5   & 4.1       & 4          \\
+culvert\_48   & None       & 3        & Circ &        &       & 4.5      & 61     & 4.9       & 4.9        \\
+culvert\_49   & None       & 4        & Circ &        &       & 5        & 62.7   & 2.2       & 2.4        \\
+culvert\_50   & None       & 3        & Circ &        &       & 5        & 62     & 3         & 3.1        \\
+culvert\_51   & None       & 3        & Circ &        &       & 4        & 61     & 4.1       & 4.1        \\
+culvert\_52   & No Flow    & 1        & Circ &        &       & 5        & 61.5   & 2.9       & 3.1        \\
+culvert\_53   & None       & 3        & Circ &        &       & 5        & 60.5   & 3.8       & 3.6        \\
+culvert\_54   & None       & 2        & Circ &        &       & 4.5      & 60.2   & 3.5       & 3.8        \\
+culvert\_55   & None       & 3        & Circ &        &       & 5        & 62.8   & 4.1       & 4.2        \\
+culvert\_56   & No Flow    & 3        & Circ &        &       & 4        & 61     & 3.6       & 3.6        \\
+culvert\_58   & No Flow    & 3        & Circ &        &       & 3.5      & 61.5   & 4.1       & 4.1        \\
+culvert\_59   & None       & 3        & Circ &        &       & 4        & 62     & 3.8       & 3.9        \\
+CLR\_003\_DS  & None       & 1        & Rect & 50     & 5     &          & 27     & 5.67      & 4.5        \\
+CLR\_004\_DS  & None       & 2        & Rect & 60     & 5     &          & 24     & 2.53      & 2.4        \\
+CLR\_006\_DS  & None       & 5        & Circ &        &       & 2        & 35     & 2.56      & 2.035      \\
+CLR\_011\_DS  & None       & 2        & Rect & 10.5   & 3.8   &          & 28.2   & 2.52      & 2.216      \\
+CLR\_032\_DS  & None       & 3        & Rect & 7      & 3     &          & 25     & 1.73      & 1.5        \\
+CLR\_036\_DS  & None       & 9        & Circ &        &       & 2.7      & 28.2   & 2         & 1.8        \\
+CLR\_043\_DS  & None       & 8        & Circ &        &       & 3        & 25.2   & 2.56      & 2.4        \\
+CLR\_045\_DS  & None       & 4        & Circ &        &       & 2        & 24     & 1.45      & 1.2        \\
+CLR\_048\_DS  & None       & 4        & Circ &        &       & 2.5      & 24     & 1.35      & 1.5        \\
+CLR\_049\_DS  & None       & 1        & Rect & 8      & 3     &          & 25.5   & 1.2       & 1.05       \\
+CLR\_053\_DS  & None       & 1        & Rect & 25     & 3     &          & 27     & 1.55      & 1.625      \\
+CLR\_057\_DS  & None       & 10       & Circ &        &       & 2.4      & 24.75  & 0.525     & 0.3        \\
+CLR\_060\_DS  & None       & 2        & Rect & 10     & 3.2   &          & 24     & 1.9       & 1.7        \\
+CLR\_080\_DS  & None       & 1        & Rect & 20     & 4     &          & 29     & 1.55      & 1.325      \\
+CLR\_063\_DS  & None       & 2        & Rect & 7.2    & 3     &          & 25.3   & 1.2       & 1.07       \\
+CLR\_065\_DS  & None       & 4        & Rect & 7.5    & 3     &          & 28.2   & 1.2       & 0.91       \\
+CLR\_071\_DS  & None       & 4        & Rect & 7.5    & 3     &          & 29     & 1.75      & 1.61       \\
+CLR\_082\_DS  & None       & 3        & Circ &        &       & 2.7      & 36     & 1.4       & 1.2        \\
+CLR\_083\_DS  & None       & 2        & Circ &        &       & 2.7      & 33     & -0.5      & -0.5       \\
+CLR\_085\_DS  & None       & 4        & Circ &        &       & 2.7      & 36     & 1.3       & 1.3        \\
+CLR\_025\_DS  & None       & 1        & Rect & 20     & 4     &          & 31.6   & 1.48      & 1.92       \\
+CLR\_022\_DS  & None       & 1        & Rect & 15     & 3     &          & 31.7   & 2.45      & 2.22       \\
+CLR\_015\_DS  & None       & 1        & Rect & 14     & 3.5   &          & 30     & 3         & 2.5        \\
+CLR\_002\_DS  & None       & 1        & Rect & 100    & 5     &          & 27     & 6.2       & 5.07       \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption{Culvert Specifications (cont'd)}
+\label{tab:culv-specs2}
+\begin{tabular}{@{}lcccccccccc@{}}
+\toprule
+Culvert       & Valve      & Num.     & Geom.& Width  & Height & Diam.    & Len.   & Upstr.    & Dwnstr.    \\
+Name          & Reg.       &          & Type & (ft)   & (ft)   & (ft)     & (ft)   & Inv.(ft)  & Inv.(ft)   \\
+\midrule
+CMP\_006\_US  & None       & 9        & Circ &        &       & 2        & 30     & 4.5       & 4.5        \\
+CMP\_012\_US  & None       & 6        & Circ &        &       & 2        & 30     & 4.8       & 4.8        \\
+CMP\_018\_US  & None       & 4        & Circ &        &       & 3        & 30     & 4.7       & 4.7        \\
+CMP\_022\_US  & None       & 3        & Circ &        &       & 3        & 30     & 4.3       & 4.3        \\
+CMP\_023\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.51      & 5.51       \\
+CMP\_024\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.43      & 5.43       \\
+CMP\_025\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.48      & 5.48       \\
+CMP\_026\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.48      & 5.48       \\
+CMP\_028\_US  & None       & 2        & Circ &        &       & 2        & 30     & 5.7       & 5.7        \\
+CMP\_029\_US  & None       & 1        & Circ &        &       & 2        & 30     & 6         & 6          \\
+CMP\_030\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.6       & 5.6        \\
+CMP\_031\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.6       & 5.6        \\
+CMP\_032\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.17      & 5.17       \\
+CMP\_033\_US  & None       & 1        & Circ &        &       & 2        & 30     & 5.34      & 5.34       \\
+CMP\_034\_US  & None       & 3        & Circ &        &       & 2        & 30     & 4.22      & 4.22       \\
+CMP\_038\_US  & None       & 4        & Circ &        &       & 2        & 30     & 4.3       & 4.3        \\
+CMP\_043\_US  & None       & 4        & Circ &        &       & 2        & 30     & 4.2       & 4.2        \\
+CMP\_047\_US  & None       & 6        & Circ &        &       & 2        & 30     & 2.5       & 2.5        \\
+CMP\_051\_US  & None       & 3        & Circ &        &       & 2        & 30     & 2.4       & 2.4        \\
+CMP\_054\_US  & None       & 3        & Circ &        &       & 2        & 30     & 2.3       & 2.3        \\
+CMP\_056\_US  & None       & 1        & Circ &        &       & 2        & 30     & 3.32      & 3.32       \\
+CMP\_057\_US  & None       & 1        & Circ &        &       & 2        & 30     & 3.82      & 3.82       \\
+CMP\_059\_US  & None       & 3        & Circ &        &       & 2        & 30     & 3.3       & 3.3        \\
+CMP\_061\_US  & None       & 3        & Circ &        &       & 2        & 30     & 3.1       & 3.1        \\
+CMP\_065\_US  & None       & 3        & Circ &        &       & 2        & 30     & 2.9       & 2.9        \\
+CMP\_068\_US  & None       & 5        & Circ &        &       & 2        & 30     & 2.95      & 2.95       \\
+CMP\_075\_US  & None       & 5        & Circ &        &       & 2        & 30     & 2.96      & 2.96       \\
+CMP\_078\_US  & None       & 5        & Circ &        &       & 2        & 30     & 3.6       & 3.6        \\
+CMP\_083\_US  & None       & 4        & Circ &        &       & 3        & 30     & 3.63      & 3.63       \\
+CMP\_087\_US  & None       & 4        & Circ &        &       & 2        & 30     & 3.65      & 3.65       \\
+CMP\_092\_US  & None       & 5        & Circ &        &       & 2        & 30     & 3.55      & 3.55       \\
+CMP\_100\_US  & None       & 10       & Circ &        &       & 2        & 30     & 3.55      & 3.55       \\
+CMP\_111\_US  & None       & 11       & Circ &        &       & 2        & 30     & 3.7       & 3.7        \\
+CMP\_121\_US  & None       & 10       & Circ &        &       & 2        & 30     & 2.9       & 2.9        \\
+CMP\_131\_US  & None       & 9        & Circ &        &       & 2        & 30     & 2.7       & 2.7        \\
+CMP\_143\_US  & None       & 12       & Circ &        &       & 2        & 30     & 2.65      & 2.65       \\
+CMP\_151\_US  & None       & 13       & Circ &        &       & 2        & 30     & 2.7       & 2.7        \\
+CMP\_164\_US  & None       & 7        & Circ &        &       & 2        & 30     & 3.8       & 3.8        \\
+CMP\_172\_US  & None       & 6        & Circ &        &       & 3        & 30     & 3.67      & 3.67       \\
+CMP\_175\_US  & None       & 4        & Circ &        &       & 2        & 30     & 3.8       & 3.8        \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption{Culvert Specifications (cont'd)}
+\label{tab:culv-specs3}
+\begin{tabular}{@{}lcccccccccc@{}}
+\toprule
+Culvert       & Valve      & Num.     & Geom.& Width  & Height & Diam.    & Len.   & Upstr.    & Dwnstr.    \\
+Name          & Reg.       &          & Type & (ft)   & (ft)   & (ft)     & (ft)   & Inv.(ft)  & Inv.(ft)   \\
+\midrule
+CLR\_001\_DS  & None       & 1        & Circ &        &       & 2        & 27     & 4.54      & 4.23       \\
+CTT\_023\_DS  & None       & 1        & Rect & 98.4   & 4.9   &          & 30     & 3.94      & 3.28       \\
+culvert\_57   & No Flow    & 3        & Circ &        &       & 4        & 60.7   & 3.4       & 3.3        \\
+G737          & None       & 3        & Circ &        &       & 4.5      & 30     & -1        & -1         \\
+CTT\_077\_US  & None       & 1        & Rect & 20     & 2     &          & 30     & 1         & 1          \\
+CTT\_078\_US  & None       & 1        & Rect & 20     & 2     &          & 30     & 1         & 1          \\
+CTT\_078A\_US & None       & 1        & Rect & 20     & 2     &          & 30     & 1         & 1          \\
+CTT\_080\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_081\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_082\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_083\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_084\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_085\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_086\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_087\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_088\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_089\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_090\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_091\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_092\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_093\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_094\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_095\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_096\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_097\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_098\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_099\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_100\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_101\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_102\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_103\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_104\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_105\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_106\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_107\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_108\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_109\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_110\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_111\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+CTT\_112\_US  & None       & 1        & Rect & 30     & 2     &          & 30     & 1         & 1          \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption{Culvert Specifications (cont'd)}
+\label{tab:culv-specs4}
+\begin{tabular}{@{}lcccccccccc@{}}
+\toprule
+Culvert       & Valve      & Num.     & Geom.& Width  & Height & Diam.    & Len.   & Upstr.    & Dwnstr.    \\
+Name          & Reg.       &          & Type & (ft)   & (ft)   & (ft)     & (ft)   & Inv.(ft)  & Inv.(ft)   \\
+\midrule
+CTT\_113\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+CTT\_114\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+CTT\_115\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+CTT\_116\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+CTT\_117\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+CTT\_022\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+CTT\_079\_US  & None       & 1        & Rect & 30     & 2      &          & 30     & 1         & 1          \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+\caption[Broad Crested Weir Dimensions.]{Broad Crested Weir Dimensions. All values are in feet NGVD29.}
+\label{tab:weirs}
+\begin{tabular}{llcccccccc}
+\hline
+Structure         & Canal            & Valve     & Sill    & Width   & Max   & Max   & Datum & Date      & Date       \\
+                  &                  &           & Level   & at Sill & Height& Width & Shift & Built     & Removed    \\
+\hline
+W-S360E           & NDA              & No Flow   &  10.5   & 350     & 12    & 386   & 0     &           &            \\
+W-S360W           & NDA              & No Flow   &  11.0   & 350     & 12    & 374   & 0     &           &            \\
+W-S332BN-E        & S332BN\_overflow & None      &  10.5   & 400     & 12    & 485   & 0     &           &            \\
+W-S332B-PC        & SDAC             & None      &  varies & 350     & 14.83 & 410   & 0     &           &            \\
+W-S332C-PC        & SDAC             & None      &  varies & 500     & 14.8  & 520   & 0     &           &            \\
+FPhighhead        & FP               & None      &  8.1    & 1900    & 12    & 2000  & 0     &           &            \\
+FPearth           & FP               & None      &  6.5    & 1900    & 12    & 2000  & 0     &           &            \\
+B3                & FP               & None      &  6.0    & 1900    & 12    & 2000  & 0     &           &            \\
+S202-A            & FPDA-C1          & None      &  varies & 150     & 10    & 250   & 5.1   &           &            \\
+S202-B            & FPDA-C2          & None      &  varies & 300     & 10    & 400   & 5.1   &           &            \\
+S202-C            & FPDA-C3          & None      &  varies & 400     & 10    & 500   & 5.1   &           &            \\
+W-AJ-CONC         & AeroJet-EXT      & None      &  0.0    & 50      & 5     & 50    & 8.0   &           &            \\
+TTeastBridge      & TTeastBridge     & None      &  5.7    & 5100    & 10    & 5200  & 0     &           &            \\
+W-S332BsouthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0     &           &            \\
+W-S332CnorthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0     &           &            \\
+W-S332CsouthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0     &           &            \\
+W-S332C-E         & S332C\_overflow  & None      &  10.2   & 1450    & 12    & 1500  & 0     &           &            \\
+W-S332BNnorthLevee& NDA              & No Flow   &  7      & 3117    & 12    & 3199  & 0     &           &            \\
+W-S332BW-W        & S332BW\_overflow & None      &  8.4    & 1507    & 12    & 1517  & 0     &           &            \\
+\hline
+\end{tabular}
+Data Sources:
+
+8.5 SMA As-Builts
+
+IOP C111
+
+IOP C3
+
+Frog Pond As-Builts
+
+AreoJet As-Builts
+
+\end{table}
+
+
+
+%=============================================================================================
+\subsection{Overview}
+%=============================================================================================
+
+\cleardoublepage
+
