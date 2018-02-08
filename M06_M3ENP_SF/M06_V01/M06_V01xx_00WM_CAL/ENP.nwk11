@@ -1,4 +1,4 @@
-// Created     : 2018-02-8 8:7:20
+// Created     : 2018-02-6 8:26:41
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -29712,8 +29712,8 @@ model'
                   data = 1.43256, 0
                   data = 1.435608, 3.539605823999999
                   data = 1.524, 7.079211647999998
-                  data = 1.8288, 9.202975142399996
-                  data = 3.6576, 9.202975142399996
+                  data = 1.8288, 7.079211647999998
+                  data = 3.6576, 7.079211647999998
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -29755,8 +29755,8 @@ model'
                   data = 1.43256, 0
                   data = 1.435608, 3.539605823999999
                   data = 1.524, 7.079211647999998
-                  data = 1.8288, 9.202975142399996
-                  data = 3.6576, 9.202975142399996
+                  data = 1.8288, 7.079211647999998
+                  data = 3.6576, 7.079211647999998
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -29798,8 +29798,8 @@ model'
                   data = 1.3716, 0
                   data = 1.374648, 3.539605823999999
                   data = 1.46304, 7.079211647999998
-                  data = 1.8288, 9.202975142399996
-                  data = 3.6576, 9.202975142399996
+                  data = 1.8288, 7.079211647999998
+                  data = 3.6576, 7.079211647999998
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -29937,8 +29937,8 @@ model'
                   data = 1.43256, 0
                   data = 1.435608, 3.539605823999999
                   data = 1.524, 7.079211647999998
-                  data = 1.8288, 7.079211647999998
-                  data = 3.6576, 7.079211647999998
+                  data = 1.8288, 9.202975142399996
+                  data = 3.6576, 9.202975142399996
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -29980,8 +29980,8 @@ model'
                   data = 1.43256, 0
                   data = 1.435608, 3.539605823999999
                   data = 1.524, 7.079211647999998
-                  data = 1.8288, 7.079211647999998
-                  data = 3.6576, 7.079211647999998
+                  data = 1.8288, 9.202975142399996
+                  data = 3.6576, 9.202975142399996
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -30023,8 +30023,8 @@ model'
                   data = 1.3716, 0
                   data = 1.374648, 3.539605823999999
                   data = 1.46304, 7.079211647999998
-                  data = 1.8288, 7.079211647999998
-                  data = 3.6576, 7.079211647999998
+                  data = 1.8288, 9.202975142399996
+                  data = 3.6576, 9.202975142399996
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -30088,7 +30088,7 @@ model'
             [logical_statement]
                LS_parameter = 1, 5, 35, 5, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.41732, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 22, '', 0, '', 0, '', 0, 0, 0, 30.4796952, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30106,7 +30106,7 @@ model'
                EndSect  // TargetSummation
 
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
+               iterate = 0.0999999999999999, 0, 0.09999999999999999, 0.09999999999999999
                [control_strategy]
                   data = 0, 0
                   data = 1.34112, 0
@@ -30131,9 +30131,14 @@ model'
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 5, 0, 5, 0
+               LS_parameter = 2, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.3716, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30154,6 +30159,11 @@ model'
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
                   data = 0, 0
+                  data = 1.43256, 0
+                  data = 1.435608, 7.079211647999998
+                  data = 1.524, 14.158423296
+                  data = 1.8288, 14.158423296
+                  data = 3.6576, 16.28218679039999
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -30164,7 +30174,93 @@ model'
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 5, 0, 5, 0
+               LS_parameter = 3, 0, 19, 5, 0
+               [logical_operands]
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0
+               EndSect  // TargetSummation
+
+               pid_variables = 1, 300, 0.8, 1, 0.7, 1
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0, 0
+                  data = 1.43256, 0
+                  data = 1.435608, 7.079211647999998
+                  data = 1.524, 14.158423296
+                  data = 1.8288, 14.158423296
+                  data = 3.6576, 16.28218679039999
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 4, 0, 19, 5, 0
+               [logical_operands]
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.3716, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0
+               EndSect  // TargetSummation
+
+               pid_variables = 1, 300, 0.8, 1, 0.7, 1
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0, 0
+                  data = 1.3716, 0
+                  data = 1.374648, 7.079211647999998
+                  data = 1.46304, 14.158423296
+                  data = 1.8288, 14.158423296
+                  data = 3.6576, 16.28218679039999
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 5, 5, 0, 5, 0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -30184,7 +30280,6 @@ model'
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = 0, 0
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
