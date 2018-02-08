@@ -151,7 +151,6 @@ N/A indicates this parameter is not applicable to this type of structure
 \normalsize
 
 \begin{table}[]
-\centering
 \caption{Culvert Specifications}
 \label{tab:culv-specs1}
 \begin{tabular}{@{}lcccccccccc@{}}
@@ -206,7 +205,6 @@ CLR\_002\_DS  & None       & 1        & Rect & 100    & 5     &          & 27   
 \end{table}
 
 \begin{table}[]
-\centering
 \caption{Culvert Specifications (cont'd)}
 \label{tab:culv-specs2}
 \begin{tabular}{@{}lcccccccccc@{}}
@@ -259,7 +257,6 @@ CMP\_175\_US  & None       & 4        & Circ &        &       & 2        & 30   
 \end{table}
 
 \begin{table}[]
-\centering
 \caption{Culvert Specifications (cont'd)}
 \label{tab:culv-specs3}
 \begin{tabular}{@{}lcccccccccc@{}}
@@ -312,7 +309,6 @@ CTT\_112\_US  & None       & 1        & Rect & 30     & 2     &          & 30   
 \end{table}
 
 \begin{table}[]
-\centering
 \caption{Culvert Specifications (cont'd)}
 \label{tab:culv-specs4}
 \begin{tabular}{@{}lcccccccccc@{}}
@@ -332,35 +328,46 @@ CTT\_079\_US  & None       & 1        & Rect & 30     & 2      &          & 30  
 \end{table}
 
 \begin{table}[!h]
-\centering
 \caption[Broad Crested Weir Dimensions.]{Broad Crested Weir Dimensions. All values are in feet NGVD29.}
 \label{tab:weirs}
-\begin{tabular}{llcccccc}
+\begin{tabular}{llcccccccc}
 \hline
-Structure         & Canal            & Valve     & Sill    & Width   & Max   & Max   & Datum\\
-                  &                  &           & Level   & at Sill & Height& Width & Shift\\
+Structure         & Canal            & Valve     & Sill    & Width   & Max   & Max   & Datum & Date      & Date       \\
+                  &                  &           & Level   & at Sill & Height& Width & Shift & Built     & Removed    \\
 \hline
-W-S360E           & NDA              & No Flow   &  10.5   & 350     & 12    & 386   & 0    \\
-W-S360W           & NDA              & No Flow   &  11.0   & 350     & 12    & 374   & 0    \\
-W-S332BN-E        & S332BN\_overflow & None      &  10.5   & 400     & 12    & 485   & 0    \\
-W-S332B-PC        & SDAC             & None      &  varies & 350     & 14.83 & 410   & 0    \\
-W-S332C-PC        & SDAC             & None      &  varies & 500     & 14.8  & 520   & 0    \\
-FPhighhead        & FP               & None      &  8.1    & 1900    & 12    & 2000  & 0    \\
-FPearth           & FP               & None      &  6.5    & 1900    & 12    & 2000  & 0    \\
-B3                & FP               & None      &  6.0    & 1900    & 12    & 2000  & 0    \\
-S202-A            & FPDA-C1          & None      &  varies & 150     & 10    & 250   & 5.1  \\
-S202-B            & FPDA-C2          & None      &  varies & 300     & 10    & 400   & 5.1  \\
-S202-C            & FPDA-C3          & None      &  varies & 400     & 10    & 500   & 5.1  \\
-W-AJ-CONC         & AeroJet-EXT      & None      &  0.0    & 50      & 5     & 50    & 8.0  \\
-TTeastBridge      & TTeastBridge     & None      &  5.7    & 5100    & 10    & 5200  & 0    \\
-W-S332BsouthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0    \\
-W-S332CnorthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0    \\
-W-S332CsouthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0    \\
-W-S332C-E         & S332C\_overflow  & None      &  10.2   & 1450    & 12    & 1500  & 0    \\
-W-S332BNnorthLevee& NDA              & No Flow   &  7      & 3117    & 12    & 3199  & 0    \\
-W-S332BW-W        & S332BW\_overflow & None      &  8.4    & 1507    & 12    & 1517  & 0    \\
+W-S360E           & NDA              & No Flow   &  10.5   & 350     & 12    & 386   & 0     &           &            \\
+W-S360W           & NDA              & No Flow   &  11.0   & 350     & 12    & 374   & 0     &           &            \\
+W-S332BN-E        & S332BN\_overflow & None      &  10.5   & 400     & 12    & 485   & 0     &           &            \\
+W-S332B-PC        & SDAC             & None      &  varies & 350     & 14.83 & 410   & 0     &           &            \\
+W-S332C-PC        & SDAC             & None      &  varies & 500     & 14.8  & 520   & 0     &           &            \\
+FPhighhead        & FP               & None      &  8.1    & 1900    & 12    & 2000  & 0     &           &            \\
+FPearth           & FP               & None      &  6.5    & 1900    & 12    & 2000  & 0     &           &            \\
+B3                & FP               & None      &  6.0    & 1900    & 12    & 2000  & 0     &           &            \\
+S202-A            & FPDA-C1          & None      &  varies & 150     & 10    & 250   & 5.1   &           &            \\
+S202-B            & FPDA-C2          & None      &  varies & 300     & 10    & 400   & 5.1   &           &            \\
+S202-C            & FPDA-C3          & None      &  varies & 400     & 10    & 500   & 5.1   &           &            \\
+W-AJ-CONC         & AeroJet-EXT      & None      &  0.0    & 50      & 5     & 50    & 8.0   &           &            \\
+TTeastBridge      & TTeastBridge     & None      &  5.7    & 5100    & 10    & 5200  & 0     &           &            \\
+W-S332BsouthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0     &           &            \\
+W-S332CnorthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0     &           &            \\
+W-S332CsouthLevee & SDA              & No Flow   &  7      & 2000    & 12    & 2100  & 0     &           &            \\
+W-S332C-E         & S332C\_overflow  & None      &  10.2   & 1450    & 12    & 1500  & 0     &           &            \\
+W-S332BNnorthLevee& NDA              & No Flow   &  7      & 3117    & 12    & 3199  & 0     &           &            \\
+W-S332BW-W        & S332BW\_overflow & None      &  8.4    & 1507    & 12    & 1517  & 0     &           &            \\
 \hline
 \end{tabular}
+Data Sources:
+
+8.5 SMA As-Builts
+
+IOP C111
+
+IOP C3
+
+Frog Pond As-Builts
+
+AreoJet As-Builts
+
 \end{table}
 
 
