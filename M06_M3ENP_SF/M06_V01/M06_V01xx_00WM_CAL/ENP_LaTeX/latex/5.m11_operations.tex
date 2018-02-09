@@ -3371,112 +3371,75 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 %\end{figure}
 
 \clearpage
-\subsection{Proposed Modifications to be considered}
-
-\subsubsection{Boundaries to be checked}
-
-Check the boundaries of G119TW, S194, S196 to point to correct files, some of the models have this issue.
 
 
-\subsubsection{Culverts 41 to 59}
+%\subsubsection{S332D}
+%
+%PROPOSED STRUCTURE OPERATION: It is proposed to combine structures S332D1 and S332D2 (which are two operation setups for structure S332D) into one single operation set up which will be called S332D:
+%
+%\begin{packed_items}
+%\item Priority 1: When HW $<$ 4.65 and $Mode>=0$ structure is Close
+%\item Priority 2: When HW $<$ 4.5 and $Mode>=1$ structure is Close
+%\item Priority 3: When HW $<$ 4.65 and $Mode>=2$ structure is Close
+%\item Priority 4: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
+%\item Priority 5: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
+%\item Priority 6: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
+%\item Priority 7: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
+%\item Priority 8: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
+%\item Priority 9: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
+%\item Priority 10: When stage $<$ 0.0, close
+%\end{packed_items}
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategies for S332D}
+%\label{tab:CS-S332DA}
+%\begin{tabular}{l|rr}
+%\hline
+%\textbf{HW (ft)} &  \textbf{S332D} \\
+%\textbf{       } & \textbf{Q (cfs)} \\
+%\hline
+%4	     &    165  \\
+%10	     &    165  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategies for S332D}
+%\label{tab:CS-S332DB}
+%\begin{tabular}{l|rr}
+%\hline
+%\textbf{HW (ft)} &  \textbf{S332D} \\
+%\textbf{       } & \textbf{Q (cfs)} \\
+%\hline
+%4	     &    325  \\
+%10	     &    500  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategies for S332D}
+%\label{tab:CS-S332DC}
+%\begin{tabular}{l|rr}
+%\hline
+%\textbf{HW (ft)} &  \textbf{S332D} \\
+%\textbf{       } & \textbf{Q (cfs)} \\
+%\hline
+%4	     &    325  \\
+%10	     &    325  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
-Remove the Discharge structures and keep the culvert as gravity flow.
-
-\subsubsection{Culverts 24 to 28}
-
-Implement all culverts as gravity flow (use the discharge timeseries for calibration).
-
-%----------------------------------------------------------
-\subsubsection{S335tab}
-%----------------------------------------------------------
-
-The Max speed for gate opening is 1 ft/sec.
-
-PROPOSED STRUCTURE CHANGE: Combine S335tab and S335 into one single structure.
-
-\begin{packed_items}
-\item Priority 1: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
-\item Priority 2: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
-\item Priority 3: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
-\item Priority 4: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
-\item Priority 5: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
-\end{packed_items}
-
-
-\subsubsection{S332D}
-
-PROPOSED STRUCTURE OPERATION: It is proposed to combine structures S332D1 and S332D2 (which are two operation setups for structure S332D) into one single operation set up which will be called S332D:
-
-\begin{packed_items}
-\item Priority 1: When HW $<$ 4.65 and $Mode>=0$ structure is Close
-\item Priority 2: When HW $<$ 4.5 and $Mode>=1$ structure is Close
-\item Priority 3: When HW $<$ 4.65 and $Mode>=2$ structure is Close
-\item Priority 4: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
-\item Priority 5: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
-\item Priority 6: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
-\item Priority 7: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
-\item Priority 8: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
-\item Priority 9: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
-\item Priority 10: When stage $<$ 0.0, close
-\end{packed_items}
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategies for S332D}
-\label{tab:CS-S332DA}
-\begin{tabular}{l|rr}
-\hline
-\textbf{HW (ft)} &  \textbf{S332D} \\
-\textbf{       } & \textbf{Q (cfs)} \\
-\hline
-4	     &    165  \\
-10	     &    165  \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategies for S332D}
-\label{tab:CS-S332DB}
-\begin{tabular}{l|rr}
-\hline
-\textbf{HW (ft)} &  \textbf{S332D} \\
-\textbf{       } & \textbf{Q (cfs)} \\
-\hline
-4	     &    325  \\
-10	     &    500  \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategies for S332D}
-\label{tab:CS-S332DC}
-\begin{tabular}{l|rr}
-\hline
-\textbf{HW (ft)} &  \textbf{S332D} \\
-\textbf{       } & \textbf{Q (cfs)} \\
-\hline
-4	     &    325  \\
-10	     &    325  \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-\subsubsection{S357\_Q (Pump)}
-
-PROPOSED STRUCTURE SETUP: It is proposed to combine the two structures into a single structure which is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
-
-\subsubsection{S335 and S335tab}
-
-PROPOSED STRUCTURE CHANGE: Combine S335tab and S335 into one single structure.
 
 \cleardoublepage
