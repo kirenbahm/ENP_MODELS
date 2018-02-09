@@ -30,6 +30,25 @@
                >
                </File>
                <File
+                  RelPath=".\M01_V09\M01_V09xx_00WM\M01_V09xx_00WM.she"
+                  Notes=""
+                  State="1"
+                  SortType="-1"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
                   RelPath=".\M01_V09\M01_V0920_00WM\M01_V0920_00WM.she"
                   Notes=""
                   State="1"
