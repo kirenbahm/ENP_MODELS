@@ -1,6 +1,6 @@
-// Created     : 2018-01-19 10:59:2
-// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2018-02-20 22:9:10
+// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 16 2016 19:57:46
 
 [BndCondition]
    Comment = ''
@@ -9475,7 +9475,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S332BN_overflow', 850.5047076093542, 0, '', ''
+         DescType = 5, 0, 'W-S332BN', 850.5047076093542, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = false, false, false, false
@@ -9502,7 +9502,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S332BW_overflow', 307.8486156972358, 0, '', ''
+         DescType = 5, 0, 'W-S332BW', 307.8486156972358, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9529,7 +9529,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S332C_overflow', 289.5806309249465, 0, '', ''
+         DescType = 5, 0, 'W-S332C', 289.5806309249465, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false

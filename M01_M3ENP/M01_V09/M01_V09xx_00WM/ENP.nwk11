@@ -1,4 +1,4 @@
-// Created     : 2018-02-20 21:51:46
+// Created     : 2018-02-20 22:9:10
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -4245,33 +4245,15 @@ model', 0, 827.003949821575, 0, 10000, 0
       EndSect  // branch
 
       [branch]
-         definitions = 'S332BN_overflow', 'model', 0, 850.5047076092378, 0, 10000, 0
-         connections = 'NDA', 7828.905027923135, '', -1e-155
-         points = 742, 746, 744, 745, 846
-      EndSect  // branch
-
-      [branch]
          definitions = 'S332BW', 'model', 0, 637.0332740665181, 0, 10000, 0
          connections = 'L-31N', 26250.93530309326, 'SDA', 0
          points = 677, 676, 675
       EndSect  // branch
 
       [branch]
-         definitions = 'S332BW_overflow', 'model', 0, 307.8486156972358, 0, 10000, 0
-         connections = 'SDA', 512.0650241300464, '', -1e-155
-         points = 925, 924, 923
-      EndSect  // branch
-
-      [branch]
          definitions = 'S332C', 'model', 0, 750.5145802530287, 0, 10000, 0
          connections = 'L-31N', 30046.1323313172, 'SDA', 3829.5072
          points = 712, 713
-      EndSect  // branch
-
-      [branch]
-         definitions = 'S332C_overflow', 'model', 0, 289.5806309249587, 0, 10000, 0
-         connections = 'SDA', 4481.795783591922, '', -1e-155
-         points = 2486, 2487, 2488
       EndSect  // branch
 
       [branch]
@@ -4332,6 +4314,24 @@ model', 0, 827.003949821575, 0, 10000, 0
          definitions = 'US1S', 'model', 0, 5375.357419592112, 0, 10000, 0
          connections = '', -1e-155, '', -1e-155
          points = 854, 865, 2392, 2393, 855
+      EndSect  // branch
+
+      [branch]
+         definitions = 'W-S332BN', 'model', 0, 850.5047076092378, 0, 10000, 0
+         connections = 'NDA', 7828.905027923135, '', -1e-155
+         points = 742, 746, 744, 745, 846
+      EndSect  // branch
+
+      [branch]
+         definitions = 'W-S332BW', 'model', 0, 307.8486156972358, 0, 10000, 0
+         connections = 'SDA', 512.0650241300464, '', -1e-155
+         points = 925, 924, 923
+      EndSect  // branch
+
+      [branch]
+         definitions = 'W-S332C', 'model', 0, 289.5806309249587, 0, 10000, 0
+         connections = 'SDA', 4481.795783591922, '', -1e-155
+         points = 2486, 2487, 2488
       EndSect  // branch
 
    EndSect  // BRANCHES
@@ -4453,7 +4453,7 @@ model', 0, 827.003949821575, 0, 10000, 0
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'S332BN_overflow', 3.048, 'W-S332BN-E', 'model'
+            Location = 'W-S332BN', 3.048, 'W-S332BN-E', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -5236,7 +5236,7 @@ model', 0, 827.003949821575, 0, 10000, 0
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'S332C_overflow', 15.24, 'W-S332C-E', 'model'
+            Location = 'W-S332C', 15.24, 'W-S332C-E', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -5344,7 +5344,7 @@ model', 0, 827.003949821575, 0, 10000, 0
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'S332BW_overflow', 15.24, 'W-S332BW-W', 'model'
+            Location = 'W-S332BW', 15.24, 'W-S332BW-W', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -39659,6 +39659,7 @@ model'
       MikeSheCoupling = 'culvert_54', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'culvert_55', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'culvert_56', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
+      MikeSheCoupling = 'culvert_57', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'culvert_58', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'culvert_59', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'FP', 457.1999999999999, 7040.879999999999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
@@ -39690,15 +39691,14 @@ model'
       MikeSheCoupling = 'S12C', 0, 861.0599999999998, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S12D', 0, 845.2103999999999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S332', 0, 690.9816, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
-      MikeSheCoupling = 'S332BN_overflow', 30.48, 850.3919999999999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S332D', 0, 1115.2632, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S343A', 0, 972.3119999999999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S343B', 0, 1191.768, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'SDA', 0, 6772.655999999999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'SDAC', 30.48, 2883.000000816, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
-      MikeSheCoupling = 'culvert_57', 0, 800.0000012159999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'US1N', 0, 16007.00000016, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'US1S', 1000.00000152, 3103.9999896, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
+      MikeSheCoupling = 'W-S332BN', 30.48, 850.3919999999999, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
    EndSect  // MIKESHECOUPLING
 
    [CHANNELROUTING]
