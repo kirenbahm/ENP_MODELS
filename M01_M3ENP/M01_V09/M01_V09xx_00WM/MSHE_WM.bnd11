@@ -1,4 +1,4 @@
-// Created     : 2018-02-20 22:9:10
+// Created     : 2018-02-22 15:34:58
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -1968,7 +1968,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194TW-S165HW.dfs0|, 0, 1, 'BC_S194TW-S165HW', 0, 1
+            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194_TW.dfs0|, 0, 1, 'S194_TW', 0, 1
          EndSect  // InflowArray
 
          [QhArray]
@@ -2280,7 +2280,7 @@
          DescType = 0, 5, 'C-4', 6252.519686213293, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
-         Inflow = true, false, false, false
+         Inflow = false, false, false, false
          ADRR = '', 0, 0
          QhADM12 = 2, 1, 0
          AutoCalQh = 0, 0.001, 40
@@ -2292,7 +2292,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119TW.dfs0|, 0, 1, 'G119.tail_water', 0, 1
+            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119TW.dfs0|, 0, 1, 'BC-G119TW', 0, 1
          EndSect  // InflowArray
 
          [QhArray]
