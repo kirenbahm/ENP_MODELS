@@ -1650,7 +1650,7 @@ In the model the pumps discharge according to the following rules:
 \item Priority 1: When Hds $>$ 99.999, close (this is a placeholder to reflect any design criteria for the detention area)
 \item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN0}
 \item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN1}
-\item Priority 4: If $Mode=2$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN2}
+\item Priority 4: If $Mode=2$ and \textcolor[rgb]{1.00,0.00,0.00}{HW $>$ 4.7 ft}, discharge according to Table~\ref{tab:CS-S332BN2}
 \item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
@@ -1663,12 +1663,12 @@ In the model the pumps discharge according to the following rules:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0.00 &  0   \\
-4.70 &  0 \\
+0    &  0   \\
+4.7  &  0 \\
 4.71 &  125 \\
-5.00 &  250 \\
-6.00 &  325 \\
-12.0 &  325 \\
+5    &  250 \\
+6    &  250 \\
+12   &  250 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1683,12 +1683,12 @@ In the model the pumps discharge according to the following rules:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0.00 &  0   \\
-4.70 &  0 \\
+0    &  0   \\
+4.7  &  0 \\
 4.71 &  125 \\
-5.00 &  250 \\
-6.00 &  325 \\
-12.0 &  325 \\
+5    &  250 \\
+6    &  250 \\
+12   &  250 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1703,12 +1703,12 @@ In the model the pumps discharge according to the following rules:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0.00 &  0   \\
-4.50 &  0 \\
+0    &  0   \\
+4.5  &  0 \\
 4.51 &  125 \\
-4.80 &  250 \\
-6.00 &  325 \\
-12.0 &  325 \\
+4.8  &  250 \\
+6    &  250 \\
+12   &  250 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1762,7 +1762,7 @@ In the model the pumps discharge according to the following rules:
 \item Priority 1: When Hds $>$ 99.999, close (this is a placeholder to reflect any design criteria for the detention area)
 \item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW0}
 \item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW1}
-\item Priority 4: If $Mode=2$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW2}
+\item Priority 4: If $Mode=2$ and \textcolor[rgb]{1.00,0.00,0.00}{ HW $>$ 4.7 ft}, discharge according to Table~\ref{tab:CS-S332BW2}
 \item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
@@ -1775,12 +1775,12 @@ In the model the pumps discharge according to the following rules:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0.00 &  0   \\
-4.70 &  0 \\
+0    &  0   \\
+4.7  &  0 \\
 4.71 &  125 \\
-5.00 &  250 \\
-6.00 &  250 \\
-12.0 &  250 \\
+5    &  250 \\
+6    &  325 \\
+12   &  325 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1795,12 +1795,12 @@ In the model the pumps discharge according to the following rules:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0.00 &  0   \\
-4.70 &  0 \\
+0    &  0   \\
+4.7  &  0 \\
 4.71 &  125 \\
-5.00 &  250 \\
-6.00 &  250 \\
-12.0 &  250 \\
+5    &  250 \\
+6    &  325 \\
+12   &  325 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1815,12 +1815,12 @@ In the model the pumps discharge according to the following rules:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0.00 &  0   \\
-4.50 &  0 \\
+0    &  0   \\
+4.5  &  0 \\
 4.51 &  125 \\
-4.80 &  250 \\
-6.00 &  250 \\
-12.0 &  250 \\
+4.8  &  250 \\
+6    &  325 \\
+12   &  325 \\
 \hline
 \end{tabular}
 \end{table}
@@ -1872,11 +1872,72 @@ This structure is implemented in MIKE 11 as a discharge structure with a Max Rat
 
 The control strategy is as follows:
 \begin{packed_items}
-\item Priority 1: When HW $>$ 4.65 ft, close
-\item Priority 2: When HW $>$ 4.5 ft, close
-\item Priority 3: When stage $<$ 0.0, close
+\item Priority 1: When \textcolor[rgb]{1.00,0.00,0.00}{Hds $<$ 99.999}, close (this is a placeholder to reflect any design criteria for the detention area)
+\item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332C0}
+\item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332C1}
+\item Priority 4: If $Mode=2$ and HW $>$ 4.5 ft, discharge according to Table~\ref{tab:CS-S332C2}
+\item Priority 5: When stage $<$ 0.0, close
 \end{packed_items}
 
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332C}
+\label{tab:CS-S332C0}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0    &  0   \\
+4.7  &  0   \\
+4.71 &  250 \\
+5    &  500 \\
+6    &  500 \\
+12   &  575 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332C}
+\label{tab:CS-S332C1}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0    &  0   \\
+4.7  &  0   \\
+4.71 &  250 \\
+5    &  500 \\
+6    &  500 \\
+12   &  575 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332C}
+\label{tab:CS-S332C2}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0    &  0   \\
+4.5  &  0   \\
+4.51 &  250 \\
+4.8  &  500 \\
+6    &  500 \\
+12   &  575 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
 
 %The resulting cumulative flow through S332C is shown on Figure \ref{fig:S332C_Q_QACC:STRUCTURE}:
 
