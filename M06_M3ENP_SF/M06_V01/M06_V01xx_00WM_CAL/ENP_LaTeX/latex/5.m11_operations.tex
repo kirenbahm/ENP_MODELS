@@ -3442,12 +3442,15 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 %\item Priority 1: When HW $<$ 4.65 and $Mode>=0$ structure is Close
 %\item Priority 2: When HW $<$ 4.5 and $Mode>=1$ structure is Close
 %\item Priority 3: When HW $<$ 4.65 and $Mode>=2$ structure is Close
+%\item[]
 %\item Priority 4: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
 %\item Priority 5: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
 %\item Priority 6: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.85 ft, and $Mode<=1$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
+%\item[]
 %\item Priority 7: Between Feb 1 to July 15 (Day of Year is between 32 and 197), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DA}
 %\item Priority 8: Between July 16 to Nov 30(Day of Year is between 198 and 332), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DB}
 %\item Priority 9: Between Dec 1 to Jan 31(Day of Year is between 333 and 31), and when HW $>$ 4.7 ft, and $Mode=2$,  discharge according to Column 1 of Table~\ref{tab:CS-S332DC}
+%\item[]
 %\item Priority 10: When stage $<$ 0.0, close
 %\end{packed_items}
 %
@@ -3501,6 +3504,83 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 %\end{tabular}
 %\end{table}
 %\normalsize
+%
+%
+%\clearpage
+%\subsubsection{S332D Proposed (KEB)}
+%
+%This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+%
+%\begin{packed_items}
+%\item Priority 1: When $Mode=0$, $Q=Q_{obs}$
+%\item[]
+%\item Priority 2: When $Mode=1$ and HW $<$ 4.65, close
+%\item Priority 3: When $Mode=1$ and HW $>$ 4.85 ft and Day of Year is between  32 and 196 (Feb  1 to Jul 15), discharge according to Table~\ref{tab:CS-S332DA1}
+%\item Priority 4: When $Mode=1$ and HW $>$ 4.85 ft and Day of Year is between 197 and 334 (Jul 16 to Nov 30), discharge according to Table~\ref{tab:CS-S332DB1}
+%\item Priority 5: When $Mode=1$ and HW $>$ 4.85 ft and Day of Year is between 335 and  31 (Dec  1 to Jan 31), discharge according to Table~\ref{tab:CS-S332DC1}
+%\item[]
+%\item Priority 6: When $Mode=2$ and HW $<$ 4.5, close
+%\item Priority 7: When $Mode=2$ and HW $>$ 4.7 ft and Day of Year is between  32 and 196 (Feb  1 to Jul 15), discharge according to Table~\ref{tab:CS-S332DA1}
+%\item Priority 8: When $Mode=2$ and HW $>$ 4.7 ft and Day of Year is between 197 and 334 (Jul 16 to Nov 30), discharge according to Table~\ref{tab:CS-S332DB1}
+%\item Priority 9: When $Mode=2$ and HW $>$ 4.7 ft and Day of Year is between 335 and  31 (Dec  1 to Jan 31), discharge according to Table~\ref{tab:CS-S332DC1}
+%\item[]
+%\item Priority 10: Unchanged
+%\item Priority 11: When stage $<$ 0.0, close
+%\end{packed_items}
+%
+%% The only problem I see with this logic is that when we move from one time period to another and rule is unchanged, the ops remain as what was prescribed for the first time period
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategies for S332D}
+%\label{tab:CS-S332DA1}
+%\begin{tabular}{l|rr}
+%\hline
+%\textbf{HW (ft)} &  \textbf{S332D Q (cfs)} \\
+%\hline
+%0	     &    165  \\
+%10	     &    165  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategies for S332D}
+%\label{tab:CS-S332DB1}
+%\begin{tabular}{l|rr}
+%\hline
+%\textbf{HW (ft)} &  \textbf{S332D Q (cfs)} \\
+%\hline
+%0	     &    325  \\
+%4	     &    325  \\
+%5	     &    500  \\
+%10	     &    500  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategies for S332D}
+%\label{tab:CS-S332DC1}
+%\begin{tabular}{l|rr}
+%\hline
+%\textbf{HW (ft)} &  \textbf{S332D Q (cfs)} \\
+%\hline
+%0	     &    325  \\
+%10	     &    325  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\clearpage
 
 
 \cleardoublepage
