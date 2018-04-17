@@ -1,4 +1,4 @@
-// Created     : 2018-04-17 12:57:53
+// Created     : 2018-04-17 13:31:4
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -2614,7 +2614,7 @@
 
       [branch]
          definitions = 'C-4', 'model', 0, 6252.519686213293, 0, 10000, 0
-         connections = 'L-29', 92388.89705709266, '', -1e-155
+         connections = 'L-29', 92388.89705709332, '', -1e-155
          points = 192, 189, 188, 187, 185, 184, 902, 369
       EndSect  // branch
 
@@ -3222,7 +3222,7 @@ model', 0, 827.003949821575, 0, 10000, 0
 
       [branch]
          definitions = 'CMP_075_US', 'model', 0, 809.0447963626058, 0, 10000, 0
-         connections = '', -1e-155, '_MainParkRoad', 35183.39490677745
+         connections = '', -1e-155, '_MainParkRoad', 35100
          points = 2078, 2077
       EndSect  // branch
 
@@ -4026,7 +4026,7 @@ model', 0, 827.003949821575, 0, 10000, 0
 
       [branch]
          definitions = 'culvert_57', 'model', 0, 800.9459936078081, 0, 10000, 0
-         connections = 'L-29', 89595.95279250901, '', -1e-155
+         connections = 'L-29', 89584.72985172515, '', -1e-155
          points = 2498, 2499, 2500, 2501, 2502
       EndSect  // branch
 
@@ -4104,13 +4104,13 @@ model', 0, 827.003949821575, 0, 10000, 0
 
       [branch]
          definitions = 'L-30', 'model', 0, 10141.08618417366, 0, 10000, 0
-         connections = '', -1e-155, 'L-29', 92388.89705709266
+         connections = '', -1e-155, 'L-29', 92388.89705709332
          points = 656, 866, 864, 863, 655, 1359, 1360, 654
       EndSect  // branch
 
       [branch]
          definitions = 'L-31N', 'model', 0, 33732.32574936335, 0, 10000, 0
-         connections = 'L-29', 92388.89705709266, 'C-111', 0
+         connections = 'L-29', 92388.89705709332, 'C-111', 0
          points = 56, 590, 591, 592, 593, 594, 55, 54, 378, 664, 53, 52, 51, 50, 49, 48, 47, 379, 665, 46, 407, 45, 408, 380, 44, 381, 43, 42, 382, 41, 40, 409, 39, 410, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 751, 24, 415, 20, 19, 413, 18, 17, 16, 15, 14, 13, 12, 11, 368, 10
       EndSect  // branch
 
@@ -4176,7 +4176,7 @@ model', 0, 827.003949821575, 0, 10000, 0
 
       [branch]
          definitions = 'OldIngraham', 'model', 0, 19002.26321301187, 0, 10000, 0
-         connections = '', -1e-155, '_MainParkRoad', 35183.39490677672
+         connections = '', -1e-155, '_MainParkRoad', 35100
          points = 1405, 1406, 1407, 1408, 1409, 1413, 1414, 1411, 1412
       EndSect  // branch
 
@@ -4314,7 +4314,7 @@ model', 0, 827.003949821575, 0, 10000, 0
 
       [branch]
          definitions = 'TTeastBridge', 'model', 0, 799.9999999990687, 0, 10000, 0
-         connections = 'L-29', 89595.95279250901, '', -1e-155
+         connections = 'L-29', 89584.72985172515, '', -1e-155
          points = 452, 481
       EndSect  // branch
 
