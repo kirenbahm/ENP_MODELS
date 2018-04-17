@@ -1,4 +1,4 @@
-// Created     : 2018-04-17 10:5:23
+// Created     : 2018-04-17 12:55:38
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -1968,7 +1968,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194_TW.dfs0|, 0, 1, 'S194_TW', 0, 1
+            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194TW-S165HW.dfs0|, 0, 1, 'BC_S194TW-S165HW', 0, 1
          EndSect  // InflowArray
 
          [QhArray]

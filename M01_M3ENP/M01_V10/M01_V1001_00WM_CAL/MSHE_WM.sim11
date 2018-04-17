@@ -79,7 +79,7 @@
    EndSect  // Simulation
 
    [Results]
-      hd = |..\..\..\Result\M01_V09xx_00WM.she - Result Files\MSHE_WM.res11|, '', 1, 1
+      hd = |..\..\..\Result\M01_V1001_00WM_CAL.she - Result Files\MSHE_WM.res11|, '', 1, 1
       ad = ||, '', 1, 0
       st = ||, '', 1, 0
       rr = ||, '', 1, 0

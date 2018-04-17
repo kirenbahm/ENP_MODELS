@@ -1,9 +1,12 @@
-M01_V09xx_00WM
+----------------------------------
+M01_V1001_00WM_CAL
+----------------------------------
 
-2018-02-09
-First submission of M01 model using M06 network, model performance is yet to be evaluated
+M01 model using M06 network, model performance is yet to be evaluated
 
 Main differences from WM model used in ECOLAB (M01_V0920_00WM) are:
+  M01 domain extended to the East to match M06
+  M01 grid shifted 100 meters west and 100 meters south
   Uses M06 network
   5 layers instead of 3
   M11 timestepping and major parameters are from M06

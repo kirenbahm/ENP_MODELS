@@ -1,4 +1,4 @@
-// Created     : 2018-04-17 10:7:22
+// Created     : 2018-04-17 13:22:4
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -14,10 +14,10 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 458400.0000000026
-      DefaultZoomDataArea_Y0 = 2777599.999999917
-      DefaultZoomDataArea_X1 = 558400.0000000026
-      DefaultZoomDataArea_Y1 = 2867599.999999917
+      DefaultZoomDataArea_X0 = 543176.3347763374
+      DefaultZoomDataArea_Y0 = 2817835.690235607
+      DefaultZoomDataArea_X1 = 546230.6878306904
+      DefaultZoomDataArea_Y1 = 2819014.141414059
       MaxZoomDataAreaUndefined = 0
       MaxZoomDataArea_X0 = 458400.0000000026
       MaxZoomDataArea_Y0 = 2777599.999999917
@@ -31504,7 +31504,7 @@
          IsDataUsedInSetup = 1
          Name = 'use mike 1d'
          Type = 2
-         Value = 1
+         Value = 0
       EndSect  // ExtraParam_12
 
    EndSect  // ExtraParams
@@ -31592,4 +31592,10 @@
    EndSect  // GeoScene3D
 
 EndSect  // MIKESHE_FLOWMODEL
+
+[SYSTEM]
+   ResultRootFolder = |..\..\..\Result|
+   UseCustomResultFolder = false
+   CustomResultFolder = ||
+EndSect  // SYSTEM
 
