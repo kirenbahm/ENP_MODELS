@@ -1,4 +1,4 @@
-// Created     : 2018-04-13 5:51:33
+// Created     : 2018-04-17 8:12:7
 // DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
 // PFS version : Apr  4 2017 19:09:27
 
@@ -70,7 +70,7 @@
       EndSect  // Simulation_Period
 
       [Initial_Conditions]
-         hd = 1, |..\M06_V0000_00WM_CAL-05\MSHE_WM.res1d|, false, 1999, 10, 8, 0, 0, 0
+         hd = 1, |..\..\..\Result\M06_V0000_00WM_CAL-00.she - Result Files\MSHE_WM.res1d|, false, 2005, 9, 16, 0, 0, 0
          ad = 0, ||, false, 1990, 1, 1, 12, 0, 0
          st = 0, ||, false, 1990, 1, 1, 12, 0, 0
          rr = 0, ||, false, 1990, 1, 1, 12, 0, 0
@@ -86,10 +86,4 @@
    EndSect  // Results
 
 EndSect  // Run11
-
-[SYSTEM]
-   ResultRootFolder = |..\..\..\Result|
-   UseCustomResultFolder = false
-   CustomResultFolder = ||
-EndSect  // SYSTEM
 
