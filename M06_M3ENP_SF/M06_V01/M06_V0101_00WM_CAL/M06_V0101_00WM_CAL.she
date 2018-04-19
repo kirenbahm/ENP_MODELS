@@ -1,4 +1,4 @@
-// Created     : 2018-04-17 13:22:4
+// Created     : 2018-04-19 12:4:47
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -14,10 +14,10 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 543176.3347763374
-      DefaultZoomDataArea_Y0 = 2817835.690235607
-      DefaultZoomDataArea_X1 = 546230.6878306904
-      DefaultZoomDataArea_Y1 = 2819014.141414059
+      DefaultZoomDataArea_X0 = 458400.0000000026
+      DefaultZoomDataArea_Y0 = 2777599.999999917
+      DefaultZoomDataArea_X1 = 558400.0000000026
+      DefaultZoomDataArea_Y1 = 2867599.999999917
       MaxZoomDataAreaUndefined = 0
       MaxZoomDataArea_X0 = 458400.0000000026
       MaxZoomDataArea_Y0 = 2777599.999999917
@@ -12044,7 +12044,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KH.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -12079,7 +12079,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KV.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -12750,7 +12750,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KH.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
@@ -12785,7 +12785,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KV.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
@@ -13456,7 +13456,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KH.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 3
                EndSect  // DFS_2D_DATA_FILE
@@ -13491,7 +13491,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KV.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 3
                EndSect  // DFS_2D_DATA_FILE
@@ -14162,7 +14162,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KH.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 4
                EndSect  // DFS_2D_DATA_FILE
@@ -14197,7 +14197,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KV.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 4
                EndSect  // DFS_2D_DATA_FILE
@@ -14868,7 +14868,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KH.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 5
                EndSect  // DFS_2D_DATA_FILE
@@ -14903,7 +14903,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |.\M06_KV.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 5
                EndSect  // DFS_2D_DATA_FILE
