@@ -1,43 +1,43 @@
-// Created     : 2018-01-2 8:51:37
-// DLL id      : C:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
-// PFS version : Apr  4 2017 19:09:27
+// Created     : 2018-04-17 10:4:3
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
 
 [MIKE0_HD]
    [Global_Variables]
       [Global_Values]
          G_waterlevel = 0.6095999999999999
          iLevelDepth = 0
-         G_discharge = 0.0
-         G_wind_factor = 1.0
-         G_resistance = 30.0
-         G_S_max = 0.0
-         G_f = 0.0
-         G_k_100 = 1.0
-         G_min_width = 0.0
-         G_flood_plan_res = -99.0
+         G_discharge = 0
+         G_wind_factor = 1
+         G_resistance = 30
+         G_S_max = 0
+         G_f = 0
+         G_k_100 = 1
+         G_min_width = 0
+         G_flood_plan_res = -99
          G_wave = 0
-         ResisZone = 0, 30.0, 25.0, 20.0
+         ResisZone = 0, 30, 25, 20
       EndSect  // Global_Values
 
       [Defalt_Values]
          delta = 0.85
          delhs = 0.01000000032
          delh = 0.09997439999999999
-         alpha = 1.0
-         theta = 1.0
+         alpha = 1
+         theta = 1
          eps = 0.0001
          dh_node = 0.00999744
          zeta_min = 0.1
-         struc_fac = 0.0
-         froude_exp = -1.0
-         froude_max = -1.0
+         struc_fac = 0
+         froude_exp = -1
+         froude_max = -1
          no_iter = 1
          max_iter = 200
          inter1_max = 100
          wind_shear_stress = false
          resist_num = 0
-         spilfc = 0.0
-         storfc = 0.0
+         spilfc = 0
+         storfc = 0
       EndSect  // Defalt_Values
 
       [Quasi_steady]
@@ -97,15 +97,15 @@
       EndSect  // WaterLevelMarkTitles
 
       [BedResistTools]
-         BRTools = 0, false, false, false, 0, 0.0, 0.0, 0.0, 0.0
+         BRTools = 0, false, false, false, 0, 0, 0, 0, 0
       EndSect  // BedResistTools
 
       [WaterLevelCurve]
-         WLDueToCurve = false, false, false, false, false, 0, 0.0, 0.0, 0.0
+         WLDueToCurve = false, false, false, false, false, 0, 0, 0, 0
       EndSect  // WaterLevelCurve
 
       [WaterLevelSandBars]
-         WLDueToSand = false, 0, 0.0, 0.0, 0.0, 0.0
+         WLDueToSand = false, 0, 0, 0, 0, 0
       EndSect  // WaterLevelSandBars
 
       [Encroachment]
@@ -114,16 +114,16 @@
 
       [Heat_Balance]
          Calc = false
-         Latitude = 55.0
-         Longitude = -12.0
-         TimeZone = -15.0
-         DisTime = 0.0
-         LightAtt = 10.0
-         betaBeer = 0.0
+         Latitude = 55
+         Longitude = -12
+         TimeZone = -15
+         DisTime = 0
+         LightAtt = 10
+         betaBeer = 0
          RadA = 0.2
          RadB = 0.5
-         VapA = 1.0
-         VapB = 1.0
+         VapA = 1
+         VapB = 1
       EndSect  // Heat_Balance
 
       [Stratification]
@@ -133,18 +133,18 @@
          vmf = 3
          vmb = 0
          Rich = true
-         bpr1 = 1.0
-         bpr2 = 0.0
-         uu = 1.0
-         uw = 1.0
-         uwc = 1.0
-         dfx = 1.0
-         dfz = 1.0
+         bpr1 = 1
+         bpr2 = 0
+         uu = 1
+         uw = 1
+         uwc = 1
+         dfx = 1
+         dfz = 1
       EndSect  // Stratification
 
       [M12Param]
          fricfac = 0.002
-         maxvol = 100.0
+         maxvol = 100
          maxvelo = 0.008999999999999999
          minthick = 0.01
          densdiff = 0.001
@@ -155,10 +155,10 @@
       EndSect  // M12Param
 
       [M12Init]
-         h1 = 0.0
-         h0 = 0.0
-         Q1 = 0.0
-         Q0 = 0.0
+         h1 = 0
+         h0 = 0
+         Q1 = 0
+         Q0 = 0
          G_friction_factor = 0.0024
       EndSect  // M12Init
 
@@ -177,7 +177,7 @@
          EndSect  // OutputItems
 
          [OutputFiles]
-            data = 'dfs Timeseries Bridge', false, |..\..\..\Result\M01_V1001_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
+            data = 'dfs Timeseries Bridge', false, |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
          EndSect  // OutputFiles
 
       EndSect  // TextOutput
@@ -199,7 +199,7 @@
 
       [Leakage]
          IncludeLeakage = false
-         LeakageCoefficient = 0.0
+         LeakageCoefficient = 0
       EndSect  // Leakage
 
    EndSect  // Global_Variables
@@ -256,7 +256,7 @@
    EndSect  // OutputGridPoints
 
    [LeakageList]
-      DATA = '', 10000000000, 0.0
+      DATA = '', 10000000000, 0
    EndSect  // LeakageList
 
 EndSect  // MIKE0_HD
