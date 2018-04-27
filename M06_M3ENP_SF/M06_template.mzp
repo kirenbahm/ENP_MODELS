@@ -14,6 +14,34 @@
       >
             <Files>
                <File
+                  RelPath=".\M06_V01\M06_V0102_00WM_CAL"
+                  Notes=""
+                  State="36"
+                  SortType="-1"
+                  FolderType="0"
+               >
+               </File>
+               <File
+                  RelPath=".\M06_V01\M06_V0102_00WM_CAL\M06_V0102_00WM_CAL.she"
+                  Notes=""
+                  State="1"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
                   RelPath="..\Result"
                   Notes="Result Folder"
                   State="52"
