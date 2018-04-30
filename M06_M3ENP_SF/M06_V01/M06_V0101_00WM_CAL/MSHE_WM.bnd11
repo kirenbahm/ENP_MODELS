@@ -1,4 +1,4 @@
-// Created     : 2018-04-30 10:5:43
+// Created     : 2018-04-30 10:44:56
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -9583,60 +9583,6 @@
 
       [BndItem]
          DescType = 5, 0, 'S343B', 0, 0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0, 0, 0
-         Inflow = true, false, false, false
-         ADRR = '', 0, 0
-         QhADM12 = 2, 1, 0
-         AutoCalQh = 0, 0.001, 40
-         BndTS = 0, ||, 0, 0, '', 0, 1
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0, 0, ||, 0, 0, '', 0, 1
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'SDAC', 0, 0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0, 0, 0
-         Inflow = true, false, false, false
-         ADRR = '', 0, 0
-         QhADM12 = 2, 1, 0
-         AutoCalQh = 0, 0.001, 40
-         BndTS = 0, ||, 0, 0, '', 0, 1
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0, 0, ||, 0, 0, '', 0, 1
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'SDAC', 2883.821242898016, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
