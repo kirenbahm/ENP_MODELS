@@ -1247,16 +1247,18 @@ This structure is set in MIKE 11 as Underflow with max rate of change of 0.00013
 
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>6.0 ft$, and $Q_{str}<1100$ cfs, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 2: If $Mode=1$ and $H_{us}<5.5 ft$, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 1: If $Q_{str}>1100 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>5.7 ft$, and $Q_{str}<1100$ cfs, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 4: If $Mode=2$ and $H_{us}<5.3 ft$, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 2: If $Mode=0$ and $H_{ds}<G211\_TW_{obs}$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 3: If $Mode=0$ and $H_{ds}=G211\_TW_{obs}$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<G211\_TW_{obs}$ and $Q_{str}<1100$ cfs, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>G211\_TW_{obs}$, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=5.7 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=5.3 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-G211close}.
 \end{packed_items}
 
 
@@ -1645,11 +1647,19 @@ This structure is implemented in MIKE 11 as a discharge structure with a Max Rat
 In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
-\item Priority 1: When Hds $>$ 99.999, close (this is a placeholder to reflect any design criteria for the detention area)
-\item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN0}
-\item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BN1}
-\item Priority 4: If $Mode=2$ and \textcolor[rgb]{1.00,0.00,0.00}{HW $>$ 4.7 ft}, discharge according to Table~\ref{tab:CS-S332BN2}
-\item Priority 5: When stage $<$ 0.0, close
+\item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
+area.)
+\item[]
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BN0}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BN0}.
+\item[]
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
+\item[]
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
+\item[]
+\item Priority 8: Default, close.
 \end{packed_items}
 
 \footnotesize
@@ -1757,11 +1767,19 @@ This structure is implemented in MIKE 11 as a discharge structure with a Max Rat
 In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
-\item Priority 1: When Hds $>$ 99.999, close (this is a placeholder to reflect any design criteria for the detention area)
-\item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW0}
-\item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332BW1}
-\item Priority 4: If $Mode=2$ and \textcolor[rgb]{1.00,0.00,0.00}{ HW $>$ 4.7 ft}, discharge according to Table~\ref{tab:CS-S332BW2}
-\item Priority 5: When stage $<$ 0.0, close
+\item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
+area.)
+\item[]
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW0}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BW0}.
+\item[]
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
+\item[]
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
+\item[]
+\item Priority 8: Default, close.
 \end{packed_items}
 
 \footnotesize
@@ -1870,11 +1888,19 @@ This structure is implemented in MIKE 11 as a discharge structure with a Max Rat
 
 The control strategy is as follows:
 \begin{packed_items}
-\item Priority 1: When \textcolor[rgb]{1.00,0.00,0.00}{Hds $<$ 99.999}, close (this is a placeholder to reflect any design criteria for the detention area)
-\item Priority 2: If $Mode=0$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332C0}
-\item Priority 3: If $Mode=1$ and HW $>$ 4.7 ft, discharge according to Table~\ref{tab:CS-S332C1}
-\item Priority 4: If $Mode=2$ and HW $>$ 4.5 ft, discharge according to Table~\ref{tab:CS-S332C2}
-\item Priority 5: When stage $<$ 0.0, close
+\item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
+area.)
+\item[]
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C0}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332C0}.
+\item[]
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
+\item[]
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
+\item[]
+\item Priority 8: Default, close.
 \end{packed_items}
 
 \footnotesize
@@ -1983,50 +2009,76 @@ Pumped up to 500 cfs from Jul 16 (or the end of the breeding season, as confirme
 This structure is implemented in MIKE 11 as a Discharge structure with Max Speed of 1 $cfs/s$.
 
 
-In the model two control structures are implemented at the same location, to allow for different operations during the wet and dry seasons. The first control structure (S332D1) operates all year.  The S332D1 control strategy is as follows:
-
 \begin{packed_items}
-\item Priority 1: When HW $>$ 4.6 ft, discharge according to Column 1 of Table~\ref{tab:CS-S332D}
-\item Priority 2: When HW $>$ 4.5 ft, remain unchanged
-\item Priority 3: When stage $<$ 0.0, close
+\item Priority 1: When $Mode=0$, $Q=Q_{obs}$.
+\item[]
+\item Priority 2: When $Mode=1$ and HW $>=$ 4.85 ft and Day of Year $<=31$ (Jan 31), discharge according to Table~\ref{tab:CS-S332D-325}.
+\item Priority 3: When $Mode=1$ and HW $>=$ 4.85 ft and Day of Year $>=32$ (Feb 1) and Day of Year $<=196$ (Jul 15), discharge according to Table~\ref{tab:CS-S332D-165}.
+\item Priority 4: When $Mode=1$ and HW $>=$ 4.85 ft and Day of Year $>=197$ (Jul 16) and Day of Year $<=334$ (Nov 30), discharge according to Table~\ref{tab:CS-S332D-500}.
+\item Priority 5: When $Mode=1$ and HW $>=$ 4.85 ft and Day of Year $>=335$ (Dec 1), discharge according to Table~\ref{tab:CS-S332D-325}.
+\item Priority 6: When $Mode=1$ and HW $>=$ 4.65 ft, remain unchanged.
+\item[]
+\item Priority 7: When $Mode=2$ and HW $>=$ 4.7 ft and Day of Year $<=31$ (Jan 31), discharge according to Table~\ref{tab:CS-S332D-325}.
+\item Priority 8: When $Mode=2$ and HW $>=$ 4.7 ft and Day of Year $>=32$ (Feb 1) and Day of Year $<=196$ (Jul 15), discharge according to Table~\ref{tab:CS-S332D-165}.
+\item Priority 9: When $Mode=2$ and HW $>=$ 4.7 ft and Day of Year $>=197$ (Jul 16) and Day of Year $<=334$ (Nov 30), discharge according to Table~\ref{tab:CS-S332D-500}.
+\item Priority 10: When $Mode=2$ and HW $>=$ 4.7 ft and Day of Year $>=335$ (Dec 1), discharge according to Table~\ref{tab:CS-S332D-325}.
+\item Priority 11: When $Mode=2$ and HW $>=$ 4.5 ft, remain unchanged.
+\item[]
+\item Priority 12: Default, close.
 \end{packed_items}
 
-The second control structure (S332D2) operates after July. It allows additional discharge according to Table~\ref{tab:CS-S332D}. The S332D2 control strategy is as follows:
-\begin{packed_items}
-\item Priority 1: If month $<$ 7, close
-\item Priority 2: When HW $>$ 4.6 ft, discharge according to Column 2 of Table~\ref{tab:CS-S332D}
-\item Priority 3: When HW $>$ 4.5 ft, remain unchanged
-\item Priority 4: When stage $<$ 0.0, close
-\end{packed_items}
 
 \footnotesize
 \begin{table}[!h]
 \centering
-\caption{Control strategies for S332D1 and S332D2}
-\label{tab:CS-S332D}
+\caption{Control strategy for S332D at 165 cfs}
+\label{tab:CS-S332D-165}
 \begin{tabular}{l|rr}
 \hline
-\textbf{HW (ft)} &  \textbf{S332D1} & \textbf{S332D2}\\
-\textbf{       } & \textbf{Q (cfs)} & \textbf{Q (cfs)}\\
+\textbf{HW (ft)} &  \textbf{Q (cfs)} \\
 \hline
-0	     &    0    &  0   \\
-4.4	     &    0    &  0   \\
-4.45	 &    0    &  0   \\
-4.5	     &    60   &  0   \\
-4.55	 &    80   &  0   \\
-4.6	     &    80  &  125 \\
-4.65	 &    100  &  125 \\
-4.7	     &    130  &  250 \\
-4.75     &    165  &  250 \\
-4.8	     &    165  &  375 \\
-4.85     &    165  &  375 \\
-4.9	     &    165  &  375 \\
-10	     &    165  &  375 \\
+0        &    165  \\
+10       &    165  \\
 \hline
 \end{tabular}
 \end{table}
 \normalsize
 
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332D at 325 cfs}
+\label{tab:CS-S332D-325}
+\begin{tabular}{l|rr}
+\hline
+\textbf{HW (ft)} &  \textbf{Q (cfs)} \\
+\hline
+0        &    325  \\
+10       &    325  \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S332D at 500 cfs}
+\label{tab:CS-S332D-500}
+\begin{tabular}{l|rr}
+\hline
+\textbf{HW (ft)} &  \textbf{Q (cfs)} \\
+\hline
+0        &    325  \\
+4        &    325  \\
+5        &    500  \\
+10       &    500  \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
 
 
 %The resulting cumulative flow through S332D is shown on Figure \ref{fig:S332D_QACC:STRUCTURE}:
@@ -2126,16 +2178,18 @@ Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
-\item Priority 2: If $Mode=1$ and $H_{us}<5.5 ft$, operate according to Table~\ref{tab:CS-S338close}.
+\item Priority 1: If $Q_{str}>9999 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
-\item Priority 4: If $Mode=2$ and $H_{us}<5.4 ft$, operate according to Table~\ref{tab:CS-S338close}.
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{us}>5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
-\item Priority 6: If $Mode=0$ and $H_{us}<5.5 ft$, operate according to Table~\ref{tab:CS-S338close}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S338close}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=5.4 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-S338close}.
 \end{packed_items}
 
 \footnotesize
@@ -2238,16 +2292,18 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>5.5 ft$, and $Q_{str}<500$ cfs, operate according to Table~\ref{tab:CS-S194open}.
-\item Priority 2: If $Mode=1$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 1: If $Q_{str}>500 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, and $Q_{str}<500$ cfs, operate according to Table~\ref{tab:CS-S194open}.
-\item Priority 4: If $Mode=2$ and $H_{us}<4.5 ft$, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.5 ft$, operate according to Table~\ref{tab:CS-S194open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=4.8 ft$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{us}>5.5 ft$, and $Q_{str}<500$ cfs, operate according to Table~\ref{tab:CS-S194open}.
-\item Priority 6: If $Mode=0$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.5 ft$, operate according to Table~\ref{tab:CS-S194open}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=4.8 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S194open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-S194close}.
 \end{packed_items}
 
 \footnotesize
@@ -2352,16 +2408,18 @@ This structure is defined as Underflow with rate of change of 0.000138 ft/s.
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>5.5 ft$, and $Q_{str}<300$ cfs, operate according to Table~\ref{tab:CS-S196open}.
-\item Priority 2: If $Mode=1$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 1: If $Q_{str}>300 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, and $Q_{str}<300$ cfs, operate according to Table~\ref{tab:CS-S196open}.
-\item Priority 4: If $Mode=2$ and $H_{us}<4.5 ft$, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.5 ft$, operate according to Table~\ref{tab:CS-S196open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=4.8 ft$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{us}>5.5 ft$, and $Q_{str}<300$ cfs, operate according to Table~\ref{tab:CS-S196open}.
-\item Priority 6: If $Mode=0$ and $H_{us}<4.8 ft$, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.5 ft$, operate according to Table~\ref{tab:CS-S196open}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=4.8 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S196open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-S196close}.
 \end{packed_items}
 
 \footnotesize
@@ -2434,13 +2492,15 @@ This structure is a reinforced concrete, gated spillway with discharge controlle
 
 
 \begin{packed_items}
-\item Priority 1: If $Mode>0$ and $H_{us}>5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
-\item Priority 2: If $Mode>0$ and $H_{us}<5.1 ft$, operate according to Table~\ref{tab:CS-S167close}.
+\item Priority 1: If $Q_{str}>9999 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=0$ and $H_{us}>5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
-\item Priority 4: If $Mode=0$ and $H_{us}<5.1 ft$, operate according to Table~\ref{tab:CS-S167close}.
+\item Priority 2: If $Mode=0$ and $H_{us}>=5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=5.1 ft$, remain unchanged.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S167close}.
+\item Priority 4: If $Mode>0$ and $H_{us}>=5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
+\item Priority 5: If $Mode>0$ and $H_{us}>=5.1 ft$, remain unchanged.
+\item[]
+\item Priority 6: Default, operate according to Table~\ref{tab:CS-S167close}.
 \end{packed_items}
 
 \footnotesize
@@ -2790,16 +2850,18 @@ The structure is located on Canal 111 about 5 miles west of Homestead. This stru
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>5.0 ft$, and $Q_{str}<1200$ cfs, operate according to Table~\ref{tab:CS-S176open}.
-\item Priority 2: If $Mode=1$ and $H_{us}<4.75 ft$, operate according to Table~\ref{tab:CS-S176close}.
+\item Priority 1: If $Q_{str}>1200 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.9 ft$, and $Q_{str}<1200$ cfs, operate according to Table~\ref{tab:CS-S176open}.
-\item Priority 4: If $Mode=2$ and $H_{us}<4.7 ft$, operate according to Table~\ref{tab:CS-S176close}.
+\item Priority 2: If $Mode=0$ and $H_{ds}<S176\_TW_{obs}$, operate according to Table~\ref{tab:CS-S176open}.
+\item Priority 3: If $Mode=0$ and $H_{ds}=S176\_TW_{obs}$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S176TW_{obs}$, and $Q_{str}<1200$ cfs, operate according to Table~\ref{tab:CS-S176open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S176TW_{obs}$, operate according to Table~\ref{tab:CS-S176close}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=4.75 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S176close}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S176open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=4.7 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-S176close}.
 \end{packed_items}
 
 \footnotesize
@@ -2955,16 +3017,18 @@ Structure S177 maintains optimum water control upstream in Canal 111; it passes 
 \end{figure}
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>4.2 ft$, and $Q_{str}<1700$ cfs, operate according to Table~\ref{tab:CS-S177open}.
-\item Priority 2: If $Mode=1$ and $H_{us}<3.6 ft$, operate according to Table~\ref{tab:CS-S177close}.
+\item Priority 1: If $Q_{str}>1700 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>4.2 ft$, and $Q_{str}<1700$ cfs, operate according to Table~\ref{tab:CS-S177open}.
-\item Priority 4: If $Mode=2$ and $H_{us}<3.6 ft$, operate according to Table~\ref{tab:CS-S177close}.
+\item Priority 2: If $Mode=0$ and $H_{ds}<S177\_TW_{obs}$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 3: If $Mode=0$ and $H_{ds}=S177\_TW_{obs}$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S177TW_{obs}$, and $Q_{str}<1700$ cfs, operate according to Table~\ref{tab:CS-S177open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S177TW_{obs}$, operate according to Table~\ref{tab:CS-S177close}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=3.6 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S177close}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=3.6 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-S177close}.
 \end{packed_items}
 
 \footnotesize
@@ -3120,16 +3184,18 @@ Structure S18C maintains optimum water control stages upstream in Canal 111; it 
 
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{us}>2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
-\item Priority 2: If $Mode=1$ and $H_{us}<2.3 ft$, operate according to Table~\ref{tab:CS-S18Cclose}.
+\item Priority 1: If $Q_{str}>2300 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{us}>2.25 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
-\item Priority 4: If $Mode=2$ and $H_{us}<2.0 ft$, operate according to Table~\ref{tab:CS-S18Cclose}.
+\item Priority 2: If $Mode=0$ and $H_{ds}<S18C\_TW_{obs}$, operate according to Table~\ref{tab:CS-S18Copen}.
+\item Priority 3: If $Mode=0$ and $H_{ds}=S18C\_TW_{obs}$, remain unchanged.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S18CTW_{obs}$, and $Q_{str}<2300$ cfs, operate according to Table~\ref{tab:CS-S18Copen}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S18CTW_{obs}$, operate according to Table~\ref{tab:CS-S18Cclose}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
+\item Priority 5: If $Mode=1$ and $H_{us}>=2.3 ft$, remain unchanged.
 \item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S18Cclose}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=2.25 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=2.00 ft$, remain unchanged.
+\item[]
+\item Priority 8: Default, operate according to Table~\ref{tab:CS-S18Cclose}.
 \end{packed_items}
 
 \footnotesize
@@ -3200,11 +3266,11 @@ This structure is located near the mouth of Canal 111 about 3 miles from the sho
 
 This structure is a thirteen-barreled corrugated metal pipe culvert.
 
-The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-10 with 7 culverts, and S197-13 with 3 culverts (S197-03, S197-07 and S197-13) corresponding to opening of 3, 4 and 6 additional culverts (simulating opening of 3, 7 and 13 culverts total).
+The M11 model implements S197 as a composite structure comprised by: S197-03 with 3 culverts, S197-07 with 4 culverts, and S197-13 with 6 culverts. This corresponds to opening of 3, 7 and 13 culverts total).
 
 The culverts 4 through 13 have been replaced since 2010.
 
-This structure (comprised by 13 culverts) is defined as Underflow with max rate of change of 0.000138 ft/s.
+These structures are defined as Underflow with max rate of change of 0.000138 ft/s.
 
 \begin{figure}[!h]
   \begin{center}
@@ -3214,18 +3280,8 @@ This structure (comprised by 13 culverts) is defined as Underflow with max rate 
   \end{center}
 \end{figure}
 
-This table summarizes the more detailed ruleset below:
-\begin{itemize}
-\item If S-197 headwater $>$ 4.10ft or S-18C headwater $>$ 2.80ft: open 3 culverts.
-\item S-197 headwater $>$ 4.20ft or S-18C headwater $>$ 3.10ft: open 7 culverts
-\item S-197 headwater $>$ 4.30ft or S-18C headwater $>$ 3.30ft: open 13 culverts
-\item S-197 headwater $<$ 4.20ft or S-176 headwater $<$ 5.20ft: close gates
-\item S-197 headwater $<$ 4.10ft or S-176: close all gates
-\end{itemize}
 
-These are the detailed rulesets:
-
-For all structures: location of trigger points in model:
+These are the approximate locations of the trigger points in the model:
 \begin{packed_items}
 \item S-176 HW: Branch C-111 chainage 0 ft.
 \item S-177 HW: Branch C-111 chainage 29452 ft.
@@ -3237,28 +3293,28 @@ For all structures: location of trigger points in model:
 
 Priorities for S197-03, (3 gates):
 \begin{packed_items}
-\item Priority 1: If S-18C HW $>$ 2.8 ft, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 2: If S-177 HW $>$ 4.1 ft, operate according to Table~\ref{tab:CS-S197open}.
+\item Priority 1: If S-177 HW $>$ 4.1 ft, operate according to Table~\ref{tab:CS-S197open}.
+\item Priority 2: If S-18C HW $>$ 2.8 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: If stage $<$ 0.0, close.
+\item Priority 4: Default, close.
 \end{packed_items}
 
 
-Priorities for S197-10, (7 gates):
+Priorities for S197-07, (4 gates):
 \begin{packed_items}
-\item Priority 1: If S-18C HW $>$ 3.1 ft, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 2: If \textcolor[rgb]{1.00,0.00,0.00}{Average 24 for hours??? S-197 HW} $>$ 4.2 ft, operate according to Table~\ref{tab:CS-S197open}.
+\item Priority 1: If S-177 HW $>$ 4.2 ft (averaged over 24 hours), operate according to Table~\ref{tab:CS-S197open}.
+\item Priority 2: If S-18C HW $>$ 3.1 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: If stage $<$ 0.0, close.
+\item Priority 4: Default, close.
 \end{packed_items}
 
 
-Priorities for S197-13, (3 gates):
+Priorities for S197-13, (6 gates):
 \begin{packed_items}
-\item Priority 1: If S-18C HW $>$ 3.3 ft, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 2: If S-177 HW $>$ 4.3 ft, operate according to Table~\ref{tab:CS-S197open}.
+\item Priority 1: If S-177 HW $>$ 4.3 ft, operate according to Table~\ref{tab:CS-S197open}.
+\item Priority 2: If S-18C HW $>$ 3.3 ft, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: If stage $<$ 0.0, close.
+\item Priority 4: Default, close.
 \end{packed_items}
 
 
@@ -3272,7 +3328,7 @@ Priorities for S197-13, (3 gates):
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
 -8	& -7.9       \\
--1	& -0.91   \\
+-1	& -0.9   \\
 \hline
 \end{tabular}
 \end{table}
@@ -3361,13 +3417,15 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 
 %\textcolor[rgb]{1.00,0.00,0.00}{
 \begin{packed_items}
-\item Priority 1: If $Mode>0$ and $H_{us}>4.6 ft$, operate according to Table~\ref{tab:CS-S178open}.
-\item Priority 2: If $Mode>0$ and $H_{us}<4.4 ft$, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 1: If $Q_{str}>9999 cfs$, close.
 \item[]
-\item Priority 3: If $Mode=0$ and $H_{ds}<S178TW_{obs}$, operate according to Table~\ref{tab:CS-S178open}.
-\item Priority 4: If $Mode=0$ and $H_{ds}>S178TW_{obs}$, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 2: If $Mode=0$ and $H_{ds}<S178\_TW_{obs}$, operate according to Table~\ref{tab:CS-S178open}.
+\item Priority 3: If $Mode=0$ and $H_{ds}=S178\_TW_{obs}$, remain unchanged.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 4: If $Mode>0$ and $H_{us}>=4.6 ft$, operate according to Table~\ref{tab:CS-S178open}.
+\item Priority 5: If $Mode>0$ and $H_{us}>=4.4 ft$, remain unchanged.
+\item[]
+\item Priority 6: Default, operate according to Table~\ref{tab:CS-S178close}.
 \end{packed_items}
 %}
 
