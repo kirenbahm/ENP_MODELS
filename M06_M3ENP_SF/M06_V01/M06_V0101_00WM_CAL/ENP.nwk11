@@ -1,4 +1,4 @@
-// Created     : 2018-05-2 13:53:0
+// Created     : 2018-05-8 17:10:36
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -4447,32 +4447,32 @@
                [Level_Width]
                   Data = 3.197352, 0
                   Data = 3.2004, 121.92
-                  Data = 3.6576, 147.828
+                  Data = 3.9624, 147.828
                EndSect  // Level_Width
 
             EndSect  // Geometry
 
             [QH_Relations]
                Data = 0, 3.19735, 3.19735, 3.19735, 0, 0
-               Data = 1.31007, 3.23852, 3.23854, 3.22158, 123.12, 2.78023
-               Data = 3.90896, 3.28066, 3.28071, 3.2458, 124.493, 5.77926
-               Data = 7.32697, 3.32263, 3.32275, 3.27002, 125.865, 8.811540000000001
-               Data = 11.4161, 3.36443, 3.36463, 3.29425, 127.238, 11.8771
-               Data = 16.0939, 3.40607, 3.40638, 3.31847, 128.611, 14.9759
-               Data = 21.3062, 3.44755, 3.44798, 3.34269, 129.983, 18.1079
-               Data = 27.0146, 3.48887, 3.48945, 3.36692, 131.356, 21.2732
-               Data = 33.1898, 3.53004, 3.53079, 3.39114, 132.729, 24.4717
-               Data = 39.8089, 3.57106, 3.57199, 3.41536, 134.101, 27.7035
-               Data = 46.8535, 3.61194, 3.61306, 3.43959, 135.474, 30.9685
-               Data = 54.3084, 3.65268, 3.65401, 3.46381, 136.847, 34.2668
-               Data = 62.1607, 3.69327, 3.69482, 3.48803, 138.219, 37.5984
-               Data = 70.3998, 3.73374, 3.73552, 3.51226, 139.592, 40.9631
-               Data = 79.0163, 3.77407, 3.77609, 3.53648, 140.965, 44.3612
-               Data = 88.0021, 3.81427, 3.81655, 3.56071, 142.337, 47.7925
-               Data = 97.3503, 3.85434, 3.85688, 3.58493, 143.71, 51.257
-               Data = 107.055, 3.89429, 3.8971, 3.60915, 145.083, 54.7548
-               Data = 117.11, 3.93411, 3.9372, 3.63338, 146.455, 58.2859
-               Data = 127.511, 3.97381, 3.97719, 3.6576, 147.828, 61.8502
+               Data = 2.92197, 3.26648, 3.2665, 3.23762, 123.185, 4.74694
+               Data = 8.543240000000001, 3.33633, 3.33642, 3.27788, 124.554, 9.73466
+               Data = 15.909, 3.40578, 3.40599, 3.31815, 125.923, 14.7775
+               Data = 24.7075, 3.47486, 3.47522, 3.35842, 127.293, 19.8755
+               Data = 34.7642, 3.5436, 3.54412, 3.39868, 128.662, 25.0286
+               Data = 45.9642, 3.61199, 3.61272, 3.43895, 130.031, 30.2368
+               Data = 58.2253, 3.68008, 3.68102, 3.47921, 131.4, 35.5001
+               Data = 71.4854, 3.74786, 3.74903, 3.51948, 132.769, 40.8186
+               Data = 85.6957, 3.81535, 3.81677, 3.55974, 134.138, 46.1922
+               Data = 100.817, 3.88257, 3.88424, 3.60001, 135.507, 51.6209
+               Data = 116.816, 3.94952, 3.95145, 3.64028, 136.876, 57.1048
+               Data = 133.666, 4.01621, 4.01842, 3.68054, 138.245, 62.6438
+               Data = 151.345, 4.08267, 4.08514, 3.72081, 139.614, 68.2379
+               Data = 169.831, 4.14888, 4.15163, 3.76107, 140.983, 73.8871
+               Data = 189.109, 4.21485, 4.2179, 3.80134, 142.352, 79.59139999999999
+               Data = 209.162, 4.2806, 4.28394, 3.8416, 143.721, 85.3509
+               Data = 229.978, 4.34612, 4.34975, 3.88187, 145.09, 91.16549999999999
+               Data = 251.544, 4.41143, 4.41536, 3.92214, 146.459, 97.0352
+               Data = 273.852, 4.47653, 4.48076, 3.9624, 147.828, 102.96
             EndSect  // QH_Relations
 
          EndSect  // weir_data
@@ -25507,7 +25507,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-4', 2075, 'G119', 'model'
+            Location = 'C-4', 2073.453572818606, 'G119', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -25559,7 +25559,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31N', 11330, 'G211', 'model'
+            Location = 'L-31N', 11332.1, 'G211', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -25631,7 +25631,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 11330, 'G211', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 11332.10000784, 'G211', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -25709,7 +25709,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 11330, 'G211', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 11332.10000784, 'G211', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -25787,7 +25787,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 11330, 'G211', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 11332.10000784, 'G211', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -25858,7 +25858,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 11330, 'G211', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 11332.10000784, 'G211', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26247,7 +26247,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-103', 10535, 'S167', 'model'
+            Location = 'C-103', 10535.81554906809, 'S167', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -26319,7 +26319,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 10535, 'S167', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 10535.8155552, 'S167', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26395,7 +26395,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 10535, 'S167', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 10535.8155552, 'S167', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26464,7 +26464,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 10535, 'S167', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 10535.8155552, 'S167', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26486,7 +26486,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31W', 15, 'S174', 'model'
+            Location = 'L-31W', 15.24, 'S174', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -26537,7 +26537,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31W', 11475, 'S175', 'model'
+            Location = 'L-31W', 11475.49843265235, 'S175', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -26622,7 +26622,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 10, 'S176', 'model'
+            Location = 'C-111', 8.222366509985847, 'S176', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -26694,7 +26694,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 10, 'S176', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8.222366516879999, 'S176', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26772,7 +26772,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 10, 'S176', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8.222366516879999, 'S176', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26850,7 +26850,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 10, 'S176', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8.222366516879999, 'S176', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26921,7 +26921,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 10, 'S176', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8.222366516879999, 'S176', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26943,7 +26943,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 8990, 'S177', 'model'
+            Location = 'C-111', 8992.310184, 'S177', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -27015,7 +27015,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 8990, 'S177', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8992.310184, 'S177', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27093,7 +27093,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 8990, 'S177', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8992.310184, 'S177', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27171,7 +27171,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 8990, 'S177', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8992.310184, 'S177', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27242,7 +27242,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 8990, 'S177', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 8992.310184, 'S177', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27264,7 +27264,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111E', 2305, 'S178', 'model'
+            Location = 'C-111E', 2305.29518112, 'S178', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -27336,7 +27336,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111E', 2305, 'S178', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111E', 2305.29518112, 'S178', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27414,7 +27414,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111E', 2305, 'S178', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111E', 2305.29518112, 'S178', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27485,7 +27485,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111E', 2305, 'S178', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111E', 2305.29518112, 'S178', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27507,7 +27507,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 18515, 'S18C', 'model'
+            Location = 'C-111', 18517, 'S18C', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -27579,7 +27579,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 18515, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
+               Targetpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27657,7 +27657,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 18515, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
+               Targetpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27735,7 +27735,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 18515, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
+               Targetpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27806,7 +27806,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 18515, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
+               Targetpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S18C_Q.dfs0|, 'S18C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27828,7 +27828,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-102', 5185, 'S194', 'model'
+            Location = 'C-102', 5187, 'S194', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -27900,7 +27900,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185, 'S194', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-102', 5186.999989199999, 'S194', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27978,7 +27978,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185, 'S194', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-102', 5186.999989199999, 'S194', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28056,7 +28056,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185, 'S194', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-102', 5186.999989199999, 'S194', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28127,7 +28127,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185, 'S194', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-102', 5186.999989199999, 'S194', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28221,7 +28221,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890, 'S196', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28299,7 +28299,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890, 'S196', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28377,7 +28377,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890, 'S196', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28448,7 +28448,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890, 'S196', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28470,7 +28470,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28335, 'S197-03', 'model'
+            Location = 'C-111', 28335.2253770917, 'S197-03', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -28503,7 +28503,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28335, 'S197-03', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 28335.22539192, 'S197-03', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28537,7 +28537,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28335, 'S197-03', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 28335.22539192, 'S197-03', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28628,7 +28628,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28335, 'S197-07', 'model'
+            Location = 'C-111', 28335.2254, 'S197-07', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -28661,7 +28661,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28335, 'S197-07', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 28335.22539192, 'S197-07', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28695,7 +28695,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28335, 'S197-07', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 28335.22539192, 'S197-07', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28786,7 +28786,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28335, 'S197-13', 'model'
+            Location = 'C-111', 28335.2254, 'S197-13', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -28819,7 +28819,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28335, 'S197-13', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 28335.22539192, 'S197-13', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28853,7 +28853,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28335, 'S197-13', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-111', 28335.22539192, 'S197-13', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28944,7 +28944,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet-EXT', 30, 'S199', 'model'
+            Location = 'AeroJet-EXT', 32.004, 'S199', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -28977,7 +28977,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'AeroJet-EXT', 30, 'S199', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'AeroJet-EXT', 32.004, 'S199', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29071,7 +29071,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'FPDA-INLET', 5, 'S200', 'model'
+            Location = 'FPDA-INLET', 3.048, 'S200', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -29104,7 +29104,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'FPDA-INLET', 5, 'S200', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'FPDA-INLET', 3.048, 'S200', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29248,7 +29248,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31N-S173', 125, 'S331_S173', 'model'
+            Location = 'L-31N-S173', 122.876183508, 'S331_S173', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -29329,7 +29329,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N-S173', 125, 'S331_S173', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N-S173', 122.876183508, 'S331_S173', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29393,7 +29393,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31N', 17220, 'S331P', 'model'
+            Location = 'L-31N', 17217.66432, 'S331P', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -29510,7 +29510,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 17220, 'S331P', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 17217.66432, 'S331P', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29554,7 +29554,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 17220, 'S331P', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 17217.66432, 'S331P', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29598,7 +29598,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 17220, 'S331P', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N', 17217.66432, 'S331P', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29656,7 +29656,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31N-S331s', 75, 'S331S', 'model'
+            Location = 'L-31N-S331s', 73.27041788082725, 'S331S', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -29699,7 +29699,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N-S331s', 75, 'S331S', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-31N-S331s', 73.27041784799999, 'S331S', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29763,7 +29763,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332BN', 20, 'S332BN1', 'model'
+            Location = 'S332BN', 18.288, 'S332BN1', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -29815,14 +29815,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 19, 5, 0
+               LS_parameter = 2, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.524, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -29834,7 +29829,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 20, 'S332BN1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BN_Q.dfs0|, 'S332BN_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29865,7 +29860,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -29885,6 +29880,7 @@
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
+                  data = 0, 0
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -29914,7 +29910,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 20, 'S332BN1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29994,7 +29990,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 20, 'S332BN1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30087,7 +30083,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332BW', 20, 'S332BW1', 'model'
+            Location = 'S332BW', 18.288, 'S332BW1', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30138,14 +30134,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 19, 5, 0
+               LS_parameter = 2, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.524, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30157,7 +30148,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 20, 'S332BW1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BW_Q.dfs0|, 'S332BW_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30188,7 +30179,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30238,7 +30229,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 20, 'S332BW1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30319,7 +30310,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 20, 'S332BW1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30414,7 +30405,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332C', 10, 'S332C1', 'model'
+            Location = 'S332C', 10.668, 'S332C1', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30466,14 +30457,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 19, 5, 0
+               LS_parameter = 2, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.524, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30485,7 +30471,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10, 'S332C1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332C_Q.dfs0|, 'S332C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30516,7 +30502,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30566,7 +30552,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10, 'S332C1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30647,7 +30633,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10, 'S332C1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30742,7 +30728,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332D', 10, 'S332D1', 'model'
+            Location = 'S332D', 12.192, 'S332D1', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30775,7 +30761,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, |..\..\..\OBSERVED\S332D_Q.dfs0|, 'S332D_Q', 1, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, |..\..\..\OBSERVED\S332D_Q.dfs0|, 'S332D_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30818,7 +30804,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30867,7 +30853,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30916,7 +30902,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30962,7 +30948,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31043,7 +31029,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31092,7 +31078,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31141,7 +31127,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31187,7 +31173,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 10, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31279,7 +31265,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332D', 10, 'S332D2', 'model'
+            Location = 'S332D', 12.192, 'S332D2', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32400,7 +32386,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-4', 105, 'S336', 'model'
+            Location = 'C-4', 103, 'S336', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32517,7 +32503,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-1W', 1650, 'S338', 'model'
+            Location = 'C-1W', 1651, 'S338', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32589,7 +32575,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-1W', 1650, 'S338', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-1W', 1651.000001016, 'S338', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -32667,7 +32653,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-1W', 1650, 'S338', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-1W', 1651.000001016, 'S338', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -32745,7 +32731,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-1W', 1650, 'S338', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-1W', 1651.000001016, 'S338', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -32816,7 +32802,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-1W', 1650, 'S338', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-1W', 1651.000001016, 'S338', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -40443,6 +40429,17 @@
    EndSect  // COMPUTATIONAL_SETUP
 
    [MIKESHECOUPLING]
+      MikeSheCoupling = '_EastCapeCanal', 0, 4460.1384, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'C-103S', 0, 2954, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
+      MikeSheCoupling = 'S332BN_overflow', 0, 847.3439999999999, 2, 0.0012, 1, 132, 1, 0, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'S332BW_overflow', 0, 853.4399999999999, 2, 0.0012, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
+      MikeSheCoupling = 'culvert_25', 100, 826, 0, 0.001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'FP', 457.1999999999999, 7040.88, 2, 0.0012, 1, 112, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'FPDA-INLET', 1524, 5791.2, 2, 0.0012, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'NDA', 0, 8381.999999999998, 2, 0.0012, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
+      MikeSheCoupling = 'S332D', 0, 1115.2632, 2, 0.0012, 1, 114, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'SDA', 0, 7162.799999999999, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'SDAC', 30.48, 2880.36, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_AligatorCreek', 0, 1997.964, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_AligatorCreekE', 0, 2432.9136, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_BarronRiver', 0, 6408.724799999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
@@ -40450,7 +40447,6 @@
       MikeSheCoupling = '_BroadRiver', 0, 27844.0896, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_CharleyCreek', 0, 2361.8952, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_ChattamRiver', 0, 12499.848, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = '_EastCapeCanal', 0, 4460.1384, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_EastCreek', 0, 983, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_FlamingoCanal', 0, 6054, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = '_GatorBayCanal', 0, 3591, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
@@ -40493,7 +40489,6 @@
       MikeSheCoupling = 'C-102', 0, 10235.184, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'C-103', 0, 16373, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'C-103N', 0, 2507.5896, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'C-103S', 0, 2954, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
       MikeSheCoupling = 'C-110', 0, 10708, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'C-111', 0, 9006.839999999998, 0, 1e-006, 1, 64, 1, 1, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
       MikeSheCoupling = 'C-111', 9006.839999999998, 18539.7648, 0, 1e-006, 1, 64, 1, 1, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
@@ -40718,7 +40713,6 @@
       MikeSheCoupling = 'CTT_117_DS', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'CTT_117_US', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_24', 100, 852, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'culvert_25', 100, 826, 0, 0.001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_26', 200, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_27', 100, 854, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_28', 100, 846, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
@@ -40741,8 +40735,6 @@
       MikeSheCoupling = 'culvert_57', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_58', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_59', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'FP', 457.1999999999999, 7040.88, 2, 0.001, 1, 112, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'FPDA-INLET', 1524, 5791.2, 2, 0.001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'G3273', 0, 883.92, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'L-28', 8077.199999999999, 14400, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'L-29', 0, 92384.87999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
@@ -40762,7 +40754,6 @@
       MikeSheCoupling = 'LAKE1', 0, 1999.488, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'LAKE2', 0, 763.8287999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'LPG2', 0, 900.3791999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'NDA', 0, 8381.999999999998, 2, 0.001, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'OldIngraham', 0, 19002.1464, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'POCKET', 0, 2206.752, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'ROAD_SRS', 800, 11461, 0, 1e-006, 1, 14, 1, 0, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
@@ -40772,13 +40763,8 @@
       MikeSheCoupling = 'S12C', 0, 861.0599999999998, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S12D', 0, 845.2103999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S332', 0, 914.3999999999999, 0, 1e-006, 1, 332, 0, 0, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
-      MikeSheCoupling = 'S332BN_overflow', 0, 847.3439999999999, 2, 0.0001, 1, 132, 1, 0, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'S332BW_overflow', 0, 853.4399999999999, 2, 0.0001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
-      MikeSheCoupling = 'S332D', 0, 1115.2632, 2, 0.001, 1, 114, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S343A', 0, 914.4, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S343B', 0, 914.3999999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
-      MikeSheCoupling = 'SDA', 0, 7162.799999999999, 2, 0.001, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'SDAC', 30.48, 2880.36, 2, 0.001, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1N', 0, 16006.572, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1S', 1000, 3102.864, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
    EndSect  // MIKESHECOUPLING
@@ -40812,6 +40798,29 @@
    EndSect  // MODFLOW
 
    [LAYER_FILES]
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\DA-2018.shp|, 'Uniq_ID'
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Polygon_Object]
+            Base_Title = 'Shape Polygons'
+            Base_Reg_Key = ''
+            Base_Col_Red = 0
+            Base_Col_Green = 0
+            Base_Col_Blue = 0
+            Base_Display_On = true
+            Line_Thickness = 0.12
+            Line_Style = 0
+            Line_Polygon_Style = 1
+            Draw_Text = true
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Polygon_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 0
+      EndSect  // PROPERTIES
+
    EndSect  // LAYER_FILES
 
 EndSect  // MIKE_11_Network_editor
