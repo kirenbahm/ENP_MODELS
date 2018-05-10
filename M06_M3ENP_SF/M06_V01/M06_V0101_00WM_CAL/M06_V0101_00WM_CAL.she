@@ -1,4 +1,4 @@
-// Created     : 2018-04-19 12:4:47
+// Created     : 2018-05-10 17:8:59
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -26699,7 +26699,7 @@
             Name = 'C102-out'
             DataType = 1
             BranchName = 'C-102'
-            Chainage = 10212
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26735,7 +26735,7 @@
             Name = 'C103-out'
             DataType = 1
             BranchName = 'C-103'
-            Chainage = 15232
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26753,7 +26753,7 @@
             Name = 'C103N-out'
             DataType = 1
             BranchName = 'C-103N'
-            Chainage = 2442.3
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26771,7 +26771,7 @@
             Name = 'C103atKrome'
             DataType = 1
             BranchName = 'C-103'
-            Chainage = 9030
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26789,7 +26789,7 @@
             Name = 'C110-out'
             DataType = 1
             BranchName = 'C-110'
-            Chainage = 10688
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26861,7 +26861,7 @@
             Name = 'C111-after-C110'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 23428
+            Chainage = 23430
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26879,7 +26879,7 @@
             Name = 'C111-after-C111E'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 15179
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26897,7 +26897,7 @@
             Name = 'C111-after-C113'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 123
+            Chainage = 140
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26915,7 +26915,7 @@
             Name = 'C111-after-S200'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 4434
+            Chainage = 4430
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26933,7 +26933,7 @@
             Name = 'C111-before-C110'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 23328
+            Chainage = 23330
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26951,7 +26951,7 @@
             Name = 'C111-before-C111E'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 14726
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26969,7 +26969,7 @@
             Name = 'C111-before-S199'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 8897.96
+            Chainage = 8890
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -26987,7 +26987,7 @@
             Name = 'C111-before-S200'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 4076
+            Chainage = 4330
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27005,7 +27005,7 @@
             Name = 'C111E-out'
             DataType = 1
             BranchName = 'C-111E'
-            Chainage = 7228
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27041,7 +27041,7 @@
             Name = 'C1W-in'
             DataType = 1
             BranchName = 'C-1W'
-            Chainage = 25
+            Chainage = 50
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27059,7 +27059,7 @@
             Name = 'C1W-out'
             DataType = 1
             BranchName = 'C-1W'
-            Chainage = 9767
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27095,7 +27095,7 @@
             Name = 'C4-out'
             DataType = 1
             BranchName = 'C4'
-            Chainage = 6174
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27437,7 +27437,7 @@
             Name = 'G119_HW'
             DataType = 0
             BranchName = 'C4'
-            Chainage = 2042.16
+            Chainage = 2035
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27455,7 +27455,7 @@
             Name = 'G119_Q'
             DataType = 1
             BranchName = 'C4'
-            Chainage = 2073.55
+            Chainage = 2075
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27473,7 +27473,7 @@
             Name = 'G119_TW'
             DataType = 0
             BranchName = 'C4'
-            Chainage = 2103.12
+            Chainage = 2100
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27491,7 +27491,7 @@
             Name = 'G211_HW'
             DataType = 0
             BranchName = 'L-31N'
-            Chainage = 11325.1
+            Chainage = 11305
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27509,7 +27509,7 @@
             Name = 'G211_Q'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 11332.1
+            Chainage = 11330
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27527,7 +27527,7 @@
             Name = 'G211_TW'
             DataType = 0
             BranchName = 'L-31N'
-            Chainage = 11340.1
+            Chainage = 11360
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27599,7 +27599,7 @@
             Name = 'L31N-after-C102'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 20872
+            Chainage = 20850
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27617,7 +27617,7 @@
             Name = 'L31N-after-C103'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 29987
+            Chainage = 29945
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27671,7 +27671,7 @@
             Name = 'L31N-before-C102'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 20787
+            Chainage = 20750
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27689,7 +27689,7 @@
             Name = 'L31N-before-C103'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 29904.3
+            Chainage = 29830
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27707,7 +27707,7 @@
             Name = 'L31N-before-S332B'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 26184
+            Chainage = 26215
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -27725,7 +27725,7 @@
             Name = 'L31N-before-S332D'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 33705
+            Chainage = 33680
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28643,7 +28643,7 @@
             Name = 'S167_HW'
             DataType = 0
             BranchName = 'C-103'
-            Chainage = 10515.6
+            Chainage = 10515
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28661,7 +28661,7 @@
             Name = 'S167_Q'
             DataType = 1
             BranchName = 'C-103'
-            Chainage = 10535.8
+            Chainage = 10535
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28679,7 +28679,7 @@
             Name = 'S167_TW'
             DataType = 0
             BranchName = 'C-103'
-            Chainage = 10576.6
+            Chainage = 10555
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28697,7 +28697,7 @@
             Name = 'S173_Q'
             DataType = 1
             BranchName = 'L-31N-S173'
-            Chainage = 122.87
+            Chainage = 125
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28715,7 +28715,7 @@
             Name = 'S175_HW'
             DataType = 0
             BranchName = 'L-31W'
-            Chainage = 11449.3
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28733,7 +28733,7 @@
             Name = 'S175_Q'
             DataType = 1
             BranchName = 'L-31W'
-            Chainage = 11475.5
+            Chainage = 11475
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28751,7 +28751,7 @@
             Name = 'S175_TW'
             DataType = 0
             BranchName = 'L-31W'
-            Chainage = 11489.8
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28787,7 +28787,7 @@
             Name = 'S176_Q'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 8.22
+            Chainage = 10
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28805,7 +28805,7 @@
             Name = 'S176_TW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 155.93
+            Chainage = 65
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28823,7 +28823,7 @@
             Name = 'S177_HW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 8976.8
+            Chainage = 8960
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28841,7 +28841,7 @@
             Name = 'S177_Q'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 8992.17
+            Chainage = 8990
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28859,7 +28859,7 @@
             Name = 'S177_TW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 9007.66
+            Chainage = 9020
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28877,7 +28877,7 @@
             Name = 'S178_HW'
             DataType = 0
             BranchName = 'C-111E'
-            Chainage = 2295.36
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28895,7 +28895,7 @@
             Name = 'S178_Q'
             DataType = 1
             BranchName = 'C-111E'
-            Chainage = 2305.94
+            Chainage = 2305
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28913,7 +28913,7 @@
             Name = 'S178_TW'
             DataType = 0
             BranchName = 'C-111E'
-            Chainage = 2315
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28931,7 +28931,7 @@
             Name = 'S18C_HW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 18489.8
+            Chainage = 18450
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28949,7 +28949,7 @@
             Name = 'S18C_Q'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 18516.6
+            Chainage = 18515
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28967,7 +28967,7 @@
             Name = 'S18C_TW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 19437.8
+            Chainage = 18565
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -28985,7 +28985,7 @@
             Name = 'S194_HW'
             DataType = 0
             BranchName = 'C-102'
-            Chainage = 5166.68
+            Chainage = 5140
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29003,7 +29003,7 @@
             Name = 'S194_Q'
             DataType = 1
             BranchName = 'C-102'
-            Chainage = 5187.04
+            Chainage = 5185
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29021,7 +29021,7 @@
             Name = 'S194_TW'
             DataType = 0
             BranchName = 'C-102'
-            Chainage = 5227
+            Chainage = 5230
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29039,7 +29039,7 @@
             Name = 'S196_HW'
             DataType = 0
             BranchName = 'C-103'
-            Chainage = 4849.48
+            Chainage = 4860
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29075,7 +29075,7 @@
             Name = 'S196_TW'
             DataType = 0
             BranchName = 'C-103'
-            Chainage = 4932.79
+            Chainage = 4920
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29093,7 +29093,7 @@
             Name = 'S197_HW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 28258.6
+            Chainage = 28280
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29111,7 +29111,7 @@
             Name = 'S197_Q'
             DataType = 1
             BranchName = 'C-111'
-            Chainage = 28334.8
+            Chainage = 28335
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29129,7 +29129,7 @@
             Name = 'S197_TW'
             DataType = 0
             BranchName = 'C-111'
-            Chainage = 28414.6
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29147,7 +29147,7 @@
             Name = 'S199_Q'
             DataType = 1
             BranchName = 'AeroJet-EXT'
-            Chainage = 32
+            Chainage = 60
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29165,7 +29165,7 @@
             Name = 'S199_TW'
             DataType = 0
             BranchName = 'AeroJet-EXT'
-            Chainage = 40
+            Chainage = 111
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29183,7 +29183,7 @@
             Name = 'S200_Q'
             DataType = 1
             BranchName = 'FPDA-INLET'
-            Chainage = 3
+            Chainage = 60
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29201,7 +29201,7 @@
             Name = 'S200_TW'
             DataType = 0
             BranchName = 'FPDA-INLET'
-            Chainage = 16
+            Chainage = 111
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29219,7 +29219,7 @@
             Name = 'S331P_Q'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 17217.7
+            Chainage = 17220
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29237,7 +29237,7 @@
             Name = 'S331S_Q'
             DataType = 1
             BranchName = 'L-31N-S331s'
-            Chainage = 73.28
+            Chainage = 75
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29255,7 +29255,7 @@
             Name = 'S331T_Q'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 17449.8
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29273,7 +29273,7 @@
             Name = 'S331_HW'
             DataType = 0
             BranchName = 'L-31N'
-            Chainage = 17189
+            Chainage = 17030
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29291,7 +29291,7 @@
             Name = 'S331_TW'
             DataType = 0
             BranchName = 'L-31N'
-            Chainage = 17255.1
+            Chainage = 17350
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29327,7 +29327,7 @@
             Name = 'S332BN_Q'
             DataType = 1
             BranchName = 'S332BN'
-            Chainage = 3
+            Chainage = 18.288
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29345,7 +29345,7 @@
             Name = 'S332BN_TW'
             DataType = 0
             BranchName = 'S332BN'
-            Chainage = 5
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29363,7 +29363,7 @@
             Name = 'S332BNoverflow'
             DataType = 1
             BranchName = 'B-WS332BN-E'
-            Chainage = 1.5
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29381,7 +29381,7 @@
             Name = 'S332BW_HW'
             DataType = 0
             BranchName = 'S332BW'
-            Chainage = 1040
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29399,7 +29399,7 @@
             Name = 'S332BW_Q'
             DataType = 1
             BranchName = 'S332BW'
-            Chainage = 1042
+            Chainage = 18.288
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29417,7 +29417,7 @@
             Name = 'S332BW_TW'
             DataType = 0
             BranchName = 'S332BW'
-            Chainage = 1044
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29435,7 +29435,7 @@
             Name = 'S332C_HW'
             DataType = 0
             BranchName = 'S332C'
-            Chainage = 0
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29453,7 +29453,7 @@
             Name = 'S332C_Q'
             DataType = 1
             BranchName = 'S332C'
-            Chainage = 10.67
+            Chainage = 10.668
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29471,7 +29471,7 @@
             Name = 'S332C_TW'
             DataType = 0
             BranchName = 'S332C'
-            Chainage = 12.19
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29489,7 +29489,7 @@
             Name = 'S332D_HW'
             DataType = 0
             BranchName = 'S332D'
-            Chainage = 0
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29507,7 +29507,7 @@
             Name = 'S332D_Q'
             DataType = 1
             BranchName = 'S332D'
-            Chainage = 3.05
+            Chainage = 12.192
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29525,7 +29525,7 @@
             Name = 'S332D_TW'
             DataType = 0
             BranchName = 'S332D'
-            Chainage = 6.1
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29543,7 +29543,7 @@
             Name = 'S332at21m'
             DataType = 1
             BranchName = 'S332'
-            Chainage = 21.32
+            Chainage = 21
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29561,7 +29561,7 @@
             Name = 'S332at407m'
             DataType = 1
             BranchName = 'S332'
-            Chainage = 407.44
+            Chainage = 407
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29741,7 +29741,7 @@
             Name = 'S336_HW'
             DataType = 0
             BranchName = 'C4'
-            Chainage = 97.54
+            Chainage = 85
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29759,7 +29759,7 @@
             Name = 'S336_Q'
             DataType = 1
             BranchName = 'C4'
-            Chainage = 103
+            Chainage = 105
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29777,7 +29777,7 @@
             Name = 'S336_TW'
             DataType = 0
             BranchName = 'C4'
-            Chainage = 106.68
+            Chainage = 150
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29795,7 +29795,7 @@
             Name = 'S338_HW'
             DataType = 0
             BranchName = 'C-1W'
-            Chainage = 1640.44
+            Chainage = 1620
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29813,7 +29813,7 @@
             Name = 'S338_Q'
             DataType = 1
             BranchName = 'C-1W'
-            Chainage = 1651.14
+            Chainage = 1650
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -29831,7 +29831,7 @@
             Name = 'S338_TW'
             DataType = 0
             BranchName = 'C-1W'
-            Chainage = 1660.46
+            Chainage = 1680
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30155,7 +30155,7 @@
             Name = 'SDA-G3622'
             DataType = 0
             BranchName = 'SDA'
-            Chainage = 4830
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30173,7 +30173,7 @@
             Name = 'SDA-NTS18'
             DataType = 0
             BranchName = 'SDA'
-            Chainage = 7230
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30191,7 +30191,7 @@
             Name = 'SDA-RG4'
             DataType = 0
             BranchName = 'SDA'
-            Chainage = 780
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30209,7 +30209,7 @@
             Name = 'SDA-RUTZKE'
             DataType = 0
             BranchName = 'SDA'
-            Chainage = 3256
+            Chainage = 99999
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30227,7 +30227,7 @@
             Name = 'SDACweirNhw'
             DataType = 0
             BranchName = 'SDAC'
-            Chainage = 0
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30245,7 +30245,7 @@
             Name = 'SDACweirNq'
             DataType = 1
             BranchName = 'SDAC'
-            Chainage = 1
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30263,7 +30263,7 @@
             Name = 'SDACweirNtw'
             DataType = 0
             BranchName = 'SDAC'
-            Chainage = 3
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30281,7 +30281,7 @@
             Name = 'SDACweirShw'
             DataType = 0
             BranchName = 'SDAC'
-            Chainage = 2877
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30299,7 +30299,7 @@
             Name = 'SDACweirSq'
             DataType = 1
             BranchName = 'SDAC'
-            Chainage = 2878
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
@@ -30317,7 +30317,7 @@
             Name = 'SDACweirStw'
             DataType = 0
             BranchName = 'SDAC'
-            Chainage = 2880.36
+            Chainage = 99999
             InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
