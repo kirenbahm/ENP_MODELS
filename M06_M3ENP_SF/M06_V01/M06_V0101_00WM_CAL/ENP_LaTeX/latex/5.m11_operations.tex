@@ -1650,16 +1650,15 @@ In the model the pumps discharge according to the following rules:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BN0}.
-\item Priority 3: If $Mode=0$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BN0}.
+\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
-\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
-\item Priority 5: If $Mode=1$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
+\item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
 \item[]
-\item Priority 6: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
-\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
+\item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 8: Default, close.
+\item Priority 7: Default, close.
 \end{packed_items}
 
 \footnotesize
@@ -1770,16 +1769,15 @@ In the model the pumps discharge according to the following rules:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW0}.
-\item Priority 3: If $Mode=0$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BW0}.
+\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
-\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
-\item Priority 5: If $Mode=1$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
+\item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
 \item[]
-\item Priority 6: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
-\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
+\item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 8: Default, close.
+\item Priority 7: Default, close.
 \end{packed_items}
 
 \footnotesize
@@ -1891,16 +1889,16 @@ The control strategy is as follows:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C0}.
-\item Priority 3: If $Mode=0$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332C0}.
+\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
-\item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
-\item Priority 5: If $Mode=1$ and $H_{us}>=4.7 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
+
+\item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
+\item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
 \item[]
-\item Priority 6: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
-\item Priority 7: If $Mode=2$ and $H_{us}>=4.5 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
+\item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
+\item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 8: Default, close.
+\item Priority 7: Default, close.
 \end{packed_items}
 
 \footnotesize

@@ -1,4 +1,4 @@
-// Created     : 2018-05-10 9:32:1
+// Created     : 2018-05-10 9:56:29
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -29763,7 +29763,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332BN', 18.288, 'S332BN1', 'model'
+            Location = 'S332BN', 18.288, 'S332BN', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -29829,7 +29829,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BN_Q.dfs0|, 'S332BN_Q', 1, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BN_Q.dfs0|, 'S332BN_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29853,44 +29853,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 6, 19, 5, 0
-               [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 4, 0, 19, 5, 0
+               LS_parameter = 3, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -29909,7 +29872,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29933,7 +29896,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 5, 6, 19, 5, 0
+               LS_parameter = 4, 6, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -29970,7 +29933,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 6, 0, 19, 5, 0
+               LS_parameter = 5, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -29989,7 +29952,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30013,7 +29976,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 7, 6, 19, 5, 0
+               LS_parameter = 6, 6, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30050,7 +30013,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 8, 5, 0, 5, 0
+               LS_parameter = 7, 5, 0, 5, 0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -30082,7 +30045,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332BW', 18.288, 'S332BW1', 'model'
+            Location = 'S332BW', 18.288, 'S332BW', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30147,7 +30110,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BW_Q.dfs0|, 'S332BW_Q', 1, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BW_Q.dfs0|, 'S332BW_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30171,45 +30134,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 6, 19, 5, 0
-               [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 4, 0, 19, 5, 0
+               LS_parameter = 3, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30228,7 +30153,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30252,7 +30177,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 5, 6, 19, 5, 0
+               LS_parameter = 4, 6, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30290,7 +30215,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 6, 0, 19, 5, 0
+               LS_parameter = 5, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30309,7 +30234,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30333,7 +30258,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 7, 6, 19, 5, 0
+               LS_parameter = 6, 6, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30371,7 +30296,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 8, 5, 0, 5, 0
+               LS_parameter = 7, 5, 0, 5, 0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -30404,7 +30329,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332C', 10.668, 'S332C1', 'model'
+            Location = 'S332C', 10.668, 'S332C', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30470,7 +30395,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332C_Q.dfs0|, 'S332C_Q', 1, 0
+               Targetpoint = 'S332C', 10.668, 'S332C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332C_Q.dfs0|, 'S332C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30494,45 +30419,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 6, 19, 5, 0
-               [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 4, 0, 19, 5, 0
+               LS_parameter = 3, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30551,7 +30438,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 10.668, 'S332C', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30575,7 +30462,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 5, 6, 19, 5, 0
+               LS_parameter = 4, 6, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30613,7 +30500,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 6, 0, 19, 5, 0
+               LS_parameter = 5, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30632,7 +30519,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 10.668, 'S332C', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30656,7 +30543,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 7, 6, 19, 5, 0
+               LS_parameter = 6, 6, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 2, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -30694,7 +30581,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 8, 5, 0, 5, 0
+               LS_parameter = 7, 5, 0, 5, 0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -30727,7 +30614,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332D', 12.192, 'S332D1', 'model'
+            Location = 'S332D', 12.192, 'S332D', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30760,7 +30647,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, |..\..\..\OBSERVED\S332D_Q.dfs0|, 'S332D_Q', 1, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, |..\..\..\OBSERVED\S332D_Q.dfs0|, 'S332D_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30803,7 +30690,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30852,7 +30739,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30901,7 +30788,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30947,7 +30834,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31028,7 +30915,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31077,7 +30964,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31126,7 +31013,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31172,7 +31059,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332D', 12.192, 'S332D1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332D', 12.192, 'S332D', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31264,170 +31151,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332D', 12.192, 'S332D2', 'model'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0, 0
-               InitialArea = 0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0
-            GateHeight = 0
-            HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 2, 1, 0.63, 0, 0, 0.02831684659199999, true, 0, false, 0, 0
-            RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
-            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
-            [logical_statement]
-               LS_parameter = 1, 5, 0, 5, 0
-               [logical_operands]
-                  logicaloperand = 14, '', 0, '', 0, '', 0, 0, 0, 7, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332D', 3.048, 'S332D2', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 2, 5, 19, 5, 0
-               [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.40208, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332D', 12.192, 'S332D2', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-                  data = 1.34112, 0
-                  data = 1.35636, 0
-                  data = 1.3716, 0
-                  data = 1.38684, 0
-                  data = 1.40208, 3.539605823999999
-                  data = 1.41732, 3.539605823999999
-                  data = 1.43256, 7.079211647999998
-                  data = 1.4478, 7.079211647999998
-                  data = 1.46304, 10.618817472
-                  data = 1.47828, 10.618817472
-                  data = 1.49352, 10.618817472
-                  data = 3.048, 10.618817472
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 3, 5, 0, 5, 0
-               [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.3716, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332D', 3.048, 'S332D2', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 4, 5, 0, 5, 0
-               [logical_operands]
-                  [LOSummation]
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'S332D', 3.048, 'S332D2', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0, 0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-         EndSect  // control_str_data
-
-         [control_str_data]
-            Location = 'S332DX1', 25.00000000752, 'S332DX1 ', 'model'
+            Location = 'S332DX1', 25.00000000752, 'S332DX1', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
