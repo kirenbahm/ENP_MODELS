@@ -1,4 +1,4 @@
-// Created     : 2018-04-30 10:57:13
+// Created     : 2018-05-10 9:32:1
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -29815,14 +29815,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 19, 5, 0
+               LS_parameter = 2, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.524, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -29834,7 +29829,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BN', 18.288, 'S332BN1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BN_Q.dfs0|, 'S332BN_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -29865,7 +29860,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30138,14 +30133,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 19, 5, 0
+               LS_parameter = 2, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.524, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30157,7 +30147,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 18.288, 'S332BW1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BW_Q.dfs0|, 'S332BW_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30188,7 +30178,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30466,14 +30456,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 19, 5, 0
+               LS_parameter = 2, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.524, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30485,7 +30470,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 10.668, 'S332C1', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332C_Q.dfs0|, 'S332C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30516,7 +30501,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 30.1752, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -40741,8 +40726,8 @@
       MikeSheCoupling = 'culvert_57', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_58', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'culvert_59', 0, 800, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'FP', 457.1999999999999, 7040.88, 2, 0.001, 1, 112, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'FPDA-INLET', 1524, 5791.2, 2, 0.001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'FP', 457.1999999999999, 7040.88, 2, 0.0012, 1, 112, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'FPDA-INLET', 1524, 5791.2, 2, 0.0012, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'G3273', 0, 883.92, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'L-28', 8077.199999999999, 14400, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'L-29', 0, 92384.87999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
@@ -40762,7 +40747,7 @@
       MikeSheCoupling = 'LAKE1', 0, 1999.488, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'LAKE2', 0, 763.8287999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'LPG2', 0, 900.3791999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'NDA', 0, 8381.999999999998, 2, 0.001, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
+      MikeSheCoupling = 'NDA', 0, 8381.999999999998, 2, 0.0012, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'OldIngraham', 0, 19002.1464, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'POCKET', 0, 2206.752, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'ROAD_SRS', 800, 11461, 0, 1e-006, 1, 14, 1, 0, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
@@ -40774,11 +40759,11 @@
       MikeSheCoupling = 'S332', 0, 914.3999999999999, 0, 1e-006, 1, 332, 0, 0, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
       MikeSheCoupling = 'S332BN_overflow', 0, 847.3439999999999, 2, 0.0001, 1, 132, 1, 0, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S332BW_overflow', 0, 853.4399999999999, 2, 0.0001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
-      MikeSheCoupling = 'S332D', 0, 1115.2632, 2, 0.001, 1, 114, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'S332D', 0, 1115.2632, 2, 0.0012, 1, 114, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S343A', 0, 914.4, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S343B', 0, 914.3999999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
-      MikeSheCoupling = 'SDA', 0, 7162.799999999999, 2, 0.001, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'SDAC', 30.48, 2880.36, 2, 0.001, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'SDA', 0, 7162.799999999999, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'SDAC', 30.48, 2880.36, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1N', 0, 16006.572, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1S', 1000, 3102.864, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
    EndSect  // MIKESHECOUPLING
