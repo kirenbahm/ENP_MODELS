@@ -1,4 +1,4 @@
-// Created     : 2018-05-10 17:8:59
+// Created     : 2018-05-17 12:24:27
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -4276,7 +4276,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'SDA', 'DA-2002', 0, 7324.358648716938, 0, 10000, 0
+         definitions = 'SDA', 'DA-2018', 0, 7324.358648716938, 0, 10000, 0
          connections = '', -1e-155, 'L-31W', 999.0359209645499
          points = 667, 2545, 2546, 673
       EndSect  // branch
@@ -5045,7 +5045,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'SDA', 1833.372, 'W-S332BsouthLevee', 'DA-2002'
+            Location = 'SDA', 783.3359999999999, 'W-S332BsouthLevee', 'DA-2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -5099,7 +5099,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'SDA', 3243.553584, 'W-S332CnorthLevee', 'DA-2002'
+            Location = 'SDA', 3243.553584, 'W-S332CnorthLevee', 'DA-2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -5153,7 +5153,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'SDA', 4838.699999999999, 'W-S332CsouthLevee', 'DA-2002'
+            Location = 'SDA', 4838.699999999999, 'W-S332CsouthLevee', 'DA-2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -37966,7 +37966,7 @@
          [points]
             point = 3795.427228855901, 1, 0, 1
             point = 4053.713614427485, 1, 1, 0
-            point = 4311.999999999069, 1, 0, 0
+            point = 4311.999999999069, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -39482,7 +39482,7 @@
             point = 152.3999938964844, 1, 1, 0
             point = 304.7999877929688, 1, 0, 1
             point = 534.3999938960187, 1, 1, 0
-            point = 763.9999999990687, 1, 0, 0
+            point = 763.9999999990687, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -39792,7 +39792,7 @@
             point = 18.288, 1, 1, 2
             point = 27.43199920654297, 1, 0, 1
             point = 329.7179225054745, 1, 1, 0
-            point = 632.0038458044061, 1, 0, 0
+            point = 632.0038458044061, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -39937,7 +39937,9 @@
             point = 0, 1, 0, 1
             point = 30.48, 1, 1, 0
             point = 60.95999999999999, 1, 0, 1
-            point = 280.5215, 1, 1, 0
+            point = 68.57999999999998, 1, 1, 0
+            point = 76.19999999999999, 1, 0, 1
+            point = 288.1415, 1, 1, 0
             point = 500.083, 1, 0, 0
          EndSect  // points
 
@@ -39961,13 +39963,13 @@
             point = 655.3200073242188, 1, 0, 0
             point = 714.7560036621094, 1, 1, 0
             point = 774.1919999999999, 1, 0, 1
-            point = 783.3359999999999, 1, 1, 0
+            point = 783.3359999999999, 1, 1, 2
             point = 792.4799999999999, 1, 0, 1
             point = 1173.48, 1, 1, 0
             point = 1554.48, 1, 0, 1
             point = 1567.286934, 1, 1, 0
             point = 1580.093868, 1, 0, 1
-            point = 1833.372, 1, 1, 2
+            point = 1994.006934, 1, 1, 0
             point = 2407.92, 1, 0, 1
             point = 2420.112, 1, 1, 0
             point = 2432.304, 1, 0, 1
@@ -40080,7 +40082,7 @@
             point = 472.3686828613281, 1, 1, 0
             point = 554.7372436523438, 1, 0, 1
             point = 677.3686218257062, 1, 1, 0
-            point = 799.9999999990687, 1, 0, 0
+            point = 799.9999999990687, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -40489,6 +40491,52 @@
    EndSect  // MODFLOW
 
    [LAYER_FILES]
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\DA-2002.shp|, 'Uniq_ID'
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Polygon_Object]
+            Base_Title = 'Shape Polygons'
+            Base_Reg_Key = ''
+            Base_Col_Red = 0
+            Base_Col_Green = 0
+            Base_Col_Blue = 0
+            Base_Display_On = true
+            Line_Thickness = 0.12
+            Line_Style = 0
+            Line_Polygon_Style = 1
+            Draw_Text = true
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Polygon_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 0
+      EndSect  // PROPERTIES
+
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\DA-2018.shp|, 'Uniq_ID'
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Polygon_Object]
+            Base_Title = 'Shape Polygons'
+            Base_Reg_Key = ''
+            Base_Col_Red = 0
+            Base_Col_Green = 0
+            Base_Col_Blue = 0
+            Base_Display_On = true
+            Line_Thickness = 0.12
+            Line_Style = 0
+            Line_Polygon_Style = 1
+            Draw_Text = true
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Polygon_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 1
+      EndSect  // PROPERTIES
+
    EndSect  // LAYER_FILES
 
 EndSect  // MIKE_11_Network_editor
