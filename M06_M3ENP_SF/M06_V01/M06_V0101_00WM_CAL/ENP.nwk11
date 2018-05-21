@@ -1,4 +1,4 @@
-// Created     : 2018-05-21 16:20:42
+// Created     : 2018-05-21 17:1:53
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -4297,12 +4297,6 @@
          definitions = 'US1N', 'model', 0, 16177.20765791663, 0, 10000, 0
          connections = '', -1e-155, '', -1e-155
          points = 851, 852, 853, 602
-      EndSect  // branch
-
-      [branch]
-         definitions = 'US1S', 'model', 0, 5375.357419592112, 0, 10000, 0
-         connections = '', -1e-155, '', -1e-155
-         points = 854, 865, 2392, 2393, 855
       EndSect  // branch
 
    EndSect  // BRANCHES
@@ -40290,7 +40284,6 @@
       MikeSheCoupling = 'SDA', 0, 7162.799999999999, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'SDAC', 40, 2840, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1N', 0, 16006.572, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'US1S', 1000, 3102.864, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
    EndSect  // MIKESHECOUPLING
 
    [CHANNELROUTING]
