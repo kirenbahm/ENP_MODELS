@@ -1,4 +1,4 @@
-// Created     : 2018-05-18 11:39:54
+// Created     : 2018-05-21 11:53:28
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -30,12 +30,12 @@
       [Foreground]
          Touched = 1
          IsDataUsedInSetup = 1
-         MzSEPfsListItemCount = 13
-         NumberOfLayers = 13
+         MzSEPfsListItemCount = 6
+         NumberOfLayers = 6
          [OverlayItem_1]
             Touched = 1
             IsDataUsedInSetup = 1
-            Type = 3
+            Type = 2
             [OverlayBMP]
                Touched = 1
                IsDataUsedInSetup = 1
@@ -57,7 +57,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = ||
+                  FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\M06_DOMAIN.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -67,8 +67,8 @@
             [OverlayShape]
                Touched = 1
                IsDataUsedInSetup = 1
-               Filename = |..\..\..\INPUTFILES\GIS\AREAS_WATER.shp|
-               ItemDescr = 'GNIS_NAME'
+               Filename = |..\..\..\INPUTFILES\GIS\M06_DOMAIN.shp|
+               ItemDescr = 'Area_2'
                ShapeAxisUnit = 1000
                PointSize = 1
                PointStyle = 0
@@ -81,10 +81,10 @@
                PointTextColorB = 0
                LineThickness = 0.3
                LineStyle = 0
-               PolygonStyle = 6
-               LineColorR = 166
-               LineColorG = 202
-               LineColorB = 240
+               PolygonStyle = 0
+               LineColorR = 0
+               LineColorG = 0
+               LineColorB = 0
                LineTextColorR = 0
                LineTextColorG = 0
                LineTextColorB = 0
@@ -117,426 +117,6 @@
          EndSect  // OverlayItem_1
 
          [OverlayItem_2]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\GIS\M01_STRUCTURES.shp|
-               ItemDescr = 'NAME'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 0
-               PointType = 8
-               PointColorR = 255
-               PointColorG = 0
-               PointColorB = 0
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 1
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 0
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_2
-
-         [OverlayItem_3]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\GIS\M00_ROADS.shp|
-               ItemDescr = 'NAME'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 0
-               PointType = 7
-               PointColorR = 0
-               PointColorG = 0
-               PointColorB = 0
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 0
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 0
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_3
-
-         [OverlayItem_4]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\GIS\M00_SFWMD_CANALS.shp|
-               ItemDescr = 'OBJECTID'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 0
-               PointType = 7
-               PointColorR = 0
-               PointColorG = 0
-               PointColorB = 0
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 0
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 0
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_4
-
-         [OverlayItem_5]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\GIS\M01_AREAS_PL.shp|
-               ItemDescr = 'Uniq_ID'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 0
-               PointType = 7
-               PointColorR = 0
-               PointColorG = 0
-               PointColorB = 0
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 255
-               LineColorG = 255
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 0
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 1
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_5
-
-         [OverlayItem_6]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\..\INPUTFILES\GIS\M05_DOMAIN_SF.shp|
-               ItemDescr = 'Uniq_ID'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 0
-               PointType = 7
-               PointColorR = 0
-               PointColorG = 0
-               PointColorB = 0
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.5
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 255
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 0
-               Display = 0
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 1
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_6
-
-         [OverlayItem_7]
             Touched = 1
             IsDataUsedInSetup = 1
             Type = 4
@@ -618,9 +198,9 @@
                SourceWellType = 0
             EndSect  // OverlayWell
 
-         EndSect  // OverlayItem_7
+         EndSect  // OverlayItem_2
 
-         [OverlayItem_8]
+         [OverlayItem_3]
             Touched = 1
             IsDataUsedInSetup = 1
             Type = 3
@@ -655,8 +235,8 @@
             [OverlayShape]
                Touched = 1
                IsDataUsedInSetup = 1
-               Filename = |..\..\..\INPUTFILES\GIS\M06_STREAMS_M11.shp|
-               ItemDescr = 'GNIS_NAME'
+               Filename = |..\..\..\INPUTFILES\GIS\roads.shp|
+               ItemDescr = 'NAME'
                ShapeAxisUnit = 1000
                PointSize = 1
                PointStyle = 0
@@ -667,11 +247,95 @@
                PointTextColorR = 0
                PointTextColorG = 0
                PointTextColorB = 0
-               LineThickness = 0.3
+               LineThickness = 0.1
+               LineStyle = 0
+               PolygonStyle = 0
+               LineColorR = 192
+               LineColorG = 192
+               LineColorB = 192
+               LineTextColorR = 0
+               LineTextColorG = 0
+               LineTextColorB = 0
+               LineTextColorOption = 0
+               ShowLineText = 0
+               PointTextBackground = 1
+               LineTextBackground = 1
+               PointTextColorOption = 0
+               ShowPointText = 0
+               Display = 1
+            EndSect  // OverlayShape
+
+            [OverlayRiver]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               SourceM11NwkType = 1
+               M11NwkFilename_Specified = ||
+               Display = 1
+            EndSect  // OverlayRiver
+
+            [OverlayWell]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               WellFilename = ||
+               Display = 1
+               Lables = 0
+               SourceWellType = 0
+            EndSect  // OverlayWell
+
+         EndSect  // OverlayItem_3
+
+         [OverlayItem_4]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Type = 3
+            [OverlayBMP]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Filename = ||
+               BMP_X0 = 0
+               BMP_X1 = 10000
+               BMP_Y0 = 0
+               BMP_Y1 = 10000
+               BMP_TransparentColor = 16777215
+               BMP_DisplayStyle = 0
+               Display = 1
+            EndSect  // OverlayBMP
+
+            [OverlayGrid]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Transparency = 2
+               Display = 1
+               [DFS_2D_DATA_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = ||
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 1
+               EndSect  // DFS_2D_DATA_FILE
+
+            EndSect  // OverlayGrid
+
+            [OverlayShape]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Filename = |..\..\..\INPUTFILES\GIS\sfwmd_canals.shp|
+               ItemDescr = 'NAME'
+               ShapeAxisUnit = 1000
+               PointSize = 1
+               PointStyle = 0
+               PointType = 7
+               PointColorR = 0
+               PointColorG = 0
+               PointColorB = 0
+               PointTextColorR = 0
+               PointTextColorG = 0
+               PointTextColorB = 0
+               LineThickness = 0.1
                LineStyle = 0
                PolygonStyle = 0
                LineColorR = 0
-               LineColorG = 0
+               LineColorG = 255
                LineColorB = 255
                LineTextColorR = 0
                LineTextColorG = 0
@@ -702,9 +366,9 @@
                SourceWellType = 0
             EndSect  // OverlayWell
 
-         EndSect  // OverlayItem_8
+         EndSect  // OverlayItem_4
 
-         [OverlayItem_9]
+         [OverlayItem_5]
             Touched = 1
             IsDataUsedInSetup = 1
             Type = 3
@@ -739,12 +403,12 @@
             [OverlayShape]
                Touched = 1
                IsDataUsedInSetup = 1
-               Filename = |..\..\..\INPUTFILES\GIS\M06_ROADS_M11.shp|
-               ItemDescr = 'OBJECTID'
+               Filename = |..\..\..\INPUTFILES\GIS\monptsV15.shp|
+               ItemDescr = 'Station'
                ShapeAxisUnit = 1000
                PointSize = 1
-               PointStyle = 0
-               PointType = 7
+               PointStyle = 2
+               PointType = 10
                PointColorR = 0
                PointColorG = 0
                PointColorB = 0
@@ -754,9 +418,9 @@
                LineThickness = 0.3
                LineStyle = 0
                PolygonStyle = 0
-               LineColorR = 255
+               LineColorR = 0
                LineColorG = 0
-               LineColorB = 255
+               LineColorB = 0
                LineTextColorR = 0
                LineTextColorG = 0
                LineTextColorB = 0
@@ -786,9 +450,9 @@
                SourceWellType = 0
             EndSect  // OverlayWell
 
-         EndSect  // OverlayItem_9
+         EndSect  // OverlayItem_5
 
-         [OverlayItem_10]
+         [OverlayItem_6]
             Touched = 1
             IsDataUsedInSetup = 1
             Type = 3
@@ -823,192 +487,24 @@
             [OverlayShape]
                Touched = 1
                IsDataUsedInSetup = 1
-               Filename = |..\..\..\GIS\M06_OBSERVED.shp|
-               ItemDescr = 'STATION'
+               Filename = |..\..\..\INPUTFILES\GIS\M06_DOMAIN.shp|
+               ItemDescr = 'Uniq_ID'
                ShapeAxisUnit = 1000
                PointSize = 1
                PointStyle = 0
                PointType = 7
                PointColorR = 0
                PointColorG = 0
-               PointColorB = 255
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 1
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 0
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_10
-
-         [OverlayItem_11]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\..\GIS\M06_CULVERTS_LR.shp|
-               ItemDescr = 'OBJECTID'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 2
-               PointType = 6
-               PointColorR = 255
-               PointColorG = 0
-               PointColorB = 255
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 1
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 1
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_11
-
-         [OverlayItem_12]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\..\GIS\M06_CULVERTS_TT.shp|
-               ItemDescr = 'OBJECTID'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 2
-               PointType = 6
-               PointColorR = 255
-               PointColorG = 0
                PointColorB = 0
                PointTextColorR = 0
                PointTextColorG = 0
                PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
+               LineThickness = 0.1
+               LineStyle = 2
                PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
+               LineColorR = 128
+               LineColorG = 128
+               LineColorB = 128
                LineTextColorR = 0
                LineTextColorG = 0
                LineTextColorB = 0
@@ -1017,7 +513,7 @@
                PointTextBackground = 1
                LineTextBackground = 1
                PointTextColorOption = 0
-               ShowPointText = 1
+               ShowPointText = 0
                Display = 1
             EndSect  // OverlayShape
 
@@ -1038,91 +534,7 @@
                SourceWellType = 0
             EndSect  // OverlayWell
 
-         EndSect  // OverlayItem_12
-
-         [OverlayItem_13]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            Type = 3
-            [OverlayBMP]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
-               BMP_TransparentColor = 16777215
-               BMP_DisplayStyle = 0
-               Display = 1
-            EndSect  // OverlayBMP
-
-            [OverlayGrid]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Transparency = 2
-               Display = 1
-               [DFS_2D_DATA_FILE]
-                  Touched = 1
-                  IsDataUsedInSetup = 1
-                  FILE_NAME = ||
-                  ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
-               EndSect  // DFS_2D_DATA_FILE
-
-            EndSect  // OverlayGrid
-
-            [OverlayShape]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               Filename = |..\..\..\GIS\M06_CULVERTS_MPR.shp|
-               ItemDescr = 'OBJECTID'
-               ShapeAxisUnit = 1000
-               PointSize = 1
-               PointStyle = 2
-               PointType = 7
-               PointColorR = 255
-               PointColorG = 0
-               PointColorB = 255
-               PointTextColorR = 0
-               PointTextColorG = 0
-               PointTextColorB = 0
-               LineThickness = 0.3
-               LineStyle = 0
-               PolygonStyle = 0
-               LineColorR = 0
-               LineColorG = 0
-               LineColorB = 0
-               LineTextColorR = 0
-               LineTextColorG = 0
-               LineTextColorB = 0
-               LineTextColorOption = 0
-               ShowLineText = 0
-               PointTextBackground = 1
-               LineTextBackground = 1
-               PointTextColorOption = 0
-               ShowPointText = 1
-               Display = 1
-            EndSect  // OverlayShape
-
-            [OverlayRiver]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               SourceM11NwkType = 1
-               M11NwkFilename_Specified = ||
-               Display = 1
-            EndSect  // OverlayRiver
-
-            [OverlayWell]
-               Touched = 1
-               IsDataUsedInSetup = 1
-               WellFilename = ||
-               Display = 1
-               Lables = 0
-               SourceWellType = 0
-            EndSect  // OverlayWell
-
-         EndSect  // OverlayItem_13
+         EndSect  // OverlayItem_6
 
       EndSect  // Foreground
 
