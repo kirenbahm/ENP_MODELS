@@ -1,4 +1,4 @@
-// Created     : 2018-05-18 11:39:54
+// Created     : 2018-05-21 11:58:44
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -40473,6 +40473,98 @@
    EndSect  // MODFLOW
 
    [LAYER_FILES]
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\roads.shp|, ''
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Polygon_Object]
+            Base_Title = 'NAME'
+            Base_Reg_Key = ''
+            Base_Col_Red = 192
+            Base_Col_Green = 192
+            Base_Col_Blue = 192
+            Base_Display_On = true
+            Line_Thickness = 0.1
+            Line_Style = 0
+            Line_Polygon_Style = 0
+            Draw_Text = false
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Polygon_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 0
+      EndSect  // PROPERTIES
+
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\sfwmd_canals.shp|, ''
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Polygon_Object]
+            Base_Title = 'NAME'
+            Base_Reg_Key = ''
+            Base_Col_Red = 0
+            Base_Col_Green = 255
+            Base_Col_Blue = 255
+            Base_Display_On = true
+            Line_Thickness = 0.1
+            Line_Style = 0
+            Line_Polygon_Style = 0
+            Draw_Text = false
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Polygon_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 1
+      EndSect  // PROPERTIES
+
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\monptsV15.shp|, ''
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Point_Object]
+            Base_Title = 'Shape Points'
+            Base_Reg_Key = ''
+            Base_Col_Red = 0
+            Base_Col_Green = 0
+            Base_Col_Blue = 0
+            Base_Display_On = true
+            Point_Type = 3
+            Point_Size = 0.5
+            Point_Style = 1
+            Draw_Text = true
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Point_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 2
+      EndSect  // PROPERTIES
+
+      DataFileName = 1, |..\..\..\INPUTFILES\GIS\M06_DOMAIN.shp|, ''
+      AxisUnit = 1000
+      [PROPERTIES]
+         [MIKEZero_Shape_Polygon_Object]
+            Base_Title = 'Uniq_ID'
+            Base_Reg_Key = ''
+            Base_Col_Red = 128
+            Base_Col_Green = 128
+            Base_Col_Blue = 128
+            Base_Display_On = true
+            Line_Thickness = 0.1
+            Line_Style = 2
+            Line_Polygon_Style = 0
+            Draw_Text = false
+            Text_Color_Style = 0
+            Text_Color = 0, 0, 0
+            Text_Bk_Mode = 1
+         EndSect  // MIKEZero_Shape_Polygon_Object
+
+         ProjectionType = 'NON-UTM'
+         OverlayDrawingOrder = 3
+      EndSect  // PROPERTIES
+
    EndSect  // LAYER_FILES
 
 EndSect  // MIKE_11_Network_editor
