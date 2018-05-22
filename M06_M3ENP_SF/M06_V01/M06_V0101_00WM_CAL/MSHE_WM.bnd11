@@ -1,4 +1,4 @@
-// Created     : 2018-05-21 17:1:5
+// Created     : 2018-05-22 13:54:21
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -8259,7 +8259,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_42', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_42', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8286,7 +8286,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_43', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_43', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8313,7 +8313,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_44', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_44', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8340,7 +8340,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_45', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_45', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8367,7 +8367,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_46', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_46', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8394,7 +8394,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_47', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_47', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8421,7 +8421,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_48', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_48', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8448,7 +8448,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_49', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_49', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8475,7 +8475,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_50', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_50', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8502,7 +8502,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_51', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_51', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8529,7 +8529,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_52', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_52', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8556,7 +8556,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_53', 810, 0, '', ''
+         DescType = 5, 0, 'culvert_53', 810, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8583,7 +8583,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_54', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_54', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8610,7 +8610,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_55', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_55', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8637,7 +8637,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_56', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_56', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8691,7 +8691,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_58', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_58', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8718,7 +8718,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'culvert_59', 800, 0, '', ''
+         DescType = 5, 0, 'culvert_59', 800, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9177,7 +9177,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'LPG2', 0, 0, '', ''
+         DescType = 5, 0, 'LPG2', 0, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9204,7 +9204,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'LPG2', 900.5151121191341, 0, '', ''
+         DescType = 5, 0, 'LPG2', 900.5151121191341, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
