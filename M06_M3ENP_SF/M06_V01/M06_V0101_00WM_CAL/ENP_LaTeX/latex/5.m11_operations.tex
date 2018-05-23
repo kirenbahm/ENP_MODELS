@@ -535,72 +535,8 @@ The Max speed for gate opening is 0.000138 ft/sec, which equals 0.01656 ft per 2
 %\end{figure}
 
 \clearpage
-%----------------------------------------------------------
-\subsubsection{Culverts 41-59}
-%----------------------------------------------------------
-
-Culverts 41-59 are implemented in the model as both Culvert structures and Control Structures. Each is described below. The Tamiami Trail Bridge is one mile long, and replaced Culvert 57 when it was built. (Note: Section Type for all culverts is 'closed', meaning the roof of the culvert is not open to the air above.)
-
-The M11 model implements each of these culverts with prescribed flow with maximum rate of change of 1 $cfs/s$. In the model Culverts 41-59 are closed structures the observed timeseries are used for calibration. Previously the observed timeseries were applied as specified discharge.
-
-\paragraph{Control Structures:}
-
-\begin{itemize}
-
-\item Culverts 41-56 and 58-59:
-
-\begin{packed_items}
-\item Priority 1: Closed
-\end{packed_items}
-
-\item Culvert 57 is not in the model as a Control Structure.
-
-\end{itemize}
-
-%Historical note: There are potential occurrences when flow is backwards from NESS into L-29 canal through culverts 41 to 48 in the observed data.
-%
-%Culverts 41-59 are implemented as passive culverts allowing flow.
-%Between 2010-2013, Culvert 57 was removed when the Tamiami Trail bridge was installed.
-%
-%Culverts 41-59 are all implemented as control structures with prescribed flow timeseries, see Figures~\ref{fig:culv41Q:STRUCTURE}-~\ref{fig:culv59Q:STRUCTURE}. The data source for this data is unknown.
-%
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-41_Q.png} \caption{Prescribed Flow at Culvert 41}\label{fig:culv41Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-42_Q.png} \caption{Prescribed Flow at Culvert 42}\label{fig:culv42Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-43_Q.png} \caption{Prescribed Flow at Culvert 43}\label{fig:culv43Q:STRUCTURE}\end{center}\end{figure}
-%\clearpage
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-44_Q.png} \caption{Prescribed Flow at Culvert 44}\label{fig:culv44Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-45_Q.png} \caption{Prescribed Flow at Culvert 45}\label{fig:culv45Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-46_Q.png} \caption{Prescribed Flow at Culvert 46}\label{fig:culv46Q:STRUCTURE}\end{center}\end{figure}
-%\clearpage
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-47_Q.png} \caption{Prescribed Flow at Culvert 47}\label{fig:culv47Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-48_Q.png} \caption{Prescribed Flow at Culvert 48}\label{fig:culv48Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-49_Q.png} \caption{Prescribed Flow at Culvert 49}\label{fig:culv49Q:STRUCTURE}\end{center}\end{figure}
-%\clearpage
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-50_Q.png} \caption{Prescribed Flow at Culvert 50}\label{fig:culv50Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-51_Q.png} \caption{Prescribed Flow at Culvert 51}\label{fig:culv51Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/ReplaceMe.png} \caption{Prescribed Flow at Culvert 52}\label{fig:culv52Q:STRUCTURE}\end{center}\end{figure}
-%\clearpage
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-53_Q.png} \caption{Prescribed Flow at Culvert 53}\label{fig:culv53Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-54_Q.png} \caption{Prescribed Flow at Culvert 54}\label{fig:culv54Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-55_Q.png} \caption{Prescribed Flow at Culvert 55}\label{fig:culv55Q:STRUCTURE}\end{center}\end{figure}
-%\clearpage
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/ReplaceMe.png} \caption{Prescribed Flow at Culvert 56}\label{fig:culv56Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-57_Q.png} \caption{Prescribed Flow at Culvert 57}\label{fig:culv57Q:STRUCTURE}\end{center}\end{figure}
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/ReplaceMe.png} \caption{Prescribed Flow at Culvert 58}\label{fig:culv58Q:STRUCTURE}\end{center}\end{figure}
-%\clearpage
-%\begin{figure}[!hp] \begin{center} \includegraphics[width=6.5in]{../figs/timeseries/CULVERT-59_Q.png} \caption{Prescribed Flow at Culvert 59}\label{fig:culv59Q:STRUCTURE}\end{center}\end{figure}
-%
-
-\clearpage
-%----------------------------------------------------------
-\subsubsection{Tamiami Trail Bridge}
-%----------------------------------------------------------
-Name: TTeastBridge
-
-Implemented in the model as a Weir but not active for the Calibration Period.
 
 
-\clearpage
 %----------------------------------------------------------
 \subsubsection{S334}
 %----------------------------------------------------------
