@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Created     : 2018-05-21 15:48:53
+=======
+// Created     : 2018-05-18 11:39:54
+>>>>>>> 724ab3c731b2fc3cbb36e9f65a27b8f06117accf
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -4229,19 +4233,19 @@
 
       [branch]
          definitions = 'S332BW_overflow', 'model', 0, 868.6817373634549, 0, 10000, 0
-         connections = 'SDA', 500.083, '', -1e-155
+         connections = 'SDA', 500, '', -1e-155
          points = 925, 923
       EndSect  // branch
 
       [branch]
          definitions = 'S332C', 'model', 0, 643.8346153070952, 0, 10000, 0
-         connections = 'L-31N', 30035, 'SDA', 3828.296869969219
+         connections = 'L-31N', 30035, 'SDA', 3830
          points = 712, 713
       EndSect  // branch
 
       [branch]
          definitions = 'S332C_overflow', 'model', 0, 627.8892557785148, 0, 10000, 0
-         connections = 'SDA', 4480.568961137906, '', -1e-155
+         connections = 'SDA', 4480, '', -1e-155
          points = 2486, 2488
       EndSect  // branch
 
@@ -4283,7 +4287,7 @@
 
       [branch]
          definitions = 'SDAC', 'model', 0, 2883.821242898016, 0, 10000, 0
-         connections = 'SDA', 655.3200073242188, 'SDA', 3438.14404296875
+         connections = 'SDA', 655, 'SDA', 3350
          points = 707, 697, 708, 698, 699, 700, 701, 702, 703, 704, 705, 706
       EndSect  // branch
 
@@ -4478,7 +4482,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'SDAC', 1.524, 'W-S332B-PC', 'model'
+            Location = 'SDAC', 20, 'W-S332B-PC', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -4532,7 +4536,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'SDAC', 2878.836, 'W-S332C-PC', 'model'
+            Location = 'SDAC', 2860, 'W-S332C-PC', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -5207,7 +5211,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'S332C_overflow', 15.24, 'W-S332C-E', 'model'
+            Location = 'S332C_overflow', 20, 'W-S332C-E', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -5315,7 +5319,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'S332BW_overflow', 15.24, 'W-S332BW-W', 'model'
+            Location = 'S332BW_overflow', 20, 'W-S332BW-W', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30101,7 +30105,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332BW', 18.288, 'S332BW', 'model'
+            Location = 'S332BW', 20, 'S332BW', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30166,7 +30170,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BW_Q.dfs0|, 'S332BW_Q', 1, 0
+               Targetpoint = 'S332BW', 20, 'S332BW', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332BW_Q.dfs0|, 'S332BW_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30209,7 +30213,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 20, 'S332BW', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30290,7 +30294,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332BW', 18.288, 'S332BW', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332BW', 20, 'S332BW', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30385,7 +30389,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'S332C', 10.668, 'S332C', 'model'
+            Location = 'S332C', 20, 'S332C', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -30451,7 +30455,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332C_Q.dfs0|, 'S332C_Q', 1, 0
+               Targetpoint = 'S332C', 20, 'S332C', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S332C_Q.dfs0|, 'S332C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30494,7 +30498,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 20, 'S332C', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -30575,7 +30579,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S332C', 10.668, 'S332C', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'S332C', 20, 'S332C', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -39215,9 +39219,7 @@
             point = 21656.4999432, 1, 0, 1
             point = 22040.2919112, 1, 1, 0
             point = 22424.0838792, 1, 0, 1
-            point = 24312.0419016, 1, 1, 0
-            point = 26199.999924, 1, 0, 1
-            point = 26214.999962, 1, 1, 0
+            point = 24327.0419396, 1, 1, 0
             point = 26230, 1, 0, 1
          EndSect  // points
 
@@ -39241,9 +39243,7 @@
          name = 'L-31N'
          [points]
             point = 29880, 1, 0, 0
-            point = 29944.999962, 1, 1, 0
-            point = 30009.999924, 1, 0, 1
-            point = 30022.499962, 1, 1, 0
+            point = 29957.5, 1, 1, 0
             point = 30035, 1, 0, 1
          EndSect  // points
 
@@ -39843,11 +39843,11 @@
          name = 'S332BW'
          [points]
             point = 0, 1, 0, 1
-            point = 4.572000026702881, 1, 1, 0
-            point = 9.144000053405762, 1, 0, 1
-            point = 18.288, 1, 1, 2
-            point = 27.43199920654297, 1, 0, 1
-            point = 329.7179225054745, 1, 1, 0
+            point = 5, 1, 1, 0
+            point = 10, 1, 0, 1
+            point = 20, 1, 1, 2
+            point = 30, 1, 0, 1
+            point = 331.001922902203, 1, 1, 0
             point = 632.0038458044061, 1, 0, 1
          EndSect  // points
 
@@ -39857,9 +39857,9 @@
          name = 'S332BW_overflow'
          [points]
             point = 0, 1, 0, 1
-            point = 15.24, 1, 1, 2
-            point = 30.48, 1, 0, 1
-            point = 449.5808686817275, 1, 1, 0
+            point = 20, 1, 1, 2
+            point = 40, 1, 0, 1
+            point = 454.3408686817274, 1, 1, 0
             point = 868.6817373634549, 1, 0, 1
          EndSect  // points
 
@@ -39869,9 +39869,9 @@
          name = 'S332C'
          [points]
             point = 0, 1, 0, 1
-            point = 10.668, 1, 1, 2
-            point = 20.0000616, 1, 0, 1
-            point = 330.0400308, 1, 1, 0
+            point = 20, 1, 1, 2
+            point = 40, 1, 0, 1
+            point = 340.04, 1, 1, 0
             point = 640.0799999999999, 1, 0, 1
             point = 641.9573076535476, 1, 1, 0
             point = 643.8346153070952, 1, 0, 0
@@ -39883,13 +39883,9 @@
          name = 'S332C_overflow'
          [points]
             point = 0, 1, 0, 1
-            point = 1.52400004863739, 1, 1, 0
-            point = 3.04800009727478, 1, 0, 1
-            point = 15.24, 1, 1, 2
-            point = 30.48, 1, 0, 1
-            point = 38.10000061035156, 1, 1, 0
-            point = 45.72000122070313, 1, 0, 1
-            point = 336.804628499609, 1, 1, 0
+            point = 20, 1, 1, 2
+            point = 40, 1, 0, 1
+            point = 333.9446278892574, 1, 1, 0
             point = 627.8892557785148, 1, 0, 1
          EndSect  // points
 
@@ -39995,8 +39991,8 @@
             point = 60.95999999999999, 1, 0, 1
             point = 68.57999999999998, 1, 1, 0
             point = 76.19999999999999, 1, 0, 1
-            point = 288.1415, 1, 1, 0
-            point = 500.083, 1, 0, 0
+            point = 288.1, 1, 1, 0
+            point = 500, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -40004,11 +40000,9 @@
       [branch]
          name = 'SDA'
          [points]
-            point = 500.083, 1, 0, 0
-            point = 501.5015, 1, 1, 0
-            point = 502.92, 1, 0, 1
-            point = 579.1200036621094, 1, 1, 0
-            point = 655.3200073242188, 1, 0, 1
+            point = 500, 1, 0, 0
+            point = 577.5, 1, 1, 0
+            point = 655, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -40016,8 +40010,8 @@
       [branch]
          name = 'SDA'
          [points]
-            point = 655.3200073242188, 1, 0, 0
-            point = 714.7560036621094, 1, 1, 0
+            point = 655, 1, 0, 0
+            point = 714.596, 1, 1, 0
             point = 774.1919999999999, 1, 0, 1
             point = 783.3359999999999, 1, 1, 2
             point = 792.4799999999999, 1, 0, 1
@@ -40033,8 +40027,8 @@
             point = 3230.88, 1, 0, 1
             point = 3243.553584, 1, 1, 2
             point = 3258.311999999999, 1, 0, 1
-            point = 3348.228021484375, 1, 1, 0
-            point = 3438.14404296875, 1, 0, 1
+            point = 3304.156, 1, 1, 0
+            point = 3350, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -40042,13 +40036,11 @@
       [branch]
          name = 'SDA'
          [points]
-            point = 3438.14404296875, 1, 0, 0
-            point = 3449.632085884375, 1, 1, 0
+            point = 3350, 1, 0, 0
+            point = 3405.5600644, 1, 1, 0
             point = 3461.120128799999, 1, 0, 1
-            point = 3620.320064399999, 1, 1, 0
-            point = 3779.52, 1, 0, 1
-            point = 3803.908434984609, 1, 1, 0
-            point = 3828.296869969219, 1, 0, 0
+            point = 3645.5600644, 1, 1, 0
+            point = 3830, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -40056,13 +40048,9 @@
       [branch]
          name = 'SDA'
          [points]
-            point = 3828.296869969219, 1, 0, 0
-            point = 3849.628434984609, 1, 1, 0
-            point = 3870.96, 1, 0, 1
-            point = 4160.52, 1, 1, 0
-            point = 4450.079999999999, 1, 0, 1
-            point = 4465.324480568952, 1, 1, 0
-            point = 4480.568961137906, 1, 0, 0
+            point = 3830, 1, 0, 0
+            point = 4155, 1, 1, 0
+            point = 4480, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -40070,10 +40058,8 @@
       [branch]
          name = 'SDA'
          [points]
-            point = 4480.568961137906, 1, 0, 0
-            point = 4495.804480568952, 1, 1, 0
-            point = 4511.039999999999, 1, 0, 1
-            point = 4671.06, 1, 1, 0
+            point = 4480, 1, 0, 0
+            point = 4655.539999999999, 1, 1, 0
             point = 4831.079999999999, 1, 0, 1
             point = 4838.699999999999, 1, 1, 2
             point = 4846.319695199999, 1, 0, 1
@@ -40091,9 +40077,9 @@
          name = 'SDAC'
          [points]
             point = 0, 1, 0, 1
-            point = 1.524, 1, 1, 2
-            point = 3.04800009727478, 1, 0, 1
-            point = 39.62399852275848, 1, 1, 0
+            point = 20, 1, 1, 2
+            point = 40, 1, 0, 1
+            point = 58.09999847412109, 1, 1, 0
             point = 76.19999694824219, 1, 0, 1
             point = 102.8699951171875, 1, 1, 0
             point = 129.5399932861328, 1, 0, 1
@@ -40115,9 +40101,9 @@
             point = 2755.39208984375, 1, 0, 1
             point = 2767.583984375, 1, 1, 0
             point = 2779.77587890625, 1, 0, 1
-            point = 2828.5439453125, 1, 1, 0
-            point = 2877.31201171875, 1, 0, 1
-            point = 2878.836, 1, 1, 2
+            point = 2809.887939453125, 1, 1, 0
+            point = 2840, 1, 0, 1
+            point = 2860, 1, 1, 2
             point = 2880.360107421875, 1, 0, 1
             point = 2882.090675159946, 1, 1, 0
             point = 2883.821242898016, 1, 0, 0
@@ -40508,12 +40494,16 @@
       MikeSheCoupling = 'S12D', 0, 845.2103999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S332', 0, 914.3999999999999, 0, 1e-006, 1, 332, 0, 0, 1.838, 1.5, 0.100000000152, 1, 1, 0, 0
       MikeSheCoupling = 'S332BN_overflow', 0, 847.3439999999999, 2, 0.0001, 1, 132, 1, 0, 1.838, 1.5, 0.1, 1, 1, 0, 0
+<<<<<<< HEAD
       MikeSheCoupling = 'S332BW_overflow', 0, 853.4399999999999, 2, 0.0001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+=======
+      MikeSheCoupling = 'S332BW_overflow', 40, 868, 2, 0.0001, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
+>>>>>>> 724ab3c731b2fc3cbb36e9f65a27b8f06117accf
       MikeSheCoupling = 'S332D', 0, 1115.2632, 2, 0.0012, 1, 114, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'S343A', 0, 914.4, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'S343B', 0, 914.3999999999999, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.100000000152, 0.9999999984476158, 1, 0, 0
       MikeSheCoupling = 'SDA', 0, 7162.799999999999, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'SDAC', 30.48, 2880.36, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'SDAC', 40, 2840, 2, 0.0012, 1, 111, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1N', 0, 16006.572, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'US1S', 1000, 3102.864, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
    EndSect  // MIKESHECOUPLING
@@ -40547,52 +40537,6 @@
    EndSect  // MODFLOW
 
    [LAYER_FILES]
-      DataFileName = 1, |..\..\..\INPUTFILES\GIS\DA-2002.shp|, 'Uniq_ID'
-      AxisUnit = 1000
-      [PROPERTIES]
-         [MIKEZero_Shape_Polygon_Object]
-            Base_Title = 'Shape Polygons'
-            Base_Reg_Key = ''
-            Base_Col_Red = 0
-            Base_Col_Green = 0
-            Base_Col_Blue = 0
-            Base_Display_On = true
-            Line_Thickness = 0.12
-            Line_Style = 0
-            Line_Polygon_Style = 1
-            Draw_Text = true
-            Text_Color_Style = 0
-            Text_Color = 0, 0, 0
-            Text_Bk_Mode = 1
-         EndSect  // MIKEZero_Shape_Polygon_Object
-
-         ProjectionType = 'NON-UTM'
-         OverlayDrawingOrder = 0
-      EndSect  // PROPERTIES
-
-      DataFileName = 1, |..\..\..\INPUTFILES\GIS\DA-2018.shp|, 'Uniq_ID'
-      AxisUnit = 1000
-      [PROPERTIES]
-         [MIKEZero_Shape_Polygon_Object]
-            Base_Title = 'Shape Polygons'
-            Base_Reg_Key = ''
-            Base_Col_Red = 0
-            Base_Col_Green = 0
-            Base_Col_Blue = 0
-            Base_Display_On = true
-            Line_Thickness = 0.12
-            Line_Style = 0
-            Line_Polygon_Style = 1
-            Draw_Text = true
-            Text_Color_Style = 0
-            Text_Color = 0, 0, 0
-            Text_Bk_Mode = 1
-         EndSect  // MIKEZero_Shape_Polygon_Object
-
-         ProjectionType = 'NON-UTM'
-         OverlayDrawingOrder = 1
-      EndSect  // PROPERTIES
-
    EndSect  // LAYER_FILES
 
 EndSect  // MIKE_11_Network_editor

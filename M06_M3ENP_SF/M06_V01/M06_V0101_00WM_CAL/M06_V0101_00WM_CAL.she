@@ -1,4 +1,4 @@
-// Created     : 2018-05-17 7:22:31
+// Created     : 2018-05-18 11:39:54
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -17940,8 +17940,8 @@
       [DetailedM11TimeseriesOutput]
          Touched = 1
          IsDataUsedInSetup = 1
-         MzSEPfsListItemCount = 54
-         NumberOfItems = 54
+         MzSEPfsListItemCount = 58
+         NumberOfItems = 58
          MinimumOutputTimestep = 24
          [Item_1]
             Touched = 1
@@ -18021,7 +18021,7 @@
             Name = 'S332B_HW'
             DataType = 0
             BranchName = 'L-31N'
-            Chainage = 26200
+            Chainage = 26230
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18039,7 +18039,7 @@
             Name = 'S332C_HW'
             DataType = 0
             BranchName = 'L-31N'
-            Chainage = 30010
+            Chainage = 30035
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18399,7 +18399,7 @@
             Name = 'S332BW_Q'
             DataType = 1
             BranchName = 'S332BW'
-            Chainage = 18.288
+            Chainage = 20
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18417,7 +18417,7 @@
             Name = 'S332C_Q'
             DataType = 1
             BranchName = 'S332C'
-            Chainage = 10.668
+            Chainage = 20
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18471,7 +18471,7 @@
             Name = 'S332BW_TW'
             DataType = 0
             BranchName = 'SDA'
-            Chainage = 60.96
+            Chainage = 0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18489,7 +18489,7 @@
             Name = 'S332C_TW'
             DataType = 0
             BranchName = 'SDA'
-            Chainage = 3779.52
+            Chainage = 3830
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18914,6 +18914,78 @@
             EndSect  // TIME_SERIES_FILE
 
          EndSect  // Item_54
+
+         [Item_55]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'W-S332BW-W'
+            DataType = 1
+            BranchName = 'S332BW_overflow'
+            Chainage = 20
+            InclObserved = 0
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_55
+
+         [Item_56]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'W-S332B-PC'
+            DataType = 1
+            BranchName = 'SDAC'
+            Chainage = 20
+            InclObserved = 0
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_56
+
+         [Item_57]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'W-S332C-PC'
+            DataType = 1
+            BranchName = 'SDAC'
+            Chainage = 2860
+            InclObserved = 0
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_57
+
+         [Item_58]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'W-S332C-E'
+            DataType = 1
+            BranchName = 'S332C_overflow'
+            Chainage = 20
+            InclObserved = 0
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_58
 
       EndSect  // DetailedM11TimeseriesOutput
 
