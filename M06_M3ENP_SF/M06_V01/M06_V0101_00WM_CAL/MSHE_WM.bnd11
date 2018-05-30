@@ -1,4 +1,4 @@
-// Created     : 2018-05-29 16:32:9
+// Created     : 2018-05-30 8:28:17
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -2033,7 +2033,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-103N', 2616.296981578848, 0, '', ''
+         DescType = 0, 5, 'C-103N', 5775.34, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = false, false, false, false
