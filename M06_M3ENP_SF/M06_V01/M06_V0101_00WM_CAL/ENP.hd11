@@ -1,4 +1,4 @@
-// Created     : 2018-04-17 10:4:3
+// Created     : 2018-05-21 15:50:11
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -177,7 +177,7 @@
          EndSect  // OutputItems
 
          [OutputFiles]
-            data = 'dfs Timeseries Bridge', false, |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
+            data = 'dfs Timeseries Bridge', true, |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
          EndSect  // OutputFiles
 
       EndSect  // TextOutput

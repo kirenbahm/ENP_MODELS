@@ -1,9 +1,9 @@
-// Created     : 2018-05-21 17:2:58
-// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2018-06-6 23:39:15
+// DLL id      : D:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
+// PFS version : Oct 10 2017 22:41:47
 
 [Run11]
-   format_version = 107, 'MIKEZero, 2016'
+   format_version = 107, 'MIKEZero, 2017'
    Comment = ''
    [Models]
       hd = true, false
@@ -44,8 +44,8 @@
          dtFileName = ||
          dtItemName = ''
          dtItemNo = 0
-         ddtMin = 1
-         ddtMax = 30
+         ddtMin = 1.0
+         ddtMax = 30.0
          idtMinMaxUnit = 2
          ddtChangeRatio = 1.3
          bDelB_BFlag = true
@@ -62,9 +62,9 @@
          dDelh_hVal = 0.01
          dDelh_hLim = 0.009999999999999988
          bCourantFlagHD = false
-         dCourantValHD = 10
+         dCourantValHD = 10.0
          bCourantFlagAD = true
-         dCourantValAD = 1
+         dCourantValAD = 1.0
          ST_timestep_multiplier = 1
          RR_timestep_multiplier = 1
       EndSect  // Simulation_Period
@@ -79,7 +79,7 @@
    EndSect  // Simulation
 
    [Results]
-      hd = |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.res11|, '', 1, 2
+      hd = |.\MSHE_WM.res11|, '', 1, 1
       ad = ||, '', 1, 0
       st = ||, '', 1, 0
       rr = ||, '', 1, 0
