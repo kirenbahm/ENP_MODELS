@@ -1,4 +1,4 @@
-// Created     : 2018-05-30 16:32:51
+// Created     : 2018-06-7 15:36:39
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -24557,7 +24557,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-31N', 11332.10000784, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-31N', 11330, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -24635,7 +24635,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-31N', 11332.10000784, 'S331', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-31N', 11330, 'S331', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -24706,14 +24706,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.73736, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.737360121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-31N', 11332.10000784, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-31N', 11330, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -24745,7 +24745,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.61544, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.615439878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25238,14 +25238,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.79832, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.798319939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 10535.8155552, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 10535, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25277,7 +25277,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.55448, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.554480060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25314,14 +25314,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.79832, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.798319939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 10535.8155552, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 10535, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25353,7 +25353,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.55448, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.554480060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25390,7 +25390,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 10535.8155552, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 10535, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25620,7 +25620,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8.222366516879999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 10, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25698,7 +25698,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8.222366516879999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 10, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25730,7 +25730,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.4478, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.447799847599696, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25769,14 +25769,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.49352, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.493519939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8.222366516879999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 10, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25808,7 +25808,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.43256, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.432560121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25847,7 +25847,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8.222366516879999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 10, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -25941,7 +25941,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8992.310184, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 8990, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26012,14 +26012,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.28016, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.280160121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8992.310184, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 8990, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26051,7 +26051,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.09728, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.097280060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26090,14 +26090,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.28016, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.280160121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8992.310184, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 8990, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26129,7 +26129,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.09728, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.097280060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26168,7 +26168,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 8992.310184, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 8990, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26262,7 +26262,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111E', 2305.29396192, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111E', 2305, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26333,14 +26333,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.40208, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.402080060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111E', 2305.29396192, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111E', 2305, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26372,7 +26372,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.34112, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.341119939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26411,7 +26411,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111E', 2305.29396192, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111E', 2305, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26505,7 +26505,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 18515, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26576,14 +26576,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.79248, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.792480060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 18515, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26615,7 +26615,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.7010399999999999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.7010398780797562, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26654,14 +26654,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.6858, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.6857998475996954, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 18515, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26693,7 +26693,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.6095999999999999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 0.6096000000000001, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26732,7 +26732,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 18516.99998904, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 18515, 'S18C', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26787,12 +26787,12 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-102', 5186.9999892, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5186.999989199999, 'S194', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'C-102', 5186.9999892, 'S194', 0, '', 0, ||, '', 0, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -26826,7 +26826,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-102', 5185, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26858,7 +26858,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.46304, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26904,7 +26904,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-102', 5185, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -26936,7 +26936,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.46304, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26975,14 +26975,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.49352, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.493519939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-102', 5185, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27053,7 +27053,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-102', 5186.999989199999, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-102', 5185, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27147,7 +27147,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 4890.00000408, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 4890, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27179,7 +27179,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.46304, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27225,7 +27225,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 4890.00000408, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 4890, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27257,7 +27257,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.46304, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27296,14 +27296,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.49352, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.493519939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 4890.00000408, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 4890, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27374,7 +27374,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-103', 4890.00000408, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-103', 4890, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27422,14 +27422,14 @@
             [logical_statement]
                LS_parameter = 1, 0, 35, 5, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 2, 0, 1.24968, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 2, 0, 1.249680060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 28335.2254, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 28335, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27456,14 +27456,14 @@
             [logical_statement]
                LS_parameter = 2, 0, 35, 5, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 18450, '', 0, '', 0, 2, 0, 0.85344, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 18450, '', 0, '', 0, 2, 0, 0.8534398780797562, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 28335.2254, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 28335, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27490,12 +27490,12 @@
             [logical_statement]
                LS_parameter = 3, 5, 0, 8, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 0, 0, 1.58496, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 0, 0, 1.584960121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 0, 0, 1.28016, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 0, 0, 1.280160121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27580,14 +27580,14 @@
             [logical_statement]
                LS_parameter = 1, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 2, 0, 1.28016, ||, '', 0, 3, 24, 0, 0, 1.28016, false, 0
+                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 2, 0, 1.280160121920244, ||, '', 0, 3, 24, 0, 0, 1.28016, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 28335.2254, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 28335, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27614,14 +27614,14 @@
             [logical_statement]
                LS_parameter = 2, 0, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 18450, '', 0, '', 0, 2, 0, 0.9448800000000001, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 18450, '', 0, '', 0, 2, 0, 0.9448800609601221, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 28335.2254, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 28335, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27648,12 +27648,12 @@
             [logical_statement]
                LS_parameter = 3, 5, 0, 8, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 0, 0, 1.58496, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 0, 0, 1.584960121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 0, 0, 1.28016, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 0, 0, 1.280160121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27738,14 +27738,14 @@
             [logical_statement]
                LS_parameter = 1, 0, 35, 5, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 2, 0, 1.31064, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 2, 0, 1.310639878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 28335.2254, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 28335, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27772,14 +27772,14 @@
             [logical_statement]
                LS_parameter = 2, 0, 35, 5, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 18450, '', 0, '', 0, 2, 0, 1.00584, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 18450, '', 0, '', 0, 2, 0, 1.005839878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-111', 28335.2254, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-111', 28335, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -27806,12 +27806,12 @@
             [logical_statement]
                LS_parameter = 3, 5, 0, 8, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 0, 0, 1.58496, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 0, 0, 1.584960121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 0, 0, 1.28016, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 8960, '', 0, '', 0, 0, 0, 1.280160121920244, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -27896,7 +27896,7 @@
             [logical_statement]
                LS_parameter = 1, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.15824, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.158239878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28023,7 +28023,7 @@
             [logical_statement]
                LS_parameter = 1, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.15824, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.158239878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28065,7 +28065,7 @@
             [logical_statement]
                LS_parameter = 2, 6, 0, 5, 0
                [logical_operands]
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.09728, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.097280060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28345,7 +28345,7 @@
             [logical_statement]
                LS_parameter = 1, 5, 2, 5, 0
                [logical_operands]
-                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 3, 0, 1.50876, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'C-111', 0, '', 0, '', 0, 3, 0, 1.508759969519939, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28468,7 +28468,7 @@
             [logical_statement]
                LS_parameter = 4, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 0, 'Angels_Well', 0, '', 0, '', 0, 3, 0, 1.7526, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'Angels_Well', 0, '', 0, '', 0, 3, 0, 1.752599847599696, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28715,7 +28715,7 @@
             [logical_statement]
                LS_parameter = 1, 5, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 0, 30.4796952, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 0, 30.4796951993904, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30776,7 +30776,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -30815,7 +30815,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -30859,7 +30859,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -30898,7 +30898,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -30942,7 +30942,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -30981,7 +30981,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31013,7 +31013,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 2216.528816616, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31217,14 +31217,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.76784, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.767839878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-1W', 1651.000001016, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-1W', 1650, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31295,14 +31295,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.76784, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.767839878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-1W', 1651.000001016, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-1W', 1650, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31373,14 +31373,14 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.76784, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.767839878079756, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-1W', 1651.000001016, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-1W', 1650, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31412,7 +31412,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.64592, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.645919939039878, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -31451,7 +31451,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'C-1W', 1651.000001016, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'C-1W', 1650, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
