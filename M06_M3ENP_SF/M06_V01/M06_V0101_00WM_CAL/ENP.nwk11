@@ -1,4 +1,4 @@
-// Created     : 2018-06-7 15:36:39
+// Created     : 2018-06-7 20:38:16
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -24784,7 +24784,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-31N', 11330, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -24945,7 +24945,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S12A', 25.00000000752, 'S12A_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S12A_Q.dfs0|, 'S12A_Q', 1, 0
+               Targetpoint = 'S12A', 25, 'S12A_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S12A_Q.dfs0|, 'S12A_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -24998,7 +24998,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S12B', 25.00000000752, 'S12B_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S12B_Q.dfs0|, 'S12B_Q', 1, 0
+               Targetpoint = 'S12B', 25, 'S12B_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S12B_Q.dfs0|, 'S12B_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -25051,7 +25051,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S12C', 25.00000000752, 'S12C_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S12C_Q.dfs0|, 'S12C_Q', 1, 0
+               Targetpoint = 'S12C', 25, 'S12C_Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S12C_Q.dfs0|, 'S12C_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28255,7 +28255,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-31N-S173', 122.876183508, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-31N-S173', 125, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -28269,18 +28269,18 @@
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
                   data = 0, 0
-                  data = 0.07619999999999999, 2.537189454643199
+                  data = 0.07620000000000002, 2.537189454643199
                   data = 0.1524, 3.992675369471999
                   data = 0.2286, 5.252775042815999
-                  data = 0.3048, 6.328815213311998
-                  data = 0.381, 7.226459250278397
-                  data = 0.4571999999999999, 7.959865577011198
-                  data = 0.5333999999999999, 8.540360932147198
-                  data = 0.6095999999999999, 8.979272054323198
-                  data = 0.6858, 9.285093997516796
-                  data = 0.7619999999999999, 9.469153500364795
-                  data = 0.8381999999999998, 9.545608986163197
-                  data = 3.048, 9.599410994687997
+                  data = 0.3048000000000001, 6.328815213311998
+                  data = 0.3810000000000001, 7.226459250278397
+                  data = 0.4572000000000001, 7.959865577011198
+                  data = 0.5334000000000001, 8.540360932147198
+                  data = 0.6096000000000001, 8.979272054323198
+                  data = 0.6858000000000001, 9.285093997516796
+                  data = 0.7620000000000001, 9.469153500364795
+                  data = 0.8382000000000002, 9.545608986163197
+                  data = 3.048000000000001, 9.599410994687997
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -28625,7 +28625,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-31N-S331s', 73.27041788082725, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-31N-S331s', 75, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
