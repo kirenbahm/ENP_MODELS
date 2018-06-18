@@ -1,12 +1,12 @@
-// Created     : 2018-05-21 11:53:28
-// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2018-06-18 0:38:33
+// DLL id      : D:\Program Files (x86)\DHI\2017\bin\x64\pfs2004.dll
+// PFS version : Oct 10 2017 22:41:47
 
 [MIKESHE_FLOWMODEL]
    [FlowModelDocVersion]
       Touched = 0
       IsDataUsedInSetup = 1
-      Version = 13
+      Version = 15
    EndSect  // FlowModelDocVersion
 
    [ViewSettings]
@@ -14,14 +14,14 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 458400.0000000026
+      DefaultZoomDataArea_X0 = 458400.0000000031
       DefaultZoomDataArea_Y0 = 2777599.999999917
-      DefaultZoomDataArea_X1 = 558400.0000000026
+      DefaultZoomDataArea_X1 = 558400.000000003
       DefaultZoomDataArea_Y1 = 2867599.999999917
       MaxZoomDataAreaUndefined = 0
-      MaxZoomDataArea_X0 = 458400.0000000026
+      MaxZoomDataArea_X0 = 458400.0000000031
       MaxZoomDataArea_Y0 = 2777599.999999917
-      MaxZoomDataArea_X1 = 558400.0000000026
+      MaxZoomDataArea_X1 = 558400.000000003
       MaxZoomDataArea_Y1 = 2867599.999999917
    EndSect  // ViewSettings
 
@@ -40,10 +40,10 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
                BMP_TransparentColor = 16777215
                BMP_DisplayStyle = 0
                Display = 1
@@ -124,10 +124,10 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
                BMP_TransparentColor = 16777215
                BMP_DisplayStyle = 0
                Display = 1
@@ -208,10 +208,10 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
                BMP_TransparentColor = 16777215
                BMP_DisplayStyle = 0
                Display = 1
@@ -292,10 +292,10 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
                BMP_TransparentColor = 16777215
                BMP_DisplayStyle = 0
                Display = 1
@@ -376,10 +376,10 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
                BMP_TransparentColor = 16777215
                BMP_DisplayStyle = 0
                Display = 1
@@ -460,10 +460,10 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Filename = ||
-               BMP_X0 = 0
-               BMP_X1 = 10000
-               BMP_Y0 = 0
-               BMP_Y1 = 10000
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
                BMP_TransparentColor = 16777215
                BMP_DisplayStyle = 0
                Display = 1
@@ -609,7 +609,7 @@
          HotStartDate = -1, -1, -1, -1, -1
          HotStartDateIndex = 0
          SimStartFromHotStartDate = 1
-         SIMSTART = 1999, 1, 1, 0, 0
+         SIMSTART = 2005, 1, 1, 0, 0
          SIMEND = 2010, 12, 31, 0, 0
       EndSect  // SimulationPeriod
 
@@ -628,13 +628,13 @@
             Touched = 1
             IsDataUsedInSetup = 0
             Dates = 2000, 2, 1, 0, 0
-            DELT = 1
-            TMIN = 0
-            TMAX = 1000
-            TSMULT = 10
-            TSDIV = 10
-            NSTP = 1
-            SSTR = 0
+            DELT = 1.0
+            TMIN = 0.0
+            TMAX = 1000.0
+            TSMULT = 10.0
+            TSDIV = 10.0
+            NSTP = 1.0
+            SSTR = 0.0
          EndSect  // Item_1
 
       EndSect  // STRESSPERIODS
@@ -667,6 +667,7 @@
          WeirFlowReductionDepthThreshold = 3
          Multicell = 0
          MulticellFactor = 4
+         IgnoreBankOl2River = 0
       EndSect  // CompControlParaOL
 
       [CompControlParaUZ]
@@ -857,9 +858,9 @@
       [WQTSC]
          Touched = 1
          IsDataUsedInSetup = 0
-         MaxSimTimeStepSZ = 1000000000
-         MaxSimTimeStepUZ = 1000000000
-         MaxSimTimeStepOL = 1000000000
+         MaxSimTimeStepSZ = 1000000000.0
+         MaxSimTimeStepUZ = 1000000000.0
+         MaxSimTimeStepOL = 1000000000.0
          MaxAdvectiveCourantSZ = 0.8
          MaxAdvectiveCourantUZ = 0.8
          MaxAdvectiveCourantOL = 0.8
@@ -876,10 +877,10 @@
          Touched = 0
          IsDataUsedInSetup = 0
          ConversionFactor = 0.7
-         MaxPrecDepthPerTimeStep = 1
+         MaxPrecDepthPerTimeStep = 1.0
          PrecThresholdRate = 0.1
-         FractionTransportedParticle = 1
-         WaterDepthCorr = 1
+         FractionTransportedParticle = 1.0
+         WaterDepthCorr = 1.0
          DetachmentModel = 2
          ErosionModel = 2
          IncludeSorption = 0
@@ -891,7 +892,7 @@
       Touched = 0
       IsDataUsedInSetup = 0
       InitDensityRadio = 1
-      ParticleMass = 100
+      ParticleMass = 100.0
       InitLocationRadio = 0
       DistanceFracFromBottom = 0.5
       AvoidInitParticlesInFixedCells = 0
@@ -921,7 +922,7 @@
          IsDataUsedInSetup = 0
          ApplyVerticalCorrection = 1
          IgnoreVerticalCourant = 0
-         MaxSimTimeStepSZ = 1000000000
+         MaxSimTimeStepSZ = 1000000000.0
          MaxAdvectiveCourantSZ = 0.8
          MaxDispersiveCourantSZ = 0.5
       EndSect  // PTControl
@@ -1062,11 +1063,11 @@
       type = 1
       nxShp = 250
       nyShp = 225
-      sizeShp = 400
-      x0Shp = 458400
-      y0Shp = 2777500
+      sizeShp = 400.0
+      x0Shp = 458400.0
+      y0Shp = 2777500.0
       MapProjShp = 'PROJCS["NAD_1983_UTM_Zone_17N",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000],PARAMETER["False_Northing",0],PARAMETER["Central_Meridian",-81],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0],UNIT["Meter",1]]'
-      rotationShp = 0
+      rotationShp = 0.0
       ShapeAxisUnit = 1000
       [DFS_2D_DATA_FILE]
          Touched = 1
@@ -2583,10 +2584,7 @@
    [LandUse]
       Touched = 1
       IsDataUsedInSetup = 1
-      Paved = 0
       Irrigation = 0
-      PavedGradientCheck = 0
-      SpecifyMaxPavedStorageChangeRate = 0
       Priorities = 1
       [VEGETATION]
          Touched = 1
@@ -2594,10 +2592,10 @@
          DistributionType = 2
          C1 = 0.3
          C2 = 0.2
-         C3 = 20
+         C3 = 20.0
          C_INT = 0.05
          A_ROOT = 0.25
-         ETReduced = 1
+         ETReduced = 1.0
          [GLOBAL]
             Touched = 1
             IsDataUsedInSetup = 1
@@ -3351,76 +3349,6 @@
 
       EndSect  // Priorities
 
-      [PavedRunoffCoefficient]
-         Touched = 0
-         IsDataUsedInSetup = 0
-         Type = 0
-         FixedValue = 0
-         InterpMethod = 2
-         SearchRadius = 1000
-         ShowGridData = 1
-         ShowShapeData = 1
-         ShapeAxisUnit = 1000
-         ShapeItemUnit = 99000
-         [DFS_2D_DATA_FILE]
-            Touched = 0
-            IsDataUsedInSetup = 0
-            FILE_NAME = ||
-            ITEM_COUNT = 1
-            ITEM_NUMBERS = 1
-         EndSect  // DFS_2D_DATA_FILE
-
-         [SHAPE_FILE]
-            Touched = 0
-            IsDataUsedInSetup = 0
-            FILE_NAME = ||
-            ITEM_COUNT = 1
-            ITEM_NUMBERS = ''
-         EndSect  // SHAPE_FILE
-
-         [XYZ_FILE]
-            Touched = 0
-            IsDataUsedInSetup = 0
-            FILE_NAME = ||
-         EndSect  // XYZ_FILE
-
-      EndSect  // PavedRunoffCoefficient
-
-      [MaxPavedStorageChangeRate]
-         Touched = 0
-         IsDataUsedInSetup = 0
-         Type = 0
-         FixedValue = 0
-         InterpMethod = 2
-         SearchRadius = 1000
-         ShowGridData = 1
-         ShowShapeData = 1
-         ShapeAxisUnit = 1000
-         ShapeItemUnit = 2001
-         [DFS_2D_DATA_FILE]
-            Touched = 0
-            IsDataUsedInSetup = 0
-            FILE_NAME = ||
-            ITEM_COUNT = 1
-            ITEM_NUMBERS = 1
-         EndSect  // DFS_2D_DATA_FILE
-
-         [SHAPE_FILE]
-            Touched = 0
-            IsDataUsedInSetup = 0
-            FILE_NAME = ||
-            ITEM_COUNT = 1
-            ITEM_NUMBERS = ''
-         EndSect  // SHAPE_FILE
-
-         [XYZ_FILE]
-            Touched = 0
-            IsDataUsedInSetup = 0
-            FILE_NAME = ||
-         EndSect  // XYZ_FILE
-
-      EndSect  // MaxPavedStorageChangeRate
-
    EndSect  // LandUse
 
    [River]
@@ -3516,6 +3444,8 @@
       SeparatedFlowAreas = 0
       OverlandGroundWaterExchangeOption = 0
       SpecifyOnlyReducedContactInPonded = 0
+      ReducedPavedLeakage = 0
+      Drainage = 0
       [Manning]
          Touched = 1
          IsDataUsedInSetup = 1
@@ -4057,6 +3987,295 @@
          NumberOfItems = 0
       EndSect  // EcolabForcings
 
+      [PavedAreaFraction]
+         Touched = 0
+         IsDataUsedInSetup = 0
+         Type = 0
+         FixedValue = 0
+         InterpMethod = 2
+         SearchRadius = 1000
+         ShowGridData = 1
+         ShowShapeData = 1
+         ShapeAxisUnit = 1000
+         ShapeItemUnit = 99000
+         [DFS_2D_DATA_FILE]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            FILE_NAME = ||
+            ITEM_COUNT = 1
+            ITEM_NUMBERS = 1
+         EndSect  // DFS_2D_DATA_FILE
+
+         [SHAPE_FILE]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            FILE_NAME = ||
+            ITEM_COUNT = 1
+            ITEM_NUMBERS = ''
+         EndSect  // SHAPE_FILE
+
+         [XYZ_FILE]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            FILE_NAME = ||
+         EndSect  // XYZ_FILE
+
+      EndSect  // PavedAreaFraction
+
+      [Drainage]
+         Touched = 0
+         IsDataUsedInSetup = 0
+         GradientCheck = 0
+         SpecifyMaxStorageChangeRate = 0
+         DrainageOption = 1
+         [MaxStorageChangeRate]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 2001
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // MaxStorageChangeRate
+
+         [DrRunoffCoefficient]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 99000
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // DrRunoffCoefficient
+
+         [TimeConstant]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0.001
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 2605
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // TimeConstant
+
+         [TimeConstantOut]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0.001
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 2605
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // TimeConstantOut
+
+         [Level]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 1000
+            RelativeToGround = 1
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // Level
+
+         [DrainCode]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 99013
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // DrainCode
+
+         [DistributedOptionCode]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Type = 0
+            FixedValue = 0
+            InterpMethod = 2
+            SearchRadius = 1000
+            ShowGridData = 1
+            ShowShapeData = 1
+            ShapeAxisUnit = 1000
+            ShapeItemUnit = 99013
+            [DFS_2D_DATA_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // DFS_2D_DATA_FILE
+
+            [SHAPE_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = ''
+            EndSect  // SHAPE_FILE
+
+            [XYZ_FILE]
+               Touched = 0
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
+            EndSect  // XYZ_FILE
+
+         EndSect  // DistributedOptionCode
+
+      EndSect  // Drainage
+
    EndSect  // Overland
 
    [OverlandSubcatchment]
@@ -4161,7 +4380,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.03048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr1
 
                [UZSoilProfilePropDiscr2]
@@ -4169,7 +4388,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.06096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr2
 
                [UZSoilProfilePropDiscr3]
@@ -4177,7 +4396,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.1524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr3
 
                [UZSoilProfilePropDiscr4]
@@ -4185,7 +4404,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.3048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr4
 
                [UZSoilProfilePropDiscr5]
@@ -4193,7 +4412,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.6096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr5
 
                [UZSoilProfilePropDiscr6]
@@ -4201,7 +4420,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 1.524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr6
 
                [UZSoilProfilePropDiscr7]
@@ -4209,7 +4428,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 3.048
                   NoCells = 5
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr7
 
             EndSect  // CUZSoilProfilePropDiscrListPfs
@@ -4258,7 +4477,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.03048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr1
 
                [UZSoilProfilePropDiscr2]
@@ -4266,7 +4485,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.06096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr2
 
                [UZSoilProfilePropDiscr3]
@@ -4274,7 +4493,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.1524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr3
 
                [UZSoilProfilePropDiscr4]
@@ -4282,7 +4501,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.3048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr4
 
                [UZSoilProfilePropDiscr5]
@@ -4290,7 +4509,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.6096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr5
 
                [UZSoilProfilePropDiscr6]
@@ -4298,7 +4517,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 1.524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr6
 
                [UZSoilProfilePropDiscr7]
@@ -4306,7 +4525,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 3.048
                   NoCells = 5
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr7
 
             EndSect  // CUZSoilProfilePropDiscrListPfs
@@ -4355,7 +4574,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.03048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr1
 
                [UZSoilProfilePropDiscr2]
@@ -4363,7 +4582,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.06096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr2
 
                [UZSoilProfilePropDiscr3]
@@ -4371,7 +4590,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.1524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr3
 
                [UZSoilProfilePropDiscr4]
@@ -4379,7 +4598,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.3048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr4
 
                [UZSoilProfilePropDiscr5]
@@ -4387,7 +4606,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.6096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr5
 
                [UZSoilProfilePropDiscr6]
@@ -4395,7 +4614,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 1.524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr6
 
                [UZSoilProfilePropDiscr7]
@@ -4403,7 +4622,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 3.048
                   NoCells = 5
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr7
 
             EndSect  // CUZSoilProfilePropDiscrListPfs
@@ -4452,7 +4671,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.03048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr1
 
                [UZSoilProfilePropDiscr2]
@@ -4460,7 +4679,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.06096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr2
 
                [UZSoilProfilePropDiscr3]
@@ -4468,7 +4687,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.1524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr3
 
                [UZSoilProfilePropDiscr4]
@@ -4476,7 +4695,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.3048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr4
 
                [UZSoilProfilePropDiscr5]
@@ -4484,7 +4703,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.6096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr5
 
                [UZSoilProfilePropDiscr6]
@@ -4492,7 +4711,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 1.524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr6
 
                [UZSoilProfilePropDiscr7]
@@ -4500,7 +4719,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 3.048
                   NoCells = 5
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr7
 
             EndSect  // CUZSoilProfilePropDiscrListPfs
@@ -4549,7 +4768,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.03048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr1
 
                [UZSoilProfilePropDiscr2]
@@ -4557,7 +4776,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.06096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr2
 
                [UZSoilProfilePropDiscr3]
@@ -4565,7 +4784,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.1524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr3
 
                [UZSoilProfilePropDiscr4]
@@ -4573,7 +4792,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.3048
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr4
 
                [UZSoilProfilePropDiscr5]
@@ -4581,7 +4800,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 0.6096
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr5
 
                [UZSoilProfilePropDiscr6]
@@ -4589,7 +4808,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 1.524
                   NoCells = 1
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr6
 
                [UZSoilProfilePropDiscr7]
@@ -4597,7 +4816,7 @@
                   IsDataUsedInSetup = 1
                   CellHeight = 3.048
                   NoCells = 5
-                  Dispersivity = 0
+                  Dispersivity = 0.0
                EndSect  // UZSoilProfilePropDiscr7
 
             EndSect  // CUZSoilProfilePropDiscrListPfs
@@ -4866,7 +5085,7 @@
             MzSEPfsListItemCount = 0
             Name = 'TRACER'
             DistributionType = 0
-            Distribution_UniformValue = 0
+            Distribution_UniformValue = 0.0
             NumberOfLayers = 0
             [DFS_3D_DATA_FILE]
                Touched = 1
@@ -4884,7 +5103,7 @@
             MzSEPfsListItemCount = 0
             Name = 'TPso'
             DistributionType = 0
-            Distribution_UniformValue = 0
+            Distribution_UniformValue = 0.0
             NumberOfLayers = 0
             [DFS_3D_DATA_FILE]
                Touched = 1
@@ -4902,7 +5121,7 @@
             MzSEPfsListItemCount = 0
             Name = 'TPaq'
             DistributionType = 0
-            Distribution_UniformValue = 0
+            Distribution_UniformValue = 0.0
             NumberOfLayers = 0
             [DFS_3D_DATA_FILE]
                Touched = 1
@@ -5019,7 +5238,7 @@
                IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -5036,7 +5255,7 @@
                IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -5053,7 +5272,7 @@
                IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -5070,7 +5289,7 @@
                IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -5087,7 +5306,7 @@
                IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -5104,7 +5323,7 @@
                IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -5250,7 +5469,7 @@
             IsDataUsedInSetup = 0
             MzSEPfsListItemCount = 0
             DistributionType = 0
-            Distribution_UniformValue = 0
+            Distribution_UniformValue = 0.0
             NumberOfLayers = 0
             [DFS_3D_DATA_FILE]
                Touched = 1
@@ -5267,7 +5486,7 @@
             IsDataUsedInSetup = 0
             MzSEPfsListItemCount = 0
             DistributionType = 0
-            Distribution_UniformValue = 0
+            Distribution_UniformValue = 0.0
             NumberOfLayers = 0
             [DFS_3D_DATA_FILE]
                Touched = 1
@@ -5284,7 +5503,7 @@
             IsDataUsedInSetup = 0
             MzSEPfsListItemCount = 0
             DistributionType = 0
-            Distribution_UniformValue = 0
+            Distribution_UniformValue = 0.0
             NumberOfLayers = 0
             [DFS_3D_DATA_FILE]
                Touched = 1
@@ -5303,7 +5522,7 @@
                MzSEPfsListItemCount = 0
                Name = 'TRACER'
                DistributionType = 0
-               Distribution_UniformValue = 0
+               Distribution_UniformValue = 0.0
                NumberOfLayers = 0
                [DFS_3D_DATA_FILE]
                   Touched = 1
@@ -10779,8 +10998,6 @@
          NumberOfLayers = 3
          [Layer_1]
             Name = 'Peat'
-            ModLayAvg = 0
-            ModLayCon = 0
             id = -1
             [LowerLevel]
                Touched = 1
@@ -10900,7 +11117,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'HEAD NORTH'
                   X = 464162.1875
-                  Y = 2867378
+                  Y = 2867378.0
                   BoundaryType = 0
                   FixedValue = 1.8
                   Type = 1
@@ -10927,7 +11144,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'HEAD EAST'
                   X = 558238.625
-                  Y = 2858897
+                  Y = 2858897.0
                   BoundaryType = 0
                   FixedValue = 1.2
                   Type = 1
@@ -10954,7 +11171,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'TIDAL SW'
                   X = 558195.5
-                  Y = 2793426
+                  Y = 2793426.0
                   BoundaryType = 0
                   FixedValue = 0
                   Type = 2
@@ -11395,8 +11612,6 @@
 
          [Layer_2]
             Name = 'Miami Oolite'
-            ModLayAvg = 0
-            ModLayCon = 0
             id = -1
             [LowerLevel]
                Touched = 1
@@ -11516,7 +11731,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'HEAD NORTH'
                   X = 464162.1875
-                  Y = 2867378
+                  Y = 2867378.0
                   BoundaryType = 0
                   FixedValue = 2
                   Type = 1
@@ -11543,7 +11758,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'HEAD EAST'
                   X = 558238.625
-                  Y = 2858897
+                  Y = 2858897.0
                   BoundaryType = 0
                   FixedValue = 1.2
                   Type = 1
@@ -11570,7 +11785,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'TIDAL SW'
                   X = 558195.5
-                  Y = 2793426
+                  Y = 2793426.0
                   BoundaryType = 0
                   FixedValue = 0
                   Type = 2
@@ -12011,8 +12226,6 @@
 
          [Layer_3]
             Name = 'Fort Thompson'
-            ModLayAvg = 0
-            ModLayCon = 0
             id = -1
             [LowerLevel]
                Touched = 1
@@ -12132,7 +12345,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'HEAD NORTH'
                   X = 464162.1875
-                  Y = 2867378
+                  Y = 2867378.0
                   BoundaryType = 0
                   FixedValue = 1.8
                   Type = 1
@@ -12159,7 +12372,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'HEAD EAST'
                   X = 558238.625
-                  Y = 2858897
+                  Y = 2858897.0
                   BoundaryType = 0
                   FixedValue = 1.2
                   Type = 1
@@ -12186,7 +12399,7 @@
                   IsDataUsedInSetup = 0
                   Name = 'TIDAL SW'
                   X = 558195.5
-                  Y = 2793426
+                  Y = 2793426.0
                   BoundaryType = 0
                   FixedValue = 0
                   Type = 2
@@ -15132,6 +15345,8 @@
       EndSect  // PTRegistrationLenses
 
       [Drainage]
+         Touched = 0
+         IsDataUsedInSetup = 0
          DrainageOption = 1
          [Level]
             Touched = 0
@@ -16673,9 +16888,9 @@
             Name = 'NE3'
             HydrComp = 101
             Group = 1
-            X = 549958
-            Y = 2847980
-            Z = 5
+            X = 549958.0
+            Y = 2847980.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16693,9 +16908,9 @@
             Name = 'G3576'
             HydrComp = 101
             Group = 1
-            X = 548692
-            Y = 2847610
-            Z = 5
+            X = 548692.0
+            Y = 2847610.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16713,9 +16928,9 @@
             Name = 'NESS20'
             HydrComp = 101
             Group = 1
-            X = 550277
-            Y = 2845870
-            Z = 5
+            X = 550277.0
+            Y = 2845870.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16733,9 +16948,9 @@
             Name = 'NE2'
             HydrComp = 101
             Group = 1
-            X = 544744
-            Y = 2844890
-            Z = 5
+            X = 544744.0
+            Y = 2844890.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16753,9 +16968,9 @@
             Name = 'G3578'
             HydrComp = 101
             Group = 1
-            X = 548849
-            Y = 2842900
-            Z = 5
+            X = 548849.0
+            Y = 2842900.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16773,9 +16988,9 @@
             Name = 'G3272'
             HydrComp = 101
             Group = 1
-            X = 546467
-            Y = 2838680
-            Z = 5
+            X = 546467.0
+            Y = 2838680.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16793,9 +17008,9 @@
             Name = 'G3273'
             HydrComp = 101
             Group = 1
-            X = 542604
-            Y = 2834600
-            Z = 5
+            X = 542604.0
+            Y = 2834600.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16813,9 +17028,9 @@
             Name = 'ANGELS'
             HydrComp = 101
             Group = 1
-            X = 545966
-            Y = 2834060
-            Z = 5
+            X = 545966.0
+            Y = 2834060.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16833,9 +17048,9 @@
             Name = 'RG1'
             HydrComp = 101
             Group = 1
-            X = 539352
-            Y = 2829370
-            Z = 5
+            X = 539352.0
+            Y = 2829370.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16853,9 +17068,9 @@
             Name = 'G3437'
             HydrComp = 101
             Group = 1
-            X = 543435
-            Y = 2827810
-            Z = 5
+            X = 543435.0
+            Y = 2827810.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16873,9 +17088,9 @@
             Name = 'NP206'
             HydrComp = 101
             Group = 1
-            X = 532921
-            Y = 2825220
-            Z = 5
+            X = 532921.0
+            Y = 2825220.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16893,9 +17108,9 @@
             Name = 'RG2'
             HydrComp = 101
             Group = 1
-            X = 539559
-            Y = 2825070
-            Z = 5
+            X = 539559.0
+            Y = 2825070.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16913,9 +17128,9 @@
             Name = 'A13'
             HydrComp = 101
             Group = 1
-            X = 528855
-            Y = 2820030
-            Z = 5
+            X = 528855.0
+            Y = 2820030.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16933,9 +17148,9 @@
             Name = 'CR3'
             HydrComp = 101
             Group = 1
-            X = 533852
-            Y = 2819980
-            Z = 5
+            X = 533852.0
+            Y = 2819980.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16953,9 +17168,9 @@
             Name = 'CR2'
             HydrComp = 101
             Group = 1
-            X = 537979
-            Y = 2820200
-            Z = 5
+            X = 537979.0
+            Y = 2820200.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16973,9 +17188,9 @@
             Name = 'RUTZKE'
             HydrComp = 101
             Group = 1
-            X = 542726
-            Y = 2822580
-            Z = 5
+            X = 542726.0
+            Y = 2822580.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -16993,9 +17208,9 @@
             Name = 'G3622'
             HydrComp = 101
             Group = 1
-            X = 543376
-            Y = 2820270
-            Z = 5
+            X = 543376.0
+            Y = 2820270.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17013,9 +17228,9 @@
             Name = 'NTS18'
             HydrComp = 101
             Group = 1
-            X = 543417
-            Y = 2818780
-            Z = 5
+            X = 543417.0
+            Y = 2818780.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17033,9 +17248,9 @@
             Name = 'NTS10'
             HydrComp = 101
             Group = 1
-            X = 539682
-            Y = 2815970
-            Z = 5
+            X = 539682.0
+            Y = 2815970.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17053,9 +17268,9 @@
             Name = 'R3110'
             HydrComp = 101
             Group = 1
-            X = 537550
-            Y = 2814380
-            Z = 5
+            X = 537550.0
+            Y = 2814380.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17073,9 +17288,9 @@
             Name = 'NTS14'
             HydrComp = 101
             Group = 1
-            X = 536225
-            Y = 2811230
-            Z = 5
+            X = 536225.0
+            Y = 2811230.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17093,9 +17308,9 @@
             Name = 'NTS1'
             HydrComp = 101
             Group = 1
-            X = 540910
-            Y = 2813360
-            Z = 5
+            X = 540910.0
+            Y = 2813360.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17113,9 +17328,9 @@
             Name = 'TSB'
             HydrComp = 101
             Group = 1
-            X = 539497
-            Y = 2809630
-            Z = 5
+            X = 539497.0
+            Y = 2809630.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17133,9 +17348,9 @@
             Name = 'R158'
             HydrComp = 101
             Group = 1
-            X = 542487
-            Y = 2808890
-            Z = 5
+            X = 542487.0
+            Y = 2808890.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17153,9 +17368,9 @@
             Name = 'R127'
             HydrComp = 101
             Group = 1
-            X = 539591
-            Y = 2804080
-            Z = 5
+            X = 539591.0
+            Y = 2804080.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17173,9 +17388,9 @@
             Name = 'EVER4'
             HydrComp = 101
             Group = 1
-            X = 545808
-            Y = 2803120
-            Z = 5
+            X = 545808.0
+            Y = 2803120.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17193,9 +17408,9 @@
             Name = 'EVER6'
             HydrComp = 101
             Group = 1
-            X = 549159
-            Y = 2797910
-            Z = 5
+            X = 549159.0
+            Y = 2797910.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17213,9 +17428,9 @@
             Name = 'EP1R'
             HydrComp = 101
             Group = 1
-            X = 555054
-            Y = 2796740
-            Z = 5
+            X = 555054.0
+            Y = 2796740.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17233,9 +17448,9 @@
             Name = 'ROBBLEE'
             HydrComp = 101
             Group = 1
-            X = 546568
-            Y = 2813550
-            Z = 5
+            X = 546568.0
+            Y = 2813550.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17253,9 +17468,9 @@
             Name = 'G613'
             HydrComp = 101
             Group = 1
-            X = 546957
-            Y = 2810130
-            Z = 5
+            X = 546957.0
+            Y = 2810130.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17273,9 +17488,9 @@
             Name = 'G3619'
             HydrComp = 101
             Group = 1
-            X = 543754
-            Y = 2807020
-            Z = 5
+            X = 543754.0
+            Y = 2807020.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17293,9 +17508,9 @@
             Name = 'G3620'
             HydrComp = 101
             Group = 1
-            X = 545184
-            Y = 2807690
-            Z = 5
+            X = 545184.0
+            Y = 2807690.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17313,9 +17528,9 @@
             Name = 'EVER3'
             HydrComp = 101
             Group = 1
-            X = 549546
-            Y = 2803600
-            Z = 5
+            X = 549546.0
+            Y = 2803600.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -17333,9 +17548,9 @@
             Name = 'EVER2A'
             HydrComp = 101
             Group = 1
-            X = 552752
-            Y = 2800340
-            Z = 5
+            X = 552752.0
+            Y = 2800340.0
+            Z = 5.0
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -18943,7 +19158,7 @@
       [GeoScene3D]
          Touched = 1
          IsDataUsedInSetup = 0
-         VerticalExaggerationFactor = 30
+         VerticalExaggerationFactor = 30.0
          LayerType = 0
          ShowLenses = 0
          UseAllTimeSteps = 1
@@ -18987,7 +19202,7 @@
    [GeoScene3D]
       Touched = 1
       IsDataUsedInSetup = 0
-      VerticalExaggerationFactor = 30
+      VerticalExaggerationFactor = 30.0
       LayerType = 0
       ShowLenses = 0
       UseAllTimeSteps = 1
