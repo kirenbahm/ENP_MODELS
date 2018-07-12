@@ -1,4 +1,4 @@
-// Created     : 2018-05-21 17:2:58
+// Created     : 2018-07-12 6:33:19
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -79,17 +79,11 @@
    EndSect  // Simulation
 
    [Results]
-      hd = |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.res11|, '', 1, 2
+      hd = |.\MSHE_WM.res11|, '', 1, 1
       ad = ||, '', 1, 0
       st = ||, '', 1, 0
       rr = ||, '', 1, 0
    EndSect  // Results
 
 EndSect  // Run11
-
-[SYSTEM]
-   ResultRootFolder = |..\..\..\Result|
-   UseCustomResultFolder = false
-   CustomResultFolder = ||
-EndSect  // SYSTEM
 
