@@ -1,4 +1,4 @@
-// Created     : 2018-06-7 20:38:16
+// Created     : 2018-07-17 11:17:3
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -4144,7 +4144,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'L-31W', 'model', 0, 18004, 0, 10000, 0
+         definitions = 'L-31W', 'c2018', 0, 18004, 0, 10000, 0
          connections = 'L-31N', 33660, '', -1e-155
          points = 127, 2479, 2478, 126, 125, 124, 123, 122, 121, 120, 119, 118, 117, 116, 115, 114, 113, 112, 111, 416, 110, 417, 109, 108, 107, 106, 105, 104, 103, 418, 102, 419, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89
       EndSect  // branch
@@ -25417,7 +25417,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31W', 15, 'S174', 'model'
+            Location = 'L-31W', 15, 'S174', 'c2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -25468,7 +25468,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31W', 11475, 'S175', 'model'
+            Location = 'L-31W', 11475, 'S175', 'c2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
