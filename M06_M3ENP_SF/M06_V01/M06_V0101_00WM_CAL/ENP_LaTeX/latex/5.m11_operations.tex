@@ -954,8 +954,14 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 %\item Use S-333/S-334 before S-151/S-337/S-335
 %\end{packed_items}
 
+For the calibration period the structure uses observed discharges (Structure S335-Q)
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+\begin{packed_items}
+\item[]
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\end{packed_items}
+
+For IOP Operations the structure uses the following rules:
 
 \begin{packed_items}
 \item Priority 1: If $Mode=1$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
@@ -1170,8 +1176,8 @@ This structure is set in MIKE 11 as Underflow with max rate of gate opening is 0
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1100 cfs$, Close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{ds}<G211\_TW_{obs}$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 3: If $Mode=0$ and $H_{ds}=G211\_TW_{obs}$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 3: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
@@ -1419,10 +1425,10 @@ The Max speed for gate opening is 1 $cfs/s$.
 \begin{packed_items}
 \item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
 \item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to observed discharge timeseries through S-331 Pump ($Q = Q_{obs}$).
-\item Priority 4: If $Mode>0$ and water level at Angels Well is $>=$ 6.0 ft., discharge according to Table~\ref{tab:CS-S331Pa}
-\item Priority 5: If $Mode>0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
-\item Priority 6: If $Mode>0$ and water level at Angels Well is $>=$ 5.5 ft., discharge according to Table~\ref{tab:CS-S331Pc}
+\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
+\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
+\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
+\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
 \item Priority 7: Close when H $<$ 0.0
 \end{packed_items}
 
@@ -2121,6 +2127,7 @@ For the calibration period the structure uses observed discharges (Structure S33
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
 \end{packed_items}
 
+For IOP Operations the structure uses the following rules:
 
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>9999 cfs$, close.
@@ -2243,6 +2250,8 @@ For the calibration period the structure uses observed discharges (Structure S19
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
 \end{packed_items}
 
+For IOP Operations the structure uses the following rules:
+
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>500 cfs$, close.
 \item[]
@@ -2362,6 +2371,8 @@ For the calibration period the structure uses observed discharges (Structure S19
 \item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
 \end{packed_items}
+
+For IOP Operations the structure uses the following rules:
 
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>300 cfs$, close.

@@ -1,4 +1,4 @@
-// Created     : 2018-07-13 7:23:6
+// Created     : 2018-07-25 7:16:16
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -355,7 +355,6 @@
       point = 441, 517800.006031759, 2849404.582180004, 0, 59806.08357205943, 0
       point = 442, 517888.7502717879, 2849404.813147488, 0, 59894.82811264805, 0
       point = 443, 517497.2644477389, 2849410.989123562, 0, 59503.27420030753, 0
-      point = 445, 556559.7156469821, 2828909.368669851, 0, 10237.66238963911, 0
       point = 446, 547870.7331237573, 2810241.594249458, 0, 2295.340860904436, 0
       point = 447, 547884.1553330814, 2810226.219718778, 0, 2315.749973985855, 0
       point = 448, 539330, 2848470, 0, 800, 0
@@ -2244,18 +2243,18 @@
       point = 2559, 557520, 2834580, 0, 10742.9350726424, 0
       point = 2560, 557490, 2834620, 0, 10692.9350726424, 0
       point = 2561, 557400, 2834630, 0, 10602.38122126102, 0
-      point = 2562, 556690, 2828870, 0, 10373.76494217635, 0
-      point = 2563, 556730, 2828590, 0, 10656.60765465097, 0
-      point = 2564, 556780, 2828540, 0, 10727.31833276962, 0
-      point = 2565, 557450, 2828550, 0, 11397.39295547966, 0
-      point = 2566, 557510, 2828460, 0, 11505.55949374358, 0
-      point = 2567, 557600, 2828170, 0, 11809.20402275736, 0
-      point = 2568, 557860, 2828130, 0, 12072.26295151668, 0
-      point = 2569, 557930, 2828030, 0, 12194.32850767401, 0
-      point = 2570, 557950, 2827400, 0, 12824.64588804679, 0
-      point = 2571, 558150, 2827180, 0, 13121.96726299316, 0
-      point = 2572, 558180, 2826990, 0, 13314.32110360988, 0
-      point = 2573, 558390, 2826790, 0, 13604.32110360988, 0
+      point = 2562, 556690, 2828870, 0, 10373.02736368852, 0
+      point = 2563, 556730, 2828590, 0, 10655.87007616314, 0
+      point = 2564, 556780, 2828540, 0, 10726.58075428179, 0
+      point = 2565, 557450, 2828550, 0, 11396.65537699183, 0
+      point = 2566, 557510, 2828460, 0, 11504.82191525575, 0
+      point = 2567, 557600, 2828170, 0, 11808.46644426953, 0
+      point = 2568, 557860, 2828130, 0, 12071.52537302885, 0
+      point = 2569, 557930, 2828030, 0, 12193.59092918619, 0
+      point = 2570, 557950, 2827400, 0, 12823.90830955896, 0
+      point = 2571, 558150, 2827180, 0, 13121.22968450533, 0
+      point = 2572, 558180, 2826990, 0, 13313.58352512205, 0
+      point = 2573, 558390, 2826790, 0, 13603.58352512205, 0
       point = 2574, 556650, 2822600, 0, 2866.385449175466, 0
       point = 2575, 557000, 2822480, 0, 3236.385449175466, 0
       point = 2576, 557530, 2821990, 0, 3958.188746480209, 0
@@ -2558,9 +2557,9 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'C-102', 'model', 0, 13604.32110360988, 0, 10000, 0
+         definitions = 'C-102', 'model', 0, 13603.58352512205, 0, 10000, 0
          connections = 'L-31N', 20800, '', -1e-155
-         points = 193, 194, 195, 196, 374, 198, 199, 200, 201, 375, 202, 203, 204, 205, 206, 376, 207, 377, 600, 599, 598, 884, 1428, 1429, 885, 886, 887, 888, 445, 2562, 2563, 2564, 2565, 2566, 2567, 2568, 2569, 2570, 2571, 2572, 2573
+         points = 193, 194, 195, 196, 374, 198, 199, 200, 201, 375, 202, 203, 204, 205, 206, 376, 207, 377, 600, 599, 598, 884, 1428, 1429, 885, 886, 887, 888, 2562, 2563, 2564, 2565, 2566, 2567, 2568, 2569, 2570, 2571, 2572, 2573
       EndSect  // branch
 
       [branch]
@@ -24548,7 +24547,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 0, 1, 0, |..\..\..\OBSERVED\G211_TW.dfs0|, 'G211_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.8288, |..\..\..\INPUTFILES\BC1D\BC_G211_TW.dfs0|, 'G211_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -24580,14 +24579,14 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 5, 35, 5, 0
+               LS_parameter = 3, 6, 35, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 1, 0, |..\..\..\OBSERVED\G211_TW.dfs0|, 'G211_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.6764, |..\..\..\INPUTFILES\BC1D\BC_G211_TW.dfs0|, 'G211_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25611,7 +25610,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.524, |..\..\..\OBSERVED\S176_TW.dfs0|, 'S176_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.524, |..\..\..\INPUTFILES\BC1D\BC_S176_TW.dfs0|, 'S176_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25643,14 +25642,14 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 5, 35, 5, 0
+               LS_parameter = 3, 6, 35, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 0, 0, 1.4478, |..\..\..\INPUTFILES\BC1D\BC_S176_TW.dfs0|, 'S176_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.4478, |..\..\..\INPUTFILES\BC1D\BC_S176_TW.dfs0|, 'S176_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25932,7 +25931,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.28016, |..\..\..\OBSERVED\S177_TW.dfs0|, 'S177_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.28016, |..\..\..\INPUTFILES\BC1D\BC_S177_TW.dfs0|, 'S177_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25964,14 +25963,14 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 5, 35, 5, 0
+               LS_parameter = 3, 6, 35, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 0, 0, 1.09728, |..\..\..\OBSERVED\S177_TW.dfs0|, 'S177_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 1.09728, |..\..\..\INPUTFILES\BC1D\BC_S177_TW.dfs0|, 'S177_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -25991,7 +25990,7 @@
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -2.1336, -0.2010496108031999
+                  data = 0, 0
                   data = 2.10312, 0.1925545568255999
                EndSect  // control_strategy
 
@@ -26049,7 +26048,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.097280060960122, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 3, 0, 1.09728, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26253,7 +26252,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 0, 1, 0, |..\..\..\OBSERVED\S178_TW.dfs0|, 'S178_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 22, '', 0, '', 0, '', 0, 0, 1, 0, |..\..\..\INPUTFILES\BC1D\BC_S178_TW.dfs0|, 'S178_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26292,7 +26291,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 1, 0, |..\..\..\OBSERVED\S178_TW.dfs0|, 'S178_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 1, 0, |..\..\..\INPUTFILES\BC1D\BC_S178_TW.dfs0|, 'S178_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26496,7 +26495,7 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 0.79248, |..\..\..\OBSERVED\S18C_TW.dfs0|, 'S18C_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 0.79248, |..\..\..\INPUTFILES\BC1D\BC_S18C_TW.dfs0|, 'S18C_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -26528,14 +26527,14 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 5, 35, 5, 0
+               LS_parameter = 3, 6, 35, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0, '', 0, '', 0, 0, 0, 0.7010399999999999, |..\..\..\OBSERVED\S18C_TW.dfs0|, 'S18C_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, '', 0, '', 0, '', 0, 2, 0, 0.7010399999999999, |..\..\..\INPUTFILES\BC1D\BC_S18C_TW.dfs0|, 'S18C_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28518,7 +28517,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-31N', 17217.6643, 'S331P', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S331P.dfs0|, 'S331P', 1, 0
+               Targetpoint = 'L-31N', 17220.0000024, 'S331P', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S331P_Q.dfs0|, 'S331P_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28527,9 +28526,9 @@
                iterate = 0.0999999999999999, 0, 0.09999999999999999, 0.09999999999999999
                [control_strategy]
                   data = 0, 0
-                  data = 1.2192, 0
-                  data = 1.3716, 10.958619631104
-                  data = 3.048, 10.958619631104
+                  data = 1.219200000000031, 0
+                  data = 1.371599999999893, 10.958619631104
+                  data = 3.048000000000078, 10.958619631104
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -28578,14 +28577,14 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 0, 10, 5, 0
+               LS_parameter = 3, 0, 19, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, 'Angels_Well', 0, '', 0, '', 0, 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_S331_TW.dfs0|, 'S331_TW', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 21, 'Angels_Well', 0, '', 0, '', 0, 3, 0, 1.8288, |..\..\..\INPUTFILES\BC1D\BC_S331_TW.dfs0|, 'S331_TW', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28624,7 +28623,7 @@
             [logical_statement]
                LS_parameter = 4, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 3, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28668,7 +28667,7 @@
             [logical_statement]
                LS_parameter = 5, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 3, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -28712,12 +28711,12 @@
             [logical_statement]
                LS_parameter = 6, 0, 19, 5, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 2, 1, 0, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 17, '', 0, '', 0, '', 0, 3, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'Angels_Well', 0, '', 0, '', 0, 3, 0, 1.6764, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  logicaloperand = 0, 'Angels_Well', 0, '', 0, '', 0, 2, 0, 1.6764, ||, '', 0, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
@@ -30966,12 +30965,17 @@
             HorizOffset = 0
             GateHeight = 3.718559999999999
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 6.095999999999999, -1.28016, 0.0025399998984, true, -1.28016, true, 1.524, 0
+            Attributes = 1, 1, 0.63, 6.095999999999999, -1.28016, 0.0025399998984, false, -1.28016, false, 1.524, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
                LS_parameter = 1, 0, 35, 8, 0
                [logical_operands]
+                  logicaloperand = 36, '', 0, '', 0, '', 0, 0, 0, 22.65347727359999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
+                  [LOSummation]
+                     LOSummationRule = 0, 0
+                  EndSect  // LOSummation
+
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 1, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
                      LOSummationRule = 0, 0
@@ -30982,14 +30986,9 @@
                      LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
-                  logicaloperand = 36, '', 0, '', 0, '', 0, 1, 0, 22.65347727359999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.127999999999, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31028,7 +31027,7 @@
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = 'L-30', 7882.127999999999, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
@@ -31136,60 +31135,9 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 5, 0, 35, 8, 0
+               LS_parameter = 5, 5, 35, 8, 0
                [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 0, 1, 0, |..\..\..\INPUTFILES\BC1D\BC_S335_TW.dfs0|, 'S335_TW', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 36, '', 0, '', 0, '', 0, 1, 0, 22.65347727359999, ||, '', 0, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = 'L-30', 7882.127999999999, '', 0, '', 0, 0, 0, 0, 0, 0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'L-30', 7882.127999999999, 'S335', 0, '', 0, ||, '', 0, 0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0
-               EndSect  // TargetSummation
-
-               pid_variables = 1, 300, 0.8, 1, 0.7, 1
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = -1.28016, -1.24968
-                  data = 2.40792, 2.4384
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 6, 5, 35, 8, 0
-               [logical_operands]
-                  logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 22, '', 0, '', 0, '', 0, 2, 1, 0, |..\..\..\INPUTFILES\BC1D\BC_S335_TW.dfs0|, 'S335_TW', 1, 0, 0, 0, 0, 0, false, 0
-                  [LOSummation]
-                     LOSummationRule = 0, 0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
@@ -31218,20 +31166,41 @@
 
             EndSect  // logical_statement
 
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-30', 7882.127999999999, 'S335-Q', 'model'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0, 0
+               InitialArea = 0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0
+            GateHeight = 0
+            HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
+            Attributes = 2, 1, 0.63, 0, 0, 1.000000000241016, false, 0, false, 0, 0
+            RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 7, 5, 35, 8, 0
+               LS_parameter = 1, 0, 10, 0, 0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = 'L-30', 7882.128, '', 0, '', 0, 0, 0, 0, 0, 0
+               controlpoint = '', 0, '', 0, '', 0, 0, 0, 0, 0, 0
                [CtrSummation]
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-30', 7882.127999999999, 'S335', 0, '', 0, ||, '', 0, 0
+               Targetpoint = 'L-30', 7882.127999999999, 'S335-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S335_Q.dfs0|, 'S335_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31239,8 +31208,6 @@
                pid_variables = 1, 300, 0.8, 1, 0.7, 1
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
-                  data = -1.24968, -1.28016
-                  data = 2.4384, 2.40792
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0, '', 0, '', 0, ||, '', 0, 0
@@ -33910,8 +33877,8 @@
             point = 0, 1, 0, 1
             point = 50.0000016, 1, 1, 0
             point = 100.0000032, 1, 0, 1
-            point = 2480.0000184, 1, 1, 0
-            point = 4860.000033599999, 1, 0, 1
+            point = 2480.0000016, 1, 1, 0
+            point = 4860, 1, 0, 1
             point = 4890, 1, 1, 2
             point = 4919.9999136, 1, 0, 1
             point = 7717.499881199999, 1, 1, 0
@@ -33940,8 +33907,8 @@
             point = 16385.8983432, 1, 0, 1
             point = 16392.076182, 1, 1, 0
             point = 16398.2540208, 1, 0, 1
-            point = 16886.06289646267, 1, 1, 0
-            point = 17373.87177212534, 1, 0, 1
+            point = 16886.06248885819, 1, 1, 0
+            point = 17373.87095691637, 1, 0, 1
          EndSect  // points
 
       EndSect  // branch
@@ -38222,23 +38189,23 @@
          name = 'L-31N'
          [points]
             point = 0, 1, 0, 1
-            point = 76.19999999999999, 1, 1, 0
+            point = 76.2, 1, 1, 0
             point = 152.4, 1, 0, 1
-            point = 636.8204687999998, 1, 1, 0
+            point = 636.8204688, 1, 1, 0
             point = 1121.2409376, 1, 0, 1
             point = 1490.2604688, 1, 1, 0
             point = 1859.28, 1, 0, 1
             point = 1874.52, 1, 1, 0
             point = 1889.76, 1, 0, 1
-            point = 2106.1064304, 1, 1, 0
-            point = 2322.4528608, 1, 0, 1
-            point = 2883.3464304, 1, 1, 0
-            point = 3444.239999999999, 1, 0, 1
+            point = 2106.105, 1, 1, 0
+            point = 2322.45, 1, 0, 1
+            point = 2883.345, 1, 1, 0
+            point = 3444.24, 1, 0, 1
             point = 3459.48, 1, 1, 0
             point = 3474.719999999999, 1, 0, 1
-            point = 3698.6750004, 1, 1, 0
-            point = 3922.6300008, 1, 0, 1
-            point = 4223.11449, 1, 1, 0
+            point = 3698.675, 1, 1, 0
+            point = 3922.63, 1, 0, 1
+            point = 4223.1144896, 1, 1, 0
             point = 4523.598979199999, 1, 0, 1
             point = 4576.670602799999, 1, 1, 0
             point = 4629.742226399999, 1, 0, 1
@@ -39296,7 +39263,7 @@
       MikeSheCoupling = 'AeroJet', 1337.998848, 9120, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'AeroJet-EXT', 1348.1304, 2071.7256, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'Angels_Well', 0, 800, 0, 1e-006, 1, 16, 0, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'C-102', 0, 13604, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'C-102', 0, 13603.224, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'C-103', 0, 16973, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'C-103N', 0, 4350, 0, 1e-006, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
       MikeSheCoupling = 'C-103S', 0, 2554, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 0, 0, 0
