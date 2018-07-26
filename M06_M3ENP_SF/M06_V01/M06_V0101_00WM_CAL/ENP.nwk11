@@ -1,4 +1,4 @@
-// Created     : 2018-07-25 10:48:17
+// Created     : 2018-07-26 9:7:29
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -27074,7 +27074,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185.00001352, 'S194-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S194_Q.dfs0|, 'S194_Q', 1, 0
+               Targetpoint = 'C-102', 5185.00001, 'S194-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S194_Q.dfs0|, 'S194_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -27405,7 +27405,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890.00000408, 'S196-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S196_Q.dfs0|, 'S196_Q', 1, 0
+               Targetpoint = 'C-103', 4890, 'S196-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S196_Q.dfs0|, 'S196_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -28005,7 +28005,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 28334.99999232, 'S197-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S197_Q.dfs0|, 'S197_Q', 1, 0
+               Targetpoint = 'C-111', 28335, 'S197-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S197_Q.dfs0|, 'S197_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31279,7 +31279,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-30', 7882.127999999999, 'S335-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S335_Q.dfs0|, 'S335_Q', 1, 0
+               Targetpoint = 'L-30', 7882.128, 'S335-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S335_Q.dfs0|, 'S335_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
@@ -31698,7 +31698,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-1W', 1650.000000984, 'S338-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S338_Q.dfs0|, 'S338_Q', 1, 0
+               Targetpoint = 'C-1W', 1650, 'S338-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S338_Q.dfs0|, 'S338_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
