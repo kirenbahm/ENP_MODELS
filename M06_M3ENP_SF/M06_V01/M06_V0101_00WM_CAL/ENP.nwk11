@@ -1,4 +1,4 @@
-// Created     : 2018-07-18 15:57:32
+// Created     : 2018-08-1 10:6:6
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -2542,7 +2542,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'AeroJet', 'model', 1338, 9125.45676879544, 0, 10000, 0
+         definitions = 'AeroJet', 'c2012', 1338, 9125.45676879544, 0, 10000, 0
          connections = '', -1e-155, '', -1e-155
          points = 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 814, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794
       EndSect  // branch
