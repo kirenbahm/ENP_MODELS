@@ -68,11 +68,11 @@ The southern boundary of L67A is connected to L29 between S333 and S12D.
 %----------------------------------------------------------
 \subsubsection{L-67C}
 %----------------------------------------------------------
-The north boundary of L67C is closed.
+The north boundary of L67C is closed. The south boundary of L67C is closed, the canal is not connected to canal L67A.
 
 The Pocket canal intersects with L67C near the center of the canal.
 
-The southern end of L67C is connected with L67A.
+The southern end of L67C is not connected with L67A.
 
 \clearpage
 
@@ -80,7 +80,8 @@ The southern end of L67C is connected with L67A.
 \subsubsection{The Pocket}
 %----------------------------------------------------------
 
-The pocket canal has no control structures or boundary conditions, and has open connections with L67A and L67C at both ends.
+The pocket canal has no control structures or boundary conditions, and has open connections with L67C. The pocket canal is disconnected from L67A and has no flow boundary conditions at the its western end. 
+
 %The east boundary of this canal is closed, and the west boundary of the canal is a prescribed head timeseries, shown in Figure~\ref{fig:tsr79c49_HW:STRUCTURE}. It is derived from the timeseries output for Row 79 and Column 49, we think.
 
 %\begin{figure}[!ht] \begin{center}
@@ -110,11 +111,13 @@ The model also does not include the four barrel culverts in the Old Tamiami Trai
 \subsection{Operations: L-29 Canal}
 %=============================================================================================
 
+Canal L-29 is hydraulically disconnected at chainage 18430 (m) using a Closed Discharge structure named TT-CLOSED. This structure separates the western section of L-29 which is hydraulically connected to canal L-28 and maintains stages lower than the stages within WCA-3A. The central sec section of L-29 (between L-29 and L-67C) are hydraulically connected to WCA-3A through overland links. 
+
 %----------------------------------------------------------
 \subsubsection{S343A}
 %----------------------------------------------------------
 
-This structure is implemented in MIKE 11 as a Discharge structure with a Max Rate of change of 1 $cfs/s$.
+This structure is implemented in MIKE 11 as a Discharge structure with a Max Rate of change of 1 $cfs/s$. the structure discharges into the western section of Canal L29.
 
 \begin{figure}[!h]
   \begin{center}
@@ -455,9 +458,6 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 %Column 2 (G-3273 $>$ 6.8' NGVD): Match S-333 with S-334 flows.
 
 
-
-The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S333 it will be necessary to implement operations that are controlled by stages in WCA3A.
-
 %\begin{figure}[!ht] \begin{center}
 %  \includegraphics[width=6.5in]{../figs/timeseries/S333_TW.png}
 %  \caption{Prescribed Tailwater at Structure S333}
@@ -466,6 +466,16 @@ The M11 model implements this structure using a prescribed tailwater timeseries,
 
 The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
+For the calibration period the structure uses observed discharges (Structure S333-Q)
+
+\begin{packed_items}
+\item[]
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: Closed.
+\end{packed_items}
+
+The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S333 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
+
 \begin{packed_items}
 \item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
@@ -473,10 +483,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S333\_TW_{obs}$, and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
-\item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S333close}.
+\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S333close}.
 \end{packed_items}
 
 \footnotesize
@@ -578,6 +585,16 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
+For the calibration period the structure uses observed discharges (Structure S334-Q)
+
+\begin{packed_items}
+\item[]
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: Closed.
+\end{packed_items}
+
+The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S334 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
+
 \begin{packed_items}
 \item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
@@ -585,10 +602,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S334\_TW_{obs}$  $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S334\_TW_{obs}$   operate according to Table~\ref{tab:CS-S334close}.
-\item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
+\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
 \end{packed_items}
 
 %\footnotesize
@@ -655,8 +669,6 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \end{tabular}
 \end{table}
 \normalsize
-
-
 
 %\begin{figure}[!ht] \begin{center}
 %  % Requires \usepackage{graphicx}
