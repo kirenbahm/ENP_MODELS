@@ -1,4 +1,4 @@
-// Created     : 2018-07-13 7:23:12
+// Created     : 2018-08-21 18:3:45
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -59,32 +59,32 @@
 
       [Add_Output]
          ReducedOut = 0
-         Velo_H = true
-         Velo_struc = true
-         Discharge_H = true
-         CrossSec_H = true
-         FlowWidth_H = true
-         Radius_H = true
-         Resistance_H = true
-         Conveyance_H = true
-         FroudeNum_H = true
-         Volume_H = true
-         Volume_Total = true
-         FloodArea_H = true
-         FloodArea_Total = true
-         MassError_H = true
-         MassError_Total = true
-         AcumMassError_Total = true
+         Velo_H = false
+         Velo_struc = false
+         Discharge_H = false
+         CrossSec_H = false
+         FlowWidth_H = false
+         Radius_H = false
+         Resistance_H = false
+         Conveyance_H = false
+         FroudeNum_H = false
+         Volume_H = false
+         Volume_Total = false
+         FloodArea_H = false
+         FloodArea_Total = false
+         MassError_H = false
+         MassError_Total = false
+         AcumMassError_Total = false
          Topo_print = false
          Coef_print = false
          Test_print = false
-         LatInflows_H = true
-         EnergyLevel = true
-         EnergySlope = true
-         WaterSlope = true
-         BedShearStress = true
-         GroundwaterHead = true
-         TimeStep = true
+         LatInflows_H = false
+         EnergyLevel = false
+         EnergySlope = false
+         WaterSlope = false
+         BedShearStress = false
+         GroundwaterHead = false
+         TimeStep = false
       EndSect  // Add_Output
 
       [MixingCoefficients]
