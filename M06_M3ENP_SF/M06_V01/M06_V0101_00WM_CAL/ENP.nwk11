@@ -1,4 +1,4 @@
-// Created     : 2018-09-3 14:6:42
+// Created     : 2018-09-3 15:25:55
 // DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 22 2015 02:58:09
 
@@ -25549,11 +25549,11 @@
             HorizOffset = 0
             GateHeight = 0
             HeadLossFactors = 0.5, 1, 1, 0.5, 1, 1
-            Attributes = 1, 1, 0.63, 4.876799999999999, -0.4571999999999999, 0.0025399998984, true, -0.4571999999999999, true, 3.2004, 0
+            Attributes = 2, 1, 0.63, 4.876799999999999, -0.4571999999999999, 0.0025399998984, true, -0.4571999999999999, true, 3.2004, 0
             RadialGateParam = 1, 1, 1, 1, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 10, 0, 0
+               LS_parameter = 1, 0, 10, 5, 0
                [logical_operands]
                   logicaloperand = 17, '', 0, '', 0, '', 0, 4, 1, 0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0, 0, 0, 0, false, 0
                   [LOSummation]
@@ -31090,7 +31090,7 @@
                   CTRSummationRule = 0, 0
                EndSect  // CtrSummation
 
-               Targetpoint = 'L-29', 91958.16, 'S334-Q', 0, '', 0, |..\..\..\..\..\..\2018JUL25\07252018\ENP_MODELS\INPUTFILES\BC1D\BC_S334_Q.dfs0|, 'S334_Q', 1, 0
+               Targetpoint = 'L-29', 91958.16, 'S334-Q', 0, '', 0, |..\..\..\INPUTFILES\BC1D\BC_S334_Q.dfs0|, 'S334_Q', 1, 0
                [TargetSummation]
                   TargetSummationRule = 0, 0
                EndSect  // TargetSummation
