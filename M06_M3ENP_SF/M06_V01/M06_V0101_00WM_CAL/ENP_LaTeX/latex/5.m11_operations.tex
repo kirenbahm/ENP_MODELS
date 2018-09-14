@@ -9,7 +9,7 @@
 %=================================================================
 Note that the last priority for each Control Definition will always evaluate to true. This will occur when none of the previous conditions evaluate to true. This is known as the 'default' condition.
 
-The timestep for the MIKE11/MIKE1D model is a Fixed Time Step set to 2 minutes.
+%The timestep for the MIKE11/MIKE1D model is a Fixed Time Step set to 2 minutes.
 
 \clearpage
 %=============================================================================================
@@ -973,7 +973,8 @@ The structure will be opened when the headwater stage exceeds 7.0 only when rele
 
 S335-Q operations:
 \begin{packed_items}
-\item Priority 1: $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: Close.
 \end{packed_items}
 
 S335 operations:
@@ -1063,9 +1064,8 @@ canals intersect. S-336 is a gated, three barrel, 54-inch, CMP culvert.This stru
 %For the calibration period the structure uses observed discharges.
 
 \begin{packed_items}
-\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
-\item Priority 2: If $Mode=2$, close.
-\item Priority 3: Close.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: Close.
 \end{packed_items}
 
 
@@ -1198,16 +1198,16 @@ It is recognized that during flood control operations or making water supply del
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1100 cfs$, Close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 3: If $Mode=0$ and $H_{us}>5.4999 ft$, remain unchanged.
+\item Priority 2: If $Mode=0$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 5: If $Mode=1$ and $H_{us}>=5.4999 ft$, remain unchanged.
+\item Priority 5: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
-\item Priority 6: If $Mode=2$ and $H_{us}>=5.6999 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 7: If $Mode=2$ and $H_{us}>=5.2999 ft$, remain unchanged.
+\item Priority 6: If $Mode=2$ and $H_{us}>=5.7 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=5.3 ft$, remain unchanged.
 \item[]
-\item Priority 8: If $Mode=0$ and $S331P\_Q>1000 cfs$, close.
+\item Priority 8: \textcolor[rgb]{1.00,0.00,0.00}{If $Mode=0$ and $S331P\_Q>1000 cfs$, close.}
 \item Priority 9: Close.
 \end{packed_items}
 
@@ -1331,8 +1331,8 @@ The S-173 structure closes if the difference in water level between upstream and
 %\end{itemize}
 
 \begin{packed_items}
-\item Priority 1: If $S176HW < 3.99 ft$ and $Mode>=0$ and $S331P\_Q < 0.1 cfs$ and $S173HW > S173TW$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
-\item Priority 2: If $S177\_H < 2.99 ft$ and $Mode>=0$ and $S331P\_Q < 0.1 cfs$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
+\item Priority 1: If $S176HW < 4 ft$ and $Mode>0$ and $S331P\_Q < 0.1 cfs$ and $S173HW > S173TW$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
+\item Priority 2: If $S177\_H < 3 ft$ and $Mode>0$ and $S331P\_Q < 0.1 cfs$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
 \item Priority 3: Close.
 \end{packed_items}
 
@@ -1396,7 +1396,7 @@ The S-173 structure closes if the difference in water level between upstream and
 %This structure is implemented in MIKE 11 as 3 Discharge structures (one for each pump) with maximum rate of change of 1 $cfs/s$ per pump and a rating curve for each pump.
 
 \begin{packed_items}
-\item Priority 1: If S331P flow $<$ 0.1 cfs, and S176HW $<$ 5.4999 ft, and $Mode>=0$  discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
+\item Priority 1: If S331P flow $<$ 0.1 cfs, and S176HW $<$ 5.5 ft, and $Mode>0$  discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -1449,11 +1449,11 @@ The S-173 structure closes if the difference in water level between upstream and
 
 \begin{packed_items}
 \item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
-\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.4999 ft., close.
-\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 5.999, close.
-\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 5.999 ft., close.
-\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.749 ft., close.
-\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.499 ft., close.
+\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
+\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 6 ft, close.
+\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 6.0 ft., close.
+\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.75 ft., close.
+\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.5 ft., close.
 \item Priority 7: Close.
 %\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
 %\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
