@@ -117,7 +117,8 @@ Canal L-29 is hydraulically disconnected at chainage 55300 (m) using a Closed Di
 \subsubsection{S343A}
 %----------------------------------------------------------
 
-This structure is implemented in MIKE 11 as a Discharge structure with a Max Rate of change of 1 $cfs/s$. the structure discharges into the western section of Canal L29.
+This structure discharges into the western section of Canal L29.
+%structure is implemented in MIKE 11 as a Discharge structure with a Max Rate of change of 1 $cfs/s$. the
 
 \begin{figure}[!h]
   \begin{center}
@@ -127,7 +128,7 @@ This structure is implemented in MIKE 11 as a Discharge structure with a Max Rat
   \end{center}
 \end{figure}
 
-The M11 model implements this structure with prescribed flow.
+%The M11 model implements this structure with prescribed flow.
 
 \begin{packed_items}
 \item Priority 1: $Q = Q_{obs}$
@@ -173,7 +174,7 @@ This structure is implemented in MIKE 11 as a Discharge structure with a Max Rat
   \end{center}
 \end{figure}
 
-The M11 model implements this structure with prescribed flow.
+%The M11 model implements this structure with prescribed flow.
 
 \begin{packed_items}
 \item Priority 1: $Q = Q_{obs}$
@@ -214,7 +215,7 @@ The M11 model implements this structure with prescribed flow.
 %----------------------------------------------------------
 \subsubsection{Culverts 24-28}
 
-The M11 model implements each of these culverts with prescribed flow with maximum rate of change of 1 $cfs/s$.
+%The M11 model implements each of these culverts with prescribed flow with maximum rate of change of 1 $cfs/s$.
 
 \begin{packed_items}
 \item Priority 1: $Q = Q_{obs}$
@@ -263,7 +264,7 @@ Not in model.
 
 These four structures are reinforced concrete, gated spillways with the discharge of each controlled by six cable operated, vertical lift gates. Operation of gates is manually controlled, and the gates are operated in accordance with the seasonal operational criteria. The structures are located in Levee 29 (U.S. Highway 41) on the south perimeter of Conservation Area 3A, about 30 miles west of Miami. These structures provide the principal means of discharge from Conservation Area 3A. Relatively minor discharge can also be made by S-151 into Conservation Area 3B. Structures 12A, B, C, and D provide the principal means of discharge to the Everglades National Park.
 
-Structures 12A-D are implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$.
+%Structures 12A-D are implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$.
 
 %\paragraph{IOP Operational Guidance}
 %
@@ -404,9 +405,9 @@ Structures 12A-D are implemented in MIKE 11 as Discharge with maximum rate of ch
 S333 is operated to make releases from Conservation Area 3A into the Tamiami Canal.
 
 Purpose:
-This structure functions principally to make water deliveries from Conservation Area 3A to south and eastern Dade County to Shark River and Taylor Slough areas of the Everglades National Park. It can be used to make regulation releases from Conservation Area 3A. This structure is implemented in MIKE 11 as an Underflow structure.
+This structure functions principally to make water deliveries from Conservation Area 3A to south and eastern Dade County to Shark River and Taylor Slough areas of the Everglades National Park. It can be used to make regulation releases from Conservation Area 3A. %This structure is implemented in MIKE 11 as an Underflow structure.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 %%Operating Criteria:
 %%When this structure is operated to make deliveries to south or east Dade County from Conservation Area 3, it may be operated alone or with S-337. The total delivery will be the amount necessary to maintain the appropriate stages at S-331, S-25B and S-22. During such transfer operations, the headwater stage at S-334 will be maintained between 5.0 and 6.0.
@@ -464,26 +465,27 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 %  \label{fig:S333TW:STRUCTURE}\end{center}
 %\end{figure}
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
-For the calibration period the structure uses observed discharges (Structure S333-Q)
+%For the calibration period the structure uses observed discharges (Structure S333-Q)
 
+S333-Q operations:
 \begin{packed_items}
-\item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
-The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S333 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
+%The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S333 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
 
+S333 operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
-\item Priority 2: If $Mode=1$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$ and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 2: If $Mode=1$ and $H_{ds}>S333\_TW_{obs}$,                         operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,,  operate according to Table~\ref{tab:CS-S333open}.
-\item Priority 4: If $Mode=2$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$ and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 4: If $Mode=2$ and $H_{ds}>S333\_TW_{obs}$,                         operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S333close}.
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
@@ -564,7 +566,7 @@ When supplemental deliveries are not being made, this structure is closed.
 When regulatory releases are being made from Conservation Area 3A, this structure is operated in conjunction with S-333 to maintain a maximum stage of 7.05 ft at the L-29-1 culvert \cite{corp2005, SFWMD1994}.
 Higher stages cause flooding at the Indian Village adjacent to the canal.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 %Weir Crest
 %    Net Length 29.0 feet
@@ -583,26 +585,27 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
   \end{center}
 \end{figure}
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
-For the calibration period the structure uses observed discharges (Structure S334-Q)
+%For the calibration period the structure uses observed discharges (Structure S334-Q)
 
+S334-Q operations:
 \begin{packed_items}
-\item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
-The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S334 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
+%The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S334 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
 
+S334 operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
+\item Priority 5: Close.
 \end{packed_items}
 
 %\footnotesize
@@ -715,12 +718,12 @@ When conditions permit (i.e., G-3273 and L-29 constraints), discharges from S-35
 Column 2:
 When conditions permit (i.e., no S-334 regulatory releases and G-3273 and L-29 constraints), discharges from S-356 will go into L-29. Pumping will be limited to the amount of seepage into L-31N in the reach between S-335 and G-211. A technical team will evaluate pumping limits and operations. The pumps will be operated accordingly.
 
-This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+%This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$: Closed
-\item Priority 2: If $Mode=2$: Closed
-\item Priority 3: If $Mode=0$: Closed
+\item Priority 1: If $Mode=1$: Close.
+\item Priority 2: If $Mode=2$: Close.
+\item Priority 3: Close.
 \end{packed_items}
 
 
@@ -741,7 +744,7 @@ S12E connects L29 (just east of S333) to north end of L67EXT).
 
 This structure is a four-barreled reinforced concrete box culvert, located in Levee 29 at the junction with L-67A, about 33 miles west of Miami. Control is effected by manually operated sluice gates mounted on a reinforced concrete head structure. This structure discharges from the L-29 borrow canal (through the Tamiami Canal) to the Everglades National Park via the L-67 Extension borrow canal. This structure is manually operated by the U. S. Corps of Engineers under either flood or normal conditions.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 %\begin{figure}[!h]
 %  \begin{center}
@@ -753,7 +756,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -797,7 +800,7 @@ This structure is a two-barreled corrugated metal pipe culvert, located in the b
 This structure increases the proportion of overland flow with respect to canal flow from the S-12D discharge into the Everglades National Park.
 Normally, this structure is closed. It is opened only during unusually dry conditions when the minimum deliveries to the ENP cannot otherwise be made. It is operated in conjunction with S-347 and S-12D.
 
-This structure is implemented in MIKE 11 as an Overflow structure with a Max Rate of change of 0.000138 $ft/s$.
+%This structure is implemented in MIKE 11 as an Overflow structure with a Max Rate of change of 0.000138 $ft/s$.
 
 %%Type Corrugated metal pipe culverts with upstream control
 %%Number of barrels: 2
@@ -813,7 +816,7 @@ This structure is implemented in MIKE 11 as an Overflow structure with a Max Rat
 
 
 \begin{packed_items}
-\item Priority 1: Fully Open
+\item Priority 1: Fully Open.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -856,7 +859,7 @@ This structure increases the proportion of overland flow with respect to canal f
 
 Normally, this structure is closed. It is opened only during unusually dry conditions when the minimum deliveries to the ENP cannot otherwise be made. It is operated in conjunction with S-346 and S-12D.
 
-This structure is implemented in MIKE 11 as an Overflow structure with a Max Rate of change of 0.000138 $ft/s$.
+%This structure is implemented in MIKE 11 as an Overflow structure with a Max Rate of change of 0.000138 $ft/s$.
 
 
 %%Design
@@ -876,10 +879,10 @@ This structure is implemented in MIKE 11 as an Overflow structure with a Max Rat
 %%Riser Pipes:
 %%Diameter of Riser 96 inches
 
-Implemented as an overflow weir with sill level at 5.8 ft.
+%Implemented as an overflow weir with sill level at 5.8 ft.
 
 \begin{packed_items}
-\item Priority 1: Fully Open
+\item Priority 1: Fully Open.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -914,7 +917,7 @@ Implemented as an overflow weir with sill level at 5.8 ft.
 %----------------------------------------------------------
 \subsubsection{North Boundary}
 %----------------------------------------------------------
-Prescribed stage as S335\_HW.
+%Prescribed stage as S335\_HW.
 
 
 %\begin{figure}[!ht] \begin{center}
@@ -943,7 +946,7 @@ During such transfer operations, the headwater stage at S-335 is maintained betw
 When supplemental deliveries are not being made, this structure is operated in conjunction with S-32A to maintain the optimum level of 6.0 in the L-30 borrow canal.
 The structure will be opened when the headwater stage exceeds 7.0 only when releases will not create hazardous conditions downstream.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 \begin{figure}[!h]
   \begin{center}
@@ -966,27 +969,22 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 %\item Use S-333/S-334 before S-151/S-337/S-335
 %\end{packed_items}
 
-For the calibration period the structure uses observed discharges (Structure S335-Q)
+%For the calibration period the structure uses observed discharges (Structure S335-Q)
 
+S335-Q operations:
 \begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 1: $Q = Q_{obs}$.
 \end{packed_items}
 
-For IOP Operations the structure uses the following rules:
-
+S335 operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs,  operate according to Table~\ref{tab:CS-S335open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S335\_TW_{obs}$ operate according to Table~\ref{tab:CS-S335close}.
-\item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S335close}.
+\item Priority 7: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1058,16 +1056,16 @@ For IOP Operations the structure uses the following rules:
 \subsubsection{S336}
 %----------------------------------------------------------
 Structure 336 is located in the Tamiami Canal (C-4), where the L-30 and L-31N borrow
-canals intersect. S-336 is a gated, three barrel, 54-inch, CMP culvert.This structure permits supplemental deliveries from WCA 3 to help fulfill water needs in eastern Dade County via the L-30 or L-29 canals. It also can be used to discharge excess water from WCA 3A when capacity is available in the Tamiami Canal. This structure is set to Discharge.
+canals intersect. S-336 is a gated, three barrel, 54-inch, CMP culvert.This structure permits supplemental deliveries from WCA 3 to help fulfill water needs in eastern Dade County via the L-30 or L-29 canals. It also can be used to discharge excess water from WCA 3A when capacity is available in the Tamiami Canal. %This structure is set to Discharge.
 
-This structure is implemented in MIKE 11 as a Discharge structure with a Max Rate of change of 1 $cfs/s$.
+%This structure is implemented in MIKE 11 as a Discharge structure with a Max Rate of change of 1 $cfs/s$.
 
-For the calibration period the structure uses observed discharges.
+%For the calibration period the structure uses observed discharges.
 
 \begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=2$, close.
+\item Priority 3: Close.
 \end{packed_items}
 
 
@@ -1105,18 +1103,18 @@ For the calibration period the structure uses observed discharges.
 
 This structure is a double-barreled, 72 inches corrugated metal pipe culvert located on the Tamiami Canal about 1/4 mile east of the Krome Avenue crossing of the Tamiami Canal 19 miles west of Miami. Control is effected by manually operated sluice gates mounted on a frame erected on the upstream or west end of the structure.This structure permits supplemental deliveries from Conservation Area 3 to supply water needs in eastern Dade County via the L-30 or L-29 canals. It also can be used to discharge limited quantities of excess water from Conservation Area 3A or from the L-31N, L-29 and L-30 drainage basins east and south of Conservation Area 3B when capacity is available in the Tamiami Canal.
 
-This structure is implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$.
+%This structure is implemented in MIKE 11 as Discharge with maximum rate of change of 1 $cfs/s$.
 
+G119-Q operations:
 \begin{packed_items}
-\item Priority 1: If \textcolor[rgb]{1.00,0.00,0.00}{[See model for criteria]}, Close.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: Close.
 \end{packed_items}
 
-For the calibration period the structure uses observed discharges (G119-Q).
-
+%For the calibration period the structure uses observed discharges (G119-Q).
+G119 operations:
 \begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 1: Close.
 \end{packed_items}
 
 
@@ -1151,7 +1149,7 @@ For the calibration period the structure uses observed discharges (G119-Q).
 \subsubsection{C-4 East Boundary}
 %----------------------------------------------------------
 
-Prescribed stage as G119\_TW.
+%Prescribed stage as G119\_TW.
 
 %\begin{figure}[!ht] \begin{center}
 %  \includegraphics[width=6.5in]{../figs/timeseries/BC-G119TW.png}
@@ -1181,8 +1179,8 @@ As a result, frequent gate operations at this structure are impracticable and st
 The goal is to keep stages generally between 5.5 ft. and 6.0 ft., upstream of the structure insofar as practicable.
 It is recognized that during flood control operations or making water supply deliveries that stages outside this range either high or low may occur for extended periods of time.
 
-This structure is set in MIKE 11 as Underflow with max rate of gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
-.
+%This structure is set in MIKE 11 as Underflow with max rate of gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+
 
 
 %?% The structure consists of 10 culverts and is operated to maintain low canal stages between G-211 and S-331 during flood control operations for the lands west of the protective levee system.
@@ -1200,16 +1198,17 @@ This structure is set in MIKE 11 as Underflow with max rate of gate opening is 0
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1100 cfs$, Close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 3: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
+\item Priority 2: If $Mode=0$ and $H_{us}>6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>5.4999 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 5: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
+\item Priority 5: If $Mode=1$ and $H_{us}>=5.4999 ft$, remain unchanged.
 \item[]
-\item Priority 6: If $Mode=2$ and $H_{us}>=5.7 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 7: If $Mode=2$ and $H_{us}>=5.3 ft$, remain unchanged.
+\item Priority 6: If $Mode=2$ and $H_{us}>=5.6999 ft$, operate according to Table~\ref{tab:CS-G211open}.
+\item Priority 7: If $Mode=2$ and $H_{us}>=5.2999 ft$, remain unchanged.
 \item[]
-\item Priority 8: Default, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 8: If $Mode=0$ and $S331P\_Q>1000 cfs$, close.
+\item Priority 9: Close.
 \end{packed_items}
 
 
@@ -1319,7 +1318,8 @@ The second is the S-331P pumps, a set of three pumps, and third is the S-331S st
 \textbf{S331\_S173 (This is the S173 structure).}
 %-----------------
 
-The S-173 structure closes if the difference in water level between upstream and downstream is negative to prevent having S-331S discharge recirculate back upstream. The structure is modeled as Underflow Gate with width of 6 ft, and max rate of gate opening of 0.008333333 ft/sec, which equals 6 inch/hour.
+The S-173 structure closes if the difference in water level between upstream and downstream is negative to prevent having S-331S discharge recirculate back upstream. 
+%The structure is modeled as Underflow Gate with width of 6 ft, and max rate of gate opening of 0.008333333 ft/sec, which equals 6 inch/hour.
 
 %Otherwise the structure opens if the headwater at S-176 falls below 5.5 feet and S-331 pumps are off.
 %The Control Strategy in M11 is shown in Table~\ref{tab:CS-S173ops}.
@@ -1331,8 +1331,9 @@ The S-173 structure closes if the difference in water level between upstream and
 %\end{itemize}
 
 \begin{packed_items}
-\item Priority 1: If $S176HW > 5.5$, and $Mode>=0$, and  S331P flow $<$ 0.1 cfs, and $S173HW > S173TW$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
-\item Priority 2: Close when headwater is less than 0.0 ft.
+\item Priority 1: If $S176HW < 3.99 ft$ and $Mode>=0$ and $S331P\_Q < 0.1 cfs$ and $S173HW > S173TW$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
+\item Priority 2: If $S177\_H < 2.99 ft$ and $Mode>=0$ and $S331P\_Q < 0.1 cfs$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
+\item Priority 3: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1392,11 +1393,11 @@ The S-173 structure closes if the difference in water level between upstream and
 %\item Priority 2: Close when headwater is less than 0.0 ft.
 %\end{packed_items}
 
-This structure is implemented in MIKE 11 as 3 Discharge structures (one for each pump) with maximum rate of change of 1 $cfs/s$ per pump and a rating curve for each pump.
+%This structure is implemented in MIKE 11 as 3 Discharge structures (one for each pump) with maximum rate of change of 1 $cfs/s$ per pump and a rating curve for each pump.
 
 \begin{packed_items}
-\item Priority 1: If S331P flow $<=$ 0.0 cfs, and S176HW $<$ 5.5 ft, and $Mode>=0$  discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
-\item Priority 2: Close when headwater is less than 0.0 ft.
+\item Priority 1: If S331P flow $<$ 0.1 cfs, and S176HW $<$ 5.4999 ft, and $Mode>=0$  discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
+\item Priority 2: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1444,16 +1445,23 @@ This structure is implemented in MIKE 11 as 3 Discharge structures (one for each
 %This trigger well is to be abandoned in favor of a new well closer to the C-357 canal, but in this model Angels remains the operative trigger well.
 %The priorities are listed in Table ?7?.
 
-The Max speed for gate opening is 1 $cfs/s$.
+%The Max speed for gate opening is 1 $cfs/s$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
-\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
-\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
-\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
-\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
-\item Priority 7: Close when H $<$ 0.0
+\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.4999 ft., close.
+\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 5.999, close.
+\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 5.999 ft., close.
+\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.749 ft., close.
+\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.499 ft., close.
+\item Priority 7: Close.
+%\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
+%\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
+%\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
+%\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
+%\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
+%\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
+%\item Priority 7: Close.
 \end{packed_items}
 
 %\begin{itemize}
@@ -1621,13 +1629,13 @@ area.)
 \item[]
 \item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
-\item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
+\item Priority 3: If $Mode=1$ and $H_{us}>=4.999 ft$, discharge according to Table~\ref{tab:CS-S332BN1}.
 \item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
 \item[]
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 7: Default, close.
+\item Priority 7: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1730,7 +1738,7 @@ The pumps were turned on in 2004. They were initially referred to as the S332B P
   \end{center}
 \end{figure}
 
-This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+%This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 In the model the pumps discharge according to the following rules:
 
@@ -1738,7 +1746,7 @@ In the model the pumps discharge according to the following rules:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=0$ and $H_{us}>0$, $Q = Q_{obs}$.
 \item[]
 \item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
 \item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
@@ -1746,7 +1754,7 @@ area.)
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 7: Default, close.
+\item Priority 7: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1841,7 +1849,7 @@ area.)
 %----------------------------------------------------------
 Pump station S-332C started operating in 2002 and all pumps are directed into the SDA through halfmile long culverts, preventing direct seepage back to L-31N.
 
-This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
+%This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 
 \begin{figure}[!h]
@@ -1858,7 +1866,7 @@ The control strategy is as follows:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=0$ and $H_{us}>=0 ft$, $Q = Q_{obs}$.
 \item[]
 
 \item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
@@ -1867,7 +1875,7 @@ area.)
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 7: Default, close.
+\item Priority 7: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1973,7 +1981,7 @@ The S-332D pump station was constructed in 1999 and all pumps deliver water to t
 
 Pumped up to 500 cfs from Jul 16 (or the end of the breeding season, as confirmed by FWS) to Nov 31; 325 cfs from Dec 1 to Jan 31; and 165 cfs* from Feb 1 to Jul 15. Meet Taylor Slough Rainfall formula consistent with marsh restoration (No L-31W constraint).
 
-This structure is implemented in MIKE 11 as a Discharge structure with Max Speed of 1 $cfs/s$.
+%This structure is implemented in MIKE 11 as a Discharge structure with Max Speed of 1 $cfs/s$.
 
 
 \begin{packed_items}
@@ -2091,7 +2099,7 @@ For the calibration period the structure uses observed discharges:
 \begin{packed_items}
 \item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 
@@ -2100,7 +2108,7 @@ For the calibration period the structure uses observed discharges:
 %----------------------------------------------------------
 
 \begin{packed_items}
-\item Priority 1: Close
+\item Priority 1: Close.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -2149,16 +2157,16 @@ Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a
   \end{center}
 \end{figure}
 
-For the calibration period the structure uses observed discharges (Structure S338-Q)
-
+%For the calibration period the structure uses observed discharges (Structure S338-Q)
+S338-Q operations:
 \begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
+\item Priority 2: Close.
 \end{packed_items}
 
-For IOP Operations the structure uses the following rules:
+%For IOP Operations the structure uses the following rules:
 
+S338 operations:
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>9999 cfs$, close.
 \item[]
@@ -2168,7 +2176,7 @@ For IOP Operations the structure uses the following rules:
 \item Priority 4: If $Mode=2$ and $H_{us}>=5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
 \item Priority 5: If $Mode=2$ and $H_{us}>=5.4 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S338close}.
+\item Priority 6: Close.
 \end{packed_items}
 
 \footnotesize
@@ -2235,7 +2243,7 @@ For IOP Operations the structure uses the following rules:
 \subsubsection{East Canal Boundary}
 %----------------------------------------------------------
 
-Prescribed head timeseries, set to S148TW.
+%Prescribed head timeseries, set to S148TW.
 
 %\begin{figure}[!ht] \begin{center}
 %  \includegraphics[width=6.5in]{../figs/timeseries/C1Weast.png}
@@ -2254,7 +2262,7 @@ Prescribed head timeseries, set to S148TW.
 
 This structure is a double-barreled reinforced concrete pipe culvert, located on Canal 102 at Krome Avenue about 7 miles north of Homestead. Control is effected by manually operated sluice gates mounted on a reinforced concrete head structure. This structure is installed as a drainage divide structure and as a control for stages in C-102 to the west. It is sized to permit limited runoff to the east when capacity is available and to provide a supplemental supply during the dry period.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 %
 %The MIKE 11 model implements the following operations \cite{corp2005, SFWMD1994}:
@@ -2273,16 +2281,17 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
   \end{center}
 \end{figure}
 
-For the calibration period the structure uses observed discharges (Structure S194-Q)
+%For the calibration period the structure uses observed discharges (Structure S194-Q)
 
+S194-Q operations:
 \begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 1: If $Mode=0$ and $H_{us}>=0 ft$, $Q = Q_{obs}$.
+\item Priority 2: Close.
 \end{packed_items}
 
-For IOP Operations the structure uses the following rules:
+%For IOP Operations the structure uses the following rules:
 
+S194 operations:
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>500 cfs$, close.
 \item[]
@@ -2292,7 +2301,7 @@ For IOP Operations the structure uses the following rules:
 \item Priority 4: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S194open}.
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.5 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S194close}.
 \end{packed_items}
 
 \footnotesize
@@ -2359,7 +2368,7 @@ For IOP Operations the structure uses the following rules:
 %----------------------------------------------------------
 \subsubsection{East Canal Boundary}
 %----------------------------------------------------------
-Prescribed head timeseries, set to BC\_S194TW-S165HW.dfs0.
+%Prescribed head timeseries, set to BC\_S194TW-S165HW.dfs0.
 
 %\begin{figure}[!ht] \begin{center}
 %  \includegraphics[width=6.5in]{../figs/timeseries/C102E.png}
@@ -2377,7 +2386,7 @@ Prescribed head timeseries, set to BC\_S194TW-S165HW.dfs0.
 %----------------------------------------------------------
 This structure is a double-barreled reinforced concrete pipe culvert, located on Canal 102 at Krome Avenue about 7 miles north of Homestead. Control is effected by manually operated sluice gates mounted on a reinforced concrete head structure. This structure is installed as a drainage divide structure and as a control for stages in C-102 to the west. It is sized to permit limited runoff to the east when capacity is available and to provide a supplemental supply during the dry period.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 %
 %The MIKE 11 model implements the following operations \cite{corp2005, SFWMD1994}:
@@ -2396,16 +2405,17 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
   \end{center}
 \end{figure}
 
-For the calibration period the structure uses observed discharges (Structure S196-Q)
+%For the calibration period the structure uses observed discharges (Structure S196-Q)
 
+S196-Q operations:
 \begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
+\item Priority 2: Close.
 \end{packed_items}
 
-For IOP Operations the structure uses the following rules:
+%For IOP Operations the structure uses the following rules:
 
+S196 operations:
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>300 cfs$, close.
 \item[]
@@ -2415,7 +2425,7 @@ For IOP Operations the structure uses the following rules:
 \item Priority 4: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S196open}.
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.5 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S196close}.
 \end{packed_items}
 
 \footnotesize
@@ -2497,7 +2507,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 4: If $Mode>0$ and $H_{us}>=5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
 \item Priority 5: If $Mode>0$ and $H_{us}>=5.1 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S167close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S167close}.
 \end{packed_items}
 
 \footnotesize
@@ -2592,7 +2602,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 %----------------------------------------------------------
 \subsubsection{East Canal Boundary}
 %----------------------------------------------------------
-Prescribed head timeseries, set to S179HW.
+%Prescribed head timeseries, set to S179HW.
 
 %\begin{figure}[!ht] \begin{center}
 %  \includegraphics[width=6.5in]{../figs/timeseries/C103E.png}
@@ -2611,14 +2621,14 @@ Prescribed head timeseries, set to S179HW.
 
 The structure is located on the L-31W borrow canal near its junction with Canal C-111, about 5 miles west of Homestead. This structure, together with S176, maintains a desirable water control stage in upstream L-31N, it passes the design flood (40\% of the Standard Project Flood) without exceeding upstream flood design stage, and restricts downstream flood stages and discharge velocities to non-damaging levels. It also passes the required flows to the Everglades National Park into Taylor Slough. During the dry period, S174 may be opened to meet water supply requirements in the Everglades National Park - South Dade Conveyance System \cite{corp2005, SFWMD1994}.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
-For the calibration period the structure uses observed discharges.
+%For the calibration period the structure uses observed discharges.
 
 \begin{packed_items}
 \item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 %The resulting cumulative flow through S174 is shown on Figure \ref{fig:S174_QACC:STRUCTURE}:
@@ -2656,7 +2666,7 @@ For the calibration period the structure uses observed discharges.
 This structure is a series of culverts connecting the S332D High Head Cell to the L31W canal. It is intended to direct water from the HHC northward into the SDA. This structure is implemented in MIKE 11 as an Underflow structure.
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 %The resulting cumulative flow through S332BW1 is shown on Figure \ref{fig:S332C1_QACC:STRUCTURE}:
@@ -2693,7 +2703,7 @@ This structure is a series of culverts connecting the S332D High Head Cell to th
 %----------------------------------------------------------
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 \clearpage
@@ -2744,10 +2754,10 @@ This structure is not present in the model.
 %----------------------------------------------------------
 This structure is a culvert on the G737 branch, connecting L31W and FDPA-INLET.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 \clearpage
@@ -2780,8 +2790,8 @@ This structure is located on the Levee 31W borrow canal approximately 1.5 miles 
 
 
 \begin{packed_items}
-\item Priority 1: If $Mode=0$, close
-\item Priority 2: Closed
+\item Priority 1: If $Mode=1$, close
+\item Priority 2: Close.
 \end{packed_items}
 
 
@@ -2821,7 +2831,7 @@ This structure is located on the Levee 31W borrow canal approximately 1.5 miles 
 At the terminus of L-31N is the structure S-176 which allows discharge into C-111 to the next structure S-177.
 The structure is located on Canal 111 about 5 miles west of Homestead. This structure, together with S-174, maintains a desirable water control stage upstream in L-31N, it passes the design flood (40\% of the Standard Project Flood) without exceeding upstream flood design stage, and restricts downstream flood stages and discharge velocities to non-damaging levels.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 \begin{figure}[!h]
   \begin{center}
@@ -2834,8 +2844,8 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1200 cfs$, close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
-\item Priority 3: If $Mode=0$ and $H_{us}<4.75 ft$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>4.75 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=4.75 ft$, remain unchanged.
@@ -2843,7 +2853,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S176open}.
 \item Priority 7: If $Mode=2$ and $H_{us}>=4.7 ft$, remain unchanged.
 \item[]
-\item Priority 8: Default, operate according to Table~\ref{tab:CS-S176close}.
+\item Priority 8: Operate according to Table~\ref{tab:CS-S176close}.
 \end{packed_items}
 
 \footnotesize
@@ -2915,7 +2925,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 %----------------------------------------------------------
 Pump Station S200 is one of key components of the northern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. The main north portion of the project includes the Frog Pond Detention Area (FPDA), the Frog Pond Header Distribution Channel, and Pump Station S200. The primary purpose of Pump Station S200 is to re-direct to the west up to 225 cfs of excess water from C111 Canal into FPDA. Pump Station S200 with design capacity of 225 cfs is located downstream of the existing S-176 structure, north of Ingraham Highway and west of the C-111 Canal along the northern boundary of the FPDA.
 
-This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
+%This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
 
 The complex was constructed post model period, thus no observed data is available for comparison.
 
@@ -2925,7 +2935,7 @@ Control Strategy for S200:
 \item Priority 1: When $H_{us} > 3.8$ ft and $Mode>0$, discharge according to Table~\ref{tab:CS-S200}
 \item Priority 2: When $H_{us} > 3.6$ ft and $Mode>0$, remain unchanged
 \item Priority 3: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 4: When stage $<$ 0.0, close
+\item Priority 4: Close.
 \end{packed_items}
 
 \footnotesize
@@ -2991,7 +3001,7 @@ Control Strategy for S200:
 
 Structure S177 maintains optimum water control upstream in Canal 111; it passes the design flood (40\% of the Standard Project Flood) without exceeding upstream flood design stage, and restricts downstream flood stages and discharge velocities to non-damaging levels.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 \begin{figure}[!h]
   \begin{center}
@@ -3004,8 +3014,8 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1700 cfs$, close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
-\item Priority 3: If $Mode=0$ and $H_{us}<3.6 ft$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>3.6 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=3.6 ft$, remain unchanged.
@@ -3013,7 +3023,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
 \item Priority 7: If $Mode=2$ and $H_{us}>=3.6 ft$, remain unchanged.
 \item[]
-\item Priority 8: Default, operate according to Table~\ref{tab:CS-S177close}.
+\item Priority 8: Operate according to Table~\ref{tab:CS-S177close}.
 \end{packed_items}
 
 \footnotesize
@@ -3090,7 +3100,7 @@ This feature was completed after the model time period (1987 to 2010), so no dat
 \item Priority 1: When HW $>$ 3.8 ft and $Mode>0$, discharge according to Table~\ref{tab:CS-S199}
 \item Priority 2: When HW $>$ 3.6 ft and $Mode>0$, remain unchanged
 \item Priority 3: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 4: When stage $<$ 0.0, close
+\item Priority 4: Close.
 \end{packed_items}
 
 \footnotesize
@@ -3159,7 +3169,7 @@ Under current operations the flood control discharge benefits have more than dou
 
 Structure S18C maintains optimum water control stages upstream in Canal 111; it passes the design flood (40\% of the Standard Project Flood) without exceeding upstream flood design stage, and restricts downstream flood stages and discharge velocities to non-damaging levels; and assists in preventing saline intrusion. It also makes discharges to the eastern panhandle of the Everglades National Park.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 
 \begin{figure}[!h]
@@ -3174,8 +3184,8 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>2300 cfs$, close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
-\item Priority 3: If $Mode=0$ and $H_{us}<2.3 ft$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
+\item Priority 3: If $Mode=0$ and $H_{us}>2.3 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=2.3 ft$, remain unchanged.
@@ -3196,7 +3206,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
 -7.0	& -6.9       \\
-6.9	& 7   \\
+5.6	& 5.7   \\
 \hline
 \end{tabular}
 \end{table}
@@ -3212,7 +3222,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \textbf{Current Gate Level} & \textbf{Gate Level}\\
 \hline
 -6.9	& -7.0       \\
-7.0	& 6.9   \\
+5.7  &  5.6   \\
 \hline
 \end{tabular}
 \end{table}
@@ -3258,7 +3268,7 @@ The M11 model implements S197 as a composite structure comprised by: S197-03 wit
 
 The culverts 4 through 13 have been replaced since 2010.
 
-The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
+%The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 \begin{figure}[!h]
   \begin{center}
@@ -3268,29 +3278,29 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
   \end{center}
 \end{figure}
 
-For the calibration period the structure uses observed discharges (Structure S197-Q)
-
-\begin{packed_items}
-\item[]
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\end{packed_items}
 
 These are the locations of the trigger points in the model:
 \begin{packed_items}
 \item S-176 HW: Branch C-111 chainage 0 m.
 \item S-177 HW: Branch C-111 chainage 8960 m.
 \item S-18C HW: Branch C-111 chainage 18450 m.
-\item S-197: Branch C-111 chainage 28280 m.
+\item S-197: Branch C-111 chainage 28335 m.
 \end{packed_items}
 
+
+S197-Q operations:
+\begin{packed_items}
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: Close.
+\end{packed_items}
 
 
 Priorities for S197-03, (3 gates):
 \begin{packed_items}
 \item Priority 1: If S-177 HW $>$ 4.1 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-18C HW $>$ 2.8 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 3: If S-176 HW $<$ 5.2 ft, $Mode>0$, and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: Default, close.
+\item Priority 3: If S-176 HW $<$ 5.2 ft and $Mode>0$ and S-177 HW $<$ 4.2 ft, close.
+\item Priority 4: Close.
 \end{packed_items}
 
 
@@ -3298,8 +3308,8 @@ Priorities for S197-07, (4 gates):
 \begin{packed_items}
 \item Priority 1: If S-177 HW $>$ 4.2 ft (averaged over 24 hours) and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-18C HW $>$ 3.1 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 3: If S-176 HW $<$ 5.2 ft and if S-177 HW $<$ 4.2 ft and $Mode>0$, close.
-\item Priority 4: Default, close.
+\item Priority 3: If S-176 HW $<$ 5.2 ft and S-177 HW $<$ 4.2 ft and $Mode>0$, close.
+\item Priority 4: Close.
 \end{packed_items}
 
 
@@ -3307,8 +3317,8 @@ Priorities for S197-13, (6 gates):
 \begin{packed_items}
 \item Priority 1: If S-177 HW $>$ 4.3 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-18C HW $>$ 3.3 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft and $Mode>0$, close.
-\item Priority 4: Default, close.
+\item Priority 3: If S-176 HW $<$ 5.2 ft and S-177 HW $<$ 4.2 ft and $Mode>0$, close.
+\item Priority 4: Close.
 \end{packed_items}
 
 
@@ -3383,7 +3393,7 @@ Priorities for S197-13, (6 gates):
 %----------------------------------------------------------
 \subsubsection{Southeast Canal Boundary}
 %----------------------------------------------------------
-Prescribed head timeseries, set to BC\_S197\_TW.dfs0%, as shown in Figure~\ref{fig:C111SE:STRUCTURE}.
+%Prescribed head timeseries, set to BC\_S197\_TW.dfs0%, as shown in Figure~\ref{fig:C111SE:STRUCTURE}.
 
 %\begin{figure}[!ht] \begin{center}
 %  \includegraphics[width=6.5in]{../figs/timeseries/C111SE.png}
@@ -3416,12 +3426,12 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 1: If $Q_{str}>9999 cfs$, close.
 \item[]
 \item Priority 2: If $Mode=0$ and $H_{ds}<S178\_TW_{obs}$, operate according to Table~\ref{tab:CS-S178open}.
-\item Priority 3: If $Mode=0$ and $H_{ds}=S178\_TW_{obs}$, remain unchanged.
+\item Priority 3: If $Mode=0$ and $H_{ds}>S178\_TW_{obs}$, close.
 \item[]
 \item Priority 4: If $Mode>0$ and $H_{us}>=4.6 ft$, operate according to Table~\ref{tab:CS-S178open}.
 \item Priority 5: If $Mode>0$ and $H_{us}>=4.4 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S178close}.
 \end{packed_items}
 %}
 
