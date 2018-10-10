@@ -177,7 +177,7 @@
          EndSect  // OutputItems
 
          [OutputFiles]
-            data = 'dfs Timeseries Bridge', true, |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
+            data = 'dfs Timeseries Bridge', false, |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
          EndSect  // OutputFiles
 
       EndSect  // TextOutput
