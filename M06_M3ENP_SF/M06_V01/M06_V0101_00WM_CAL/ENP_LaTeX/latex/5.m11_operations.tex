@@ -485,7 +485,7 @@ S333 operations:
 \item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$ and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S333close}.
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
@@ -605,7 +605,7 @@ S334 operations:
 \item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
+\item Priority 5: Close.
 \end{packed_items}
 
 %\footnotesize
@@ -723,7 +723,7 @@ When conditions permit (i.e., no S-334 regulatory releases and G-3273 and L-29 c
 \begin{packed_items}
 \item Priority 1: If $Mode=1$: Close.
 \item Priority 2: If $Mode=2$: Close.
-\item Priority 3: If $Mode=0$: Closed
+\item Priority 3: Close.
 \end{packed_items}
 
 
@@ -986,10 +986,7 @@ S335 operations:
 \item Priority 3: If $Mode=2$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
 \item[]
-\item Priority 5: If $Mode=0$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs,  operate according to Table~\ref{tab:CS-S335open}.
-\item Priority 6: If $Mode=0$ and $H_{ds}>S335\_TW_{obs}$ operate according to Table~\ref{tab:CS-S335close}.
-\item[]
-\item Priority 7: If $H<0$, operate according to Table~\ref{tab:CS-S335close}.
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1203,7 +1200,7 @@ It is recognized that during flood control operations or making water supply del
 \item Priority 1: If $Q_{str}>1100 cfs$, Close.
 \item[]
 \item Priority 2: If $Mode=0$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
-\item Priority 3: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
+\item Priority 3: If $Mode=0$ and $H_{us}>=5.5 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=6.0 ft$, operate according to Table~\ref{tab:CS-G211open}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=5.5 ft$, remain unchanged.
@@ -1211,7 +1208,8 @@ It is recognized that during flood control operations or making water supply del
 \item Priority 6: If $Mode=2$ and $H_{us}>=5.7 ft$, operate according to Table~\ref{tab:CS-G211open}.
 \item Priority 7: If $Mode=2$ and $H_{us}>=5.3 ft$, remain unchanged.
 \item[]
-\item Priority 8: Default, operate according to Table~\ref{tab:CS-G211close}.
+\item Priority 8: \textcolor[rgb]{1.00,0.00,0.00}{If $Mode=0$ and $S331P\_Q>1000 cfs$, close.}
+\item Priority 9: Close.
 \end{packed_items}
 
 
@@ -1334,8 +1332,9 @@ The S-173 structure closes if the difference in water level between upstream and
 %\end{itemize}
 
 \begin{packed_items}
-\item Priority 1: If $S176HW > 5.5$, and $Mode>=0$, and  S331P flow $<$ 0.1 cfs, and $S173HW > S173TW$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
-\item Priority 2: Close when headwater is less than 0.0 ft.
+\item Priority 1: If $S176HW < 4 ft$ and $Mode >= 0$ and $S331P\_Q < 0.1 cfs$ and $S173HW-S173TW > 0 ft$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
+\item Priority 2: If $S177\_H < 3 ft$ and $Mode >= 0$ and $S331P\_Q < 0.1 cfs$ operate according to Table~\ref{tab:CS-S173ops-open}. %all modes
+\item Priority 3: Close.
 \end{packed_items}
 
 \footnotesize
@@ -1398,7 +1397,7 @@ The S-173 structure closes if the difference in water level between upstream and
 %This structure is implemented in MIKE 11 as 3 Discharge structures (one for each pump) with maximum rate of change of 1 $cfs/s$ per pump and a rating curve for each pump.
 
 \begin{packed_items}
-\item Priority 1: If S331P flow $<=$ 0.0 cfs, and S176HW $<$ 5.5 ft, and $Mode>=0$  discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
+\item Priority 1: If S331P flow $<$ 0.1 cfs, and S176HW $<$ 5.5 ft, and $Mode >= 0$  discharge according to control strategy in Table~\ref{tab:CS-S331SA}.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -1450,13 +1449,20 @@ The S-173 structure closes if the difference in water level between upstream and
 %The Max speed for gate opening is 1 $cfs/s$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
+\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
 \item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
-\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
-\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
-\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
-\item Priority 7: Close when H $<$ 0.0
+\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 6 ft, close.
+\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 6.0 ft., close.
+\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.75 ft., close.
+\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.5 ft., close.
+\item Priority 7: Close.
+%\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
+%\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
+%\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
+%\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
+%\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
+%\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
+%\item Priority 7: Close.
 \end{packed_items}
 
 %\begin{itemize}
@@ -1741,7 +1747,7 @@ In the model the pumps discharge according to the following rules:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=0$ and $H_{us}>0$, $Q = Q_{obs}$.
 \item[]
 \item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
 \item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
@@ -1861,7 +1867,7 @@ The control strategy is as follows:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
 \item[]
 
 \item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
@@ -2155,7 +2161,7 @@ Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a
 %For the calibration period the structure uses observed discharges (Structure S338-Q)
 S338-Q operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -2280,7 +2286,7 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 
 S194-Q operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -2404,7 +2410,7 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 
 S196-Q operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -2839,8 +2845,8 @@ The structure is located on Canal 111 about 5 miles west of Homestead. This stru
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1200 cfs$, close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
-\item Priority 3: If $Mode=0$ and $H_{us}<4.75 ft$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>4.75 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=5.0 ft$, operate according to Table~\ref{tab:CS-S176open}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=4.75 ft$, remain unchanged.
@@ -3009,8 +3015,8 @@ Structure S177 maintains optimum water control upstream in Canal 111; it passes 
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>1700 cfs$, close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
-\item Priority 3: If $Mode=0$ and $H_{us}<3.6 ft$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
+\item Priority 3: If $Mode=0$ and $H_{us}>3.6 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=3.6 ft$, remain unchanged.
@@ -3179,8 +3185,8 @@ Structure S18C maintains optimum water control stages upstream in Canal 111; it 
 \begin{packed_items}
 \item Priority 1: If $Q_{str}>2300 cfs$, close.
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>=2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
-\item Priority 3: If $Mode=0$ and $H_{us}<2.3 ft$, Close.
+\item Priority 2: If $Mode=0$ and $H_{us}>2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen57}.
+\item Priority 3: If $Mode=0$ and $H_{us}>2.3 ft$, remain unchanged.
 \item[]
 \item Priority 4: If $Mode=1$ and $H_{us}>=2.6 ft$, operate according to Table~\ref{tab:CS-S18Copen}.
 \item Priority 5: If $Mode=1$ and $H_{us}>=2.3 ft$, remain unchanged.
@@ -3190,6 +3196,22 @@ Structure S18C maintains optimum water control stages upstream in Canal 111; it 
 \item[]
 \item Priority 8: Default, operate according to Table~\ref{tab:CS-S18Cclose}.
 \end{packed_items}
+
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for S18C open (MAX 5.7) (units are ft. NGVD29)}
+\label{tab:CS-S18Copen56}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{Current Gate Level} & \textbf{Gate Level}\\
+\hline
+-7.0	& -6.9       \\
+5.6	& 5.7   \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
 
 \footnotesize
 \begin{table}[!h]
@@ -3420,7 +3442,7 @@ This structure is located at the north end of Canal 111E at State Road 27. The s
 \item Priority 1: If $Q_{str}>9999 cfs$, close.
 \item[]
 \item Priority 2: If $Mode=0$ and $H_{ds}<S178\_TW_{obs}$, operate according to Table~\ref{tab:CS-S178open}.
-\item Priority 3: If $Mode=0$ and $H_{ds}=S178\_TW_{obs}$, remain unchanged.
+\item Priority 3: If $Mode=0$ and $H_{ds}>S178\_TW_{obs}$, close.
 \item[]
 \item Priority 4: If $Mode>0$ and $H_{us}>=4.6 ft$, operate according to Table~\ref{tab:CS-S178open}.
 \item Priority 5: If $Mode>0$ and $H_{us}>=4.4 ft$, remain unchanged.
