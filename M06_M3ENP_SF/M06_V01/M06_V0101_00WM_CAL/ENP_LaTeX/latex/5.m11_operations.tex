@@ -29,7 +29,7 @@ This section lists open canal boundary conditions where water is added or remove
 \hline
 L-28            & N boundary  & Inflow          & BC\_S344\_Q.dfs0 \\
 L-29            & W boundary  & Water Level     & BC\_TAMIBR66.dfs0 \\
-L-67\_A         & N boundary  & Water Level     & BC\_S155+\_HW.dfs0 \\
+L-67\_A         & N boundary  & Water Level     & BC\_S151+HW.dfs0 \\
 L-30            & N boundary  & Water Level     & BC\_S335\_HW.dfs0 \\
 C-4             & E boundary  & Water Level     & BC\_G119TW.dfs0 \\
 C-1W            & E boundary  & Water Level     & BC\_S338TW-S148HW.dfs0 \\
@@ -111,7 +111,7 @@ The model also does not include the four barrel culverts in the Old Tamiami Trai
 \subsection{Operations: L-29 Canal}
 %=============================================================================================
 
-Canal L-29 is hydraulically disconnected at chainage 18430 (m) using a Closed Discharge structure named TT-CLOSED. This structure separates the western section of L-29 which is hydraulically connected to canal L-28 and maintains stages lower than the stages within WCA-3A. The central sec section of L-29 (between L-29 and L-67C) are hydraulically connected to WCA-3A through overland links.
+Canal L-29 is hydraulically disconnected at chainage 55300 (m) using a Closed Discharge structure named TT-CLOSED. This structure separates the western section of L-29 which is hydraulically connected to canal L-28 and maintains stages lower than the stages within WCA-3A. The central sec section of L-29 (between L-29 and L-67C) are hydraulically connected to WCA-3A through overland links.
 
 %----------------------------------------------------------
 \subsubsection{S343A}
@@ -469,18 +469,17 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 For the calibration period the structure uses observed discharges (Structure S333-Q)
 
 \begin{packed_items}
-\item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S333 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S333\_TW_{obs}$ and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$,  and $Q_{str}<1300$ cfs,,  operate according to Table~\ref{tab:CS-S333open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S333\_TW_{obs}$ and $Q_{str}<1300$ cfs,  operate according to Table~\ref{tab:CS-S333open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S333\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S333close}.
 \item[]
 \item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S333close}.
@@ -588,18 +587,17 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 For the calibration period the structure uses observed discharges (Structure S334-Q)
 
 \begin{packed_items}
-\item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 The M11 model implements this structure using a prescribed tailwater timeseries, i.e. the structure passes the required amount of water to maintain the tailwater at the structure equal to observed timeseries. For modeling operations at S334 it will be necessary to implement operations that are controlled by stages in WCA3A. For IOP Operations the structure uses the following rules:
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs,  operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$, and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S334\_TW_{obs}$ and $Q_{str}<800$ cfs, operate according to Table~\ref{tab:CS-S334open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S334\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S334close}.
 \item[]
 \item Priority 5: If $H<0$, operate according to Table~\ref{tab:CS-S334close}.
@@ -753,7 +751,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -813,7 +811,7 @@ This structure is implemented in MIKE 11 as an Overflow structure with a Max Rat
 
 
 \begin{packed_items}
-\item Priority 1: Fully Open
+\item Priority 1: Fully Open.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -879,7 +877,7 @@ This structure is implemented in MIKE 11 as an Overflow structure with a Max Rat
 Implemented as an overflow weir with sill level at 5.8 ft.
 
 \begin{packed_items}
-\item Priority 1: Fully Open
+\item Priority 1: Fully Open.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -969,18 +967,17 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 For the calibration period the structure uses observed discharges (Structure S335-Q)
 
 \begin{packed_items}
-\item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 For IOP Operations the structure uses the following rules:
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
+\item Priority 1: If $Mode=1$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
 \item Priority 2: If $Mode=1$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
 \item[]
-\item Priority 3: If $Mode=2$ and $H_{ds}<S335\_TW_{obs}$, and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
+\item Priority 3: If $Mode=2$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs, operate according to Table~\ref{tab:CS-S335open}.
 \item Priority 4: If $Mode=2$ and $H_{ds}>S335\_TW_{obs}$,  operate according to Table~\ref{tab:CS-S335close}.
 \item[]
 \item Priority 5: If $Mode=0$ and $H_{ds}<S335\_TW_{obs}$ and $Q_{str}<=800$ cfs,  operate according to Table~\ref{tab:CS-S335open}.
@@ -1065,9 +1062,8 @@ This structure is implemented in MIKE 11 as a Discharge structure with a Max Rat
 For the calibration period the structure uses observed discharges.
 
 \begin{packed_items}
-\item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 
@@ -1627,28 +1623,28 @@ area.)
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BN2}.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 7: Default, close.
+\item Priority 7: Close.
 \end{packed_items}
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for S332BN}
-\label{tab:CS-S332BN0}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{HW (ft)} & \textbf{Q (cfs)}\\
-\hline
-0    &  0   \\
-4.7  &  0 \\
-4.71 &  125 \\
-5    &  250 \\
-6    &  250 \\
-12   &  250 \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for S332BN}
+%\label{tab:CS-S332BN0}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+%\hline
+%0    &  0   \\
+%4.7  &  0 \\
+%4.71 &  125 \\
+%5    &  250 \\
+%6    &  250 \\
+%12   &  250 \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
 \footnotesize
 \begin{table}[!h]
@@ -1746,28 +1742,28 @@ area.)
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332BW2}.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 7: Default, close.
+\item Priority 7: Close.
 \end{packed_items}
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for S332BW}
-\label{tab:CS-S332BW0}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{HW (ft)} & \textbf{Q (cfs)}\\
-\hline
-0    &  0   \\
-4.7  &  0 \\
-4.71 &  125 \\
-5    &  250 \\
-6    &  325 \\
-12   &  325 \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for S332BW}
+%\label{tab:CS-S332BW0}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+%\hline
+%0    &  0   \\
+%4.7  &  0 \\
+%4.71 &  125 \\
+%5    &  250 \\
+%6    &  325 \\
+%12   &  325 \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
 \footnotesize
 \begin{table}[!h]
@@ -1867,28 +1863,28 @@ area.)
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.8 ft$,  discharge according to Table~\ref{tab:CS-S332C2}.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.5 ft$,  unchanged.
 \item[]
-\item Priority 7: Default, close.
+\item Priority 7: Close.
 \end{packed_items}
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for S332C}
-\label{tab:CS-S332C0}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{HW (ft)} & \textbf{Q (cfs)}\\
-\hline
-0    &  0   \\
-4.7  &  0   \\
-4.71 &  250 \\
-5    &  500 \\
-6    &  500 \\
-12   &  575 \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for S332C}
+%\label{tab:CS-S332C0}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+%\hline
+%0    &  0   \\
+%4.7  &  0   \\
+%4.71 &  250 \\
+%5    &  500 \\
+%6    &  500 \\
+%12   &  575 \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
 \footnotesize
 \begin{table}[!h]
@@ -2091,7 +2087,7 @@ For the calibration period the structure uses observed discharges:
 \begin{packed_items}
 \item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 
@@ -2100,7 +2096,7 @@ For the calibration period the structure uses observed discharges:
 %----------------------------------------------------------
 
 \begin{packed_items}
-\item Priority 1: Close
+\item Priority 1: Close.
 \end{packed_items}
 
 %\begin{figure}[!ht] \begin{center}
@@ -2168,7 +2164,7 @@ For IOP Operations the structure uses the following rules:
 \item Priority 4: If $Mode=2$ and $H_{us}>=5.8 ft$, operate according to Table~\ref{tab:CS-S338open}.
 \item Priority 5: If $Mode=2$ and $H_{us}>=5.4 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S338close}.
+\item Priority 6: Close.
 \end{packed_items}
 
 \footnotesize
@@ -2187,22 +2183,22 @@ For IOP Operations the structure uses the following rules:
 \end{table}
 \normalsize
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for S338 close (Units are ft. NGVD29)}
-\label{tab:CS-S338close}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{Current Gate Level} & \textbf{Gate Level}\\
-\hline
--4.4	& -4.5       \\
-2.5	& 2.4   \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for S338 close (Units are ft. NGVD29)}
+%\label{tab:CS-S338close}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{Current Gate Level} & \textbf{Gate Level}\\
+%\hline
+%-4.4	& -4.5       \\
+%2.5	& 2.4   \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
 
 
 
@@ -2292,7 +2288,7 @@ For IOP Operations the structure uses the following rules:
 \item Priority 4: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S194open}.
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.5 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S194close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S194close}.
 \end{packed_items}
 
 \footnotesize
@@ -2415,7 +2411,7 @@ For IOP Operations the structure uses the following rules:
 \item Priority 4: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S196open}.
 \item Priority 5: If $Mode=2$ and $H_{us}>=4.5 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S196close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S196close}.
 \end{packed_items}
 
 \footnotesize
@@ -2497,7 +2493,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 4: If $Mode>0$ and $H_{us}>=5.9 ft$, operate according to Table~\ref{tab:CS-S167open}.
 \item Priority 5: If $Mode>0$ and $H_{us}>=5.1 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S167close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S167close}.
 \end{packed_items}
 
 \footnotesize
@@ -2618,7 +2614,7 @@ For the calibration period the structure uses observed discharges.
 \begin{packed_items}
 \item[]
 \item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
-\item Priority 2: Closed.
+\item Priority 2: Close.
 \end{packed_items}
 
 %The resulting cumulative flow through S174 is shown on Figure \ref{fig:S174_QACC:STRUCTURE}:
@@ -2656,7 +2652,7 @@ For the calibration period the structure uses observed discharges.
 This structure is a series of culverts connecting the S332D High Head Cell to the L31W canal. It is intended to direct water from the HHC northward into the SDA. This structure is implemented in MIKE 11 as an Underflow structure.
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 %The resulting cumulative flow through S332BW1 is shown on Figure \ref{fig:S332C1_QACC:STRUCTURE}:
@@ -2693,7 +2689,7 @@ This structure is a series of culverts connecting the S332D High Head Cell to th
 %----------------------------------------------------------
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 \clearpage
@@ -2747,7 +2743,7 @@ This structure is a culvert on the G737 branch, connecting L31W and FDPA-INLET.
 The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 
 \begin{packed_items}
-\item Priority 1: Closed
+\item Priority 1: Close.
 \end{packed_items}
 
 \clearpage
@@ -2781,7 +2777,7 @@ This structure is located on the Levee 31W borrow canal approximately 1.5 miles 
 
 \begin{packed_items}
 \item Priority 1: If $Mode=0$, close
-\item Priority 2: Closed
+\item Priority 2: Close.
 \end{packed_items}
 
 
@@ -2843,7 +2839,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.9 ft$, operate according to Table~\ref{tab:CS-S176open}.
 \item Priority 7: If $Mode=2$ and $H_{us}>=4.7 ft$, remain unchanged.
 \item[]
-\item Priority 8: Default, operate according to Table~\ref{tab:CS-S176close}.
+\item Priority 8: Operate according to Table~\ref{tab:CS-S176close}.
 \end{packed_items}
 
 \footnotesize
@@ -3013,7 +3009,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 6: If $Mode=2$ and $H_{us}>=4.2 ft$, operate according to Table~\ref{tab:CS-S177open}.
 \item Priority 7: If $Mode=2$ and $H_{us}>=3.6 ft$, remain unchanged.
 \item[]
-\item Priority 8: Default, operate according to Table~\ref{tab:CS-S177close}.
+\item Priority 8: Operate according to Table~\ref{tab:CS-S177close}.
 \end{packed_items}
 
 \footnotesize
@@ -3280,7 +3276,7 @@ These are the locations of the trigger points in the model:
 \item S-176 HW: Branch C-111 chainage 0 m.
 \item S-177 HW: Branch C-111 chainage 8960 m.
 \item S-18C HW: Branch C-111 chainage 18450 m.
-\item S-197: Branch C-111 chainage 28280 m.
+\item S-197: Branch C-111 chainage 28335 m.
 \end{packed_items}
 
 
@@ -3289,8 +3285,8 @@ Priorities for S197-03, (3 gates):
 \begin{packed_items}
 \item Priority 1: If S-177 HW $>$ 4.1 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-18C HW $>$ 2.8 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 3: If S-176 HW $<$ 5.2 ft, $Mode>0$, and if S-177 HW $<$ 4.2 ft., close.
-\item Priority 4: Default, close.
+\item Priority 3: If S-176 HW $<$ 5.2 ft and $Mode>0$ and S-177 HW $<$ 4.2 ft, close.
+\item Priority 4: Close.
 \end{packed_items}
 
 
@@ -3298,8 +3294,8 @@ Priorities for S197-07, (4 gates):
 \begin{packed_items}
 \item Priority 1: If S-177 HW $>$ 4.2 ft (averaged over 24 hours) and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-18C HW $>$ 3.1 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 3: If S-176 HW $<$ 5.2 ft and if S-177 HW $<$ 4.2 ft and $Mode>0$, close.
-\item Priority 4: Default, close.
+\item Priority 3: If S-176 HW $<$ 5.2 ft and S-177 HW $<$ 4.2 ft and $Mode>0$, close.
+\item Priority 4: Close.
 \end{packed_items}
 
 
@@ -3307,8 +3303,8 @@ Priorities for S197-13, (6 gates):
 \begin{packed_items}
 \item Priority 1: If S-177 HW $>$ 4.3 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
 \item Priority 2: If S-18C HW $>$ 3.3 ft and $Mode>0$, operate according to Table~\ref{tab:CS-S197open}.
-\item Priority 3: If S-176 HW $<$ 5.2 ft. and if S-177 HW $<$ 4.2 ft and $Mode>0$, close.
-\item Priority 4: Default, close.
+\item Priority 3: If S-176 HW $<$ 5.2 ft and S-177 HW $<$ 4.2 ft and $Mode>0$, close.
+\item Priority 4: Close.
 \end{packed_items}
 
 
@@ -3421,7 +3417,7 @@ The Max speed for gate opening is 0.008333333 ft/sec, which equals 6 inch/hour.
 \item Priority 4: If $Mode>0$ and $H_{us}>=4.6 ft$, operate according to Table~\ref{tab:CS-S178open}.
 \item Priority 5: If $Mode>0$ and $H_{us}>=4.4 ft$, remain unchanged.
 \item[]
-\item Priority 6: Default, operate according to Table~\ref{tab:CS-S178close}.
+\item Priority 6: Operate according to Table~\ref{tab:CS-S178close}.
 \end{packed_items}
 %}
 

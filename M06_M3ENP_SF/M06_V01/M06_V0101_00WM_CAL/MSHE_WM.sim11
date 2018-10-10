@@ -87,3 +87,8 @@
 
 EndSect  // Run11
 
+[SYSTEM]
+   ResultRootFolder = |..\..\..\Result|
+   UseCustomResultFolder = false
+   CustomResultFolder = ||
+EndSect  // SYSTEM
