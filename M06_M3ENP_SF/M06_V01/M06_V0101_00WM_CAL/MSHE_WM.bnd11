@@ -1,6 +1,6 @@
-// Created     : 2018-09-3 14:32:9
-// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2019-01-27 10:49:33
+// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 16 2016 19:57:46
 
 [BndCondition]
    Comment = ''
@@ -2276,7 +2276,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-4', 8052.88, 0, '', ''
+         DescType = 0, 5, 'C-4', 8068.43162595315, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = false, false, false, false
@@ -8097,7 +8097,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_24', 852.325787951467, 0, '', ''
+         DescType = 5, 0, 'culvert_24', 831.322908576691, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8124,7 +8124,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_25', 826.195210883708, 0, '', ''
+         DescType = 5, 0, 'culvert_25', 825.419655278242, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8151,7 +8151,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_26', 801.6468960316303, 0, '', ''
+         DescType = 5, 0, 'culvert_26', 803.9257131232361, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8178,7 +8178,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_27', 854.7179768410081, 0, '', ''
+         DescType = 5, 0, 'culvert_27', 817.178144041026, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8205,7 +8205,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_28', 846.6074449487775, 0, '', ''
+         DescType = 5, 0, 'culvert_28', 810.1735182409529, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8907,33 +8907,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'L-29', 0, 0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0, 0, 0
-         Inflow = false, false, false, false
-         ADRR = '', 0, 0
-         QhADM12 = 2, 1, 0
-         AutoCalQh = 0, 0.001, 40
-         BndTS = 0, ||, 0, 0, '', 0, 1
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_TAMIBR66.dfs0|, 0, 1, 'TAMIBR66', 0, 1
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 0, 5, 'L-30', 0, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
@@ -8988,7 +8961,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L-67_EXT', 8403.066754975231, 0, '', ''
+         DescType = 5, 0, 'L-67_EXT', 8839.453280776461, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9069,7 +9042,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L67C', 10942.91999748491, 0, '', ''
+         DescType = 5, 0, 'L67C', 10869.64459688, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9366,7 +9339,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S12A', 868.6886506872223, 0, '', ''
+         DescType = 5, 0, 'S12A', 869.110264222992, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9609,10 +9582,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S343A', 0, 0, '', ''
+         DescType = 0, 5, 'TAMIAMI', 0, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
-         Inflow = true, false, false, false
+         Inflow = false, false, false, false
          ADRR = '', 0, 0
          QhADM12 = 2, 1, 0
          AutoCalQh = 0, 0.001, 40
@@ -9624,7 +9597,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0, 0, ||, 0, 0, '', 0, 1
+            Inflow = 2, 0, 0, |..\..\..\INPUTFILES\BC1D\BC_TAMIBR66.dfs0|, 0, 1, 'TAMIBR66', 0, 1
          EndSect  // InflowArray
 
          [QhArray]
@@ -9636,7 +9609,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S343B', 0, 0, '', ''
+         DescType = 5, 0, 'TAMIAMI', 60047.8770279407, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
