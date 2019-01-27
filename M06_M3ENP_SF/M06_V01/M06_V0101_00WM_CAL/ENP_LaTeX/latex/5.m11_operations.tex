@@ -28,7 +28,7 @@ This section lists open canal boundary conditions where water is added or remove
 \textbf{Canal}  & \textbf{Location} & \textbf{Type}   & \textbf{File}     \\
 \hline
 L-28            & N boundary  & Inflow          & BC\_S344\_Q.dfs0 \\
-TAMIAMI            & W boundary  & Water Level     & BC\_TAMIBR66.dfs0 \\
+L-29            & W boundary  & Water Level     & BC\_TAMIBR66.dfs0 \\
 L-67\_A         & N boundary  & Water Level     & BC\_S151+HW.dfs0 \\
 L-30            & N boundary  & Water Level     & BC\_S335\_HW.dfs0 \\
 C-4             & E boundary  & Water Level     & BC\_G119TW.dfs0 \\
@@ -45,7 +45,7 @@ C-111           & S boundary  & Water Level     & BC\_S197\_TW.dfs0 \\
 
 \clearpage
 %=============================================================================================
-\subsection{Operations: L-67A, L-67C, and Pocket Canals}
+\subsection{Operations: L-67A, L-67C}
 %=============================================================================================
 
 %----------------------------------------------------------
@@ -54,7 +54,7 @@ C-111           & S boundary  & Water Level     & BC\_S197\_TW.dfs0 \\
 
 In the model, the northern boundary of L67A is a head boundary, with prescribed timeseries of S12D\_HW.
 
-The Pocket canal intersects with L67A near the center of the canal.
+%The Pocket canal intersects with L67A near the center of the canal.
 
 The southern boundary of L67A is connected to L29 between S333 and S12D.
 
@@ -70,17 +70,17 @@ The southern boundary of L67A is connected to L29 between S333 and S12D.
 %----------------------------------------------------------
 The north boundary of L67C is closed. The south boundary of L67C is closed, the canal is not connected to canal L67A.
 
-The Pocket canal intersects with L67C near the center of the canal.
+%The Pocket canal intersects with L67C near the center of the canal.
 
 The southern end of L67C is not connected with L67A.
 
 \clearpage
 
-%----------------------------------------------------------
-\subsubsection{The Pocket}
-%----------------------------------------------------------
-
-The pocket canal has no control structures or boundary conditions, and has open connections with L67C. The pocket canal is disconnected from L67A and has no flow boundary conditions at the its western end.
+%%----------------------------------------------------------
+%\subsubsection{The Pocket}
+%%----------------------------------------------------------
+%
+%The pocket canal has no control structures or boundary conditions, and has open connections with L67C. The pocket canal is disconnected from L67A and has no flow boundary conditions at the its western end.
 
 %The east boundary of this canal is closed, and the west boundary of the canal is a prescribed head timeseries, shown in Figure~\ref{fig:tsr79c49_HW:STRUCTURE}. It is derived from the timeseries output for Row 79 and Column 49, we think.
 
@@ -108,15 +108,10 @@ The model also does not include the four barrel culverts in the Old Tamiami Trai
 
 \clearpage
 %=============================================================================================
-\subsection{Operations: TAMIAMI Canal}
-%=============================================================================================
-
-TAMIAMI Canal is hydraulically connected at  to canal L-29 through structures S-343A (at chainage 55287 m)  and S-343B (at chainage 56943.3 m). S-343A and S-343B structures discharge from the western section of L-29 into the TAMIAMI Canal and subsequently into culverts 24-28.
-
-%=============================================================================================
 \subsection{Operations: L-29 Canal}
 %=============================================================================================
-The western section of L-29 (chainage 0 to chainage 19383.5 at the connection with L-67C) is hydraulically connected to WCA-3A through overland links.
+
+Canal L-29 is hydraulically disconnected at chainage 55300 (m) using a Closed Discharge structure named TT-CLOSED. This structure separates the western section of L-29 which is hydraulically connected to canal L-28 and maintains stages lower than the stages within WCA-3A. The central sec section of L-29 (between L-29 and L-67C) are hydraulically connected to WCA-3A through overland links.
 
 %----------------------------------------------------------
 \subsubsection{S343A}

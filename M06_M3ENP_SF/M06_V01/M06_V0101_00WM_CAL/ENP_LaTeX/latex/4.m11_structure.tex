@@ -309,7 +309,7 @@ N/A indicates this parameter is not applicable to this type of structure
 {G119-Q}        & Discharge     & 1        & N/A         & N/A          & 1 cfs/s        & 0 cfs           & -       & 5/13/1993       \\
 {G211}          & Underflow     & 6*       & 6*          & -2.5*        & 6 in/hr        & -2.5* ft        & 3.5* ft & 1/12/2000*      \\
 {G737}          & Underflow     & 1        & 4.5         & -1           & 6 in/hr        & -1 ft           & 3.5 ft  &                 \\
-%{L29plugWofS12} & Discharge     & 1        & N/A         & N/A          & 1 cfs/s        & -               & -       &                 \\
+{L29plugWofS12} & Discharge     & 1        & N/A         & N/A          & 1 cfs/s        & -               & -       &                 \\
 {S12A\_Q}       & Discharge     & 1        & N/A         & N/A          & 1 cfs/s        & 0 cfs           & -       &                 \\
 {S12B\_Q}       & Discharge     & 1        & N/A         & N/A          & 1 cfs/s        & 0 cfs           & -       &                 \\
 {S12C\_Q}       & Discharge     & 1        & N/A         & N/A          & 1 cfs/s        & 0 cfs           & -       &                 \\
@@ -397,17 +397,7 @@ N/A indicates this parameter is not applicable to this type of structure
 
 
 
-The Manning's roughness factor was varied according to the following channel condition:
 
-\begin{itemize}
-
-\item \textbf{Primary Conveyance System} - n = $0.025-0.035 m^{1/3}/sec$
-\item \textbf{Secondary Conveyance System} - n = $0.050-0.010 m^{1/3}/sec$
-\item \textbf{Natural Channels} - n = $0.040-0.050 m^{1/3}/sec$
-\item \textbf{Flood Plains, heavy brush} - n = $0.10-0.05 m^{1/3}/sec$
-\item \textbf{Flood Plains, trees} - n = $0.5-0.2 m^{1/3}/sec$
-
-\end{itemize}
 
 %-------------------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------
@@ -419,20 +409,20 @@ The Manning's roughness factor was varied according to the following channel con
 Canal Reach        & Manning's M  & Note                                        \\
 \hline
 AeroJet            &              &                                             \\
-AeroJet-EXT        & 100          & Smh Concrete Channel                        \\
+AeroJet-EXT        &              &                                             \\
 Angels\_Well       & 5            & Used as groundwater well                    \\
-C-102              & 30           &                                             \\
-C-103              & 30           &                                             \\
-C-103N             & 30           &                                             \\
-C-103S             & 30           &                                             \\
-C-110              & 30           &                                             \\
-C-111              & 30           & (Manning's M=2 in overbanking area)         \\
-C-111E             & 30           &                                             \\
-C-113              & 30           &                                             \\
-C-1W               & 30           &                                             \\
-C-357              & 30           &                                             \\
-C-358              & 30           &                                             \\
-C-4                & 30           &                                             \\
+C-102              & 20           &                                             \\
+C-103              & 20           &                                             \\
+C-103N             & 20           &                                             \\
+C-103S             & 20           &                                             \\
+C-110              &              &                                             \\
+C-111              & 20           & (Manning's M=2 in overbanking area)         \\
+C-111E             &              &                                             \\
+C-113              & 20           &                                             \\
+C-1W               & 20           &                                             \\
+C-357              & 20           &                                             \\
+C-358              & 20           &                                             \\
+C-4                & 20           &                                             \\
 FP                 &              &                                             \\
 FPDA               &              &                                             \\
 FPDA-C1            &              & Detention Area                              \\
@@ -441,23 +431,23 @@ FPDA-C3            &              & Detention Area                              
 FPDA-INLET         &              &                                             \\
 FPgap              &              & Detention Area                              \\
 G3273              & 5            & Used as groundwater well                    \\
-G737               & 30           & Used for control structure connection       \\
-L-28               & 30           &                                             \\
-L-29               & 30           & (Manning's M=2 in overbanking area)         \\
-L-30               & 30           &                                             \\
-L-31N              & 30           &                                             \\
-L-31N-S173         & 30           &                                             \\
-L-31N-S331s        & 30           &                                             \\
-L-31W              & 30           & (Manning's M=2 in overbanking areas)        \\
-L-67\_EXT          & 30           &                                             \\
-L67A               & 30           &                                             \\
-L67C               & 30           &                                             \\
+G737               &              & Used for control structure connection       \\
+L-28               & 20           &                                             \\
+L-29               & 20           & (Manning's M=2 in overbanking area)         \\
+L-30               & 20           &                                             \\
+L-31N              & 20           &                                             \\
+L-31N-S173         & 20           &                                             \\
+L-31N-S331s        & 20           &                                             \\
+L-31W              & 20           & (Manning's M=2 in overbanking areas)        \\
+L-67\_EXT          &              &                                             \\
+L67A               &              &                                             \\
+L67C               &              &                                             \\
 LAKE1              & 5            & Lake                                        \\
 LAKE2              & 5            & Lake                                        \\
 LPG2               & 5            & Used as groundwater well                    \\
 NDA                &              & Detention Area                              \\
 OldIngraham        &              &                                             \\
-POCKET             &              &                                             \\
+%POCKET             &              &                                             \\
 ROAD\_SRS          &              &                                             \\
 ROAD\_SRS\_E       &              &                                             \\
 \hline

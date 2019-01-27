@@ -1,4 +1,4 @@
-// Created     : 2019-01-27 10:49:33
+// Created     : 2019-01-27 13:59:25
 // DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
 // PFS version : Nov 16 2016 19:57:46
 
@@ -9247,33 +9247,6 @@
 
          [InflowArray]
             Inflow = 2, 0, 1, ||, 0, 0, '', 0, 1
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'POCKET', 0, 0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0, 0, 0
-         Inflow = true, false, false, false
-         ADRR = '', 0, 0
-         QhADM12 = 2, 1, 0
-         AutoCalQh = 0, 0.001, 40
-         BndTS = 0, ||, 0, 0, '', 0, 1
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0, 0, ||, 0, 0, '', 0, 1
          EndSect  // InflowArray
 
          [QhArray]
