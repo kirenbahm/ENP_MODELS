@@ -1,6 +1,6 @@
-// Created     : 2019-03-17 13:3:39
-// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 16 2016 19:57:46
+// Created     : 2019-03-20 15:32:33
+// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
+// PFS version : Nov 22 2015 02:58:09
 
 [BndCondition]
    Comment = ''
@@ -2276,7 +2276,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-4', 8060.79551545341, 0, '', ''
+         DescType = 0, 5, 'C-4', 8052.88, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = false, false, false, false
@@ -8097,7 +8097,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_24', 881.694920871709, 0, '', ''
+         DescType = 5, 0, 'culvert_24', 852.325787951467, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8124,7 +8124,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_25', 834.12097069456, 0, '', ''
+         DescType = 5, 0, 'culvert_25', 826.195210883708, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8151,7 +8151,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_26', 836.86689980271, 0, '', ''
+         DescType = 5, 0, 'culvert_26', 801.6468960316303, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8178,7 +8178,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_27', 873.802574086082, 0, '', ''
+         DescType = 5, 0, 'culvert_27', 854.7179768410081, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8205,7 +8205,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_28', 858.312749051204, 0, '', ''
+         DescType = 5, 0, 'culvert_28', 846.6074449487775, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -8961,7 +8961,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L-67_EXT', 8403.84253996259, 0, '', ''
+         DescType = 5, 0, 'L-67_EXT', 8403.066754975231, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9339,7 +9339,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S12A', 888.490214772036, 0, '', ''
+         DescType = 5, 0, 'S12A', 868.6886506872223, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9366,7 +9366,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S12B', 868.815166924924, 0, '', ''
+         DescType = 5, 0, 'S12B', 828.8809018663541, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9420,7 +9420,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S12D', 852.622705334798, 0, '', ''
+         DescType = 5, 0, 'S12D', 845.3894270344606, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
@@ -9609,7 +9609,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'Tamiami', 60027.152386244, 0, '', ''
+         DescType = 5, 0, 'Tamiami', 59930.9382, 0, '', ''
          OpenDesc = 0, 0
          Dam = 0, 0, 0
          Inflow = true, false, false, false
