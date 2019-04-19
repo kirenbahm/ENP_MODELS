@@ -1,4 +1,4 @@
-// Created     : 2019-04-19 7:48:17
+// Created     : 2019-04-19 18:38:53
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -32510,7 +32510,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 4200.0, 'AJ-4200', 'model'
+            Location = 'AeroJet', 4270.0, 'AJ-4200', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32561,7 +32561,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 4500.0, 'AJ-4500', 'model'
+            Location = 'AeroJet', 4590.0, 'AJ-4500', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32612,7 +32612,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 5600.0, 'AJ-5600', 'model'
+            Location = 'AeroJet', 5630.0, 'AJ-5600', 'model'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
