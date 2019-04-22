@@ -1,4 +1,4 @@
-// Created     : 2019-04-19 18:38:53
+// Created     : 2019-04-22 12:48:13
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -2526,7 +2526,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'AeroJet', 'model', 1338.0, 9125.45676879544, 0, 10000.0, 0
+         definitions = 'AeroJet', 'C2002', 1338.0, 9125.45676879544, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 814, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794
       EndSect  // branch
@@ -32357,7 +32357,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 1700.0, 'AJ-1700', 'model'
+            Location = 'AeroJet', 1700.0, 'AJ-1700', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32408,7 +32408,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 3400.0, 'AJ-3400', 'model'
+            Location = 'AeroJet', 3400.0, 'AJ-3400', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32459,7 +32459,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 3900.0, 'AJ-3900', 'model'
+            Location = 'AeroJet', 3900.0, 'AJ-3900', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32510,7 +32510,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 4270.0, 'AJ-4200', 'model'
+            Location = 'AeroJet', 4270.0, 'AJ-4200', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32561,7 +32561,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 4590.0, 'AJ-4500', 'model'
+            Location = 'AeroJet', 4590.0, 'AJ-4500', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32612,7 +32612,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 5630.0, 'AJ-5600', 'model'
+            Location = 'AeroJet', 5630.0, 'AJ-5600', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -32663,7 +32663,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 7800.0, 'AJ-7800', 'model'
+            Location = 'AeroJet', 7800.0, 'AJ-7800', 'C2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
