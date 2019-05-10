@@ -1,4 +1,4 @@
-// Created     : 2019-05-10 10:14:59
+// Created     : 2019-05-10 13:58:28
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -493,7 +493,7 @@
          SZ_ModelType = 0
          OL_ModelType = 0
          UseCurrentWmSimulation = 0
-         FilenameSheRes = |..\..\..\Result\M01_V0920_00WM.she - Result Files-ORIGINAL\M01_V0920_00WM.Sheres|
+         FilenameSheRes = |..\..\..\Result\M01_V0920_00WM.she - Result Files\M01_V0920_00WM.Sheres|
       EndSect  // ModelComp
 
       [SimTitle]
@@ -512,7 +512,7 @@
          HotStartDateIndex = 0
          SimStartFromHotStartDate = 1
          SIMSTART = 1999, 1, 1, 0, 0
-         SIMEND = 1999, 1, 31, 0, 0
+         SIMEND = 1999, 2, 28, 0, 0
       EndSect  // SimulationPeriod
 
       [CompControlParaTimeStep]
@@ -626,7 +626,7 @@
          Touched = 1
          IsDataUsedInSetup = 1
          SimStart = 1999, 1, 1, 0, 0
-         SimEnd = 1999, 1, 31, 0, 0
+         SimEnd = 1999, 2, 28, 0, 0
          RecyclingType = 0
          CycleRestartDate = 2000, 1, 1, 0, 0
          CycleEndDate = 2000, 2, 1, 0, 0
@@ -698,33 +698,42 @@
       Touched = 1
       IsDataUsedInSetup = 1
       Ecolab_OL = 1
-      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\ECOLAB_OL.ecolab|, -1, -1, -1, -1, -1, -1
+      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2018, 4, 3, 13, 33, 40
       Method_OL = 0
       Freq_OL = 1
       Ecolab_UZ = 1
-      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\ECOLAB_UZ.ecolab|, -1, -1, -1, -1, -1, -1
+      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2018, 4, 3, 13, 33, 40
       Method_UZ = 0
       Freq_UZ = 1
       Ecolab_SZ = 1
-      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\ECOLAB_SZ.ecolab|, -1, -1, -1, -1, -1, -1
+      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2018, 4, 3, 13, 33, 40
       Method_SZ = 0
       Freq_SZ = 1
       [OL_Constants]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfConstants = 0
+         NumberOfConstants = 4
+         Constant = 'KU', -1, -1
+         Constant = 'KR', -1, -1
+         Constant = 'KFpw', -1, -1
+         Constant = 'KBpw', -1, -1
       EndSect  // OL_Constants
 
       [OL_Forcings]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfForcings = 0
+         NumberOfForcings = 2
+         Forcing = 'DEPTH', 2040, 1003
+         Forcing = 'DT', 2000, 1403
       EndSect  // OL_Forcings
 
       [UZ_Constants]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfConstants = 0
+         NumberOfConstants = 3
+         Constant = 'KUS', -1, -1
+         Constant = 'KRS', -1, -1
+         Constant = 'KB', -1, -1
       EndSect  // UZ_Constants
 
       [UZ_Forcings]
@@ -736,7 +745,10 @@
       [SZ_Constants]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfConstants = 0
+         NumberOfConstants = 3
+         Constant = 'KUS', -1, -1
+         Constant = 'KRS', -1, -1
+         Constant = 'KB', -1, -1
       EndSect  // SZ_Constants
 
       [SZ_Forcings]
