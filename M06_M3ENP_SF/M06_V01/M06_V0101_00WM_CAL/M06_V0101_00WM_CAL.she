@@ -1,4 +1,4 @@
-// Created     : 2019-04-3 10:8:10
+// Created     : 2019-05-10 16:6:57
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -571,13 +571,13 @@
          UZ = 1
          WM = 1
          River = 1
-         WQ = 0
+         WQ = 1
          ADPTRadio = 0
          UZ_ModelType = 1
          SZ_ModelType = 0
          OL_ModelType = 0
          UseCurrentWmSimulation = 0
-         FilenameSheRes = |..\..\..\..\MODEL_060816\Result\V0922_00WM.she - Result Files\V0922_00WM.Sheres|
+         FilenameSheRes = |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\M06_V0101_00WM_CAL.Sheres|
       EndSect  // ModelComp
 
       [SimTitle]
@@ -691,7 +691,7 @@
 
    [ModelCompWQ]
       Touched = 1
-      IsDataUsedInSetup = 0
+      IsDataUsedInSetup = 1
       OL = 1
       River = 1
       UZ = 1
@@ -701,14 +701,14 @@
       ProcessType = 0
       [SimTitleWQ]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          Title = ''
          Description = ''
       EndSect  // SimTitleWQ
 
       [SimulationPeriodWQ]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          SimStart = 1999, 1, 1, 0, 0
          SimEnd = 2010, 12, 31, 0, 0
          RecyclingType = 0
@@ -719,10 +719,10 @@
 
       [WQTSC]
          Touched = 1
-         IsDataUsedInSetup = 0
-         MaxSimTimeStepSZ = 1000000000.0
-         MaxSimTimeStepUZ = 1000000000.0
-         MaxSimTimeStepOL = 1000000000.0
+         IsDataUsedInSetup = 1
+         MaxSimTimeStepSZ = 24.0
+         MaxSimTimeStepUZ = 24.0
+         MaxSimTimeStepOL = 24.0
          MaxAdvectiveCourantSZ = 0.8
          MaxAdvectiveCourantUZ = 0.8
          MaxAdvectiveCourantOL = 0.8
@@ -833,12 +833,12 @@
 
    [Species]
       Touched = 1
-      IsDataUsedInSetup = 0
+      IsDataUsedInSetup = 1
       MzSEPfsListItemCount = 3
       NumberOfSpecies = 3
       [Species_1]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          Include = 1
          Name = 'TRACER'
          Type = 0
@@ -849,7 +849,7 @@
 
       [Species_2]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          Include = 1
          Name = 'TPso'
          Type = 1
@@ -860,7 +860,7 @@
 
       [Species_3]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          Include = 1
          Name = 'TPaq'
          Type = 0
@@ -873,22 +873,22 @@
 
    [Processes]
       Touched = 1
-      IsDataUsedInSetup = 0
+      IsDataUsedInSetup = 1
       [Decay_Processes]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          MzSEPfsListItemCount = 0
          NumberOfDecay = 0
       EndSect  // Decay_Processes
 
       [Sorption_Processes]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          MzSEPfsListItemCount = 1
          NumberOfSorption = 1
          [Sorption_1]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             Name = 'Sorp_1'
             Type = 0
             Species = 'TPaq'
@@ -2490,7 +2490,7 @@
       Touched = 1
       IsDataUsedInSetup = 1
       Filename = |.\MSHE_WM.sim11|
-      FilenameWQ = |.\MSHE_WQ.sim11|
+      FilenameWQ = |.\MSHE_AD.sim11|
       Bathymetry = 0
       FloodCodes = 0
       [FloodCodes]
@@ -2785,7 +2785,7 @@
       [InitialMass]
          [Species_1]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             Name = 'TRACER'
             Type = 0
             ShapeAxisUnit = 1000
@@ -2814,7 +2814,7 @@
 
             [XYZ_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FILE_NAME = ||
             EndSect  // XYZ_FILE
 
@@ -2859,7 +2859,7 @@
 
          [Species_3]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             Name = 'TPaq'
             Type = 0
             ShapeAxisUnit = 1000
@@ -2888,7 +2888,7 @@
 
             [XYZ_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FILE_NAME = ||
             EndSect  // XYZ_FILE
 
@@ -2898,7 +2898,7 @@
 
       [DispersionCoeff_X]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          Type = 0
          ShapeAxisUnit = 1000
          ShapeGapFillName = ''
@@ -2926,7 +2926,7 @@
 
          [XYZ_FILE]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             FILE_NAME = ||
          EndSect  // XYZ_FILE
 
@@ -2934,7 +2934,7 @@
 
       [DispersionCoeff_Y]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          Type = 0
          ShapeAxisUnit = 1000
          ShapeGapFillName = ''
@@ -2962,7 +2962,7 @@
 
          [XYZ_FILE]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             FILE_NAME = ||
          EndSect  // XYZ_FILE
 
@@ -4278,7 +4278,7 @@
             Name = 'Sorp_1'
             [Linear_Kd]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                MzSEPfsListItemCount = 1
                DistributionType = 1
                Distribution_UniformValue = 0.025
@@ -4287,7 +4287,7 @@
                   Name = 'Layer'
                   [LowerLevel]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -4300,8 +4300,8 @@
                      RelativeToGround = 1
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |.\M06_BOTTOM_EL.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -4316,7 +4316,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -4324,7 +4324,7 @@
 
                   [LayerData2DWQ]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -4336,8 +4336,8 @@
                      ShapeItemUnit = 6900
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M06_Kd_UZ.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_Kd_UZ.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -4352,7 +4352,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -4576,7 +4576,7 @@
          [Initial_Concentration]
             [Species_1]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                MzSEPfsListItemCount = 0
                Name = 'TRACER'
                DistributionType = 0
@@ -4586,7 +4586,7 @@
 
             [Species_2]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                MzSEPfsListItemCount = 1
                Name = 'TPso'
                DistributionType = 1
@@ -4596,7 +4596,7 @@
                   Name = 'Layer'
                   [LowerLevel]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -4609,8 +4609,8 @@
                      RelativeToGround = 1
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |.\M06_BOTTOM_EL.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -4625,7 +4625,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -4633,7 +4633,7 @@
 
                   [LayerData2DWQ]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -4645,8 +4645,8 @@
                      ShapeItemUnit = 99005
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M06_INI_TPso_UZ.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_SO.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -4661,7 +4661,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -4673,7 +4673,7 @@
 
             [Species_3]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                MzSEPfsListItemCount = 1
                Name = 'TPaq'
                DistributionType = 1
@@ -4683,7 +4683,7 @@
                   Name = 'Layer'
                   [LowerLevel]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -4696,8 +4696,8 @@
                      RelativeToGround = 1
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |.\M06_BOTTOM_EL.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -4712,7 +4712,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -4720,7 +4720,7 @@
 
                   [LayerData2DWQ]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -4732,8 +4732,8 @@
                      ShapeItemUnit = 2201
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M06_INI_TPaq_UZ.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_PW.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -4748,7 +4748,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -5122,7 +5122,7 @@
 
             [Porosity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -5150,7 +5150,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -5194,7 +5194,7 @@
 
             [BulkDensity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -5222,7 +5222,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -5632,7 +5632,7 @@
 
             [Porosity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -5660,7 +5660,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -5704,7 +5704,7 @@
 
             [BulkDensity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -5732,7 +5732,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -6142,7 +6142,7 @@
 
             [Porosity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -6170,7 +6170,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -6214,7 +6214,7 @@
 
             [BulkDensity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -6242,7 +6242,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -6652,7 +6652,7 @@
 
             [Porosity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -6680,7 +6680,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -6724,7 +6724,7 @@
 
             [BulkDensity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -6752,7 +6752,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -7162,7 +7162,7 @@
 
             [Porosity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -7190,7 +7190,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -7234,7 +7234,7 @@
 
             [BulkDensity]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 0
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -7262,7 +7262,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -7461,14 +7461,14 @@
 
       [SatWQLayers]
          Touched = 1
-         IsDataUsedInSetup = 0
-         MzSEPfsListItemCount = 3
-         NumberOfWQLayers = 3
+         IsDataUsedInSetup = 1
+         MzSEPfsListItemCount = 5
+         NumberOfWQLayers = 5
          [WQLayer_1]
             Name = 'TopLayer(Soil)'
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 1
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -7481,8 +7481,8 @@
                RelativeToGround = 1
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
-                  FILE_NAME = |.\M06_BOTTOM_EL.dfs2|
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -7497,7 +7497,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -7625,7 +7625,7 @@
                   Name = 'Sorp_1'
                   [Linear_Kd]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -7637,8 +7637,8 @@
                      ShapeItemUnit = 6900
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M06_Kd_SZ.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_Kd_SZ.dfs2|
                         ITEM_COUNT = 1
                         ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
@@ -7653,7 +7653,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -8010,7 +8010,7 @@
             Name = 'MidLayer(Oolite)'
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 1
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -8023,8 +8023,8 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
-                  FILE_NAME = |.\M06_BOTTOM_EL.dfs2|
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
@@ -8039,7 +8039,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -8167,7 +8167,7 @@
                   Name = 'Sorp_1'
                   [Linear_Kd]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -8179,10 +8179,10 @@
                      ShapeItemUnit = 6900
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M06_Kd_SZ.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_Kd_SZ.dfs2|
                         ITEM_COUNT = 1
-                        ITEM_NUMBERS = 2
+                        ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
 
                      [SHAPE_FILE]
@@ -8195,7 +8195,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -8552,7 +8552,7 @@
             Name = 'BotLayer(SAS)'
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                Type = 1
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
@@ -8565,8 +8565,8 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
-                  FILE_NAME = |.\M06_BOTTOM_EL.dfs2|
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 3
                EndSect  // DFS_2D_DATA_FILE
@@ -8581,7 +8581,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -8709,7 +8709,7 @@
                   Name = 'Sorp_1'
                   [Linear_Kd]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      Type = 1
                      ShapeAxisUnit = 1000
                      ShapeGapFillName = ''
@@ -8721,10 +8721,10 @@
                      ShapeItemUnit = 6900
                      [DFS_2D_DATA_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
-                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M06_Kd_SZ.dfs2|
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_Kd_SZ.dfs2|
                         ITEM_COUNT = 1
-                        ITEM_NUMBERS = 3
+                        ITEM_NUMBERS = 1
                      EndSect  // DFS_2D_DATA_FILE
 
                      [SHAPE_FILE]
@@ -8737,7 +8737,7 @@
 
                      [XYZ_FILE]
                         Touched = 1
-                        IsDataUsedInSetup = 0
+                        IsDataUsedInSetup = 1
                         FILE_NAME = ||
                      EndSect  // XYZ_FILE
 
@@ -9089,6 +9089,868 @@
             EndSect  // EcolabForcings
 
          EndSect  // WQLayer_3
+
+         [WQLayer_4]
+            Name = 'BotLayer2(SAS)'
+            [LowerLevel]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Type = 1
+               ShapeAxisUnit = 1000
+               ShapeGapFillName = ''
+               FixedValue = 0
+               InterpMethod = 2
+               SearchRadius = 1000
+               ShowGridData = 1
+               ShowShapeData = 1
+               ShapeItemUnit = 1000
+               RelativeToGround = 0
+               [DFS_2D_DATA_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 4
+               EndSect  // DFS_2D_DATA_FILE
+
+               [SHAPE_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  FILE_NAME = ||
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = ''
+               EndSect  // SHAPE_FILE
+
+               [XYZ_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = ||
+               EndSect  // XYZ_FILE
+
+            EndSect  // LowerLevel
+
+            [Dual_Porosity_Transfer_Coeff]
+               [Species_1]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  Name = 'TRACER'
+                  Type = 0
+                  ShapeAxisUnit = 1000
+                  ShapeGapFillName = ''
+                  FixedValue = 0
+                  InterpMethod = 2
+                  SearchRadius = 1000
+                  ShowGridData = 1
+                  ShowShapeData = 1
+                  ShapeItemUnit = 2600
+                  [DFS_2D_DATA_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = 1
+                  EndSect  // DFS_2D_DATA_FILE
+
+                  [SHAPE_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = ''
+                  EndSect  // SHAPE_FILE
+
+                  [XYZ_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                  EndSect  // XYZ_FILE
+
+               EndSect  // Species_1
+
+               [Species_2]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  Name = 'TPso'
+                  Type = 0
+                  ShapeAxisUnit = 1000
+                  ShapeGapFillName = ''
+                  FixedValue = 0
+                  InterpMethod = 2
+                  SearchRadius = 1000
+                  ShowGridData = 1
+                  ShowShapeData = 1
+                  ShapeItemUnit = 2600
+                  [DFS_2D_DATA_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = 1
+                  EndSect  // DFS_2D_DATA_FILE
+
+                  [SHAPE_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = ''
+                  EndSect  // SHAPE_FILE
+
+                  [XYZ_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                  EndSect  // XYZ_FILE
+
+               EndSect  // Species_2
+
+               [Species_3]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  Name = 'TPaq'
+                  Type = 0
+                  ShapeAxisUnit = 1000
+                  ShapeGapFillName = ''
+                  FixedValue = 0
+                  InterpMethod = 2
+                  SearchRadius = 1000
+                  ShowGridData = 1
+                  ShowShapeData = 1
+                  ShapeItemUnit = 2600
+                  [DFS_2D_DATA_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = 1
+                  EndSect  // DFS_2D_DATA_FILE
+
+                  [SHAPE_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = ''
+                  EndSect  // SHAPE_FILE
+
+                  [XYZ_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                  EndSect  // XYZ_FILE
+
+               EndSect  // Species_3
+
+            EndSect  // Dual_Porosity_Transfer_Coeff
+
+            [Decay_Processes]
+            EndSect  // Decay_Processes
+
+            [Sorption_Processes]
+               [Sorption_1]
+                  Name = 'Sorp_1'
+                  [Linear_Kd]
+                     Touched = 1
+                     IsDataUsedInSetup = 1
+                     Type = 1
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 6900
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_Kd_SZ.dfs2|
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Linear_Kd
+
+                  [Freundlich_Kf]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 6900
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Freundlich_Kf
+
+                  [Freundlich_n]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 99000
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Freundlich_n
+
+                  [Langmuir_Alpha]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 6900
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Langmuir_Alpha
+
+                  [Langmuir_Beta]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 99005
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Langmuir_Beta
+
+                  [KinSorpRate]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 2600
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // KinSorpRate
+
+                  [KinDeSorpRate]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 2600
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // KinDeSorpRate
+
+               EndSect  // Sorption_1
+
+            EndSect  // Sorption_Processes
+
+            [EcolabConstants]
+               Touched = 1
+               IsDataUsedInSetup = 0
+               MzSEPfsListItemCount = 0
+               NumberOfItems = 0
+            EndSect  // EcolabConstants
+
+            [EcolabForcings]
+               Touched = 1
+               IsDataUsedInSetup = 0
+               MzSEPfsListItemCount = 0
+               NumberOfItems = 0
+            EndSect  // EcolabForcings
+
+         EndSect  // WQLayer_4
+
+         [WQLayer_5]
+            Name = 'BotLayer3(SAS)'
+            [LowerLevel]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Type = 1
+               ShapeAxisUnit = 1000
+               ShapeGapFillName = ''
+               FixedValue = 0
+               InterpMethod = 2
+               SearchRadius = 1000
+               ShowGridData = 1
+               ShowShapeData = 1
+               ShapeItemUnit = 1000
+               RelativeToGround = 0
+               [DFS_2D_DATA_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_BOTTOM_EL.dfs2|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 5
+               EndSect  // DFS_2D_DATA_FILE
+
+               [SHAPE_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  FILE_NAME = ||
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = ''
+               EndSect  // SHAPE_FILE
+
+               [XYZ_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = ||
+               EndSect  // XYZ_FILE
+
+            EndSect  // LowerLevel
+
+            [Dual_Porosity_Transfer_Coeff]
+               [Species_1]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  Name = 'TRACER'
+                  Type = 0
+                  ShapeAxisUnit = 1000
+                  ShapeGapFillName = ''
+                  FixedValue = 0
+                  InterpMethod = 2
+                  SearchRadius = 1000
+                  ShowGridData = 1
+                  ShowShapeData = 1
+                  ShapeItemUnit = 2600
+                  [DFS_2D_DATA_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = 1
+                  EndSect  // DFS_2D_DATA_FILE
+
+                  [SHAPE_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = ''
+                  EndSect  // SHAPE_FILE
+
+                  [XYZ_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                  EndSect  // XYZ_FILE
+
+               EndSect  // Species_1
+
+               [Species_2]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  Name = 'TPso'
+                  Type = 0
+                  ShapeAxisUnit = 1000
+                  ShapeGapFillName = ''
+                  FixedValue = 0
+                  InterpMethod = 2
+                  SearchRadius = 1000
+                  ShowGridData = 1
+                  ShowShapeData = 1
+                  ShapeItemUnit = 2600
+                  [DFS_2D_DATA_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = 1
+                  EndSect  // DFS_2D_DATA_FILE
+
+                  [SHAPE_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = ''
+                  EndSect  // SHAPE_FILE
+
+                  [XYZ_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                  EndSect  // XYZ_FILE
+
+               EndSect  // Species_2
+
+               [Species_3]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  Name = 'TPaq'
+                  Type = 0
+                  ShapeAxisUnit = 1000
+                  ShapeGapFillName = ''
+                  FixedValue = 0
+                  InterpMethod = 2
+                  SearchRadius = 1000
+                  ShowGridData = 1
+                  ShowShapeData = 1
+                  ShapeItemUnit = 2600
+                  [DFS_2D_DATA_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = 1
+                  EndSect  // DFS_2D_DATA_FILE
+
+                  [SHAPE_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                     ITEM_COUNT = 1
+                     ITEM_NUMBERS = ''
+                  EndSect  // SHAPE_FILE
+
+                  [XYZ_FILE]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     FILE_NAME = ||
+                  EndSect  // XYZ_FILE
+
+               EndSect  // Species_3
+
+            EndSect  // Dual_Porosity_Transfer_Coeff
+
+            [Decay_Processes]
+            EndSect  // Decay_Processes
+
+            [Sorption_Processes]
+               [Sorption_1]
+                  Name = 'Sorp_1'
+                  [Linear_Kd]
+                     Touched = 1
+                     IsDataUsedInSetup = 1
+                     Type = 1
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 6900
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_Kd_SZ.dfs2|
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 1
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Linear_Kd
+
+                  [Freundlich_Kf]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 6900
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Freundlich_Kf
+
+                  [Freundlich_n]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 99000
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Freundlich_n
+
+                  [Langmuir_Alpha]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 6900
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Langmuir_Alpha
+
+                  [Langmuir_Beta]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 99005
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // Langmuir_Beta
+
+                  [KinSorpRate]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 2600
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // KinSorpRate
+
+                  [KinDeSorpRate]
+                     Touched = 1
+                     IsDataUsedInSetup = 0
+                     Type = 0
+                     ShapeAxisUnit = 1000
+                     ShapeGapFillName = ''
+                     FixedValue = 0
+                     InterpMethod = 2
+                     SearchRadius = 1000
+                     ShowGridData = 1
+                     ShowShapeData = 1
+                     ShapeItemUnit = 2600
+                     [DFS_2D_DATA_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = 1
+                     EndSect  // DFS_2D_DATA_FILE
+
+                     [SHAPE_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                        ITEM_COUNT = 1
+                        ITEM_NUMBERS = ''
+                     EndSect  // SHAPE_FILE
+
+                     [XYZ_FILE]
+                        Touched = 1
+                        IsDataUsedInSetup = 0
+                        FILE_NAME = ||
+                     EndSect  // XYZ_FILE
+
+                  EndSect  // KinDeSorpRate
+
+               EndSect  // Sorption_1
+
+            EndSect  // Sorption_Processes
+
+            [EcolabConstants]
+               Touched = 1
+               IsDataUsedInSetup = 0
+               MzSEPfsListItemCount = 0
+               NumberOfItems = 0
+            EndSect  // EcolabConstants
+
+            [EcolabForcings]
+               Touched = 1
+               IsDataUsedInSetup = 0
+               MzSEPfsListItemCount = 0
+               NumberOfItems = 0
+            EndSect  // EcolabForcings
+
+         EndSect  // WQLayer_5
 
       EndSect  // SatWQLayers
 
@@ -10905,7 +11767,7 @@
             [Initial_Concentration]
                [Species_1]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TRACER'
                   Type = 0
                   ShapeAxisUnit = 1000
@@ -10934,7 +11796,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -10942,9 +11804,9 @@
 
                [Species_2]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPso'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -10955,8 +11817,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_SO.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -10971,7 +11833,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -10979,9 +11841,9 @@
 
                [Species_3]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPaq'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -10992,8 +11854,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_PW.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -11008,7 +11870,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -11343,7 +12205,7 @@
             [Initial_Concentration]
                [Species_1]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TRACER'
                   Type = 0
                   ShapeAxisUnit = 1000
@@ -11372,7 +12234,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -11380,9 +12242,9 @@
 
                [Species_2]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPso'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -11393,8 +12255,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_SO.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -11409,7 +12271,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -11417,9 +12279,9 @@
 
                [Species_3]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPaq'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -11430,8 +12292,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_PW.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -11446,7 +12308,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -11781,7 +12643,7 @@
             [Initial_Concentration]
                [Species_1]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TRACER'
                   Type = 0
                   ShapeAxisUnit = 1000
@@ -11810,7 +12672,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -11818,9 +12680,9 @@
 
                [Species_2]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPso'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -11831,8 +12693,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_SO.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -11847,7 +12709,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -11855,9 +12717,9 @@
 
                [Species_3]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPaq'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -11868,8 +12730,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_PW.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -11884,7 +12746,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -12219,7 +13081,7 @@
             [Initial_Concentration]
                [Species_1]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TRACER'
                   Type = 0
                   ShapeAxisUnit = 1000
@@ -12248,7 +13110,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -12256,9 +13118,9 @@
 
                [Species_2]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPso'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -12269,8 +13131,8 @@
                   ShapeItemUnit = 99005
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_SO.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -12285,7 +13147,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -12293,9 +13155,9 @@
 
                [Species_3]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPaq'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -12306,8 +13168,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_PW.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -12322,7 +13184,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -12657,7 +13519,7 @@
             [Initial_Concentration]
                [Species_1]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TRACER'
                   Type = 0
                   ShapeAxisUnit = 1000
@@ -12686,7 +13548,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -12694,9 +13556,9 @@
 
                [Species_2]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPso'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -12707,8 +13569,8 @@
                   ShapeItemUnit = 99005
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_SO.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -12723,7 +13585,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -12731,9 +13593,9 @@
 
                [Species_3]
                   Touched = 1
-                  IsDataUsedInSetup = 0
+                  IsDataUsedInSetup = 1
                   Name = 'TPaq'
-                  Type = 0
+                  Type = 1
                   ShapeAxisUnit = 1000
                   ShapeGapFillName = ''
                   FixedValue = 0
@@ -12744,8 +13606,8 @@
                   ShapeItemUnit = 2201
                   [DFS_2D_DATA_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
-                     FILE_NAME = ||
+                     IsDataUsedInSetup = 1
+                     FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_R_PW.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -12760,7 +13622,7 @@
 
                   [XYZ_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 0
+                     IsDataUsedInSetup = 1
                      FILE_NAME = ||
                   EndSect  // XYZ_FILE
 
@@ -13231,7 +14093,7 @@
 
    [Sources]
       Touched = 1
-      IsDataUsedInSetup = 0
+      IsDataUsedInSetup = 1
       MzSEPfsListItemCount = 4
       NumberOfSources = 4
       [Source_1]
@@ -13337,17 +14199,17 @@
 
          [Strength]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             DistributionType = 1
             [GLOBAL]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FIXED_VALUE = 0
                TYPE = 2
                [TIME_SERIES_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
-                  FILE_NAME = |..\..\..\INPUTFILES\WQ\TS-LAND-WQ-RF.dfs0|
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_TS-LAND-WQ-RF.dfs0|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // TIME_SERIES_FILE
@@ -13356,7 +14218,7 @@
 
             [STATION_BASED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                NO_TIMESERIES = 0
                Type = 1
                ShapeAxisUnit = 1000
@@ -13381,7 +14243,7 @@
 
             [FULLY_DISTRIBUTED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                TYPE = 1
                [DFS_2D_DATA_FILE]
                   Touched = 1
@@ -13408,8 +14270,8 @@
             ShapeAxisUnit = 1000
             [DFS_2D_DATA_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
-               FILE_NAME = |.\TRACER_OL.dfs2|
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_TRACER_OL.dfs2|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // DFS_2D_DATA_FILE
@@ -13500,11 +14362,11 @@
 
          [Strength]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             DistributionType = 2
             [GLOBAL]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FIXED_VALUE = 0
                TYPE = 1
                [TIME_SERIES_FILE]
@@ -13519,15 +14381,15 @@
 
             [STATION_BASED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                NO_TIMESERIES = 3
                Type = 1
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
-                  FILE_NAME = |.\TRACER_OL.dfs2|
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_TRACER_OL.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -13544,7 +14406,7 @@
 
             [FULLY_DISTRIBUTED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                TYPE = 1
                [DFS_2D_DATA_FILE]
                   Touched = 1
@@ -13619,8 +14481,8 @@
             ShapeAxisUnit = 1000
             [DFS_2D_DATA_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
-               FILE_NAME = |.\TRACER_SZ.dfs2|
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_TRACER_SZ.dfs2|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // DFS_2D_DATA_FILE
@@ -13637,7 +14499,7 @@
 
          [TopElevation]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             Type = 0
             ShapeAxisUnit = 1000
             ShapeGapFillName = ''
@@ -13666,7 +14528,7 @@
 
             [XYZ_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FILE_NAME = ||
             EndSect  // XYZ_FILE
 
@@ -13674,7 +14536,7 @@
 
          [BottomElevation]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             Type = 0
             ShapeAxisUnit = 1000
             ShapeGapFillName = ''
@@ -13703,7 +14565,7 @@
 
             [XYZ_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FILE_NAME = ||
             EndSect  // XYZ_FILE
 
@@ -13711,11 +14573,11 @@
 
          [Strength]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             DistributionType = 2
             [GLOBAL]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FIXED_VALUE = 0
                TYPE = 1
                [TIME_SERIES_FILE]
@@ -13730,15 +14592,15 @@
 
             [STATION_BASED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                NO_TIMESERIES = 3
                Type = 1
                ShapeAxisUnit = 1000
                ShapeGapFillName = ''
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 0
-                  FILE_NAME = |.\TRACER_SZ.dfs2|
+                  IsDataUsedInSetup = 1
+                  FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_TRACER_SZ.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -13755,7 +14617,7 @@
 
             [FULLY_DISTRIBUTED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                TYPE = 1
                [DFS_2D_DATA_FILE]
                   Touched = 1
@@ -13830,8 +14692,8 @@
             ShapeAxisUnit = 1000
             [DFS_2D_DATA_FILE]
                Touched = 1
-               IsDataUsedInSetup = 0
-               FILE_NAME = |..\..\..\INPUTFILES\WQ\TPaq_LOAD_OL.dfs2|
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\INPUTFILES\WQ\M01_TPaq_LOAD_OL.dfs2|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // DFS_2D_DATA_FILE
@@ -13922,11 +14784,11 @@
 
          [Strength]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             DistributionType = 1
             [GLOBAL]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                FIXED_VALUE = 0
                TYPE = 1
                [TIME_SERIES_FILE]
@@ -13941,7 +14803,7 @@
 
             [STATION_BASED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                NO_TIMESERIES = 29
                Type = 1
                ShapeAxisUnit = 1000
@@ -13966,7 +14828,7 @@
 
             [FULLY_DISTRIBUTED]
                Touched = 1
-               IsDataUsedInSetup = 0
+               IsDataUsedInSetup = 1
                TYPE = 1
                [DFS_2D_DATA_FILE]
                   Touched = 1
@@ -15160,7 +16022,7 @@
 
       [DetailedWqTimeseriesOutput]
          Touched = 0
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          MzSEPfsListItemCount = 0
          NumberOfItems = 0
          MinimumOutputTimestep = 0
@@ -16786,7 +17648,7 @@
 
       [ResultDetailedWqTs]
          Touched = 0
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
       EndSect  // ResultDetailedWqTs
 
       [ResultViewer]
