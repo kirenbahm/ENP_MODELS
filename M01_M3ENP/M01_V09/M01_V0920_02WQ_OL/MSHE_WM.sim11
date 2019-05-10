@@ -1,9 +1,9 @@
-// Created     : 2019-05-10 9:53:8
+// Created     : 2019-05-10 10:14:59
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
 [Run11]
-   format_version = 107, 'MIKEZero, 2016'
+   format_version = 107, 'MIKEZero, 2019'
    Comment = ''
    [Models]
       hd = true, false
@@ -44,15 +44,15 @@
          dtFileName = ||
          dtItemName = ''
          dtItemNo = 0
-         ddtMin = 1
-         ddtMax = 30
+         ddtMin = 1.0
+         ddtMax = 30.0
          idtMinMaxUnit = 2
          ddtChangeRatio = 1.3
          bDelB_BFlag = true
          dDelB_BVal = 0.01
          dDelB_BLim = 0.01
          bDelQFlag = false
-         dDelQVal = 1
+         dDelQVal = 1.0
          bDelQ_QFlag = true
          dDelQ_QVal = 0.01
          dDelQ_QLim = 0.01
@@ -62,9 +62,9 @@
          dDelh_hVal = 0.01
          dDelh_hLim = 0.01
          bCourantFlagHD = false
-         dCourantValHD = 10
+         dCourantValHD = 10.0
          bCourantFlagAD = true
-         dCourantValAD = 1
+         dCourantValAD = 1.0
          ST_timestep_multiplier = 1
          RR_timestep_multiplier = 1
       EndSect  // Simulation_Period
