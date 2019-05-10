@@ -1,0 +1,116 @@
+// Created     : 2019-05-10 10:13:46
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.0.0.12300
+
+[MIKE0_AD]
+   [Global_Variables]
+      LastSelected = 0
+      G_Coli = false
+      G_Phos = false
+      LastLevel1 = 1
+      WQInter = 0
+      G_disp_factor = 19.97415359999999
+      G_exponent = 0.0
+      G_min_disp_coef = 0.9290303999999998
+      G_max_disp_coef = 92.90303999999998
+      G_fact1 = 1.0
+      G_fact2 = 1.0
+      G_beta = 0.65
+      G_kin_visc = 1.0
+      G_porosity = 0.35
+      G_rel_dens = 2.65
+      G_thetac = 0.056
+      model_type = 1
+      G_Ice_latitude = 51.0
+      G_Ice_dens_water = 1000.0
+      G_Ice_spec_heat_water = 4200.0
+      G_Ice_latent_heat_ice = 330000.0
+      G_Ice_heat_flux = 12.5
+      G_Ice_dens_ice = 917.0
+      G_Ice_const_cross_A = 0
+      G_Ice_const_activate = 0
+      G_Ice_air_temp = 10.0
+      G_Ice_cloudness = 0.0
+      G_Ice_cloud_dens = 0
+      G_Ice_wind_speed = 0.0
+      G_Ice_visibility = 25.0
+      G_Ice_precipitation = 0.0
+      G_Ice_thickness = 0.0
+      G_Ice_width = 0.0
+      G_Ice_quality = 0
+      G_Add_ConvG = true
+      G_Add_ConvGA = true
+      G_Add_DispersG = true
+      G_Add_DispersGA = true
+      G_Add_MassBG = true
+      G_Add_MassBGA = true
+      G_Add_MassBT = true
+      G_Add_MassBTA = true
+      G_Add_MassG = true
+      G_Add_MassGA = true
+      G_Add_MassT = true
+      G_Add_MassTA = true
+      G_Add_MBranchT = true
+      G_Add_MBranchTA = true
+      G_Add_OrderG = true
+      G_Add_OrderGA = true
+      G_Add_OrderT = true
+      G_Add_OrderTA = true
+      G_Add_TransG = true
+      G_Add_TransGA = true
+      G_M12Comp = false
+      [MIKE12_Additional]
+         Mass = 0, 0, 0, 0, 0, 0, 0, 0
+         Mass_balance = 0, 0, 0, 0, 0, 0, 0, 0
+         Mass_branch = 0, 0, 0, 0
+         Decay_branch = 0, 0, 0, 0, 0, 0, 0, 0
+         Entrain_branch = 0, 0, 0, 0, 0, 0, 0, 0
+         Transport_total = 0, 0, 0, 0
+         Dispersive_trans = 0, 0, 0, 0
+         Convective_trans = 0, 0, 0, 0
+      EndSect  // MIKE12_Additional
+
+      [MIKE12_Dispersion]
+         G_disp_factor = 0.0, 0.0
+         G_exponent = 0.0, 0.0
+         G_min_disp_coef = 0.0, 0.0
+         G_max_disp_coef = 100.0, 100.0
+      EndSect  // MIKE12_Dispersion
+
+   EndSect  // Global_Variables
+
+   [InitList]
+      DATA = 1, 0.005, true, '', 0.0
+   EndSect  // InitList
+
+   [InitStratified]
+   EndSect  // InitStratified
+
+   [NonCohesList]
+   EndSect  // NonCohesList
+
+   [DecayList]
+   EndSect  // DecayList
+
+   [DispersList]
+   EndSect  // DispersList
+
+   [IceDataList]
+   EndSect  // IceDataList
+
+   [Cohesive_ST]
+   EndSect  // Cohesive_ST
+
+   [CompList]
+      DATA = 1, 'TPAQ', 6, 0
+      DATA = 2, 'TRACER', 6, 0
+   EndSect  // CompList
+
+   [LayerList]
+   EndSect  // LayerList
+
+   [M12DispersList]
+   EndSect  // M12DispersList
+
+EndSect  // MIKE0_AD
+
