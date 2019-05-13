@@ -1,4 +1,4 @@
-// Created     : 2019-05-13 7:45:47
+// Created     : 2019-05-13 11:28:23
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -4092,7 +4092,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'L-28', 'model', 0.0, 14590.10319117155, 0, 10000.0, 0
+         definitions = 'L-28', 'C2002', 0.0, 14590.10319117155, 0, 10000.0, 0
          connections = '', -1e-155, 'Tamiami', 55203.26763221178
          points = 1143, 1142, 1141, 1140, 1139, 1138, 1137, 1136, 1135, 1134, 1353
       EndSect  // branch
@@ -32695,6 +32695,534 @@
                EndSect  // CtrSummation
 
                Targetpoint = 'AeroJet', 7800.0, 'AJ-7800', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-28', 3860.0, 'L28-03860', 'C2002'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 3.0
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 0, 1, 0.63, 10.0, -0.5, 0.001, true, -0.5, true, 3.0, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 4, 0, 0, 0.0
+               [logical_operands]
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 0, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 0, 0, 11.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 3860.0, 'L28-03860', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 8, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 3860.0, 'L28-03860', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-28', 5570.0, 'L28-05570', 'C2002'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 3.18
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 0, 1, 0.63, 10.0, -0.6, 0.001, true, -0.6, true, 3.18, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 4, 0, 0, 0.0
+               [logical_operands]
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 0, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 0, 0, 11.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 5570.0, 'L28-05570', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 8, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 5570.0, 'L28-05570', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-28', 6690.0, 'L28-06690', 'C2002'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 3.04
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 0, 1, 0.63, 10.0, -0.6, 0.001, true, -0.6, true, 3.04, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 4, 0, 0, 0.0
+               [logical_operands]
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 0, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 0, 0, 11.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 6690.0, 'L28-06690', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 8, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 6690.0, 'L28-06690', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-28', 10410.0, 'L28-10410', 'C2002'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 3.04
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 0, 1, 0.63, 10.0, -0.6, 0.001, true, -0.6, true, 3.04, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 4, 0, 0, 0.0
+               [logical_operands]
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 0, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 0, 0, 11.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 10410.0, 'L28-10410', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 8, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 10410.0, 'L28-10410', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-28', 13850.0, 'L28-13850', 'C2002'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 2.95
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 0, 1, 0.63, 10.0, -0.6, 0.001, true, -0.6, true, 2.95, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 4, 0, 0, 0.0
+               [logical_operands]
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 0, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 0, 0, 11.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 13850.0, 'L28-13850', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 8, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 13850.0, 'L28-13850', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'L-28', 12720.0, 'L28-12710', 'C2002'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 2.95
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 0, 1, 0.63, 10.0, -0.6, 0.001, true, -0.6, true, 2.95, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 4, 0, 0, 0.0
+               [logical_operands]
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 0, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 0, 0, 11.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 12720.0, 'L28-12710', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 8, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'L-28', 12720.0, 'L28-12710', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
