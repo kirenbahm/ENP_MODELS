@@ -1,4 +1,4 @@
-// Created     : 2019-05-16 16:28:41
+// Created     : 2019-05-10 10:13:57
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -21503,11 +21503,11 @@
             X = 556669.0
             Y = 2828479.0
             Z = 5.0
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\BC-S194TW-S165HW.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -21543,11 +21543,11 @@
             X = 556490.0
             Y = 2834619.0
             Z = 5.0
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\BC-S338TW-S148HW.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -22295,11 +22295,11 @@
             DataType = 0
             BranchName = 'C-111'
             Chainage = 23378
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\CV5S.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -22331,11 +22331,11 @@
             DataType = 0
             BranchName = 'FP'
             Chainage = 3840.5
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\B3H.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -22349,11 +22349,11 @@
             DataType = 0
             BranchName = 'FP'
             Chainage = 3901.4
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\B3T.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -22655,11 +22655,11 @@
             DataType = 0
             BranchName = 'C4'
             Chainage = 2103.12
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\BC-G119TW.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -23195,11 +23195,11 @@
             DataType = 0
             BranchName = 'L-31W'
             Chainage = 7750
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\L31W.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -23411,11 +23411,11 @@
             DataType = 0
             BranchName = 'S357'
             Chainage = 2105
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\LPC1.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25247,11 +25247,11 @@
             DataType = 0
             BranchName = 'SDAN'
             Chainage = 1676
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\LPDC1.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25301,11 +25301,11 @@
             DataType = 0
             BranchName = 'SDAN'
             Chainage = 1676
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\LPDC1.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25661,11 +25661,11 @@
             DataType = 1
             BranchName = 'CULVERT_24'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\bridge_24.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25697,11 +25697,11 @@
             DataType = 1
             BranchName = 'CULVERT_25'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\bridge_25.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25733,11 +25733,11 @@
             DataType = 1
             BranchName = 'CULVERT_26'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\bridge_26.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25769,11 +25769,11 @@
             DataType = 1
             BranchName = 'CULVERT_27'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\bridge_27.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25805,11 +25805,11 @@
             DataType = 1
             BranchName = 'CULVERT_28'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\bridge_28.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |.\none.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25823,11 +25823,11 @@
             DataType = 1
             BranchName = 'CULVERT_41'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_41.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25841,11 +25841,11 @@
             DataType = 1
             BranchName = 'CULVERT_42'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_42.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25859,11 +25859,11 @@
             DataType = 1
             BranchName = 'CULVERT_43'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_43.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25877,11 +25877,11 @@
             DataType = 1
             BranchName = 'CULVERT_44'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_44.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25895,11 +25895,11 @@
             DataType = 1
             BranchName = 'CULVERT_45'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_45.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25913,11 +25913,11 @@
             DataType = 1
             BranchName = 'CULVERT_46'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_46.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25931,11 +25931,11 @@
             DataType = 1
             BranchName = 'CULVERT_47'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_47.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25949,11 +25949,11 @@
             DataType = 1
             BranchName = 'CULVERT_48'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_48.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25967,11 +25967,11 @@
             DataType = 1
             BranchName = 'CULVERT_49'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_49.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -25985,11 +25985,11 @@
             DataType = 1
             BranchName = 'CULVERT_50'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_50.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -26003,11 +26003,11 @@
             DataType = 1
             BranchName = 'CULVERT_51'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_51.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -26021,11 +26021,11 @@
             DataType = 1
             BranchName = 'CULVERT_52'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_52.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -26039,11 +26039,11 @@
             DataType = 1
             BranchName = 'CULVERT_53'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_53.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -26057,11 +26057,11 @@
             DataType = 1
             BranchName = 'CULVERT_54'
             Chainage = 25
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\OBSERVED\culvert_54.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = ||
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
