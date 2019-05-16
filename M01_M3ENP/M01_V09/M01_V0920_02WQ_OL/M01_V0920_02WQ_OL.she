@@ -1,4 +1,4 @@
-// Created     : 2019-05-16 16:31:13
+// Created     : 2019-05-16 18:22:37
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -493,7 +493,7 @@
          SZ_ModelType = 0
          OL_ModelType = 0
          UseCurrentWmSimulation = 0
-         FilenameSheRes = |..\..\..\Result\M01_V0920_00WM.she - Result Files-ORIGINAL\M01_V0920_00WM.Sheres|
+         FilenameSheRes = |..\..\..\Result\M01_V0920_00WM.she - Result Files\M01_V0920_00WM.Sheres|
       EndSect  // ModelComp
 
       [SimTitle]
@@ -698,33 +698,42 @@
       Touched = 1
       IsDataUsedInSetup = 1
       Ecolab_OL = 1
-      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\ECOLAB_OL.ecolab|, -1, -1, -1, -1, -1, -1
+      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2019, 5, 16, 16, 40, 55
       Method_OL = 0
       Freq_OL = 1
       Ecolab_UZ = 1
-      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\ECOLAB_UZ.ecolab|, -1, -1, -1, -1, -1, -1
+      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2019, 5, 16, 16, 40, 55
       Method_UZ = 0
       Freq_UZ = 1
       Ecolab_SZ = 1
-      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\ECOLAB_SZ.ecolab|, -1, -1, -1, -1, -1, -1
+      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2019, 5, 16, 16, 40, 55
       Method_SZ = 0
       Freq_SZ = 1
       [OL_Constants]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfConstants = 0
+         NumberOfConstants = 4
+         Constant = 'KU', -1, -1
+         Constant = 'KR', -1, -1
+         Constant = 'KFpw', -1, -1
+         Constant = 'KBpw', -1, -1
       EndSect  // OL_Constants
 
       [OL_Forcings]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfForcings = 0
+         NumberOfForcings = 2
+         Forcing = 'DEPTH', 2040, 1003
+         Forcing = 'DT', 2000, 1403
       EndSect  // OL_Forcings
 
       [UZ_Constants]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfConstants = 0
+         NumberOfConstants = 3
+         Constant = 'KUS', -1, -1
+         Constant = 'KRS', -1, -1
+         Constant = 'KB', -1, -1
       EndSect  // UZ_Constants
 
       [UZ_Forcings]
@@ -736,7 +745,10 @@
       [SZ_Constants]
          Touched = 1
          IsDataUsedInSetup = 1
-         NumberOfConstants = 0
+         NumberOfConstants = 3
+         Constant = 'KUS', -1, -1
+         Constant = 'KRS', -1, -1
+         Constant = 'KB', -1, -1
       EndSect  // SZ_Constants
 
       [SZ_Forcings]
@@ -9235,7 +9247,7 @@
          ShapeItemUnit = 99000
          TimeVarying = 0
          [DFS_2D_DATA_FILE]
-            Touched = 0
+            Touched = 1
             IsDataUsedInSetup = 0
             FILE_NAME = ||
             ITEM_COUNT = 1
@@ -9243,7 +9255,7 @@
          EndSect  // DFS_2D_DATA_FILE
 
          [SHAPE_FILE]
-            Touched = 0
+            Touched = 1
             IsDataUsedInSetup = 0
             FILE_NAME = ||
             ITEM_COUNT = 1
@@ -9251,7 +9263,7 @@
          EndSect  // SHAPE_FILE
 
          [XYZ_FILE]
-            Touched = 0
+            Touched = 1
             IsDataUsedInSetup = 0
             FILE_NAME = ||
          EndSect  // XYZ_FILE
@@ -9351,7 +9363,7 @@
             ShapeItemUnit = 2605
             TimeVarying = 0
             [DFS_2D_DATA_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9359,7 +9371,7 @@
             EndSect  // DFS_2D_DATA_FILE
 
             [SHAPE_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9367,7 +9379,7 @@
             EndSect  // SHAPE_FILE
 
             [XYZ_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
             EndSect  // XYZ_FILE
@@ -9387,7 +9399,7 @@
             ShowShapeData = 1
             ShapeItemUnit = 2605
             [DFS_2D_DATA_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9395,7 +9407,7 @@
             EndSect  // DFS_2D_DATA_FILE
 
             [SHAPE_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9403,7 +9415,7 @@
             EndSect  // SHAPE_FILE
 
             [XYZ_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
             EndSect  // XYZ_FILE
@@ -9425,7 +9437,7 @@
             RelativeToGround = 1
             TimeVarying = 0
             [DFS_2D_DATA_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9433,7 +9445,7 @@
             EndSect  // DFS_2D_DATA_FILE
 
             [SHAPE_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9441,7 +9453,7 @@
             EndSect  // SHAPE_FILE
 
             [XYZ_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
             EndSect  // XYZ_FILE
@@ -9461,7 +9473,7 @@
             ShowShapeData = 1
             ShapeItemUnit = 99013
             [DFS_2D_DATA_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9469,7 +9481,7 @@
             EndSect  // DFS_2D_DATA_FILE
 
             [SHAPE_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9477,7 +9489,7 @@
             EndSect  // SHAPE_FILE
 
             [XYZ_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
             EndSect  // XYZ_FILE
@@ -9497,7 +9509,7 @@
             ShowShapeData = 1
             ShapeItemUnit = 99013
             [DFS_2D_DATA_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9505,7 +9517,7 @@
             EndSect  // DFS_2D_DATA_FILE
 
             [SHAPE_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
                ITEM_COUNT = 1
@@ -9513,7 +9525,7 @@
             EndSect  // SHAPE_FILE
 
             [XYZ_FILE]
-               Touched = 0
+               Touched = 1
                IsDataUsedInSetup = 0
                FILE_NAME = ||
             EndSect  // XYZ_FILE
