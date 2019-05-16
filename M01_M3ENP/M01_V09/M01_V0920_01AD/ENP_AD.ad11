@@ -1,6 +1,6 @@
-// Created     : 2016-07-4 11:43:46
-// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2019-05-16 16:27:49
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.0.0.12300
 
 [MIKE0_AD]
    [Global_Variables]
@@ -10,33 +10,33 @@
       LastLevel1 = 1
       WQInter = 0
       G_disp_factor = 19.97415359999999
-      G_exponent = 0
+      G_exponent = 0.0
       G_min_disp_coef = 0.9290303999999998
       G_max_disp_coef = 92.90303999999998
-      G_fact1 = 1
-      G_fact2 = 1
+      G_fact1 = 1.0
+      G_fact2 = 1.0
       G_beta = 0.65
-      G_kin_visc = 1
+      G_kin_visc = 1.0
       G_porosity = 0.35
       G_rel_dens = 2.65
       G_thetac = 0.056
       model_type = 1
-      G_Ice_latitude = 51
-      G_Ice_dens_water = 1000
-      G_Ice_spec_heat_water = 4200
-      G_Ice_latent_heat_ice = 330000
+      G_Ice_latitude = 51.0
+      G_Ice_dens_water = 1000.0
+      G_Ice_spec_heat_water = 4200.0
+      G_Ice_latent_heat_ice = 330000.0
       G_Ice_heat_flux = 12.5
-      G_Ice_dens_ice = 917
+      G_Ice_dens_ice = 917.0
       G_Ice_const_cross_A = 0
       G_Ice_const_activate = 0
-      G_Ice_air_temp = 10
-      G_Ice_cloudness = 0
+      G_Ice_air_temp = 10.0
+      G_Ice_cloudness = 0.0
       G_Ice_cloud_dens = 0
-      G_Ice_wind_speed = 0
-      G_Ice_visibility = 25
-      G_Ice_precipitation = 0
-      G_Ice_thickness = 0
-      G_Ice_width = 0
+      G_Ice_wind_speed = 0.0
+      G_Ice_visibility = 25.0
+      G_Ice_precipitation = 0.0
+      G_Ice_thickness = 0.0
+      G_Ice_width = 0.0
       G_Ice_quality = 0
       G_Add_ConvG = true
       G_Add_ConvGA = true
@@ -71,16 +71,16 @@
       EndSect  // MIKE12_Additional
 
       [MIKE12_Dispersion]
-         G_disp_factor = 0, 0
-         G_exponent = 0, 0
-         G_min_disp_coef = 0, 0
-         G_max_disp_coef = 100, 100
+         G_disp_factor = 0.0, 0.0
+         G_exponent = 0.0, 0.0
+         G_min_disp_coef = 0.0, 0.0
+         G_max_disp_coef = 100.0, 100.0
       EndSect  // MIKE12_Dispersion
 
    EndSect  // Global_Variables
 
    [InitList]
-      DATA = 1, 0.005, true, '', 0
+      DATA = 1, 0.005, true, '', 0.0
    EndSect  // InitList
 
    [InitStratified]
