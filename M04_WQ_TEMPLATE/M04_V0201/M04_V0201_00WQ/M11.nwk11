@@ -1,6 +1,6 @@
-// Created     : 2017-08-1 14:42:20
-// DLL id      : C:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2019-05-16 16:10:19
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.0.0.12300
 
 [MIKE_11_Network_editor]
    [FORMAT_VERSION]
@@ -8,31 +8,31 @@
    EndSect  // FORMAT_VERSION
 
    [DATA_AREA]
-      x0 = 0
-      y0 = 0
-      x1 = 3000
-      y1 = 3000
+      x0 = 0.0
+      y0 = 0.0
+      x1 = 3000.0
+      y1 = 3000.0
       projection = 'NON-UTM'
    EndSect  // DATA_AREA
 
    [POINTS]
-      point = 1, 1000, 1500, 0, 0, 0
-      point = 2, 2000.000000000001, 1500, 0, 1000.000000000001, 0
-      point = 3, 1490, 2400, 0, 0, 0
-      point = 4, 1500, 1610, 0, 790.0632886041473, 0
-      point = 5, 1500, 1500, 0, 500, 0
+      point = 1, 1000.0, 1500.0, 0, 0.0, 0
+      point = 2, 2000.000000000001, 1500.0, 0, 1000.000000000001, 0
+      point = 3, 1490.0, 2400.0, 0, 0.0, 0
+      point = 4, 1500.0, 1610.0, 0, 790.0632886041473, 0
+      point = 5, 1500.0, 1500.0, 0, 500.0, 0
    EndSect  // POINTS
 
    [BRANCHES]
       [branch]
-         definitions = 'RIVER_H', 'MODEL', 0, 1000.000000000001, 0, 10000, 0
+         definitions = 'RIVER_H', 'MODEL', 0.0, 1000.000000000001, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 1, 5, 2
       EndSect  // branch
 
       [branch]
-         definitions = 'RIVER_V', 'MODEL', 0, 790.0632886041473, 0, 10000, 0
-         connections = '', -1e-155, 'RIVER_H', 500
+         definitions = 'RIVER_V', 'MODEL', 0.0, 790.0632886041473, 0, 10000.0, 0
+         connections = '', -1e-155, 'RIVER_H', 500.0
          points = 3, 4
       EndSect  // branch
 
@@ -88,8 +88,8 @@
    EndSect  // COMPUTATIONAL_SETUP
 
    [MIKESHECOUPLING]
-      MikeSheCoupling = 'RIVER_H', 0, 1000, 1, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
-      MikeSheCoupling = 'RIVER_V', 0, 790.0632886041473, 1, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1, 1, 0, 0
+      MikeSheCoupling = 'RIVER_H', 0.0, 1000.0, 1, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
+      MikeSheCoupling = 'RIVER_V', 0.0, 790.0632886041473, 1, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
    EndSect  // MIKESHECOUPLING
 
    [CHANNELROUTING]

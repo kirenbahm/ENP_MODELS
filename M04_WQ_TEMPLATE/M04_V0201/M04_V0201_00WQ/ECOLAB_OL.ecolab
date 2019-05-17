@@ -1,6 +1,6 @@
-// Created     : 2016-06-11 21:37:9
-// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2019-05-16 16:18:29
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.0.0.12300
 // type = 2
 
 [ECO_LAB_SETUP]
@@ -13,7 +13,7 @@
       DOCUMENTATION = 'Report GIT June 2016'
       ECOLAB_VERSION = 2016.001
       PARSER_VERSION = 2016.001
-      DOCUMENT_REVISION = 6
+      DOCUMENT_REVISION = 7
       RANDSEED = 0
       DEBUG_LEVEL = 0
       DEBUG_LOG = ''
@@ -34,13 +34,14 @@
          DESCRIPTION = 'Total Dissolved Phosphorus'
          ONLINE_HELP = 'Total Dissolved Phosphorus'
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
          DEFAULT_VALUE = 0.005
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // STATE_VARIABLE_1
 
       [STATE_VARIABLE_2]
@@ -49,13 +50,14 @@
          DESCRIPTION = 'TP sorbed on floc'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'FIXED'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 1000
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1000.0
       EndSect  // STATE_VARIABLE_2
 
       [STATE_VARIABLE_3]
@@ -64,13 +66,14 @@
          DESCRIPTION = 'Conservative Tracer'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 1000
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1000.0
       EndSect  // STATE_VARIABLE_3
 
       [STATE_VARIABLE_4]
@@ -79,13 +82,14 @@
          DESCRIPTION = 'TP in Pore Water = TPaq'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // STATE_VARIABLE_4
 
    EndSect  // STATE_VARIABLES
@@ -100,15 +104,16 @@
          DESCRIPTION = 'Uptake Rate'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = '/d'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_1
 
       [CONSTANT_2]
@@ -117,15 +122,16 @@
          DESCRIPTION = 'Release Rate'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = '/d'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_2
 
       [CONSTANT_3]
@@ -134,15 +140,16 @@
          DESCRIPTION = 'K forward exchange pore water'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = 'undefined'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_3
 
       [CONSTANT_4]
@@ -151,15 +158,16 @@
          DESCRIPTION = 'K backward exchange pore water'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = 'undefined'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_4
 
    EndSect  // CONSTANTS
@@ -174,15 +182,16 @@
          DESCRIPTION = 'Depth of Overland Flow'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'NO'
          BUILT_IN_ID = 55
          SCOPE = 'WC'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = 'auto'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = -100000000
-         MAX_VALUE = 100000000
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = -100000000.0
+         MAX_VALUE = 100000000.0
       EndSect  // FORCING_1
 
       [FORCING_2]
@@ -191,15 +200,16 @@
          DESCRIPTION = 'MSHE Time Step'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'NO'
          BUILT_IN_ID = 55
          SCOPE = 'WC'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = 'auto'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = -100000000
-         MAX_VALUE = 100000000
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = -100000000.0
+         MAX_VALUE = 100000000.0
       EndSect  // FORCING_2
 
    EndSect  // FORCINGS
@@ -220,6 +230,8 @@
          DESCRIPTION = 'Adsorption in water column on floc'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -234,6 +246,8 @@
          DESCRIPTION = 'Desorption in water column from floc'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -248,6 +262,8 @@
          DESCRIPTION = 'Process_3 Description'
          ONLINE_HELP = 'Process_3 Online help'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -262,6 +278,8 @@
          DESCRIPTION = 'Forward exchange with pore water'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -276,6 +294,8 @@
          DESCRIPTION = 'Backward exchange with pore water'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'

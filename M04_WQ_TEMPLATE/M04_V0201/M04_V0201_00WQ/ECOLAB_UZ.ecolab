@@ -1,6 +1,6 @@
-// Created     : 2016-06-11 23:26:56
-// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2019-05-16 16:18:18
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.0.0.12300
 // type = 2
 
 [ECO_LAB_SETUP]
@@ -11,9 +11,9 @@
       DESCRIPTION = 'Miscanellous Description'
       ONLINE_HELP = 'Miscanellous Online help'
       DOCUMENTATION = 'Miscanellous Documentation'
-      ECOLAB_VERSION = 2016
-      PARSER_VERSION = 2016
-      DOCUMENT_REVISION = 12
+      ECOLAB_VERSION = 2016.0
+      PARSER_VERSION = 2016.0
+      DOCUMENT_REVISION = 13
       RANDSEED = 0
       DEBUG_LEVEL = 0
       DEBUG_LOG = ''
@@ -34,13 +34,14 @@
          DESCRIPTION = 'Dissolved Total Phoshorus'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
-         DEFAULT_VALUE = 0
-         MIN_VALUE = 0
-         MAX_VALUE = 1
+         DEFAULT_VALUE = 0.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1.0
       EndSect  // STATE_VARIABLE_1
 
       [STATE_VARIABLE_2]
@@ -49,13 +50,14 @@
          DESCRIPTION = 'Adsorbed Total Phosphorus in sediments'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'FIXED'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
          DEFAULT_VALUE = 0.0003
-         MIN_VALUE = 0
-         MAX_VALUE = 1000
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1000.0
       EndSect  // STATE_VARIABLE_2
 
    EndSect  // STATE_VARIABLES
@@ -70,15 +72,16 @@
          DESCRIPTION = 'Rate of TP uptake to soils/sediments'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100150
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 100150
          UNIT = '/d'
          DEFAULT_VALUE = 0.01
          MIN_VALUE = 0.0001
-         MAX_VALUE = 1
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_1
 
       [CONSTANT_2]
@@ -87,15 +90,16 @@
          DESCRIPTION = 'Rate of TP release from soils/sediments'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100150
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 100150
          UNIT = '/d'
          DEFAULT_VALUE = 0.001
-         MIN_VALUE = 1e-005
-         MAX_VALUE = 1
+         MIN_VALUE = 1e-05
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_2
 
       [CONSTANT_3]
@@ -104,15 +108,16 @@
          DESCRIPTION = 'Burial rate from soils to non-interactive layers, 1/d'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 100150
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 100150
          UNIT = '/d'
          DEFAULT_VALUE = 0.0001
-         MIN_VALUE = 1e-007
-         MAX_VALUE = 1
+         MIN_VALUE = 1e-07
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_3
 
    EndSect  // CONSTANTS
@@ -139,6 +144,8 @@
          DESCRIPTION = 'Adsorption from water column to soils/sediment'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -153,6 +160,8 @@
          DESCRIPTION = 'Desorption from soils/sediment to water column'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -167,6 +176,8 @@
          DESCRIPTION = 'Burial Soil'
          ONLINE_HELP = ''
          DOCUMENTATION = 'Report GIT June 2016'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'

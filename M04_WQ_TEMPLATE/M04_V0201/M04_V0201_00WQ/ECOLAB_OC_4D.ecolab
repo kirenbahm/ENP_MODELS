@@ -1,6 +1,6 @@
-// Created     : 2016-11-18 6:48:41
-// DLL id      : D:\Program Files (x86)\DHI\2016\bin\x64\pfs2004.dll
-// PFS version : Nov 22 2015 02:58:09
+// Created     : 2019-05-16 16:18:44
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.0.0.12300
 // type = 2
 
 [ECO_LAB_SETUP]
@@ -13,7 +13,7 @@
       DOCUMENTATION = ''
       ECOLAB_VERSION = 2014.01
       PARSER_VERSION = 2014.01
-      DOCUMENT_REVISION = 18
+      DOCUMENT_REVISION = 19
       RANDSEED = 0
       DEBUG_LEVEL = 0
       DEBUG_LOG = ''
@@ -34,13 +34,14 @@
          DESCRIPTION = 'TPaq'
          ONLINE_HELP = 'Initial value to be estimated from measurements, unit: [gME/m3]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
          DEFAULT_VALUE = 0.01
-         MIN_VALUE = 0
-         MAX_VALUE = 100000
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100000.0
       EndSect  // STATE_VARIABLE_1
 
       [STATE_VARIABLE_2]
@@ -49,13 +50,14 @@
          DESCRIPTION = 'Concentrations in Floc'
          ONLINE_HELP = 'Initial value to be estimated from measurements, unit: [gME/m3]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
          DEFAULT_VALUE = 0.1
-         MIN_VALUE = 0
-         MAX_VALUE = 1000
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1000.0
       EndSect  // STATE_VARIABLE_2
 
       [STATE_VARIABLE_3]
@@ -64,13 +66,14 @@
          DESCRIPTION = 'Dissolved phosphorus in sediment pore water'
          ONLINE_HELP = 'Initial value can be set to zero, unit:[gME/m2]'
          DOCUMENTATION = 'ECOLab_Oilspill\HeavyMetal.pdf'
+         EUM_TYPE = 100437
+         EUM_UNIT = 0
          SCOPE = 'SED'
          TRANSPORT = 'FIXED'
-         EUM_TYPE = 100437
          UNIT = 'g/m^2'
          DEFAULT_VALUE = 0.1
-         MIN_VALUE = 0
-         MAX_VALUE = 10000
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10000.0
       EndSect  // STATE_VARIABLE_3
 
       [STATE_VARIABLE_4]
@@ -79,13 +82,14 @@
          DESCRIPTION = 'Adsorbed Total Phosphorus in sediment'
          ONLINE_HELP = 'Initial value to be estimated from measurements, unit: [gME/m2]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100437
+         EUM_UNIT = 0
          SCOPE = 'SED'
          TRANSPORT = 'FIXED'
-         EUM_TYPE = 100437
          UNIT = 'g/m^2'
-         DEFAULT_VALUE = 10
-         MIN_VALUE = 0
-         MAX_VALUE = 10000
+         DEFAULT_VALUE = 10.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10000.0
       EndSect  // STATE_VARIABLE_4
 
       [STATE_VARIABLE_5]
@@ -94,13 +98,14 @@
          DESCRIPTION = 'Suspended solids'
          ONLINE_HELP = 'Initial value to be estimated from measurements, unit: [gDW/m3]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100404
+         EUM_UNIT = 0
          SCOPE = 'WC'
          TRANSPORT = 'ADVECTION_DISPERSION'
-         EUM_TYPE = 100404
          UNIT = 'mg/l'
-         DEFAULT_VALUE = 50
-         MIN_VALUE = 0
-         MAX_VALUE = 10000
+         DEFAULT_VALUE = 50.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10000.0
       EndSect  // STATE_VARIABLE_5
 
       [STATE_VARIABLE_6]
@@ -109,13 +114,14 @@
          DESCRIPTION = 'Mass of sediment'
          ONLINE_HELP = 'Unit: [gDW/m2]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100437
+         EUM_UNIT = 0
          SCOPE = 'SED'
          TRANSPORT = 'FIXED'
-         EUM_TYPE = 100437
          UNIT = 'g/m^2'
-         DEFAULT_VALUE = 10000
-         MIN_VALUE = 0
-         MAX_VALUE = 1000000
+         DEFAULT_VALUE = 10000.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1000000.0
       EndSect  // STATE_VARIABLE_6
 
    EndSect  // STATE_VARIABLES
@@ -130,15 +136,16 @@
          DESCRIPTION = 'Organic-carbon partitioning coefficient'
          ONLINE_HELP = 'Can be measured or estimated from Koc = 0.41 * Kow (Karickhoff, 1981), unit:  [l/kg]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
-         EUM_TYPE = 999
          UNIT = 'l/kg'
-         DEFAULT_VALUE = 50000
-         MIN_VALUE = 0
-         MAX_VALUE = 10000000
+         DEFAULT_VALUE = 50000.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10000000.0
       EndSect  // CONSTANT_1
 
       [CONSTANT_2]
@@ -147,15 +154,16 @@
          DESCRIPTION = 'Desorption rate in water'
          ONLINE_HELP = 'Subject for calibration. If too high in conjunction with high conc of SS numerical problems can arise, unit:  [/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100150
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 100150
          UNIT = 'per day'
-         DEFAULT_VALUE = 1
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 1.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_2
 
       [CONSTANT_3]
@@ -164,15 +172,16 @@
          DESCRIPTION = 'Desorption rate in sediment'
          ONLINE_HELP = 'Subject for calibration. If too high in conjunction with high desity of sediment, numerical problems can arise, unit: [/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 100150
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 100150
          UNIT = 'per day'
          DEFAULT_VALUE = 0.1
-         MIN_VALUE = 0
-         MAX_VALUE = 10
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10.0
       EndSect  // CONSTANT_3
 
       [CONSTANT_4]
@@ -181,15 +190,16 @@
          DESCRIPTION = 'Fraction of organic carbon in suspended solids SS'
          ONLINE_HELP = 'Input data based on site-specific measurement- often higher that focs (foc in sediment): [part/part]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'dimensionless'
          DEFAULT_VALUE = 0.1
-         MIN_VALUE = 0
-         MAX_VALUE = 1
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_4
 
       [CONSTANT_5]
@@ -198,15 +208,16 @@
          DESCRIPTION = 'Fraction of organic carbon in sediment'
          ONLINE_HELP = 'Input data based on site-specific measurement, unit:  [part/part]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'dimensionless'
          DEFAULT_VALUE = 0.2
-         MIN_VALUE = 0
-         MAX_VALUE = 1
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_5
 
       [CONSTANT_6]
@@ -215,15 +226,16 @@
          DESCRIPTION = 'Thickness of water film'
          ONLINE_HELP = 'Subject for calibration. Average thickness water film that metals have to diffuse through, unit : [mm]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'mm'
          DEFAULT_VALUE = 0.1
-         MIN_VALUE = 0
-         MAX_VALUE = 1
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_6
 
       [CONSTANT_7]
@@ -232,15 +244,16 @@
          DESCRIPTION = 'Ratio between thickness of diffusion layer in sediment and sediment thickness'
          ONLINE_HELP = 'Subject for calibration. Average thickness porewater layer that metals have to diffuse through. Modelled no more than 0.5*sediment layer thickness'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'dimensionless'
          DEFAULT_VALUE = 0.2
-         MIN_VALUE = 0
-         MAX_VALUE = 1
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_7
 
       [CONSTANT_8]
@@ -249,15 +262,16 @@
          DESCRIPTION = 'Factor for diffusion due to bioturbation etc.'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'dimensionless'
-         DEFAULT_VALUE = 1
-         MIN_VALUE = 0
-         MAX_VALUE = 10000
+         DEFAULT_VALUE = 1.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10000.0
       EndSect  // CONSTANT_8
 
       [CONSTANT_9]
@@ -266,15 +280,16 @@
          DESCRIPTION = 'Molecular weight'
          ONLINE_HELP = 'Used for D [cm2/s] : D = 1.01e-4 / sqr(MW), unit: [gME/mole]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'g/mole'
-         DEFAULT_VALUE = 92
-         MIN_VALUE = 1
-         MAX_VALUE = 10000
+         DEFAULT_VALUE = 92.0
+         MIN_VALUE = 1.0
+         MAX_VALUE = 10000.0
       EndSect  // CONSTANT_9
 
       [CONSTANT_10]
@@ -283,15 +298,16 @@
          DESCRIPTION = 'ECO Lab time step'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'NO'
          BUILT_IN_ID = 65
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'Seconds'
-         DEFAULT_VALUE = 30
-         MIN_VALUE = 1
-         MAX_VALUE = 86400
+         DEFAULT_VALUE = 30.0
+         MIN_VALUE = 1.0
+         MAX_VALUE = 86400.0
       EndSect  // CONSTANT_10
 
       [CONSTANT_11]
@@ -300,15 +316,16 @@
          DESCRIPTION = 'Density of dry sediment'
          ONLINE_HELP = 'Input data based on site-specific measurement, unit:  [kg/m3 bulk]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'kg/m3 bulk'
-         DEFAULT_VALUE = 250
-         MIN_VALUE = 0
-         MAX_VALUE = 3000
+         DEFAULT_VALUE = 250.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 3000.0
       EndSect  // CONSTANT_11
 
       [CONSTANT_12]
@@ -317,15 +334,16 @@
          DESCRIPTION = 'Porosity of sediment'
          ONLINE_HELP = 'Unit: [m3 H20 / m3 Bulk], por = (WW - DW) / (Density of porewater). Check: value of DW/(1-por) must be within 1000-2600 kg/m3'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'm3 H20 / m3 Bulk'
          DEFAULT_VALUE = 0.8
-         MIN_VALUE = 0
-         MAX_VALUE = 1
+         MIN_VALUE = 0.0
+         MAX_VALUE = 1.0
       EndSect  // CONSTANT_12
 
       [CONSTANT_13]
@@ -334,15 +352,16 @@
          DESCRIPTION = 'Settling velocity of SS'
          ONLINE_HELP = 'Subject for calibration, unit:  [m/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'm/day'
          DEFAULT_VALUE = 0.1
-         MIN_VALUE = 0
-         MAX_VALUE = 100
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_13
 
       [CONSTANT_14]
@@ -351,15 +370,16 @@
          DESCRIPTION = 'Resuspension rate'
          ONLINE_HELP = 'Subject for calibration, unit:  [gDW/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'gDW/m2/day'
-         DEFAULT_VALUE = 1000
-         MIN_VALUE = 0
-         MAX_VALUE = 100000
+         DEFAULT_VALUE = 1000.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100000.0
       EndSect  // CONSTANT_14
 
       [CONSTANT_15]
@@ -368,15 +388,16 @@
          DESCRIPTION = 'Particle production rate'
          ONLINE_HELP = 'Subject for calibration - depend on algea concentration, unit: [gDW/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
-         EUM_TYPE = 999
          UNIT = 'gDW/m2/day'
-         DEFAULT_VALUE = 1
-         MIN_VALUE = 0
-         MAX_VALUE = 100000
+         DEFAULT_VALUE = 1.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 100000.0
       EndSect  // CONSTANT_15
 
       [CONSTANT_16]
@@ -385,15 +406,16 @@
          DESCRIPTION = 'Critical current velocity for sediment resuspension'
          ONLINE_HELP = 'Subject for calibration - depends on sediment type, unit: [m/s]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'YES'
          BUILT_IN_ID = -1
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
-         EUM_TYPE = 999
          UNIT = 'm/s'
-         DEFAULT_VALUE = 1
-         MIN_VALUE = -1
-         MAX_VALUE = 100
+         DEFAULT_VALUE = 1.0
+         MIN_VALUE = -1.0
+         MAX_VALUE = 100.0
       EndSect  // CONSTANT_16
 
    EndSect  // CONSTANTS
@@ -408,15 +430,16 @@
          DESCRIPTION = 'Thickness of actual layer in computational grid'
          ONLINE_HELP = 'Calculated in hydrodynamic model, unit: [m]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'NO'
          BUILT_IN_ID = 4
          SCOPE = 'WC'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = 'm'
-         DEFAULT_VALUE = 2
+         DEFAULT_VALUE = 2.0
          MIN_VALUE = 0.0001
-         MAX_VALUE = 8000
+         MAX_VALUE = 8000.0
       EndSect  // FORCING_1
 
       [FORCING_2]
@@ -425,15 +448,16 @@
          DESCRIPTION = 'Total water depth'
          ONLINE_HELP = 'Calculated in hydrodynamic model, unit: [m]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'NO'
          BUILT_IN_ID = 10
          SCOPE = 'WC'
          SPATIAL_VARIATION = 'HORISONTAL'
-         EUM_TYPE = 999
          UNIT = 'm'
-         DEFAULT_VALUE = 8
-         MIN_VALUE = 0
-         MAX_VALUE = 12000
+         DEFAULT_VALUE = 8.0
+         MIN_VALUE = 0.0
+         MAX_VALUE = 12000.0
       EndSect  // FORCING_2
 
       [FORCING_3]
@@ -442,15 +466,16 @@
          DESCRIPTION = 'Current Speed'
          ONLINE_HELP = 'Calculated in hydrodynamic model, unit:  [m/s]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          IS_USER_SPECIFIED = 'NO'
          BUILT_IN_ID = 11
          SCOPE = 'WC'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
-         EUM_TYPE = 999
          UNIT = 'm/s'
          DEFAULT_VALUE = 0.2
-         MIN_VALUE = 0
-         MAX_VALUE = 10
+         MIN_VALUE = 0.0
+         MAX_VALUE = 10.0
       EndSect  // FORCING_3
 
    EndSect  // FORCINGS
@@ -465,6 +490,8 @@
          DESCRIPTION = 'Diffusion coefficient water'
          ONLINE_HELP = 'Unit: [cm2/s]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'NONE'
@@ -478,6 +505,8 @@
          DESCRIPTION = 'Grain density of sediment'
          ONLINE_HELP = '[g/m3 grain]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
@@ -491,6 +520,8 @@
          DESCRIPTION = 'Sediment layer thickness'
          ONLINE_HELP = 'Unit:  [m]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
@@ -504,6 +535,8 @@
          DESCRIPTION = 'Partition coefficient in water'
          ONLINE_HELP = 'Unit:  [m3 H2O/gDW]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'NO'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
@@ -517,6 +550,8 @@
          DESCRIPTION = 'Partition coefficient in sediment'
          ONLINE_HELP = 'Unit: [m3 H2O/gSS]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'NO'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
@@ -530,6 +565,8 @@
          DESCRIPTION = 'Thickness of diffusion layer in sediment'
          ONLINE_HELP = 'Unit: [mm]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'NO'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
@@ -543,6 +580,8 @@
          DESCRIPTION = 'Diffusion from sediment'
          ONLINE_HELP = 'Positive = up, Unit: [gME/m2/d]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
@@ -556,6 +595,8 @@
          DESCRIPTION = 'Current Speed adjusted for sediment build up'
          ONLINE_HELP = 'Unit: m/s'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
@@ -569,6 +610,8 @@
          DESCRIPTION = 'Water fraction of bulk volume'
          ONLINE_HELP = 'Unit: [m3 H20 / m3 Bulk]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
@@ -582,6 +625,8 @@
          DESCRIPTION = 'On-off switch for resuspension'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
@@ -595,6 +640,8 @@
          DESCRIPTION = 'On-off switch for maximum SS in water'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
@@ -614,6 +661,8 @@
          DESCRIPTION = 'Adsorption to suspended solids in water column per volume'
          ONLINE_HELP = 'Unit: [gME/m3 bulk/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -628,6 +677,8 @@
          DESCRIPTION = 'Adsorption to sediment per area'
          ONLINE_HELP = 'Unit: [g heavy metal/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'SED'
@@ -642,6 +693,8 @@
          DESCRIPTION = 'Desorption from suspended solids in water column per volume'
          ONLINE_HELP = 'Unit: [gME/m3 bulk/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WC'
@@ -656,6 +709,8 @@
          DESCRIPTION = 'Desorption from sediment per area'
          ONLINE_HELP = 'Unit:  [g heavy metal/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'SED'
@@ -670,6 +725,8 @@
          DESCRIPTION = 'Production of SS in surface layer per volume'
          ONLINE_HELP = 'Unit: [gDW/m3/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WS'
@@ -684,6 +741,8 @@
          DESCRIPTION = 'Sedimentation of adsorbed TP per area'
          ONLINE_HELP = 'Unit: [g heavy metal/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -698,6 +757,8 @@
          DESCRIPTION = 'Sedimentation of adsorbed TP per volume'
          ONLINE_HELP = 'Unit:  [g heavy metal/m3/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'SETTLING'
          SCOPE = 'WC'
@@ -712,6 +773,8 @@
          DESCRIPTION = 'Sedimentation of SS per area'
          ONLINE_HELP = 'Unit: [gDW/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -726,6 +789,8 @@
          DESCRIPTION = 'Sedimentation of SS per volume'
          ONLINE_HELP = 'Unit:  [gDW/m3/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'SETTLING'
          SCOPE = 'WC'
@@ -740,6 +805,8 @@
          DESCRIPTION = 'Resuspension of SS per area'
          ONLINE_HELP = 'Unit: [gDW/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -754,6 +821,8 @@
          DESCRIPTION = 'Resuspension of SS per volume'
          ONLINE_HELP = 'Unit:  [gDW/m3/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -768,6 +837,8 @@
          DESCRIPTION = 'Resuspension of adsorped heavy metal per area'
          ONLINE_HELP = 'Unit: [g TP/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -782,6 +853,8 @@
          DESCRIPTION = 'Resuspension of adsorped heavy metal per volume'
          ONLINE_HELP = 'Unit: [g TP/m3/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -796,6 +869,8 @@
          DESCRIPTION = 'Diffusion to water column from sediment per volume'
          ONLINE_HELP = 'Unit: [g TP/m3 H2O/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'YES'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -810,6 +885,8 @@
          DESCRIPTION = 'Diffusion to water column from sediment per area'
          ONLINE_HELP = 'Unit:  [g TP/m2/day]'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          OUTPUT = 'NO'
          PROCESS_TYPE = 'TRANSFORMATION'
          SCOPE = 'WB'
@@ -829,6 +906,8 @@
          DESCRIPTION = 'Tot TP water 3'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
          UNIT = 'gME/m3'
@@ -841,6 +920,8 @@
          DESCRIPTION = 'Tot TP water 2'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
          UNIT = 'gME/m2'
@@ -853,6 +934,8 @@
          DESCRIPTION = 'Tot TP sediment'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
          UNIT = 'gME/m2'
@@ -865,6 +948,8 @@
          DESCRIPTION = 'Total TP water+sediment'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
          UNIT = 'gME/m2'
@@ -877,6 +962,8 @@
          DESCRIPTION = 'Sorped TP gME/gSS'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
          UNIT = 'gME/gSS'
@@ -889,6 +976,8 @@
          DESCRIPTION = 'Sed TP gSS/gDW'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
          UNIT = 'gSS/gDW'
@@ -901,6 +990,8 @@
          DESCRIPTION = 'Equilibrium wat'
          ONLINE_HELP = '>0 => too much adsorped'
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
          UNIT = 'times absorped'
@@ -913,6 +1004,8 @@
          DESCRIPTION = 'Equilibrium sed'
          ONLINE_HELP = '>0 => too much adsorped'
          DOCUMENTATION = 'ECOLab_Oilspill\HeavyMetal.pdf'
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
          UNIT = 'times absorped'
@@ -925,6 +1018,8 @@
          DESCRIPTION = 'Mass balance check sed'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
          UNIT = ''
@@ -937,6 +1032,8 @@
          DESCRIPTION = 'Mass balance check sed + wc'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL_AND_VERTICAL'
          UNIT = ''
@@ -949,6 +1046,8 @@
          DESCRIPTION = 'SHMS_OLD_DEF'
          ONLINE_HELP = ''
          DOCUMENTATION = ''
+         EUM_TYPE = 999
+         EUM_UNIT = 0
          SCOPE = 'NOT_SPECIFIED'
          SPATIAL_VARIATION = 'HORISONTAL'
          UNIT = ''
