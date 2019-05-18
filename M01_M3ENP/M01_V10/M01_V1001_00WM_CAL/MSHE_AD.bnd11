@@ -1,4 +1,4 @@
-// Created     : 2019-05-18 12:58:29
+// Created     : 2019-05-18 12:9:2
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -6,10 +6,10 @@
    Comment = ''
    [BndCndArray]
       [BndItem]
-         DescType = 5, 0, 'AeroJet', 9125.45676879544, 0.0, '', ''
+         DescType = 0, 1, 'AeroJet', 9125.45676879544, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -21,13 +21,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 1.0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -87,10 +89,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-102', 13603.58352512205, 0.0, '', ''
+         DescType = 0, 1, 'C-102', 13603.58352512205, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -102,22 +104,24 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194TW-S165HW.dfs0|, 0.0, 1, 'BC_S194TW-S165HW', 0, 1.0
+            Inflow = 1, 1.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194TW-S165HW.dfs0|, 0.0, 1, 'BC_S194TW-S165HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-103', 17373.87177212535, 0.0, '', ''
+         DescType = 0, 1, 'C-103', 17373.87177212535, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -129,13 +133,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S179_HW.dfs0|, 0.0, 1, 'S179_HW', 0, 1.0
+            Inflow = 1, 1.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S179_HW.dfs0|, 0.0, 1, 'S179_HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -168,10 +174,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-103N', 5775.34, 0.0, '', ''
+         DescType = 0, 1, 'C-103N', 5775.34, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -183,13 +189,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S166_HW.dfs0|, 0.0, 1, 'S166_HW', 0, 1.0
+            Inflow = 1, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S166_HW.dfs0|, 0.0, 1, 'S166_HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -249,10 +257,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-111', 33291.0, 0.0, '', 'O4-S197Q'
+         DescType = 0, 1, 'C-111', 33291.0, 0.0, '', 'O4-S197Q'
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -264,13 +272,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S197_TW.dfs0|, 0.0, 1, 'S197_TW', 0, 1.0
+            Inflow = 1, 1.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S197_TW.dfs0|, 0.0, 1, 'S197_TW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -303,10 +313,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'C-113', 5977.0, 0.0, '', ''
+         DescType = 0, 1, 'C-113', 5977.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -318,22 +328,24 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 1.0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-1W', 12651.4, 0.0, '', ''
+         DescType = 0, 1, 'C-1W', 12651.4, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -345,22 +357,24 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S338TW-S148HW.dfs0|, 0.0, 1, 'BC-S338TW-S148HW', 0, 1.0
+            Inflow = 1, 1.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S338TW-S148HW.dfs0|, 0.0, 1, 'BC-S338TW-S148HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'C-357', 0.0, 0.0, '', ''
+         DescType = 0, 1, 'C-357', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -372,13 +386,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 1.524, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 1, ||, 1.524, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 0, |..\..\..\INPUTFILES\WQ\BC_TEST-TS.dfs0|, 0.0, 1, 'TP-AVE', 0, 1.0
+            Component = 2, 0, 0, |..\..\..\INPUTFILES\WQ\BC_TEST-TS.dfs0|, 0.0, 2, 'TRACER', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -411,10 +427,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-4', 8052.88, 0.0, '', ''
+         DescType = 0, 1, 'C-4', 8052.88, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -426,7 +442,148 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119TW.dfs0|, 0.0, 1, 'BC-G119TW', 0, 1.0
+            Inflow = 1, 1.0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119TW.dfs0|, 0.0, 1, 'BC-G119TW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'culvert_24', 852.325787951467, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, true, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'culvert_25', 826.195210883708, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, true, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 1.0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'culvert_26', 801.6468960316303, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'culvert_27', 854.7179768410081, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'culvert_28', 846.6074449487775, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -1005,10 +1162,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'FPDA-INLET', 5823.668087757044, 0.0, '', ''
+         DescType = 0, 1, 'FPDA-INLET', 5823.668087757044, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1020,13 +1177,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1059,10 +1218,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'G3273', 890.2246907382428, 0.0, '', ''
+         DescType = 0, 1, 'G3273', 890.2246907382428, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1074,22 +1233,24 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L-29', 0.0, 0.0, '', ''
+         DescType = 0, 1, 'L-28', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1108,15 +1269,17 @@
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'L-30', 0.0, 0.0, '', ''
+         DescType = 0, 1, 'L-30', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1135,15 +1298,17 @@
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 0, |..\..\..\INPUTFILES\WQ\BC_S335-WQ-SW.dfs0|, 0.0, 1, 'TP Concentration', 0, 1.0
+            Component = 2, 0, 1, ||, 1000000.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L-31W', 18004.0, 0.0, '', ''
+         DescType = 0, 1, 'L-31W', 18004.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1155,22 +1320,24 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L-67_EXT', 8403.066754975231, 0.0, '', ''
+         DescType = 0, 1, 'L-67_EXT', 8403.066754975231, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1182,13 +1349,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 1.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1197,7 +1366,7 @@
          DescType = 0, 5, 'L67A', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1209,13 +1378,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S151+HW.dfs0|, 0.0, 1, 'S151+HW', 0, 1.0
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S12D_HW.dfs0|, 0.0, 1, 'S12D_HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 0, |..\..\..\INPUTFILES\WQ\BC_S333-WQ-SW.dfs0|, 0.0, 1, 'TP Concentration', 0, 1.0
+            Component = 2, 0, 0, |..\..\..\INPUTFILES\WQ\BC_TEST-TS.dfs0|, 1.0, 2, 'TRACER', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1248,10 +1419,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'L67C', 10942.91999748491, 0.0, '', ''
+         DescType = 0, 1, 'L67C', 10942.91999748491, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1263,13 +1434,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 1.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1302,10 +1475,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'LAKE1', 1999.517005179267, 0.0, '', ''
+         DescType = 0, 1, 'LAKE1', 1999.517005179267, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1317,13 +1490,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1459,6 +1634,8 @@
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 0, |..\..\..\INPUTFILES\WQ\BC_S333-WQ-SW.dfs0|, 0.0, 1, 'TP Concentration', 0, 1.0
+            Component = 2, 0, 1, ||, 1000000.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1653,10 +1830,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S332BN_overflow', 849.7694026605845, 0.0, '', ''
+         DescType = 0, 1, 'S332BN_overflow', 849.7694026605845, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1668,13 +1845,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1734,10 +1913,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'S332D', 1141.437094825354, 0.0, '', ''
+         DescType = 0, 1, 'S332D', 1141.437094825354, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1749,13 +1928,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
@@ -1815,10 +1996,10 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'US1N', 16177.20765791709, 0.0, '', ''
+         DescType = 0, 1, 'US1N', 16177.20765791709, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
+         Inflow = false, true, false, false
          ADRR = '', 0.0, 0
          QhADM12 = 2, 1.0, 0.0
          AutoCalQh = 0, 0.001, 40.0
@@ -1830,13 +2011,15 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+            Inflow = 1, 1.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
          EndSect  // QhArray
 
          [ComponentArray]
+            Component = 1, 0, 1, ||, 0.0, 0, '', 0, 1.0
+            Component = 2, 0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // ComponentArray
 
       EndSect  // BndItem
