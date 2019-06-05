@@ -1455,21 +1455,73 @@ The S-173 structure closes if the difference in water level between upstream and
 %The Max speed for gate opening is 1 $cfs/s$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
-\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 6 ft, close.
-\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 6.0 ft., close.
-\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.75 ft., close.
-\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.5 ft., close.
-\item Priority 7: Close.
-%\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
-%\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-%\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
-%\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
-%\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
-%\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
-%\item Priority 7: Close.
+\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$
+\item Priority 2: If $Mode>=1$, $ANGELS\_WELL >=  6.0$, Discharge according to Table~\ref{tab:CS-S331Pa1}
+\item Priority 3: If $Mode>=1$, $ANGELS\_WELL >=  5.75$, No Change.
+\item Priority 4: If $Mode>=1$, $ANGELS\_WELL > 5.5$, discharge according to Table~\ref{tab:CS-S331Pa2}
+\item Priority 5: If $Mode>=1$, $ANGELS\_WELL <  5.5$ ft., close.
+\item Priority 6: Close.
 \end{packed_items}
+
+% this table will lists pump schedule for S331HW > 4.0, it  we also kneed to more about how many pumps are open.
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for Priority 2 at S331P}
+\label{tab:CS-S331Pa1}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0	&	0     \\
+4.0	&   0     \\
+4.1	&	1160  \\    % here a scaling can be done depending on the water levels,
+                    % i.e. 1 Pump, 2 Pumps, 3 Pumps based on the headwater, but we don't have the information
+4.5	&	1160  \\
+10	&	1160  \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+% this table will keep pump operating for S331HW > 4.5
+\footnotesize
+\begin{table}[!h]
+\centering
+\caption{Control strategy for Priority 4 at S331P}
+\label{tab:CS-S331Pa2}
+\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+\hline
+\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+\hline
+0	&	0         \\
+4.5	&   0        \\
+4.6	&	1160     \\     % here a scaling can be done depending on the water levels,
+                        % i.e. 1 Pump, 2 Pumps, 3 Pumps based on the headwater, but we don't have the information
+5.0	&	1160     \\ %
+10	&	1160     \\
+\hline
+\end{tabular}
+\end{table}
+
+\normalsize
+%\begin{packed_items}
+%\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
+%\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
+%\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 6 ft, close.
+%\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 6.0 ft., close.
+%\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.75 ft., close.
+%\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.5 ft., close.
+%\item Priority 7: Close.
+%%\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
+%%\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
+%%\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
+%%\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
+%%\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
+%%\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
+%%\item Priority 7: Close.
+%\end{packed_items}
 
 %\begin{itemize}
 %\item Priority 1: S331P is closed when downstream water levels (headwater at S176) are greater than 5.5 ft
@@ -1483,68 +1535,68 @@ The S-173 structure closes if the difference in water level between upstream and
 %\end{itemize}
 
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for Priority 3 at S331P}
-\label{tab:CS-S331Pa}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{HW (ft)} & \textbf{Q (cfs)}\\
-\hline
-0	&	  0    \\
-4.49	&	  0    \\
-4.5	&	387  \\
-5	&	774  \\
-6	&	774  \\
-6.5	&	1160  \\
-10	&	1160  \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for Priority 3 at S331P}
+%\label{tab:CS-S331Pa}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+%\hline
+%0	&	  0    \\
+%4.49	&	  0    \\
+%4.5	&	387  \\
+%5	&	774  \\
+%6	&	774  \\
+%6.5	&	1160  \\
+%10	&	1160  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
+%
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for Priority 4 at S331P}
+%\label{tab:CS-S331Pb}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+%\hline
+%0	&	  0    \\
+%4.49	&	  0    \\
+%4.5	&	387  \\
+%5	&	387  \\
+%6	&	774  \\
+%6.5	&	1160  \\
+%10	&	1160  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for Priority 4 at S331P}
-\label{tab:CS-S331Pb}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{HW (ft)} & \textbf{Q (cfs)}\\
-\hline
-0	&	  0    \\
-4.49	&	  0    \\
-4.5	&	387  \\
-5	&	387  \\
-6	&	774  \\
-6.5	&	1160  \\
-10	&	1160  \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
-
-\footnotesize
-\begin{table}[!h]
-\centering
-\caption{Control strategy for Priority 5 at S331P}
-\label{tab:CS-S331Pc}
-\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
-\hline
-\textbf{HW (ft)} & \textbf{Q (cfs)}\\
-\hline
-0	&	  0    \\
-4.49	&	  0    \\
-4.5	&	387  \\
-5	&	387  \\
-6	&	387  \\
-6.5	&	1160  \\
-10	&	1160  \\
-\hline
-\end{tabular}
-\end{table}
-\normalsize
+%\footnotesize
+%\begin{table}[!h]
+%\centering
+%\caption{Control strategy for Priority 5 at S331P}
+%\label{tab:CS-S331Pc}
+%\begin{tabular}{p{1.2in}{r} p{0.5in}{r}}
+%\hline
+%\textbf{HW (ft)} & \textbf{Q (cfs)}\\
+%\hline
+%0	&	  0    \\
+%4.49	&	  0    \\
+%4.5	&	387  \\
+%5	&	387  \\
+%6	&	387  \\
+%6.5	&	1160  \\
+%10	&	1160  \\
+%\hline
+%\end{tabular}
+%\end{table}
+%\normalsize
 
 %The resulting cumulative flow through S331 are shown respectively on Figure \ref{fig:S331T_QACC:STRUCTURE}:
 
@@ -2101,7 +2153,7 @@ The C-357 and C-358 canals and associated structures were built to provide enhan
 %----------------------------------------------------------
 The pumps were operational in 1999.
 
-For the calibration period the structure uses observed discharges: 
+For the calibration period the structure uses observed discharges:
 
 \begin{packed_items}
 \item[]
@@ -2939,10 +2991,11 @@ The complex was constructed post model period, thus no observed data is availabl
 Control Strategy for S200:
 
 \begin{packed_items}
-\item Priority 1: When $H_{us} > 3.8$ ft and $Mode>0$, discharge according to Table~\ref{tab:CS-S200}
-\item Priority 2: When $H_{us} > 3.6$ ft and $Mode>0$, remain unchanged
-\item Priority 3: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 4: Close.
+\item Priority 1: When $Mode=0$, $Q = Q_{obs}$
+\item Priority 2: When $Mode=1$, $H_{us} > 3.8$ ft, YEAR >= 2012 and MONTH >=7 discharge according to Table~\ref{tab:CS-S200}
+\item Priority 3: When $Mode=1$, $H_{us} > 3.8$ ft, YEAR >= 2013 discharge according to Table~\ref{tab:CS-S200}
+\item Priority 4: When $Mode=1$, $H_{us} > 3.6$ ft, remain unchanged
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
@@ -2954,16 +3007,18 @@ Control Strategy for S200:
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0	&  0      \\
-3.59	&  0      \\
-3.6	&  75   \\
-3.8	&  75   \\
+0       &  0    \\
+3.59	&  0    \\
+3.6	   &  75   \\
+3.8	   &  75   \\
 3.89	&  75   \\
-3.9	&  150  \\
+3.9	   &  150  \\
 3.99	&  150  \\
-4	&  225  \\
-4.2	&  225  \\
-10	&  225  \\
+4       &  225  \\
+4.2	   &  225  \\
+10      &  225  \\
+
+
 \hline
 \end{tabular}
 \end{table}
@@ -3104,10 +3159,11 @@ This structure is implemented as Discharge with maximum rate of change of 1 $cfs
 This feature was completed after the model time period (1987 to 2010), so no data is available for comparison.
 
 \begin{packed_items}
-\item Priority 1: When HW $>$ 3.8 ft and $Mode>0$, discharge according to Table~\ref{tab:CS-S199}
-\item Priority 2: When HW $>$ 3.6 ft and $Mode>0$, remain unchanged
-\item Priority 3: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 4: Close.
+\item Priority 1: When $Mode=0$, $Q = Q_{obs}$
+\item Priority 2: When $Mode=1$, $H_{us} > 3.8$ ft, and YEAR >= 2012 and MONTH >=6 discharge according to Table~\ref{tab:CS-S199}
+\item Priority 3: When $Mode=1$, $H_{us} > 3.8$ ft, YEAR >= 2013 discharge according to Table~\ref{tab:CS-S199}
+\item Priority 4: When $Mode=1$, $H_{us} > 3.6$ ft, remain unchanged
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
@@ -3119,16 +3175,16 @@ This feature was completed after the model time period (1987 to 2010), so no dat
 \hline
 \textbf{HW (ft)} & \textbf{Q (cfs)}\\
 \hline
-0	&  0      \\
-3.59	&  0      \\
-3.6	&  75   \\
-3.8	&  75   \\
+0       &  0    \\
+3.59    &  0    \\
+3.6	   &  75   \\
+3.8     &  75   \\
 3.89	&  75   \\
-3.9	&  150  \\
+3.9	   &  150  \\
 3.99	&  150  \\
-4	&  225  \\
-4.2	&  225  \\
-10	&  225  \\
+4       &  225  \\
+4.2	   &  225  \\
+10      &  225  \\
 \hline
 \end{tabular}
 \end{table}
