@@ -1455,20 +1455,13 @@ The S-173 structure closes if the difference in water level between upstream and
 %The Max speed for gate opening is 1 $cfs/s$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode>=0$, $Q = Q_{obs}$.
-\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-\item Priority 3: If $Mode=0$ and headwater S-331 $>=$ 6 ft, close.
-\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>$ 6.0 ft., close.
-\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>$ 5.75 ft., close.
-\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>$ 5.5 ft., close.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode>=1$ and headwater at S-176 $>$ 5.5 ft., close.
+\item Priority 3: If $Mode>=1$ and tailwater at S-331 $>=$ 6 ft, close.
+\item Priority 4: If $Mode>=1$ and water level at Angels Well is $>$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
+\item Priority 5: If $Mode>=1$ and water level at Angels Well is $>$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
+\item Priority 6: If $Mode>=1$ and water level at Angels Well is $>$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
 \item Priority 7: Close.
-%\item Priority 1: If $Mode>=0$ and tailwater at S-331 $>=$ 6.00 ft., close.
-%\item Priority 2: If $Mode>=0$ and headwater at S-176 $>$ 5.5 ft., close.
-%\item Priority 3: If $Mode=0$ and headwater S-331 $>$ 0.0, discharge according to Table~\ref{tab:CS-S331Pa}
-%\item Priority 4: If $Mode>=0$ and water level at Angels Well is $>=$ 6.00 ft., discharge according to Table~\ref{tab:CS-S331Pa}
-%\item Priority 5: If $Mode>=0$ and water level at Angels Well is $>=$ 5.75 ft., discharge according to Table~\ref{tab:CS-S331Pb}
-%\item Priority 6: If $Mode>=0$ and water level at Angels Well is $>=$ 5.50 ft., discharge according to Table~\ref{tab:CS-S331Pc}
-%\item Priority 7: Close.
 \end{packed_items}
 
 %\begin{itemize}
@@ -1497,8 +1490,8 @@ The S-173 structure closes if the difference in water level between upstream and
 4.5	&	387  \\
 5	&	774  \\
 6	&	774  \\
-6.5	&	1160  \\
-10	&	1160  \\
+6.5	&	1161  \\
+10	&	1161  \\
 \hline
 \end{tabular}
 \end{table}
@@ -1518,8 +1511,8 @@ The S-173 structure closes if the difference in water level between upstream and
 4.5	&	387  \\
 5	&	387  \\
 6	&	774  \\
-6.5	&	1160  \\
-10	&	1160  \\
+6.5	&	1161  \\
+10	&	1161  \\
 \hline
 \end{tabular}
 \end{table}
@@ -1539,8 +1532,8 @@ The S-173 structure closes if the difference in water level between upstream and
 4.5	&	387  \\
 5	&	387  \\
 6	&	387  \\
-6.5	&	1160  \\
-10	&	1160  \\
+6.5	&	1161  \\
+10	&	1161  \\
 \hline
 \end{tabular}
 \end{table}
