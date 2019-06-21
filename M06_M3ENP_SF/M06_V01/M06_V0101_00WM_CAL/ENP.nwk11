@@ -1,4 +1,4 @@
-// Created     : 2019-05-17 11:8:53
+// Created     : 2019-06-21 9:40:10
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -23977,92 +23977,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 19, 5, 0.0
-               [logical_operands]
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.15824, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'AeroJet-EXT', 60.0, 'S199', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.09999999999999989, 0, 0.09999999999999999, 0.09999999999999999
-               [control_strategy]
-                  data = 0.0, 0.0
-                  data = 1.094232, 0.0
-                  data = 1.09728, 2.1237634944
-                  data = 1.15824, 2.1237634944
-                  data = 1.185672, 2.1237634944
-                  data = 1.18872, 4.247526988799999
-                  data = 1.216152, 4.247526988799999
-                  data = 1.2192, 6.371290483199998
-                  data = 1.28016, 6.371290483199998
-                  data = 3.048000000000001, 6.371290483199998
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 2, 6, 0, 5, 0.0
-               [logical_operands]
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.097280060960122, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'AeroJet-EXT', 32.004, 'S199', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0.0, 0.0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 3, 0, 10, 5, 0.0
+               LS_parameter = 1, 0, 10, 5, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -24082,6 +23997,153 @@
                EndSect  // TargetSummation
 
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.09999999999999989, 0, 0.09999999999999999, 0.09999999999999999
+               [control_strategy]
+                  data = 0.0, 0.0
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 0, 19, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.158242316484633, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 4, 0, 2012.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 3, 0, 6.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'AeroJet-EXT', 60.0, 'S199', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0.0, 0.0
+                  data = 1.094234188468377, 0.0
+                  data = 1.097282194564389, 2.123763494399999
+                  data = 1.158242316484633, 2.123763494399999
+                  data = 1.185674371348743, 2.123763494399999
+                  data = 1.188722377444755, 4.247526988799999
+                  data = 1.216154432308865, 4.247526988799999
+                  data = 1.219202438404877, 6.371290483199997
+                  data = 1.280162560325121, 6.371290483199997
+                  data = 3.048006096012192, 6.371290483199997
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 3, 0, 19, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.158242316484633, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 3, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'AeroJet-EXT', 60.0, 'S199', 0, '', 0.0, ||, 'S199_Q', 1, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0.0, 0.0
+                  data = 1.094234188468377, 0.0
+                  data = 1.097282194564389, 2.123763494399999
+                  data = 1.158242316484633, 2.123763494399999
+                  data = 1.185674371348743, 2.123763494399999
+                  data = 1.188722377444755, 4.247526988799999
+                  data = 1.216154432308865, 4.247526988799999
+                  data = 1.219202438404877, 6.371290483199997
+                  data = 1.280162560325121, 6.371290483199997
+                  data = 3.048006096012192, 6.371290483199997
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 4, 6, 19, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.097282194564389, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'AeroJet-EXT', 60.0, 'S199', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
                   data = 0.0, 0.0
@@ -24095,7 +24157,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 4, 5, 0, 5, 0.0
+               LS_parameter = 5, 5, 0, 5, 0.0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -24107,7 +24169,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'AeroJet-EXT', 60.00000009119999, 'S199', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'AeroJet-EXT', 60.0, 'S199', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -28369,92 +28431,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 19, 5, 0.0
-               [logical_operands]
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.15824, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'FPDA-INLET', 60.0, 'S200', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0.0, 0.0
-                  data = 1.094232, 0.0
-                  data = 1.09728, 2.1237634944
-                  data = 1.15824, 2.1237634944
-                  data = 1.185672, 2.1237634944
-                  data = 1.18872, 4.247526988799999
-                  data = 1.216152, 4.247526988799999
-                  data = 1.2192, 6.371290483199998
-                  data = 1.28016, 6.371290483199998
-                  data = 3.048, 6.371290483199998
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 2, 6, 0, 5, 0.0
-               [logical_operands]
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.09728, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 2, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'FPDA-INLET', 3.048, 'S200', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0.0, 0.0
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 3, 0, 10, 5, 0.0
+               LS_parameter = 1, 0, 10, 5, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -28477,6 +28454,15 @@
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
                   data = 0.0, 0.0
+                  data = 1.094232, 0.0
+                  data = 1.09728, 2.123763494399999
+                  data = 1.15824, 2.123763494399999
+                  data = 1.185672, 2.123763494399999
+                  data = 1.18872, 4.247526988799999
+                  data = 1.216152, 4.247526988799999
+                  data = 1.2192, 6.371290483199997
+                  data = 1.28016, 6.371290483199997
+                  data = 3.048, 6.371290483199997
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -28487,7 +28473,153 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 4, 5, 0, 5, 0.0
+               LS_parameter = 2, 0, 19, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.158242316484633, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 4, 0, 2012.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 14, '', 0.0, '', 0, '', 0.0, 3, 0, 7.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'FPDA-INLET', 60.0, 'S200', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0.0, 0.0
+                  data = 1.094234188468377, 0.0
+                  data = 1.097282194564389, 2.123763494399999
+                  data = 1.158242316484633, 2.123763494399999
+                  data = 1.185674371348743, 2.123763494399999
+                  data = 1.188722377444755, 4.247526988799999
+                  data = 1.216154432308865, 4.247526988799999
+                  data = 1.219202438404877, 6.371290483199997
+                  data = 1.280162560325121, 6.371290483199997
+                  data = 3.048006096012192, 6.371290483199997
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 3, 0, 19, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.158242316484633, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 15, '', 0.0, '', 0, '', 0.0, 3, 0, 2013.0, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'FPDA-INLET', 60.0, 'S200', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\BC_S200_Q.dfs0|, 'S200_Q', 1, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0.0, 0.0
+                  data = 1.094234188468377, 0.0
+                  data = 1.097282194564389, 2.123763494399999
+                  data = 1.158242316484633, 2.123763494399999
+                  data = 1.185674371348743, 2.123763494399999
+                  data = 1.188722377444755, 4.247526988799999
+                  data = 1.216154432308865, 4.247526988799999
+                  data = 1.219202438404877, 6.371290483199997
+                  data = 1.280162560325121, 6.371290483199997
+                  data = 3.048006096012192, 6.371290483199997
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 4, 6, 19, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 2, 0, 1.097282194564389, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'FPDA-INLET', 60.0, 'S200', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 5, 5, 0, 5, 0.0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -28499,7 +28631,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'FPDA-INLET', 60.00000009119999, 'S200', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'FPDA-INLET', 60.0, 'S200', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation

@@ -2101,7 +2101,7 @@ The C-357 and C-358 canals and associated structures were built to provide enhan
 %----------------------------------------------------------
 The pumps were operational in 1999.
 
-For the calibration period the structure uses observed discharges: 
+For the calibration period the structure uses observed discharges:
 
 \begin{packed_items}
 \item[]
@@ -2930,19 +2930,15 @@ The structure is located on Canal 111 about 5 miles west of Homestead. This stru
 %----------------------------------------------------------
 \subsubsection{S200 Pump}
 %----------------------------------------------------------
-Pump Station S200 is one of key components of the northern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. The main north portion of the project includes the Frog Pond Detention Area (FPDA), the Frog Pond Header Distribution Channel, and Pump Station S200. The primary purpose of Pump Station S200 is to re-direct to the west up to 225 cfs of excess water from C111 Canal into FPDA. Pump Station S200 with design capacity of 225 cfs is located downstream of the existing S-176 structure, north of Ingraham Highway and west of the C-111 Canal along the northern boundary of the FPDA.
+Pump Station S200 is one of key components of the northern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. The main north portion of the project includes the Frog Pond Detention Area (FPDA), the Frog Pond Header Distribution Channel, and Pump Station S200. The primary purpose of Pump Station S200 is to re-direct to the west up to 225 cfs of excess water from C111 Canal into FPDA. Pump Station S200 with design capacity of 225 cfs is located downstream of the existing S-176 structure, north of Ingraham Highway and west of the C-111 Canal along the northern boundary of the FPDA. The S200 Pump became operational in July 2012.
 
-%This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
-
-The complex was constructed post model period, thus no observed data is available for comparison.
-
-Control Strategy for S200:
-
+The control strategy is as follows:
 \begin{packed_items}
-\item Priority 1: When $H_{us} > 3.8$ ft and $Mode>0$, discharge according to Table~\ref{tab:CS-S200}
-\item Priority 2: When $H_{us} > 3.6$ ft and $Mode>0$, remain unchanged
-\item Priority 3: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 4: Close.
+\item Priority 1: When $Mode=0$, $Q = Q_{obs}$
+\item Priority 2: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR = 2012$ and $MONTH >=7$, discharge according to Table~\ref{tab:CS-S200}
+\item Priority 3: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR >= 2013$, discharge according to Table~\ref{tab:CS-S200}
+\item Priority 4: When $Mode>=1$ and $H_{us} > 3.6$ ft, remain unchanged
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
@@ -3099,15 +3095,15 @@ The project intends to enhance flow through Taylor Slough, and continue the low 
 
 Pump Station S199 is one of key components of the southern section of the C-111 Spreader Canal Phase 1 Project, which is located in southern Miami-Dade County in an area bounded by Everglades National Park, the Florida City-Homestead area, and Manatee. Pump Station S199 consists of three identical electric pumps each with capacity of 75 cfs.Pump Station S199 is located on the west side of the C-111 Canal, south of Ingraham Highway and north of the S-177 gate structure with an excavated inlet canal connecting S-199 to the C-111 Canal.
 
-This structure is implemented as Discharge with maximum rate of change of 1 $cfs/s$.
+The S199 pump became operational in June 2012.
 
-This feature was completed after the model time period (1987 to 2010), so no data is available for comparison.
-
+The control strategy is as follows:
 \begin{packed_items}
-\item Priority 1: When HW $>$ 3.8 ft and $Mode>0$, discharge according to Table~\ref{tab:CS-S199}
-\item Priority 2: When HW $>$ 3.6 ft and $Mode>0$, remain unchanged
-\item Priority 3: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 4: Close.
+\item Priority 1: When $Mode=0$, $Q = Q_{obs}$
+\item Priority 2: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR = 2012$ and $MONTH >=6$, discharge according to Table~\ref{tab:CS-S199}
+\item Priority 3: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR >= 2013$, discharge according to Table~\ref{tab:CS-S199}
+\item Priority 4: When $Mode>=1$ and $H_{us} > 3.6$ ft, remain unchanged
+\item Priority 5: Close.
 \end{packed_items}
 
 \footnotesize
