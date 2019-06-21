@@ -727,8 +727,8 @@ When conditions permit (i.e., no S-334 regulatory releases and G-3273 and L-29 c
 %This structure is implemented in MIKE 11 as a discharge structure with a Max Rate of change of 1 $cfs/s$.
 
 \begin{packed_items}
-\item Priority 1: If $Mode=1$: Close.
-\item Priority 2: If $Mode=2$: Close.
+\item Priority 1: If $Mode=0$: Close.
+\item Priority 2: If $Mode>=1$: Close.
 \item Priority 3: Close.
 \end{packed_items}
 
@@ -1624,8 +1624,7 @@ This structure is implemented in MIKE 11 as a discharge structure with a Max Rat
 In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
-\item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
-area.)
+\item Priority 1: If $YEAR < 2004$, close.
 \item[]
 \item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
@@ -1743,10 +1742,9 @@ The pumps were turned on in 2004. They were initially referred to as the S332B P
 In the model the pumps discharge according to the following rules:
 
 \begin{packed_items}
-\item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
-area.)
+\item Priority 1: Priority 1: If $YEAR < 2000$, close
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>0$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
 \item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332BW1}.
 \item Priority 4: If $Mode=1$ and $H_{us}>=4.7 ft$, unchanged.
@@ -1866,7 +1864,7 @@ The control strategy is as follows:
 \item Priority 1: When $H_{ds}>99.999 ft$, close (this is a placeholder to reflect any design criteria for the detention
 area.)
 \item[]
-\item Priority 2: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
+\item Priority 2: If $Mode=0$, $Q = Q_{obs}$.
 \item[]
 
 \item Priority 3: If $Mode=1$ and $H_{us}>=5.0 ft$, discharge according to Table~\ref{tab:CS-S332C1}.
@@ -2160,7 +2158,7 @@ Structure 338 is located in Canal C-lW, just west of State Highway 27. S338 is a
 %For the calibration period the structure uses observed discharges (Structure S338-Q)
 S338-Q operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -2285,7 +2283,7 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 
 S194-Q operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -2409,7 +2407,7 @@ This structure is a double-barreled reinforced concrete pipe culvert, located on
 
 S196-Q operations:
 \begin{packed_items}
-\item Priority 1: If $Mode=0$ and $H_{us}>0 ft$, $Q = Q_{obs}$.
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$.
 \item Priority 2: Close.
 \end{packed_items}
 
@@ -2927,10 +2925,10 @@ Pump Station S200 is one of key components of the northern section of the C-111 
 
 The control strategy is as follows:
 \begin{packed_items}
-\item Priority 1: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 2: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR = 2012$ and $MONTH >=7$, discharge according to Table~\ref{tab:CS-S200}
-\item Priority 3: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR >= 2013$, discharge according to Table~\ref{tab:CS-S200}
-\item Priority 4: When $Mode>=1$ and $H_{us} > 3.6$ ft, remain unchanged
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$
+\item Priority 2: If $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR = 2012$ and $MONTH >=7$, discharge according to Table~\ref{tab:CS-S200}
+\item Priority 3: If $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR >= 2013$, discharge according to Table~\ref{tab:CS-S200}
+\item Priority 4: If $Mode>=1$ and $H_{us} > 3.6$ ft, remain unchanged
 \item Priority 5: Close.
 \end{packed_items}
 
@@ -3092,10 +3090,10 @@ The S199 pump became operational in June 2012.
 
 The control strategy is as follows:
 \begin{packed_items}
-\item Priority 1: When $Mode=0$, $Q = Q_{obs}$
-\item Priority 2: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR = 2012$ and $MONTH >=6$, discharge according to Table~\ref{tab:CS-S199}
-\item Priority 3: When $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR >= 2013$, discharge according to Table~\ref{tab:CS-S199}
-\item Priority 4: When $Mode>=1$ and $H_{us} > 3.6$ ft, remain unchanged
+\item Priority 1: If $Mode=0$, $Q = Q_{obs}$
+\item Priority 2: If $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR = 2012$ and $MONTH >=6$, discharge according to Table~\ref{tab:CS-S199}
+\item Priority 3: If $Mode>=1$ and $H_{us} > 3.8$ ft and $YEAR >= 2013$, discharge according to Table~\ref{tab:CS-S199}
+\item Priority 4: If $Mode>=1$ and $H_{us} > 3.6$ ft, remain unchanged
 \item Priority 5: Close.
 \end{packed_items}
 
