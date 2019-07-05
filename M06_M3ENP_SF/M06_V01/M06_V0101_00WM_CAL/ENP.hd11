@@ -1,11 +1,11 @@
-// Created     : 2019-04-3 10:8:5
+// Created     : 2019-07-5 11:30:7
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
 [MIKE0_HD]
    [Global_Variables]
       [Global_Values]
-         G_waterlevel = 0.6096009999999999
+         G_waterlevel = 0.6096012192024385
          iLevelDepth = 0
          G_discharge = 0.0
          G_wind_factor = 1.0
@@ -60,7 +60,7 @@
       [Add_Output]
          ReducedOut = 0
          Velo_H = false
-         Velo_struc = false
+         Velo_struc = true
          Discharge_H = false
          CrossSec_H = false
          FlowWidth_H = false

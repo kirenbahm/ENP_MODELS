@@ -1,4 +1,4 @@
-// Created     : 2019-05-18 12:24:17
+// Created     : 2019-07-5 15:6:18
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.0.0.12300
 
@@ -782,15 +782,15 @@
       Touched = 1
       IsDataUsedInSetup = 0
       Ecolab_OL = 1
-      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2019, 5, 17, 14, 10, 37
+      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2019, 5, 30, 13, 28, 0
       Method_OL = 0
       Freq_OL = 1
       Ecolab_UZ = 1
-      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2019, 5, 17, 14, 10, 37
+      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2019, 5, 30, 13, 28, 0
       Method_UZ = 0
       Freq_UZ = 1
       Ecolab_SZ = 1
-      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2019, 5, 17, 14, 10, 37
+      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2019, 5, 30, 13, 28, 0
       Method_SZ = 0
       Freq_SZ = 1
       [OL_Constants]
@@ -19332,7 +19332,7 @@
       IsDataUsedInSetup = 1
       ResultUnitRadio = 1
       ADInputData = 0
-      WaterBalance = 1
+      WaterBalance = 0
       AdRadio = 0
       HotStartData = 1
       OnlyStoreHotDataAtEndOfSimulation = 0
@@ -20057,7 +20057,7 @@
             Name = 'S333_HW'
             DataType = 0
             BranchName = 'L-29'
-            Chainage = 74730
+            Chainage = 19434.6
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20075,7 +20075,7 @@
             Name = 'S333_Q'
             DataType = 1
             BranchName = 'L-29'
-            Chainage = 74752.2
+            Chainage = 19457.1
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20093,7 +20093,7 @@
             Name = 'S333_TW'
             DataType = 0
             BranchName = 'L-29'
-            Chainage = 74787.3
+            Chainage = 19491.8
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20111,7 +20111,7 @@
             Name = 'S334_HW'
             DataType = 0
             BranchName = 'L-29'
-            Chainage = 91882.6
+            Chainage = 36587.1
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20129,7 +20129,7 @@
             Name = 'S334_Q'
             DataType = 1
             BranchName = 'L-29'
-            Chainage = 91958.2
+            Chainage = 36662.7
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20147,7 +20147,7 @@
             Name = 'S334_TW'
             DataType = 0
             BranchName = 'L-29'
-            Chainage = 92015.5
+            Chainage = 36720
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20435,7 +20435,7 @@
             Name = 'S331T_Q'
             DataType = 1
             BranchName = 'L-31N'
-            Chainage = 17560
+            Chainage = 17400
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -21226,319 +21226,109 @@
       [GridSeriesOutput]
          Touched = 1
          IsDataUsedInSetup = 1
-         MzSEPfsListItemCount = 52
-         NumberOfItems = 52
+         MzSEPfsListItemCount = 17
+         NumberOfItems = 17
          [Item_1]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 10
+            DataType = 61
          EndSect  // Item_1
 
          [Item_2]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 128
+            DataType = 58
          EndSect  // Item_2
 
          [Item_3]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 11
+            DataType = 59
          EndSect  // Item_3
 
          [Item_4]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 12
+            DataType = 342
          EndSect  // Item_4
 
          [Item_5]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 182
+            DataType = 241
          EndSect  // Item_5
 
          [Item_6]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 355
+            DataType = 304
          EndSect  // Item_6
 
          [Item_7]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 340
+            DataType = 305
          EndSect  // Item_7
 
          [Item_8]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 15
+            DataType = 306
          EndSect  // Item_8
 
          [Item_9]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 16
+            DataType = 101
          EndSect  // Item_9
 
          [Item_10]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 13
+            DataType = 107
          EndSect  // Item_10
 
          [Item_11]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 17
+            DataType = 108
          EndSect  // Item_11
 
          [Item_12]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 18
+            DataType = 102
          EndSect  // Item_12
 
          [Item_13]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 19
+            DataType = 103
          EndSect  // Item_13
 
          [Item_14]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 14
+            DataType = 104
          EndSect  // Item_14
 
          [Item_15]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 61
+            DataType = 109
          EndSect  // Item_15
 
          [Item_16]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 58
+            DataType = 115
          EndSect  // Item_16
 
          [Item_17]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 59
-         EndSect  // Item_17
-
-         [Item_18]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 342
-         EndSect  // Item_18
-
-         [Item_19]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 152
-         EndSect  // Item_19
-
-         [Item_20]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 238
-         EndSect  // Item_20
-
-         [Item_21]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 241
-         EndSect  // Item_21
-
-         [Item_22]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 304
-         EndSect  // Item_22
-
-         [Item_23]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 305
-         EndSect  // Item_23
-
-         [Item_24]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 306
-         EndSect  // Item_24
-
-         [Item_25]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 121
-         EndSect  // Item_25
-
-         [Item_26]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 122
-         EndSect  // Item_26
-
-         [Item_27]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 57
-         EndSect  // Item_27
-
-         [Item_28]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 310
-         EndSect  // Item_28
-
-         [Item_29]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 119
-         EndSect  // Item_29
-
-         [Item_30]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 123
-         EndSect  // Item_30
-
-         [Item_31]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 334
-         EndSect  // Item_31
-
-         [Item_32]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 117
-         EndSect  // Item_32
-
-         [Item_33]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 118
-         EndSect  // Item_33
-
-         [Item_34]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 159
-         EndSect  // Item_34
-
-         [Item_35]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 129
-         EndSect  // Item_35
-
-         [Item_36]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 333
-         EndSect  // Item_36
-
-         [Item_37]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 106
-         EndSect  // Item_37
-
-         [Item_38]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 101
-         EndSect  // Item_38
-
-         [Item_39]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 327
-         EndSect  // Item_39
-
-         [Item_40]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 110
-         EndSect  // Item_40
-
-         [Item_41]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 111
-         EndSect  // Item_41
-
-         [Item_42]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 107
-         EndSect  // Item_42
-
-         [Item_43]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 108
-         EndSect  // Item_43
-
-         [Item_44]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 329
-         EndSect  // Item_44
-
-         [Item_45]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 102
-         EndSect  // Item_45
-
-         [Item_46]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 103
-         EndSect  // Item_46
-
-         [Item_47]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 104
-         EndSect  // Item_47
-
-         [Item_48]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 251
-         EndSect  // Item_48
-
-         [Item_49]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 109
-         EndSect  // Item_49
-
-         [Item_50]
-            Touched = 1
-            IsDataUsedInSetup = 1
             DataType = 105
-         EndSect  // Item_50
-
-         [Item_51]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 151
-         EndSect  // Item_51
-
-         [Item_52]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 239
-         EndSect  // Item_52
+         EndSect  // Item_17
 
       EndSect  // GridSeriesOutput
 
