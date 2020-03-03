@@ -13942,7 +13942,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_LARGE_FILES\M06_BC2D_H_SZ_V20180403.dfs2|
+                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_SZ_20180403.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -14676,7 +14676,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_LARGE_FILES\M06_BC2D_H_SZ_V20180403.dfs2|
+                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_SZ_20180403.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -15410,7 +15410,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_LARGE_FILES\M06_BC2D_H_SZ_V20180403.dfs2|
+                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_SZ_20180403.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -16144,7 +16144,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_LARGE_FILES\M06_BC2D_H_SZ_V20180403.dfs2|
+                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_SZ_20180403.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -16878,7 +16878,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_LARGE_FILES\M06_BC2D_H_SZ_V20180403.dfs2|
+                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_SZ_20180403.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -21400,7 +21400,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary head file name'
          Type = 4
-         Value = |..\..\..\..\ENP_LARGE_FILES\M06_BC2D_H_OL_V20180403.dfs2|
+         Value = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_OL_20180403.dfs2|
       EndSect  // ExtraParam_8
 
       [ExtraParam_9]
