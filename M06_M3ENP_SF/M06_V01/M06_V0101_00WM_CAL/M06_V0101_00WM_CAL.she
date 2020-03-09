@@ -1,12 +1,12 @@
-// Created     : 2019-07-5 15:6:18
+// Created     : 2020-03-9 14:53:28
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
-// Version     : 17.0.0.12300
+// Version     : 17.2.0.13162
 
 [MIKESHE_FLOWMODEL]
    [FlowModelDocVersion]
       Touched = 0
       IsDataUsedInSetup = 1
-      Version = 17
+      Version = 18
    EndSect  // FlowModelDocVersion
 
    [ViewSettings]
@@ -14,10 +14,10 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 529846.556359096
-      DefaultZoomDataArea_Y0 = 2839557.99098852
-      DefaultZoomDataArea_X1 = 543462.0953390663
-      DefaultZoomDataArea_Y1 = 2853173.52996849
+      DefaultZoomDataArea_X0 = 458400.0000000031
+      DefaultZoomDataArea_Y0 = 2777599.999999917
+      DefaultZoomDataArea_X1 = 558400.000000003
+      DefaultZoomDataArea_Y1 = 2867599.999999917
       MaxZoomDataAreaUndefined = 0
       MaxZoomDataArea_X0 = 458400.0000000031
       MaxZoomDataArea_Y0 = 2777599.999999917
@@ -572,6 +572,7 @@
          WM = 1
          River = 1
          WQ = 0
+         Plugins = 0
          ADPTRadio = 0
          UZ_ModelType = 1
          SZ_ModelType = 0
@@ -689,6 +690,27 @@
 
    EndSect  // SimSpec
 
+   [Plugins]
+      Touched = 0
+      IsDataUsedInSetup = 0
+      PyResolve = 1
+      PyPath = ||
+      [PluginFileList]
+         Touched = 0
+         IsDataUsedInSetup = 0
+         MzSEPfsListItemCount = 1
+         NumberOfPluginFiles = 1
+         [PluginFile_1]
+            Touched = 0
+            IsDataUsedInSetup = 0
+            Enable = 1
+            FILE_NAME = ||
+         EndSect  // PluginFile_1
+
+      EndSect  // PluginFileList
+
+   EndSect  // Plugins
+
    [ModelCompWQ]
       Touched = 1
       IsDataUsedInSetup = 0
@@ -782,15 +804,15 @@
       Touched = 1
       IsDataUsedInSetup = 0
       Ecolab_OL = 1
-      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2019, 5, 30, 13, 28, 0
+      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2020, 3, 4, 15, 54, 43
       Method_OL = 0
       Freq_OL = 1
       Ecolab_UZ = 1
-      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2019, 5, 30, 13, 28, 0
+      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2020, 3, 4, 15, 54, 43
       Method_UZ = 0
       Freq_UZ = 1
       Ecolab_SZ = 1
-      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2019, 5, 30, 13, 28, 0
+      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2020, 3, 4, 15, 54, 43
       Method_SZ = 0
       Freq_SZ = 1
       [OL_Constants]
@@ -19352,8 +19374,8 @@
       [DetailedTimeseriesOutput]
          Touched = 1
          IsDataUsedInSetup = 1
-         MzSEPfsListItemCount = 34
-         NumberOfItems = 34
+         MzSEPfsListItemCount = 149
+         NumberOfItems = 149
          MinimumOutputTimestep = 24
          [Item_1]
             Touched = 1
@@ -19363,7 +19385,7 @@
             Group = 1
             X = 549958.0
             Y = 2847980.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19383,7 +19405,7 @@
             Group = 1
             X = 548692.0
             Y = 2847610.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19403,7 +19425,7 @@
             Group = 1
             X = 550277.0
             Y = 2845870.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19423,7 +19445,7 @@
             Group = 1
             X = 544744.0
             Y = 2844890.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19443,7 +19465,7 @@
             Group = 1
             X = 548849.0
             Y = 2842900.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19463,7 +19485,7 @@
             Group = 1
             X = 546467.0
             Y = 2838680.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19483,7 +19505,7 @@
             Group = 1
             X = 542604.0
             Y = 2834600.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19503,7 +19525,7 @@
             Group = 1
             X = 545966.0
             Y = 2834060.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19523,7 +19545,7 @@
             Group = 1
             X = 539352.0
             Y = 2829370.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19543,7 +19565,7 @@
             Group = 1
             X = 543435.0
             Y = 2827810.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19563,7 +19585,7 @@
             Group = 1
             X = 532921.0
             Y = 2825220.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19583,7 +19605,7 @@
             Group = 1
             X = 539559.0
             Y = 2825070.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19603,7 +19625,7 @@
             Group = 1
             X = 528855.0
             Y = 2820030.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19623,7 +19645,7 @@
             Group = 1
             X = 533852.0
             Y = 2819980.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19643,7 +19665,7 @@
             Group = 1
             X = 537979.0
             Y = 2820200.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19663,7 +19685,7 @@
             Group = 1
             X = 542726.0
             Y = 2822580.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19683,7 +19705,7 @@
             Group = 1
             X = 543376.0
             Y = 2820270.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19703,7 +19725,7 @@
             Group = 1
             X = 543417.0
             Y = 2818780.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19723,7 +19745,7 @@
             Group = 1
             X = 539682.0
             Y = 2815970.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19743,7 +19765,7 @@
             Group = 1
             X = 537550.0
             Y = 2814380.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19763,7 +19785,7 @@
             Group = 1
             X = 536225.0
             Y = 2811230.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19783,7 +19805,7 @@
             Group = 1
             X = 540910.0
             Y = 2813360.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19803,7 +19825,7 @@
             Group = 1
             X = 539497.0
             Y = 2809630.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19823,7 +19845,7 @@
             Group = 1
             X = 542487.0
             Y = 2808890.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19843,7 +19865,7 @@
             Group = 1
             X = 539591.0
             Y = 2804080.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19863,7 +19885,7 @@
             Group = 1
             X = 545808.0
             Y = 2803120.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19883,7 +19905,7 @@
             Group = 1
             X = 549159.0
             Y = 2797910.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19903,7 +19925,7 @@
             Group = 1
             X = 555054.0
             Y = 2796740.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19923,7 +19945,7 @@
             Group = 1
             X = 546568.0
             Y = 2813550.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19943,7 +19965,7 @@
             Group = 1
             X = 546957.0
             Y = 2810130.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19963,7 +19985,7 @@
             Group = 1
             X = 543754.0
             Y = 2807020.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -19983,7 +20005,7 @@
             Group = 1
             X = 545184.0
             Y = 2807690.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20003,7 +20025,7 @@
             Group = 1
             X = 549546.0
             Y = 2803600.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20023,7 +20045,7 @@
             Group = 1
             X = 552752.0
             Y = 2800340.0
-            Z = 5.0
+            Z = 3.04800009727478
             InclObserved = 1
             [TIME_SERIES_FILE]
                Touched = 1
@@ -20034,6 +20056,2306 @@
             EndSect  // TIME_SERIES_FILE
 
          EndSect  // Item_34
+
+         [Item_35]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = '3BSE_OL'
+            HydrComp = 101
+            Group = 1
+            X = 550178.0
+            Y = 2852319.0
+            Z = 0.3048000037670135
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\3BSE.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_35
+
+         [Item_36]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'BRDG53'
+            HydrComp = 101
+            Group = 1
+            X = 544033.1
+            Y = 2849343.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\BRDG53.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_36
+
+         [Item_37]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'BRDU'
+            HydrComp = 101
+            Group = 1
+            X = 506810.8
+            Y = 2821761.4
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\BRDU.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_37
+
+         [Item_38]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CN'
+            HydrComp = 101
+            Group = 1
+            X = 505832.0
+            Y = 2811695.4
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CN.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_38
+
+         [Item_39]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CT27R'
+            HydrComp = 101
+            Group = 1
+            X = 551446.6
+            Y = 2798486.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CT27R.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_39
+
+         [Item_40]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CT50R'
+            HydrComp = 101
+            Group = 1
+            X = 548170.1
+            Y = 2799740.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CT50R.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_40
+
+         [Item_41]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CV1NR'
+            HydrComp = 101
+            Group = 1
+            X = 554946.3
+            Y = 2797371.1
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CV1NR.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_41
+
+         [Item_42]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CV5NR'
+            HydrComp = 101
+            Group = 1
+            X = 551501.6
+            Y = 2798692.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CV5NR.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_42
+
+         [Item_43]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CV9NR'
+            HydrComp = 101
+            Group = 1
+            X = 548252.3
+            Y = 2799936.4
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CV9NR.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_43
+
+         [Item_44]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CY2'
+            HydrComp = 101
+            Group = 1
+            X = 531917.9
+            Y = 2801447.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CY2.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_44
+
+         [Item_45]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'CY3'
+            HydrComp = 101
+            Group = 1
+            X = 525083.9
+            Y = 2801460.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\CY3.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_45
+
+         [Item_46]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'DO1'
+            HydrComp = 101
+            Group = 1
+            X = 531073.0
+            Y = 2806151.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\DO1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_46
+
+         [Item_47]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'DO2'
+            HydrComp = 101
+            Group = 1
+            X = 525688.0
+            Y = 2807956.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\DO2.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_47
+
+         [Item_48]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'DUCLOS'
+            HydrComp = 101
+            Group = 1
+            X = 549744.1
+            Y = 2827124.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\DUCLOS.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_48
+
+         [Item_49]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'E112'
+            HydrComp = 101
+            Group = 1
+            X = 539749.0
+            Y = 2811574.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\E112.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_49
+
+         [Item_50]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'E12'
+            HydrComp = 101
+            Group = 1
+            X = 555903.0
+            Y = 2795466.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\E12.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_50
+
+         [Item_51]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'E146'
+            HydrComp = 101
+            Group = 1
+            X = 533614.6
+            Y = 2792948.8
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\E146.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_51
+
+         [Item_52]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'EP9'
+            HydrComp = 101
+            Group = 1
+            X = 544911.0
+            Y = 2795209.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\EP9adj.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_52
+
+         [Item_53]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'EPSW'
+            HydrComp = 101
+            Group = 1
+            X = 549515.0
+            Y = 2796108.8
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\EPSW.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_53
+
+         [Item_54]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'EVER5A'
+            HydrComp = 101
+            Group = 1
+            X = 543069.9
+            Y = 2796975.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\EVER5A.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_54
+
+         [Item_55]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'EVER7'
+            HydrComp = 101
+            Group = 1
+            X = 546051.0
+            Y = 2799194.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\EVER7adj.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_55
+
+         [Item_56]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'EVER8'
+            HydrComp = 101
+            Group = 1
+            X = 552435.0
+            Y = 2803354.4
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\EVER8.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_56
+
+         [Item_57]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'F358'
+            HydrComp = 101
+            Group = 1
+            X = 552208.1
+            Y = 2817659.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\F358.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_57
+
+         [Item_58]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'FROGPOND'
+            HydrComp = 101
+            Group = 1
+            X = 542800.1
+            Y = 2814227.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\FROGPOND.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_58
+
+         [Item_59]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G596'
+            HydrComp = 101
+            Group = 1
+            X = 549015.1
+            Y = 2835703.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G596.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_59
+
+         [Item_60]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G614'
+            HydrComp = 101
+            Group = 1
+            X = 555747.0
+            Y = 2825950.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G614.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_60
+
+         [Item_61]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G620'
+            HydrComp = 101
+            Group = 1
+            X = 523438.0
+            Y = 2838832.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G620.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_61
+
+         [Item_62]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G757A'
+            HydrComp = 101
+            Group = 1
+            X = 552352.1
+            Y = 2830825.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G757A.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_62
+
+         [Item_63]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G789'
+            HydrComp = 101
+            Group = 1
+            X = 544579.1
+            Y = 2819446.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G789.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_63
+
+         [Item_64]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G855'
+            HydrComp = 101
+            Group = 1
+            X = 553486.0
+            Y = 2840060.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G855.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_64
+
+         [Item_65]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G864'
+            HydrComp = 101
+            Group = 1
+            X = 550101.1
+            Y = 2813437.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G864.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_65
+
+         [Item_66]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G864A'
+            HydrComp = 101
+            Group = 1
+            X = 549404.1
+            Y = 2813311.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G864A.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_66
+
+         [Item_67]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G1251'
+            HydrComp = 101
+            Group = 1
+            X = 543720.7
+            Y = 2800622.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G1251.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_67
+
+         [Item_68]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G1363'
+            HydrComp = 101
+            Group = 1
+            X = 549974.1
+            Y = 2825156.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G1363.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_68
+
+         [Item_69]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G1486'
+            HydrComp = 101
+            Group = 1
+            X = 556578.0
+            Y = 2820850.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G1486.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_69
+
+         [Item_70]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G1487'
+            HydrComp = 101
+            Group = 1
+            X = 550560.1
+            Y = 2841298.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G1487.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_70
+
+         [Item_71]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G1502'
+            HydrComp = 101
+            Group = 1
+            X = 541856.1
+            Y = 2833172.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G1502.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_71
+
+         [Item_72]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3355'
+            HydrComp = 101
+            Group = 1
+            X = 550176.1
+            Y = 2808515.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3355.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_72
+
+         [Item_73]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3439'
+            HydrComp = 101
+            Group = 1
+            X = 556802.0
+            Y = 2846960.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3439.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_73
+
+         [Item_74]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3473'
+            HydrComp = 101
+            Group = 1
+            X = 555811.0
+            Y = 2844100.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3473.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_74
+
+         [Item_75]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3552'
+            HydrComp = 101
+            Group = 1
+            X = 552308.1
+            Y = 2841930.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3552.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_75
+
+         [Item_76]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3554'
+            HydrComp = 101
+            Group = 1
+            X = 553951.0
+            Y = 2842370.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3554.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_76
+
+         [Item_77]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3555'
+            HydrComp = 101
+            Group = 1
+            X = 554514.0
+            Y = 2841110.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3555.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_77
+
+         [Item_78]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3556'
+            HydrComp = 101
+            Group = 1
+            X = 553112.0
+            Y = 2843010.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3556.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_78
+
+         [Item_79]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3557'
+            HydrComp = 101
+            Group = 1
+            X = 550695.0
+            Y = 2841125.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3557.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_79
+
+         [Item_80]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3558'
+            HydrComp = 101
+            Group = 1
+            X = 552294.1
+            Y = 2845498.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3558.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_80
+
+         [Item_81]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3560'
+            HydrComp = 101
+            Group = 1
+            X = 553176.0
+            Y = 2841010.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3560.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_81
+
+         [Item_82]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3561'
+            HydrComp = 101
+            Group = 1
+            X = 555886.0
+            Y = 2839610.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3561.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_82
+
+         [Item_83]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3621'
+            HydrComp = 101
+            Group = 1
+            X = 550974.1
+            Y = 2805155.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3621.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_83
+
+         [Item_84]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3626'
+            HydrComp = 101
+            Group = 1
+            X = 549050.1
+            Y = 2833612.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3626.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_84
+
+         [Item_85]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3627'
+            HydrComp = 101
+            Group = 1
+            X = 549225.1
+            Y = 2832431.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3627.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_85
+
+         [Item_86]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'G3628'
+            HydrComp = 101
+            Group = 1
+            X = 546745.1
+            Y = 2830866.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3628.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_86
+
+         [Item_87]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'HA09'
+            HydrComp = 101
+            Group = 1
+            X = 541659.1
+            Y = 2814174.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\HA09.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_87
+
+         [Item_88]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'HA11'
+            HydrComp = 101
+            Group = 1
+            X = 543847.1
+            Y = 2814430.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\HA11.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_88
+
+         [Item_89]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'HC_P'
+            HydrComp = 101
+            Group = 1
+            X = 555871.0
+            Y = 2793665.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\HC.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_89
+
+         [Item_90]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'HUMBLE'
+            HydrComp = 101
+            Group = 1
+            X = 546895.1
+            Y = 2827821.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\HUMBLE.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_90
+
+         [Item_91]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'KROME'
+            HydrComp = 101
+            Group = 1
+            X = 551243.0
+            Y = 2848479.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\KROME.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_91
+
+         [Item_92]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'KROME_OL'
+            HydrComp = 101
+            Group = 1
+            X = 551243.0
+            Y = 2848479.0
+            Z = 0.3048000037670135
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\KROME.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_92
+
+         [Item_93]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'L31NNG3780'
+            HydrComp = 101
+            Group = 1
+            X = 550352.0
+            Y = 2847679.8
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3780.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_93
+
+         [Item_94]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'L31NN_OL'
+            HydrComp = 101
+            Group = 1
+            X = 550352.0
+            Y = 2847679.8
+            Z = 0.3048000037670135
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\L31NN.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_94
+
+         [Item_95]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'L31NSG3786'
+            HydrComp = 101
+            Group = 1
+            X = 550289.0
+            Y = 2842773.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\G3786.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_95
+
+         [Item_96]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'L31NS_OL'
+            HydrComp = 101
+            Group = 1
+            X = 550289.0
+            Y = 2842773.0
+            Z = 0.3048000037670135
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\L31NS.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_96
+
+         [Item_97]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'L67XE'
+            HydrComp = 101
+            Group = 1
+            X = 533089.0
+            Y = 2840867.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\L67XE.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_97
+
+         [Item_98]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'L67XW'
+            HydrComp = 101
+            Group = 1
+            X = 532689.0
+            Y = 2840867.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\L67XW.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_98
+
+         [Item_99]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LHC'
+            HydrComp = 101
+            Group = 1
+            X = 554484.0
+            Y = 2793183.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LHC.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_99
+
+         [Item_100]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LJB'
+            HydrComp = 101
+            Group = 1
+            X = 547136.0
+            Y = 2792362.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LJB.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_100
+
+         [Item_101]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LN_P'
+            HydrComp = 101
+            Group = 1
+            X = 512671.0
+            Y = 2798481.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LN.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_101
+
+         [Item_102]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LO1'
+            HydrComp = 101
+            Group = 1
+            X = 497489.8
+            Y = 2832953.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LO1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_102
+
+         [Item_103]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LO2'
+            HydrComp = 101
+            Group = 1
+            X = 495886.8
+            Y = 2830945.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LO2.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_103
+
+         [Item_104]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LORU'
+            HydrComp = 101
+            Group = 1
+            X = 500530.1
+            Y = 2827604.1
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LORU.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_104
+
+         [Item_105]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG1'
+            HydrComp = 101
+            Group = 1
+            X = 546467.0
+            Y = 2832422.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_105
+
+         [Item_106]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG2'
+            HydrComp = 101
+            Group = 1
+            X = 546376.0
+            Y = 2834483.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG2.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_106
+
+         [Item_107]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG3'
+            HydrComp = 101
+            Group = 1
+            X = 545267.0
+            Y = 2832510.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG3.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_107
+
+         [Item_108]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG4'
+            HydrComp = 101
+            Group = 1
+            X = 546984.0
+            Y = 2835909.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG4.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_108
+
+         [Item_109]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG5'
+            HydrComp = 101
+            Group = 1
+            X = 547313.0
+            Y = 2837255.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG5.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_109
+
+         [Item_110]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG6'
+            HydrComp = 101
+            Group = 1
+            X = 548872.0
+            Y = 2837255.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG6.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_110
+
+         [Item_111]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG7'
+            HydrComp = 101
+            Group = 1
+            X = 549323.0
+            Y = 2836770.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG7.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_111
+
+         [Item_112]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'LPG8'
+            HydrComp = 101
+            Group = 1
+            X = 550383.0
+            Y = 2836712.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\LPG8.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_112
+
+         [Item_113]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'MET1'
+            HydrComp = 101
+            Group = 1
+            X = 541300.2
+            Y = 2844777.7
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\MET1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_113
+
+         [Item_114]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NE1'
+            HydrComp = 101
+            Group = 1
+            X = 536639.1
+            Y = 2841628.5
+            Z = 0.1
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NE1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_114
+
+         [Item_115]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NE4'
+            HydrComp = 101
+            Group = 1
+            X = 534847.1
+            Y = 2836027.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NE4.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_115
+
+         [Item_116]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NE5'
+            HydrComp = 101
+            Group = 1
+            X = 534153.1
+            Y = 2834949.5
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NE5.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_116
+
+         [Item_117]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP201'
+            HydrComp = 101
+            Group = 1
+            X = 528168.6
+            Y = 2844429.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP201.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_117
+
+         [Item_118]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP202'
+            HydrComp = 101
+            Group = 1
+            X = 529225.3
+            Y = 2838407.4
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP202.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_118
+
+         [Item_119]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP203'
+            HydrComp = 101
+            Group = 1
+            X = 526192.9
+            Y = 2834071.2
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP203.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_119
+
+         [Item_120]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP205'
+            HydrComp = 101
+            Group = 1
+            X = 515241.6
+            Y = 2841329.6
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP205.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_120
+
+         [Item_121]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP44'
+            HydrComp = 101
+            Group = 1
+            X = 528084.0
+            Y = 2813119.7
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP44.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_121
+
+         [Item_122]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP46'
+            HydrComp = 101
+            Group = 1
+            X = 520562.2
+            Y = 2800330.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP46.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_122
+
+         [Item_123]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP62'
+            HydrComp = 101
+            Group = 1
+            X = 521818.8
+            Y = 2813699.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP62.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_123
+
+         [Item_124]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP67'
+            HydrComp = 101
+            Group = 1
+            X = 535163.5
+            Y = 2801435.2
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP67.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_124
+
+         [Item_125]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'NP72'
+            HydrComp = 101
+            Group = 1
+            X = 529843.7
+            Y = 2808653.4
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\NP72.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_125
+
+         [Item_126]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'OL'
+            HydrComp = 101
+            Group = 1
+            X = 538930.0
+            Y = 2794190.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\OL.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_126
+
+         [Item_127]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'OT'
+            HydrComp = 101
+            Group = 1
+            X = 503543.0
+            Y = 2829013.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\OT.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_127
+
+         [Item_128]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'P33'
+            HydrComp = 101
+            Group = 1
+            X = 529859.6
+            Y = 2833071.2
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\P33.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_128
+
+         [Item_129]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'P34'
+            HydrComp = 101
+            Group = 1
+            X = 505924.0
+            Y = 2832200.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\P34.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_129
+
+         [Item_130]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'P35'
+            HydrComp = 101
+            Group = 1
+            X = 513591.0
+            Y = 2815836.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\P35.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_130
+
+         [Item_131]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'P36'
+            HydrComp = 101
+            Group = 1
+            X = 520547.6
+            Y = 2823485.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\P36.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_131
+
+         [Item_132]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'P37'
+            HydrComp = 101
+            Group = 1
+            X = 531340.2
+            Y = 2796653.1
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\P37.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_132
+
+         [Item_133]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'P38'
+            HydrComp = 101
+            Group = 1
+            X = 516743.0
+            Y = 2805843.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\P38.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_133
+
+         [Item_134]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG3'
+            HydrComp = 101
+            Group = 1
+            X = 542685.0
+            Y = 2825294.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG3adj.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_134
+
+         [Item_135]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG4'
+            HydrComp = 101
+            Group = 1
+            X = 543083.0
+            Y = 2824905.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG4adj.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_135
+
+         [Item_136]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG5'
+            HydrComp = 101
+            Group = 1
+            X = 543962.0
+            Y = 2825541.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG5adj.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_136
+
+         [Item_137]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG_B1'
+            HydrComp = 101
+            Group = 1
+            X = 541839.8
+            Y = 2825375.6
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG_B1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_137
+
+         [Item_138]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG_C1'
+            HydrComp = 101
+            Group = 1
+            X = 541911.3
+            Y = 2822233.6
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG_C1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_138
+
+         [Item_139]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG_C2'
+            HydrComp = 101
+            Group = 1
+            X = 539281.4
+            Y = 2822229.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG_C2.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_139
+
+         [Item_140]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG_C3'
+            HydrComp = 101
+            Group = 1
+            X = 537286.3
+            Y = 2822302.9
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG_C3.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_140
+
+         [Item_141]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'RG_D1'
+            HydrComp = 101
+            Group = 1
+            X = 537884.2
+            Y = 2817253.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\RG_D1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_141
+
+         [Item_142]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'S196A'
+            HydrComp = 101
+            Group = 1
+            X = 550379.1
+            Y = 2821343.3
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\S196A.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_142
+
+         [Item_143]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'SH1'
+            HydrComp = 101
+            Group = 1
+            X = 515257.1
+            Y = 2817266.6
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\SH1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_143
+
+         [Item_144]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'SPARO'
+            HydrComp = 101
+            Group = 1
+            X = 517572.0
+            Y = 2845954.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\SPARO.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_144
+
+         [Item_145]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'SRS1_OL'
+            HydrComp = 101
+            Group = 1
+            X = 533689.0
+            Y = 2849867.0
+            Z = 0.3048000037670135
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\SRS1.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_145
+
+         [Item_146]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'TMC'
+            HydrComp = 101
+            Group = 1
+            X = 512791.1
+            Y = 2833176.7
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\TMC.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_146
+
+         [Item_147]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'TSH'
+            HydrComp = 101
+            Group = 1
+            X = 537142.0
+            Y = 2799406.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\TSH.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_147
+
+         [Item_148]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'UHC'
+            HydrComp = 101
+            Group = 1
+            X = 554646.1
+            Y = 2794937.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\UHC.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_148
+
+         [Item_149]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Name = 'UJB'
+            HydrComp = 101
+            Group = 1
+            X = 547179.0
+            Y = 2794429.0
+            Z = 3.048
+            InclObserved = 1
+            [TIME_SERIES_FILE]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               FILE_NAME = |..\..\..\OBSERVED\UJB.dfs0|
+               ITEM_COUNT = 1
+               ITEM_NUMBERS = 1
+            EndSect  // TIME_SERIES_FILE
+
+         EndSect  // Item_149
 
       EndSect  // DetailedTimeseriesOutput
 
@@ -21344,7 +23666,7 @@
          IsDataUsedInSetup = 1
          Name = 'max number of detailed ts plots per html file'
          Type = 1
-         Value = 40
+         Value = 10
       EndSect  // ExtraParam_1
 
       [ExtraParam_2]
