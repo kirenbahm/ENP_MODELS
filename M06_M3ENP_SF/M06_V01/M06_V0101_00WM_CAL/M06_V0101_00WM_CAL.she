@@ -1,4 +1,4 @@
-// Created     : 2020-03-9 14:53:28
+// Created     : 2020-03-10 14:41:39
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -17696,8 +17696,8 @@
       [Well]
          Touched = 1
          IsDataUsedInSetup = 1
-         Filename = |..\..\..\INPUTFILES\WELLS\Wellfield.wel|
-         IncludeMap = 0
+         Filename = |..\..\..\INPUTFILES\WELLS\Wellfield_SingleWells.wel|
+         IncludeMap = 1
       EndSect  // Well
 
    EndSect  // SaturatedZone

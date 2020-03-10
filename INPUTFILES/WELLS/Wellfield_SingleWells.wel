@@ -1,0 +1,1106 @@
+// Created     : 2020-02-7 17:43:50
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.2.0.13162
+
+[WellDocVersion]
+   Version = 2
+EndSect  // WellDocVersion
+
+[MAP]
+   [GEOMETRY]
+      x0 = 494900.0
+      y0 = 2790099.0
+      x1 = 556900.0
+      y1 = 2853299.0
+      OverlayFilename = ||
+   EndSect  // GEOMETRY
+
+EndSect  // MAP
+
+[SOIL]
+   [DEFAULT_DATA]
+      SoilTextOn = 1
+      MapTextOn = 1
+   EndSect  // DEFAULT_DATA
+
+EndSect  // SOIL
+
+[WEL_CFG]
+   [WELLDATA]
+      Touched = 0
+      NoWells = 25
+      [WELLNO_1]
+         ID = '7'
+         XCOR = 549500.5304470001
+         YCOR = 2813738.84038
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -3.854
+               Bottom = -16.046
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 1
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_1
+
+      [WELLNO_2]
+         ID = '8'
+         XCOR = 549471.584338
+         YCOR = 2813705.93308
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -3.854
+               Bottom = -16.046
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 2
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_2
+
+      [WELLNO_3]
+         ID = '9'
+         XCOR = 549428.012737
+         YCOR = 2813743.71549
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -5.074
+               Bottom = -16.046
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 3
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_3
+
+      [WELLNO_4]
+         ID = '10'
+         XCOR = 549413.692015
+         YCOR = 2813648.95482
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -9.036
+               Bottom = -15.132
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 4
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_4
+
+      [WELLNO_5]
+         ID = '11'
+         XCOR = 549386.269313
+         YCOR = 2813629.14961
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -9.036
+               Bottom = -15.132
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 5
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_5
+
+      [WELLNO_6]
+         ID = '12'
+         XCOR = 549332.947408
+         YCOR = 2813664.18969
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.731
+               Bottom = -14.827
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 6
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_6
+
+      [WELLNO_7]
+         ID = '13'
+         XCOR = 549399.980611
+         YCOR = 2813683.99497
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.731
+               Bottom = -14.827
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 7
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_7
+
+      [WELLNO_8]
+         ID = '14'
+         XCOR = 549457.568205
+         YCOR = 2813781.49792
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.731
+               Bottom = -14.827
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 8
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_8
+
+      [WELLNO_9]
+         ID = '15'
+         XCOR = 549347.8774999999
+         YCOR = 2813744.0202
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.426
+               Bottom = -16.046
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 9
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_9
+
+      [WELLNO_10]
+         ID = '16'
+         XCOR = 549410.340327
+         YCOR = 2813805.56894
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 1
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.426
+               Bottom = -16.046
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00005-w-FKAA.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 10
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_10
+
+      [WELLNO_11]
+         ID = '29 W'
+         XCOR = 553038.058218
+         YCOR = 2842441.26136
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.762
+               Bottom = -19.43
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 1
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_11
+
+      [WELLNO_12]
+         ID = '30 W'
+         XCOR = 553033.487764
+         YCOR = 2842611.89147
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.762
+               Bottom = -19.43
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 2
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_12
+
+      [WELLNO_13]
+         ID = '31 W'
+         XCOR = 553030.440875
+         YCOR = 2842779.4746
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.762
+               Bottom = -19.43
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 3
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_13
+
+      [WELLNO_14]
+         ID = 'ET 1'
+         XCOR = 558295.598263
+         YCOR = 2820161.84497
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.06
+               Bottom = -9.584
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 4
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_14
+
+      [WELLNO_15]
+         ID = 'ET 2'
+         XCOR = 558298.645195
+         YCOR = 2820128.32837
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -9.584
+               Bottom = -12.632
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 5
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_15
+
+      [WELLNO_16]
+         ID = 'EVRGL 1'
+         XCOR = 549569.087282
+         YCOR = 2811334.78406
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -11.808
+               Bottom = -14.856
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 6
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_16
+
+      [WELLNO_17]
+         ID = 'EVRGL 2'
+         XCOR = 549578.228178
+         YCOR = 2811334.78413
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -10.893
+               Bottom = -14.856
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 7
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_17
+
+      [WELLNO_18]
+         ID = 'EVRGL 3'
+         XCOR = 549585.8455310001
+         YCOR = 2811334.78414
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -10.284
+               Bottom = -13.332
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 8
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_18
+
+      [WELLNO_19]
+         ID = 'LC 2'
+         XCOR = 556571.015457
+         YCOR = 2819921.13472
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -5.067
+               Bottom = -6.591
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 9
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_19
+
+      [WELLNO_20]
+         ID = 'LC 3'
+         XCOR = 556569.491978
+         YCOR = 2819941.24463
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -6.591
+               Bottom = -8.115
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 10
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_20
+
+      [WELLNO_21]
+         ID = 'LC 4'
+         XCOR = 556552.7336339999
+         YCOR = 2819936.36949
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -6.591
+               Bottom = -8.115
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 11
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_21
+
+      [WELLNO_22]
+         ID = 'LC 5'
+         XCOR = 556543.5927330001
+         YCOR = 2819934.84603
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -8.115
+               Bottom = -9.638999999999999
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 12
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_22
+
+      [WELLNO_23]
+         ID = 'NJ 1'
+         XCOR = 557610.030973
+         YCOR = 2822395.27114
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -7.916
+               Bottom = -9.44
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 13
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_23
+
+      [WELLNO_24]
+         ID = 'NWTN 1'
+         XCOR = 555623.409002
+         YCOR = 2815454.2823
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -13.533
+               Bottom = -18.105
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 14
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_24
+
+      [WELLNO_25]
+         ID = 'NWTN 2'
+         XCOR = 555914.394259
+         YCOR = 2815454.28228
+         LEVEL = 0.0
+         WELLDEPTH1 = 0.0
+         WELL_FIELD_ID = 2
+         [FILTERDATA]
+            Touched = 0
+            NoFilters = 1
+            [FILTERITEM_1]
+               Top = -14.448
+               Bottom = -18.41
+               AbstrUsed = 1
+               AbstrRedFactor = 1.0
+               Radius = 0.25
+               Storage = 0.0
+               ConstantAbstraction = 0.0
+               [TIME_SERIES_FILE]
+                  Touched = 0
+                  FILE_NAME = |.\13-00017-w-MD_WS.dfs0|
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 15
+               EndSect  // TIME_SERIES_FILE
+
+            EndSect  // FILTERITEM_1
+
+         EndSect  // FILTERDATA
+
+         [LITOGRAFIDATA]
+            Touched = 0
+            NoLitografiLayers = 0
+         EndSect  // LITOGRAFIDATA
+
+      EndSect  // WELLNO_25
+
+   EndSect  // WELLDATA
+
+   [WELLFIELD]
+      Touched = 0
+      NoWellFields = 2
+      [WELLNO_1]
+         WellFieldName = '13-00005-w-FKAA'
+         WellFieldShow = 1
+         WellFieldID = 1
+      EndSect  // WELLNO_1
+
+      [WELLNO_2]
+         WellFieldName = '13-00017-w-MD_WS'
+         WellFieldShow = 1
+         WellFieldID = 2
+      EndSect  // WELLNO_2
+
+   EndSect  // WELLFIELD
+
+   [Foreground]
+      Touched = 0
+      NumberOfLayers = 4
+      [OVERLAY_1]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0.0
+            BMP_X1 = 10000.0
+            BMP_Y0 = 0.0
+            BMP_Y1 = 10000.0
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\roads.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 7
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.1
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 192
+            LineColorG = 192
+            LineColorB = 192
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_1
+
+      [OVERLAY_2]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0.0
+            BMP_X1 = 10000.0
+            BMP_Y0 = 0.0
+            BMP_Y1 = 10000.0
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\sfwmd_canals.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 7
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.1
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 255
+            LineColorB = 255
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_2
+
+      [OVERLAY_3]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0.0
+            BMP_X1 = 10000.0
+            BMP_Y0 = 0.0
+            BMP_Y1 = 10000.0
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\monptsV15.shp|
+            PointSize = 1
+            PointStyle = 2
+            PointType = 10
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.3
+            LineStyle = 0
+            PolygonStyle = 0
+            LineColorR = 0
+            LineColorG = 0
+            LineColorB = 0
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_3
+
+      [OVERLAY_4]
+         Type = 3
+         [OverlayBMP]
+            Filename = ||
+            BMP_X0 = 0.0
+            BMP_X1 = 10000.0
+            BMP_Y0 = 0.0
+            BMP_Y1 = 10000.0
+            BMP_TransparentColor = 16777215
+            BMP_DisplayStyle = 0
+         EndSect  // OverlayBMP
+
+         [OverlayGrid]
+            Filename = ||
+            Itemnumber = 0
+            Transparency = 2
+         EndSect  // OverlayGrid
+
+         [OverlayShape]
+            Filename = |..\GIS\M06_DOMAIN.shp|
+            PointSize = 1
+            PointStyle = 0
+            PointType = 7
+            PointColorR = 0
+            PointColorG = 0
+            PointColorB = 0
+            LineThickness = 0.1
+            LineStyle = 2
+            PolygonStyle = 0
+            LineColorR = 128
+            LineColorG = 128
+            LineColorB = 128
+         EndSect  // OverlayShape
+
+      EndSect  // OVERLAY_4
+
+   EndSect  // Foreground
+
+   [Background]
+      Touched = 0
+      NumberOfLayers = 0
+   EndSect  // Background
+
+EndSect  // WEL_CFG
+
