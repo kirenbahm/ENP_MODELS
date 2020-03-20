@@ -1,6 +1,6 @@
-// Created     : 2019-05-18 12:58:29
+// Created     : 2020-03-20 9:37:18
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
-// Version     : 17.0.0.12300
+// Version     : 17.2.0.13162
 
 [BndCondition]
    Comment = ''
@@ -1101,7 +1101,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S344_Q.dfs0|, 0.0, 1, 'Discharge', 0, 1.0
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
