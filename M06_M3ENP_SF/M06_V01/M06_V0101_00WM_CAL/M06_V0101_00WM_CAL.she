@@ -2730,7 +2730,7 @@
       [InitialWaterDepth]
          Touched = 1
          IsDataUsedInSetup = 1
-         Type = 0
+         Type = 1
          ShapeAxisUnit = 1000
          ShapeGapFillName = ''
          FixedValue = 0
@@ -2741,10 +2741,10 @@
          ShapeItemUnit = 1000
          [DFS_2D_DATA_FILE]
             Touched = 1
-            IsDataUsedInSetup = 0
-            FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_OL.dfs2|
+            IsDataUsedInSetup = 1
+            FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_20000101.dfs2|
             ITEM_COUNT = 1
-            ITEM_NUMBERS = 1
+            ITEM_NUMBERS = 3
          EndSect  // DFS_2D_DATA_FILE
 
          [SHAPE_FILE]
@@ -13882,7 +13882,7 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_HOBS__01012000.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_20000101.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
                EndSect  // DFS_2D_DATA_FILE
@@ -14616,9 +14616,9 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_HOBS__01012000.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_20000101.dfs2|
                   ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
+                  ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
 
                [SHAPE_FILE]
@@ -15350,9 +15350,9 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_HOBS__01012000.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_20000101.dfs2|
                   ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
+                  ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
 
                [SHAPE_FILE]
@@ -16084,9 +16084,9 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_HOBS__01012000.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_20000101.dfs2|
                   ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
+                  ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
 
                [SHAPE_FILE]
@@ -16818,9 +16818,9 @@
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
-                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_HOBS__01012000.dfs2|
+                  FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL_20000101.dfs2|
                   ITEM_COUNT = 1
-                  ITEM_NUMBERS = 1
+                  ITEM_NUMBERS = 2
                EndSect  // DFS_2D_DATA_FILE
 
                [SHAPE_FILE]
