@@ -1,4 +1,4 @@
-// Created     : 2020-03-6 10:51:26
+// Created     : 2020-04-9 9:27:37
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -60,7 +60,7 @@
       [Add_Output]
          ReducedOut = 0
          Velo_H = false
-         Velo_struc = false
+         Velo_struc = true
          Discharge_H = false
          CrossSec_H = false
          FlowWidth_H = false
