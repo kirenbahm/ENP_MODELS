@@ -1,4 +1,4 @@
-// Created     : 2020-03-10 7:38:25
+// Created     : 2020-09-8 12:29:47
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -28028,6 +28028,7 @@
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
+                  data = 0.0, 0.0
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -32867,7 +32868,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S343A', 50.0, 'S343A', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\BC_S343A_Q.dfs0|, 'Discharge', 1, 0.0
+               Targetpoint = 'S343A', 50.0, 'S343A', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\BC_S343A_Q.dfs0|, 'S343A_Q', 1, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -32919,7 +32920,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'S343B', 50.0, 'S343B', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\BC_S343B_Q.dfs0|, 'Discharge', 1, 0.0
+               Targetpoint = 'S343B', 50.0, 'S343B', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\BC_S343B_Q.dfs0|, 'S343B_Q', 1, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation

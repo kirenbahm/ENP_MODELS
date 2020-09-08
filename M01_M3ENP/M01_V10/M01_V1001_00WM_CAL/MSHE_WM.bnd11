@@ -1,4 +1,4 @@
-// Created     : 2020-03-20 9:37:18
+// Created     : 2020-09-8 12:35:29
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -102,7 +102,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S194TW-S165HW.dfs0|, 0.0, 1, 'BC_S194TW-S165HW', 0, 1.0
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_Avg-S194TW-S165HW.dfs0|, 0.0, 1, 'Avg-S194TW-S165HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -345,7 +345,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S338TW-S148HW.dfs0|, 0.0, 1, 'BC-S338TW-S148HW', 0, 1.0
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_Avg-S338TW-S148HW.dfs0|, 0.0, 1, 'Avg-S338TW-S148HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -426,7 +426,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119TW.dfs0|, 0.0, 1, 'BC-G119TW', 0, 1.0
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119_TW.dfs0|, 0.0, 1, 'G119_TW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -1209,7 +1209,7 @@
          EndSect  // HDArray
 
          [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S151+HW.dfs0|, 0.0, 1, 'S151+HW', 0, 1.0
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S151_HW.dfs0|, 0.0, 1, 'S151_HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]

@@ -1,6 +1,6 @@
-// Created     : 2019-05-20 16:18:4
+// Created     : 2020-09-8 13:8:47
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
-// Version     : 17.0.0.12300
+// Version     : 17.2.0.13162
 
 [Run11]
    format_version = 107, 'MIKEZero, 2019'
@@ -36,7 +36,7 @@
 
    [Simulation]
       [Simulation_Period]
-         start = 1999, 10, 15, 0, 0, 0
+         start = 1999, 1, 1, 0, 0, 0
          end = 2010, 12, 31, 0, 0, 0
          TimeStepType = 0
          timestep = 2
