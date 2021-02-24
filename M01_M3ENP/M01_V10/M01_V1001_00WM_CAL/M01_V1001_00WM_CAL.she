@@ -77450,7 +77450,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NE3.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NE3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77470,7 +77470,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3576.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3576.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77490,7 +77490,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NESS20.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NESS20.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77510,7 +77510,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NE2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NE2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77530,7 +77530,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3578.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3578.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77550,7 +77550,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3272.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3272.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77566,11 +77566,11 @@
             X = 542604.0
             Y = 2834600.0
             Z = 3.04800009727478
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3273.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3273.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77590,7 +77590,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\ANGELS.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\ANGELS.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77610,7 +77610,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77630,7 +77630,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3437.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3437.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77650,7 +77650,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP206.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP206.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77670,7 +77670,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77690,7 +77690,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\A13.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\A13.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77710,7 +77710,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CR3.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CR3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77730,7 +77730,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CR2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CR2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77746,11 +77746,11 @@
             X = 542726.0
             Y = 2822580.0
             Z = 3.04800009727478
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RUTZKE.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RUTZKE.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77770,7 +77770,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3622.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3622.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77790,7 +77790,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NTS18.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NTS18.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77810,7 +77810,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NTS10.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NTS10.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77830,7 +77830,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\R3110.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\R3110.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77850,7 +77850,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NTS14.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NTS14.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77870,7 +77870,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NTS1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NTS1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77890,7 +77890,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\TSB.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\TSB.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77910,7 +77910,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\R158.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\R158.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77930,7 +77930,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\R127.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\R127.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77950,7 +77950,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER4.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER4.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77966,11 +77966,11 @@
             X = 549159.0
             Y = 2797910.0
             Z = 3.04800009727478
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER6adj.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER6adj.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -77990,7 +77990,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EP1R.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EP1R.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78010,7 +78010,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\ROBBLEE.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\ROBBLEE.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78030,7 +78030,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G613.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G613.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78050,7 +78050,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3619.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3619.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78070,7 +78070,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3620.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3620.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78090,7 +78090,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER3.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78110,7 +78110,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER2A.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER2A.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78130,7 +78130,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\3BSE.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\3BSE.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78146,11 +78146,11 @@
             X = 544033.1
             Y = 2849343.5
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\BRDG53.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\BRDG53.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78170,7 +78170,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\BRDU.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\BRDU.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78190,7 +78190,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CN.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CN.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78210,7 +78210,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CT27R.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CT27R.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78230,7 +78230,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CT50R.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CT50R.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78250,7 +78250,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CV1NR.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CV1NR.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78270,7 +78270,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CV5NR.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CV5NR.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78290,7 +78290,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CV9NR.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CV9NR.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78310,7 +78310,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CY2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CY2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78330,7 +78330,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\CY3.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\CY3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78350,7 +78350,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\DO1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\DO1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78370,7 +78370,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\DO2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\DO2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78386,11 +78386,11 @@
             X = 549744.1
             Y = 2827124.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\DUCLOS.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\DUCLOS.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78410,7 +78410,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\E112.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\E112.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78430,7 +78430,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\E12.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\E12.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78450,7 +78450,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\E146.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\E146.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78466,11 +78466,11 @@
             X = 544911.0
             Y = 2795209.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EP9adj.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EP9adj.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78490,7 +78490,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EPSW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EPSW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78510,7 +78510,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER5A.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER5A.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78526,11 +78526,11 @@
             X = 546051.0
             Y = 2799194.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER7adj.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER7adj.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78550,7 +78550,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\EVER8.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\EVER8.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78570,7 +78570,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\F358.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\F358.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78586,11 +78586,11 @@
             X = 542800.1
             Y = 2814227.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\FROGPOND.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\FROGPOND.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78610,7 +78610,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G596.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G596.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78630,7 +78630,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G614.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G614.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78650,7 +78650,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G620.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G620.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78670,7 +78670,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G757A.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G757A.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78690,7 +78690,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G789.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G789.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78710,7 +78710,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G855.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G855.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78730,7 +78730,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G864.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G864.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78750,7 +78750,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G864A.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G864A.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78766,11 +78766,11 @@
             X = 543720.7
             Y = 2800622.9
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G1251.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G1251.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78786,11 +78786,11 @@
             X = 549974.1
             Y = 2825156.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G1363.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G1363.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78810,7 +78810,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G1486.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G1486.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78830,7 +78830,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G1487.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G1487.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78850,7 +78850,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G1502.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G1502.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78870,7 +78870,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3355.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3355.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78890,7 +78890,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3439.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3439.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78910,7 +78910,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3473.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3473.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78930,7 +78930,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3552.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3552.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78950,7 +78950,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3554.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3554.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78970,7 +78970,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3555.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3555.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78990,7 +78990,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3556.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3556.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79010,7 +79010,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3557.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3557.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79030,7 +79030,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3558.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3558.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79050,7 +79050,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3560.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3560.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79070,7 +79070,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3561.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3561.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79090,7 +79090,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3621.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3621.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79110,7 +79110,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3626.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3626.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79130,7 +79130,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3627.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3627.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79150,7 +79150,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3628.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3628.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79166,11 +79166,11 @@
             X = 541659.1
             Y = 2814174.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\HA09.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\HA09.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79186,11 +79186,11 @@
             X = 543847.1
             Y = 2814430.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\HA11.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\HA11.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79210,7 +79210,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\HC.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\HC.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79226,11 +79226,11 @@
             X = 546895.1
             Y = 2827821.3
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\HUMBLE.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\HUMBLE.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79246,11 +79246,11 @@
             X = 551243.0
             Y = 2848479.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\KROME.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\KROME.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79266,11 +79266,11 @@
             X = 551243.0
             Y = 2848479.0
             Z = 0.3048000037670135
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\KROME.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\KROME.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79290,7 +79290,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3780.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3780.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79310,7 +79310,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NN.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NN.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79330,7 +79330,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G3786.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G3786.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79350,7 +79350,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NS.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NS.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79370,7 +79370,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L67XE.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L67XE.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79390,7 +79390,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L67XW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L67XW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79410,7 +79410,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LHC.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LHC.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79430,7 +79430,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LJB.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LJB.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79450,7 +79450,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LN.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LN.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79470,7 +79470,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LO1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LO1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79490,7 +79490,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LO2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LO2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79510,7 +79510,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LORU.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LORU.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79526,11 +79526,11 @@
             X = 546467.0
             Y = 2832422.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG1.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79546,11 +79546,11 @@
             X = 546376.0
             Y = 2834483.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG2.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79566,11 +79566,11 @@
             X = 545267.0
             Y = 2832510.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG3.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79586,11 +79586,11 @@
             X = 546984.0
             Y = 2835909.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG4.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG4.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79606,11 +79606,11 @@
             X = 547313.0
             Y = 2837255.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG5.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG5.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79626,11 +79626,11 @@
             X = 548872.0
             Y = 2837255.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG6.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG6.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79646,11 +79646,11 @@
             X = 549323.0
             Y = 2836770.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG7.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG7.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79666,11 +79666,11 @@
             X = 550383.0
             Y = 2836712.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\LPG8.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\LPG8.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79690,7 +79690,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\MET1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\MET1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79710,7 +79710,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NE1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NE1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79730,7 +79730,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NE4.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NE4.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79750,7 +79750,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NE5.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NE5.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79770,7 +79770,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP201.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP201.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79790,7 +79790,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP202.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP202.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79810,7 +79810,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP203.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP203.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79830,7 +79830,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP205.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP205.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79850,7 +79850,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP44.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP44.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79870,7 +79870,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP46.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP46.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79890,7 +79890,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP62.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP62.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79910,7 +79910,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP67.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP67.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79930,7 +79930,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\NP72.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\NP72.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79950,7 +79950,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\OL.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\OL.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79970,7 +79970,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\OT.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\OT.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -79990,7 +79990,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\P33.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\P33.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80010,7 +80010,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\P34.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\P34.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80030,7 +80030,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\P35.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\P35.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80050,7 +80050,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\P36.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\P36.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80070,7 +80070,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\P37.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\P37.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80090,7 +80090,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\P38.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\P38.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80106,11 +80106,11 @@
             X = 542685.0
             Y = 2825294.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG3adj.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG3adj.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80126,11 +80126,11 @@
             X = 543083.0
             Y = 2824905.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG4adj.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG4adj.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80146,11 +80146,11 @@
             X = 543962.0
             Y = 2825541.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG5adj.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG5adj.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80170,7 +80170,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG_B1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG_B1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80190,7 +80190,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG_C1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG_C1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80210,7 +80210,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG_C2.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG_C2.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80230,7 +80230,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG_C3.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG_C3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80250,7 +80250,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\RG_D1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\RG_D1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80270,7 +80270,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S196A.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S196A.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80290,7 +80290,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\SH1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\SH1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80310,7 +80310,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\SPARO.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\SPARO.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80330,7 +80330,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\SRS1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\SRS1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80350,7 +80350,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\TMC.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\TMC.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80370,7 +80370,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\TSH.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\TSH.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80386,11 +80386,11 @@
             X = 554646.1
             Y = 2794937.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\UHC.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\UHC.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80406,11 +80406,11 @@
             X = 547179.0
             Y = 2794429.0
             Z = 3.048
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\UJB.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\UJB.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80444,7 +80444,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S333_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S333_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80462,7 +80462,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S333_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S333_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80480,7 +80480,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S333_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S333_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80498,7 +80498,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S334_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S334_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80516,7 +80516,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S334_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S334_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80534,7 +80534,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S334_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S334_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80552,7 +80552,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S335_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S335_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80570,7 +80570,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S335_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S335_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80588,7 +80588,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE1_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE1_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80606,7 +80606,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE1.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE1.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80624,7 +80624,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE3_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE3_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80642,7 +80642,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE3.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE3.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80660,7 +80660,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE4_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE4_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80678,7 +80678,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE4.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE4.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80696,7 +80696,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE5_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE5_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80714,7 +80714,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\L31NMILE5.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\L31NMILE5.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80732,7 +80732,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G211_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G211_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80750,7 +80750,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G211_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G211_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80768,7 +80768,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G211_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G211_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80786,7 +80786,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\ANGELS.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\ANGELS.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80804,7 +80804,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S331_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S331_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80818,11 +80818,11 @@
             DataType = 1
             BranchName = 'L-31N'
             Chainage = 17400
-            InclObserved = 1
+            InclObserved = 0
             [TIME_SERIES_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S331S173.dfs0|
+               IsDataUsedInSetup = 0
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S331S173.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80840,7 +80840,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S331P_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S331P_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80858,7 +80858,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S331S_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S331S_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80876,7 +80876,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S173_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S173_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80894,7 +80894,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S331_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S331_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80912,7 +80912,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S176_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S176_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80930,7 +80930,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S176_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S176_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80948,7 +80948,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S176_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S176_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80966,7 +80966,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S177_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S177_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -80984,7 +80984,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S177_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S177_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81002,7 +81002,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S177_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S177_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81020,7 +81020,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S18C_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S18C_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81038,7 +81038,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S18C_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S18C_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81056,7 +81056,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S18C_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S18C_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81074,7 +81074,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S197_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S197_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81092,7 +81092,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S197_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S197_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81110,7 +81110,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332BN_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332BN_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81128,7 +81128,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332BN_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332BN_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81146,7 +81146,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332BW_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332BW_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81164,7 +81164,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332BW_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332BW_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81182,7 +81182,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332C_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332C_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81200,7 +81200,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332C_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332C_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81218,7 +81218,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332D_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332D_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81236,7 +81236,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S332D_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S332D_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81254,7 +81254,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S336_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S336_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81272,7 +81272,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S336_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S336_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81290,7 +81290,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S336_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S336_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81308,7 +81308,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G119_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G119_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81326,7 +81326,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\G119_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\G119_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81344,7 +81344,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S338_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S338_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81362,7 +81362,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S338_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S338_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81380,7 +81380,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S338_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S338_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81398,7 +81398,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S194_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S194_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81416,7 +81416,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S194_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S194_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81434,7 +81434,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S194_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S194_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81452,7 +81452,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S196_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S196_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81470,7 +81470,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S196_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S196_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81488,7 +81488,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S196_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S196_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81506,7 +81506,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S178_Q.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S178_Q.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81524,7 +81524,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S178_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S178_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81542,7 +81542,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S178_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S178_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81560,7 +81560,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S174_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S174_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81578,7 +81578,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S175_HW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S175_HW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -81596,7 +81596,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 1
-               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20171107\S175_TW.dfs0|
+               FILE_NAME = |..\..\..\..\ENP_FILES\OBSERVED\OBS_20210113\S175_TW.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
