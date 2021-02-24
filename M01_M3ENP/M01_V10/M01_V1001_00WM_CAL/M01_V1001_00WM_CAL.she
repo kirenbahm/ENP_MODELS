@@ -1,4 +1,4 @@
-// Created     : 2020-09-8 13:8:47
+// Created     : 2021-02-24 15:32:54
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -597,7 +597,7 @@
          HotStartDateIndex = 0
          SimStartFromHotStartDate = 1
          SIMSTART = 1999, 1, 1, 0, 0
-         SIMEND = 2010, 12, 31, 0, 0
+         SIMEND = 2019, 12, 31, 0, 0
       EndSect  // SimulationPeriod
 
       [CompControlParaTimeStep]
