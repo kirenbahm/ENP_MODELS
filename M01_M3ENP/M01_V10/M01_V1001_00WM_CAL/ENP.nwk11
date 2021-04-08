@@ -1,4 +1,4 @@
-// Created     : 2021-04-8 13:41:29
+// Created     : 2021-04-8 18:48:50
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -11088,7 +11088,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185.00001352, 'S194', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-102', 5185.0, 'S194', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -11149,7 +11149,7 @@
             [logical_statement]
                LS_parameter = 4, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -11166,7 +11166,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185.00001352, 'S194', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-102', 5185.0, 'S194', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -11188,7 +11188,7 @@
             [logical_statement]
                LS_parameter = 5, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -11237,7 +11237,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-102', 5185.00001352, 'S194', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-102', 5185.0, 'S194', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -11414,7 +11414,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-103', 4890.0, 'S196', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -11475,7 +11475,7 @@
             [logical_statement]
                LS_parameter = 4, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -11492,7 +11492,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-103', 4890.0, 'S196', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -11514,7 +11514,7 @@
             [logical_statement]
                LS_parameter = 5, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -11563,7 +11563,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-103', 4890.00000408, 'S196', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-103', 4890.0, 'S196', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -12680,7 +12680,7 @@
             [logical_statement]
                LS_parameter = 6, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -12719,7 +12719,7 @@
             [logical_statement]
                LS_parameter = 7, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -13001,7 +13001,7 @@
             [logical_statement]
                LS_parameter = 6, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -13040,7 +13040,7 @@
             [logical_statement]
                LS_parameter = 7, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -13322,7 +13322,7 @@
             [logical_statement]
                LS_parameter = 6, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -13361,7 +13361,7 @@
             [logical_statement]
                LS_parameter = 7, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -14411,85 +14411,7 @@
             [logical_statement]
                LS_parameter = 4, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.76784, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = 'C-1W', 1650.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'C-1W', 1650.0, 'S338', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = -1.3716, -1.34112
-                  data = 0.7315199999999998, 0.7619999999999999
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 5, 6, 35, 8, 0.0
-               [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.64592, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
-                  [LOSummation]
-                     LOSummationRule = 0, 0.0
-                  EndSect  // LOSummation
-
-               EndSect  // logical_operands
-
-               controlpoint = 'C-1W', 1651.000001016, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
-               [CtrSummation]
-                  CTRSummationRule = 0, 0.0
-               EndSect  // CtrSummation
-
-               Targetpoint = 'C-1W', 1651.000000000001, 'S338', 0, '', 0.0, ||, '', 0, 0.0
-               [TargetSummation]
-                  TargetSummationRule = 0, 0.0
-               EndSect  // TargetSummation
-
-               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
-               iterate = 0.1, 0, 0.1, 0.1
-               [control_strategy]
-                  data = 0.0, 0.0
-                  data = 1.0668, 1.03632
-               EndSect  // control_strategy
-
-               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
-               [ScaleSummation]
-                  ScaleSummationRule = 0, 0.0
-               EndSect  // ScaleSummation
-
-            EndSect  // logical_statement
-
-            [logical_statement]
-               LS_parameter = 6, 0, 35, 8, 0.0
-               [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 3.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -14526,26 +14448,26 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 7, 6, 0, 8, 0.0
+               LS_parameter = 5, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 3.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.6764, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.645919939039878, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
                EndSect  // logical_operands
 
-               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               controlpoint = 'C-1W', 1651.000001016, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
                [CtrSummation]
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-1W', 1650.0, 'S338', 0, '', 0.0, ||, '', 0, 0.0
+               Targetpoint = 'C-1W', 1651.000000000001, 'S338', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
@@ -14553,6 +14475,8 @@
                pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
                iterate = 0.1, 0, 0.1, 0.1
                [control_strategy]
+                  data = 0.0, 0.0
+                  data = 1.0668, 1.03632
                EndSect  // control_strategy
 
                scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
@@ -14563,7 +14487,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 8, 5, 0, 8, 0.0
+               LS_parameter = 6, 5, 0, 8, 0.0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -16443,7 +16367,7 @@
             [logical_statement]
                LS_parameter = 6, 0, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -16482,7 +16406,7 @@
             [logical_statement]
                LS_parameter = 7, 6, 35, 8, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -17904,12 +17828,12 @@
             [logical_statement]
                LS_parameter = 5, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.46304, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -17947,7 +17871,7 @@
             [logical_statement]
                LS_parameter = 6, 6, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18187,12 +18111,12 @@
             [logical_statement]
                LS_parameter = 5, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.46304, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18230,7 +18154,7 @@
             [logical_statement]
                LS_parameter = 6, 6, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18472,12 +18396,12 @@
             [logical_statement]
                LS_parameter = 5, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.46304, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.463039878079756, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18515,7 +18439,7 @@
             [logical_statement]
                LS_parameter = 6, 6, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18863,12 +18787,12 @@
             [logical_statement]
                LS_parameter = 7, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.43256, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.432560121920244, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18907,12 +18831,12 @@
             [logical_statement]
                LS_parameter = 8, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.43256, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.432560121920244, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -18956,12 +18880,12 @@
             [logical_statement]
                LS_parameter = 9, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.43256, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.432560121920244, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -19007,12 +18931,12 @@
             [logical_statement]
                LS_parameter = 10, 0, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.43256, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, '', 0.0, '', 0, '', 0.0, 3, 0, 1.432560121920244, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -19051,7 +18975,7 @@
             [logical_statement]
                LS_parameter = 11, 6, 19, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
