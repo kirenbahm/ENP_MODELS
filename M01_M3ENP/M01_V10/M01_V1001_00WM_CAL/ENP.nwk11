@@ -1,4 +1,4 @@
-// Created     : 2021-04-8 18:48:50
+// Created     : 2021-04-9 16:36:13
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -14699,13 +14699,13 @@
             EndSect  // ReservoirData
 
             HorizOffset = 0.0
-            GateHeight = 0.0
+            GateHeight = 1.3716
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            Attributes = 2, 1, 0.63, 0.0, 0.0, 0.02831684659199999, false, 0.0, false, 0.0, 0.0
+            Attributes = 1, 1, 0.63, 1.3716, -0.3048, 0.0025399998984, true, -0.3048, true, 1.0668, 0.0
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 5, 0, 0, 0.0
+               LS_parameter = 1, 4, 0, 0, 0.0
                [logical_operands]
                   [LOSummation]
                   EndSect  // LOSummation
@@ -22622,6 +22622,7 @@
       MikeSheCoupling = 'C-113', 457.1999999999999, 5977.00001, 0, 1e-06, 1, 24, 1, 1, 1.838, 1.5, 0.100000000152, 1.0, 1, 0, 0
       MikeSheCoupling = 'C-1W', 0.0, 12251.0, 0, 1e-06, 1, 25, 1, 1, 1.838, 1.5, 0.100000000152, 1.0, 1, 0, 0
       MikeSheCoupling = 'C-357', 0.0, 5516.879999999999, 0, 1e-06, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
+      MikeSheCoupling = 'C-358', 0.0, 1219.20244, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'C-4', 304.8, 7652.0, 0, 1e-06, 1, 26, 1, 1, 1.838, 1.5, 0.100000000152, 1.0, 1, 0, 0
       MikeSheCoupling = 'CMP_006_DS', 0.0, 800.0, 0, 1e-06, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'CMP_006_US', 0.0, 800.0, 0, 1e-06, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
