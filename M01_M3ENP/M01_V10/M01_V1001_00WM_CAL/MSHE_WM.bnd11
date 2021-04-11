@@ -1,4 +1,4 @@
-// Created     : 2021-02-19 17:39:57
+// Created     : 2021-04-11 9:33:32
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -3030,7 +3030,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'LPG2', 900.5151121191341, 0.0, '', ''
+         DescType = 5, 0, 'LPG2', 564.97876, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
