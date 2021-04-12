@@ -1,4 +1,4 @@
-// Created     : 2021-04-12 13:8:20
+// Created     : 2021-04-12 13:22:25
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -16630,7 +16630,7 @@
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'Angels_Well', 0.0, '', 0, '', 0.0, 2, 0, 1.8288, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 0, 'LPG2', 0.0, '', 0, '', 0.0, 2, 0, 2.011684023368047, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -16674,7 +16674,7 @@
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'Angels_Well', 0.0, '', 0, '', 0.0, 2, 0, 1.752599847599696, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 0, 'LPG2', 0.0, '', 0, '', 0.0, 2, 0, 1.950723901447803, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -16718,7 +16718,7 @@
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 0, 'Angels_Well', 0.0, '', 0, '', 0.0, 2, 0, 1.6764, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 0, 'LPG2', 0.0, '', 0, '', 0.0, 2, 0, 1.828803657607315, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
