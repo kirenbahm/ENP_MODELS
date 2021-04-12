@@ -1,4 +1,4 @@
-// Created     : 2021-04-12 12:46:35
+// Created     : 2021-04-12 13:8:20
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -3219,7 +3219,7 @@
             EndSect  // ReservoirData
 
             HorizOffset = 0.0
-            Attributes = 0, 0
+            Attributes = 0, 3
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
             WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
             WeirFormula2Param = 0.0, 0.0, 0.0
@@ -3273,7 +3273,7 @@
             EndSect  // ReservoirData
 
             HorizOffset = 0.0
-            Attributes = 0, 0
+            Attributes = 0, 3
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
             WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
             WeirFormula2Param = 0.0, 0.0, 0.0
@@ -3327,7 +3327,7 @@
             EndSect  // ReservoirData
 
             HorizOffset = 0.0
-            Attributes = 0, 0
+            Attributes = 0, 3
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
             WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
             WeirFormula2Param = 0.0, 0.0, 0.0
@@ -3840,7 +3840,7 @@
             EndSect  // ReservoirData
 
             HorizOffset = 0.0
-            Attributes = 0, 0
+            Attributes = 0, 3
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
             WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
             WeirFormula2Param = 0.0, 0.0, 0.0
@@ -3894,7 +3894,7 @@
             EndSect  // ReservoirData
 
             HorizOffset = 0.0
-            Attributes = 0, 0
+            Attributes = 0, 3
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
             WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
             WeirFormula2Param = 0.0, 0.0, 0.0
