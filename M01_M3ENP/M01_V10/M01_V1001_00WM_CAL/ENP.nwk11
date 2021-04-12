@@ -1,4 +1,4 @@
-// Created     : 2021-04-11 9:28:56
+// Created     : 2021-04-12 12:46:35
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -2266,7 +2266,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'AeroJet', 'C2002', 1338.0, 9125.45676879544, 0, 10000.0, 0
+         definitions = 'AeroJet', 'c2012', 1338.0, 9125.45676879544, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 814, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794
       EndSect  // branch
@@ -2314,7 +2314,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'C-111', 'MODEL', 0.0, 33290.99059122087, 0, 10000.0, 0
+         definitions = 'C-111', 'c2002', 0.0, 33290.99059122087, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 392, 393, 391, 322, 434, 321, 320, 319, 318, 317, 316, 315, 314, 313, 312, 311, 815, 310, 309, 308, 307, 306, 305, 304, 795, 302, 301, 300, 299, 298, 297, 296, 422, 294, 293, 292, 291, 290, 289, 288, 287, 286, 285, 284, 283, 282, 281, 605, 280, 279, 430, 278, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2589
       EndSect  // branch
@@ -2338,13 +2338,13 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'C-357', 'MODEL', 0.0, 5525.364789358155, 0, 10000.0, 0
+         definitions = 'C-357', 'estimated', 0.0, 5525.364789358155, 0, 10000.0, 0
          connections = '', -1e-155, 'NDA', 0.0
          points = 730, 731, 2523, 732, 733, 734, 2524, 735, 2525, 2526, 2513, 736
       EndSect  // branch
 
       [branch]
-         definitions = 'C-358', 'MODEL', 0.0, 1219.2024384049, 0, 10000.0, 0
+         definitions = 'C-358', 'estimated', 0.0, 1219.2024384049, 0, 10000.0, 0
          connections = '', -1e-155, 'C-357', 5476.658989832892
          points = 2508, 2512
       EndSect  // branch
@@ -2872,7 +2872,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'L-29', 'MODEL', 0.0, 37093.41425115102, 0, 10000.0, 0
+         definitions = 'L-29', 'c2013', 0.0, 37093.41425115102, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 2590, 2591, 2592, 2593, 2594, 2595, 2596, 183, 182, 181, 2296, 166, 1, 159, 394, 158, 157, 543, 438, 544, 156, 155, 154, 153, 152, 151, 149, 147, 146, 144, 143, 142, 141, 138, 572, 137, 574, 136, 135, 132, 595, 596
       EndSect  // branch
@@ -2884,7 +2884,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'L-31N', 'MODEL', 0.0, 33732.32574936336, 0, 10000.0, 0
+         definitions = 'L-31N', 'c2002', 0.0, 33732.32574936336, 0, 10000.0, 0
          connections = 'L-29', 37093.41425115102, 'C-111', 0.0
          points = 56, 590, 591, 592, 593, 594, 55, 54, 378, 664, 53, 52, 51, 50, 49, 48, 47, 379, 665, 46, 407, 45, 408, 380, 44, 381, 43, 42, 382, 41, 40, 409, 39, 410, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 751, 24, 415, 20, 19, 413, 18, 17, 16, 15, 14, 13, 12, 11, 368, 10
       EndSect  // branch
@@ -2902,7 +2902,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'L-31W', 'MODEL', 0.0, 18004.0, 0, 10000.0, 0
+         definitions = 'L-31W', 'c2018', 0.0, 18004.0, 0, 10000.0, 0
          connections = 'L-31N', 33660.0, '', -1e-155
          points = 127, 2479, 2478, 126, 125, 124, 123, 122, 121, 120, 119, 118, 117, 116, 115, 114, 113, 112, 111, 416, 110, 417, 109, 108, 107, 106, 105, 104, 103, 418, 102, 419, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89
       EndSect  // branch
@@ -2944,7 +2944,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'NDA', 'DA-2002', 0.0, 8382.538655583619, 0, 10000.0, 0
+         definitions = 'NDA', 'DA-2018', 0.0, 8382.538655583619, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 690, 2539, 2538, 2527, 689, 2540, 695, 686, 685, 684, 693, 850, 743, 849, 2547, 683
       EndSect  // branch
@@ -3064,7 +3064,7 @@
       EndSect  // branch
 
       [branch]
-         definitions = 'SDA', 'DA-2002', 0.0, 7324.358648716938, 0, 10000.0, 0
+         definitions = 'SDA', 'DA-2018', 0.0, 7324.358648716938, 0, 10000.0, 0
          connections = '', -1e-155, 'L-31W', 999.0359209645499
          points = 667, 2545, 2546, 673
       EndSect  // branch
@@ -3098,7 +3098,7 @@
 
       [WEIR]
          [weir_data]
-            Location = 'NDA', 1905.0, 'W-S360E', 'DA-2002'
+            Location = 'NDA', 1905.0, 'W-S360E', 'DA-2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -3152,7 +3152,7 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'NDA', 1905.0, 'W-S360W', 'DA-2002'
+            Location = 'NDA', 1905.0, 'W-S360W', 'DA-2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -3165,7 +3165,7 @@
             EndSect  // ReservoirData
 
             HorizOffset = -91.43999999999998
-            Attributes = 0, 3
+            Attributes = 0, 0
             HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
             WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
             WeirFormula2Param = 0.0, 0.0, 0.0
@@ -3827,168 +3827,6 @@
          EndSect  // weir_data
 
          [weir_data]
-            Location = 'SDA', 783.3359999999999, 'W-S332BsouthLevee', 'DA-2002'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0.0
-            Attributes = 0, 3
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
-            WeirFormula2Param = 0.0, 0.0, 0.0
-            WeirFormula3Param = 0.0, 0.0, 0.0, 0.6, 1.02, 1.37, 1.0, 0.03, 1.018, 1.0, 0.0, 2.6, 1.0, 0.7
-            [Geometry]
-               Attributes = 0, 0.0
-               [Level_Width]
-                  Data = 2.1336, 0.0
-                  Data = 2.16408, 609.5999999999999
-                  Data = 3.6576, 640.0799999999999
-               EndSect  // Level_Width
-
-            EndSect  // Geometry
-
-            [QH_Relations]
-               Data = 0.0, 2.1336, 2.1336, 2.1336, 0.0, 0.0
-               Data = 31.6318, 2.25666, 2.25696, 2.21381, 610.615, 39.6312
-               Data = 105.757, 2.38172, 2.38295, 2.29402, 612.252, 88.6746
-               Data = 204.766, 2.5033, 2.50578, 2.37423, 613.889, 137.849
-               Data = 323.589, 2.62322, 2.62709, 2.45444, 615.526, 187.155
-               Data = 459.444, 2.74213, 2.7475, 2.53465, 617.163, 236.592
-               Data = 610.505, 2.86034, 2.86732, 2.61486, 618.8, 286.161
-               Data = 775.452, 2.97802, 2.98671, 2.69507, 620.437, 335.861
-               Data = 953.278, 3.09512, 3.10577, 2.77528, 622.074, 385.692
-               Data = 1143.18, 3.2123, 3.22455, 2.85549, 623.711, 435.654
-               Data = 1344.51, 3.32887, 3.34311, 2.9357, 625.347, 485.748
-               Data = 1556.71, 3.44614, 3.46147, 3.01591, 626.984, 535.973
-               Data = 1779.31, 3.56243, 3.57918, 3.09613, 628.621, 586.33
-               Data = 2011.91, 3.67884, 3.69726, 3.17634, 630.258, 636.817
-               Data = 2254.15, 3.79506, 3.81519, 3.25655, 631.895, 687.436
-               Data = 2505.71, 3.9103, 3.93298, 3.33676, 633.532, 738.186
-               Data = 2766.32, 4.02593, 4.05063, 3.41697, 635.169, 789.068
-               Data = 3035.73, 4.14136, 4.16774, 3.49718, 636.806, 840.081
-               Data = 3313.7, 4.25659, 4.28552, 3.57739, 638.443, 891.225
-               Data = 3600.02, 4.37165, 4.40316, 3.6576, 640.08, 942.5
-            EndSect  // QH_Relations
-
-         EndSect  // weir_data
-
-         [weir_data]
-            Location = 'SDA', 3243.553584, 'W-S332CnorthLevee', 'DA-2002'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0.0
-            Attributes = 0, 3
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
-            WeirFormula2Param = 0.0, 0.0, 0.0
-            WeirFormula3Param = 0.0, 0.0, 0.0, 0.6, 1.02, 1.37, 1.0, 0.03, 1.018, 1.0, 0.0, 2.6, 1.0, 0.7
-            [Geometry]
-               Attributes = 0, 0.0
-               [Level_Width]
-                  Data = 2.1336, 0.0
-                  Data = 2.16408, 609.5999999999999
-                  Data = 3.6576, 640.0799999999999
-               EndSect  // Level_Width
-
-            EndSect  // Geometry
-
-            [QH_Relations]
-               Data = 0.0, 2.1336, 2.1336, 2.1336, 0.0, 0.0
-               Data = 31.6318, 2.25922, 2.25922, 2.21381, 610.615, 39.6312
-               Data = 105.757, 2.38917, 2.38916, 2.29402, 612.252, 88.6746
-               Data = 204.766, 2.5152, 2.51518, 2.37423, 613.889, 137.849
-               Data = 323.589, 2.63886, 2.63883, 2.45444, 615.526, 187.155
-               Data = 459.444, 2.76094, 2.7609, 2.53465, 617.163, 236.592
-               Data = 610.505, 2.88186, 2.88184, 2.61486, 618.8, 286.161
-               Data = 775.452, 3.00194, 3.00192, 2.69507, 620.437, 335.861
-               Data = 953.278, 3.12138, 3.12133, 2.77528, 622.074, 385.692
-               Data = 1143.18, 3.24026, 3.2402, 2.85549, 623.711, 435.654
-               Data = 1344.51, 3.35866, 3.35862, 2.9357, 625.347, 485.748
-               Data = 1556.71, 3.47666, 3.47665, 3.01591, 626.984, 535.973
-               Data = 1779.31, 3.5944, 3.59434, 3.09613, 628.621, 586.33
-               Data = 2011.91, 3.71181, 3.71174, 3.17634, 630.258, 636.817
-               Data = 2254.15, 3.82893, 3.82887, 3.25655, 631.895, 687.436
-               Data = 2505.71, 3.94576, 3.94575, 3.33676, 633.532, 738.186
-               Data = 2766.32, 4.06177, 4.06183, 3.41697, 635.169, 789.068
-               Data = 3035.73, 4.1782, 4.17832, 3.49718, 636.806, 840.081
-               Data = 3313.7, 4.2944, 4.2946, 3.57739, 638.443, 891.225
-               Data = 3600.02, 4.41039, 4.41067, 3.6576, 640.08, 942.5
-            EndSect  // QH_Relations
-
-         EndSect  // weir_data
-
-         [weir_data]
-            Location = 'SDA', 4838.699999999999, 'W-S332CsouthLevee', 'DA-2002'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0.0
-            Attributes = 0, 3
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
-            WeirFormula2Param = 0.0, 0.0, 0.0
-            WeirFormula3Param = 0.0, 0.0, 0.0, 0.6, 1.02, 1.37, 1.0, 0.03, 1.018, 1.0, 0.0, 2.6, 1.0, 0.7
-            [Geometry]
-               Attributes = 0, 0.0
-               [Level_Width]
-                  Data = 2.1336, 0.0
-                  Data = 2.16408, 609.5999999999999
-                  Data = 3.6576, 640.0799999999999
-               EndSect  // Level_Width
-
-            EndSect  // Geometry
-
-            [QH_Relations]
-               Data = 0.0, 2.1336, 2.1336, 2.1336, 0.0, 0.0
-               Data = 31.6318, 2.26047, 2.26047, 2.21381, 610.615, 39.6312
-               Data = 105.757, 2.39359, 2.39358, 2.29402, 612.252, 88.6746
-               Data = 204.766, 2.52305, 2.52304, 2.37423, 613.889, 137.849
-               Data = 323.589, 2.64992, 2.64991, 2.45444, 615.526, 187.155
-               Data = 459.444, 2.77486, 2.77485, 2.53465, 617.163, 236.592
-               Data = 610.505, 2.89833, 2.89832, 2.61486, 618.8, 286.161
-               Data = 775.452, 3.02063, 3.02061, 2.69507, 620.437, 335.861
-               Data = 953.278, 3.14196, 3.14193, 2.77528, 622.074, 385.692
-               Data = 1143.18, 3.26247, 3.26244, 2.85549, 623.711, 435.654
-               Data = 1344.51, 3.38226, 3.38226, 2.9357, 625.347, 485.748
-               Data = 1556.71, 3.5015, 3.50147, 3.01591, 626.984, 535.973
-               Data = 1779.31, 3.62021, 3.62017, 3.09613, 628.621, 586.33
-               Data = 2011.91, 3.73844, 3.73839, 3.17634, 630.258, 636.817
-               Data = 2254.15, 3.85622, 3.85619, 3.25655, 631.895, 687.436
-               Data = 2505.71, 3.9736, 3.9736, 3.33676, 633.532, 738.186
-               Data = 2766.32, 4.0906, 4.09065, 3.41697, 635.169, 789.068
-               Data = 3035.73, 4.20725, 4.20735, 3.49718, 636.806, 840.081
-               Data = 3313.7, 4.32357, 4.32372, 3.57739, 638.443, 891.225
-               Data = 3600.02, 4.43957, 4.43978, 3.6576, 640.08, 942.5
-            EndSect  // QH_Relations
-
-         EndSect  // weir_data
-
-         [weir_data]
             Location = 'S332C_overflow', 20.0, 'W-S332C-E', 'MODEL'
             [ReservoirData]
                StructureType = 0
@@ -4038,60 +3876,6 @@
                Data = 483.031, 3.93852, 3.93852, 3.59953, 455.587, 220.828
                Data = 526.744, 3.98607, 3.98607, 3.62857, 456.393, 234.068
                Data = 571.74, 4.03348, 4.03348, 3.6576, 457.2, 247.332
-            EndSect  // QH_Relations
-
-         EndSect  // weir_data
-
-         [weir_data]
-            Location = 'NDA', 6842.759999999999, 'W-S332BNnorthLevee', 'DA-2002'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = -213.3604267208535
-            Attributes = 0, 3
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
-            WeirFormula2Param = 0.0, 0.0, 0.0
-            WeirFormula3Param = 0.0, 0.0, 0.0, 0.6, 1.02, 1.37, 1.0, 0.03, 1.018, 1.0, 0.0, 2.6, 1.0, 0.7
-            [Geometry]
-               Attributes = 0, 0.0
-               [Level_Width]
-                  Data = 2.1336, 0.0
-                  Data = 2.16408, 609.5999999999999
-                  Data = 3.6576, 612.6479999999999
-               EndSect  // Level_Width
-
-            EndSect  // Geometry
-
-            [QH_Relations]
-               Data = 0.0, 2.1336, 2.1336, 2.1336, 0.0, 0.0
-               Data = 31.6206, 2.25658, 2.25638, 2.21381, 609.701, 39.6085
-               Data = 105.633, 2.37963, 2.37876, 2.29402, 609.865, 88.51949999999999
-               Data = 204.354, 2.4973, 2.49542, 2.37423, 610.029, 137.444
-               Data = 322.665, 2.61191, 2.60891, 2.45444, 610.193, 186.381
-               Data = 457.744, 2.72496, 2.72045, 2.53465, 610.356, 235.331
-               Data = 607.73, 2.8364, 2.83051, 2.61486, 610.52, 284.295
-               Data = 771.273, 2.94699, 2.93913, 2.69507, 610.684, 333.271
-               Data = 947.338, 3.05654, 3.04725, 2.77528, 610.847, 382.261
-               Data = 1135.1, 3.16584, 3.15483, 2.85549, 611.011, 431.264
-               Data = 1333.87, 3.27468, 3.26191, 2.9357, 611.175, 480.28
-               Data = 1543.09, 3.38315, 3.36858, 3.01591, 611.338, 529.309
-               Data = 1762.25, 3.49136, 3.47403, 3.09613, 611.502, 578.352
-               Data = 1990.94, 3.59952, 3.58018, 3.17634, 611.6660000000001, 627.407
-               Data = 2228.77, 3.70746, 3.68607, 3.25655, 611.83, 676.476
-               Data = 2475.42, 3.81414, 3.79175, 3.33676, 611.9930000000001, 725.557
-               Data = 2730.58, 3.92155, 3.89723, 3.41697, 612.157, 774.652
-               Data = 2993.99, 4.02881, 4.00254, 3.49718, 612.321, 823.76
-               Data = 3265.4, 4.13593, 4.10769, 3.57739, 612.484, 872.881
-               Data = 3544.58, 4.24293, 4.2127, 3.6576, 612.648, 922.015
             EndSect  // QH_Relations
 
          EndSect  // weir_data
@@ -10428,7 +10212,7 @@
 
       [CONTROL_STR]
          [control_str_data]
-            Location = 'AeroJet', 1700.0, 'AJ-1700', 'C2002'
+            Location = 'AeroJet', 1700.0, 'AJ-1700', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -10479,7 +10263,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 3400.0, 'AJ-3400', 'C2002'
+            Location = 'AeroJet', 3400.0, 'AJ-3400', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -10530,7 +10314,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 3900.0, 'AJ-3900', 'C2002'
+            Location = 'AeroJet', 3900.0, 'AJ-3900', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -10581,7 +10365,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 4270.0, 'AJ-4270', 'C2002'
+            Location = 'AeroJet', 4270.0, 'AJ-4270', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -10632,7 +10416,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 4590.0, 'AJ-4590', 'C2002'
+            Location = 'AeroJet', 4590.0, 'AJ-4590', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -10683,7 +10467,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 5630.0, 'AJ-5630', 'C2002'
+            Location = 'AeroJet', 5630.0, 'AJ-5630', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -10734,7 +10518,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'AeroJet', 7800.0, 'AJ-7800', 'C2002'
+            Location = 'AeroJet', 7800.0, 'AJ-7800', 'c2012'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -12459,7 +12243,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 10.0, 'S176', 'MODEL'
+            Location = 'C-111', 10.0, 'S176', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -12780,7 +12564,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 8990.0, 'S177', 'MODEL'
+            Location = 'C-111', 8990.0, 'S177', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -13101,7 +12885,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 18515.0, 'S18C', 'MODEL'
+            Location = 'C-111', 18515.0, 'S18C', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -13422,7 +13206,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28335.0, 'S197-03', 'MODEL'
+            Location = 'C-111', 28335.0, 'S197-03', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -13595,7 +13379,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28335.0, 'S197-07', 'MODEL'
+            Location = 'C-111', 28335.0, 'S197-07', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -13768,7 +13552,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28335.0, 'S197-13', 'MODEL'
+            Location = 'C-111', 28335.0, 'S197-13', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -13941,7 +13725,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-111', 28334.99999232, 'S197-Q', 'MODEL'
+            Location = 'C-111', 28334.99999232, 'S197-Q', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -14593,7 +14377,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-357', 5510.0, 'S357', 'MODEL'
+            Location = 'C-357', 5510.0, 'S357', 'estimated'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -14884,7 +14668,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'C-358', 1175.0, 'S357N', 'MODEL'
+            Location = 'C-358', 1175.0, 'S357N', 'estimated'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -15435,7 +15219,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-29', 19456.7172, 'S333', 'MODEL'
+            Location = 'L-29', 19456.7172, 'S333', 'c2013'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -15654,7 +15438,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-29', 19456.7172, 'S333-Q', 'MODEL'
+            Location = 'L-29', 19456.7172, 'S333-Q', 'c2013'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -15738,7 +15522,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-29', 36662.6772, 'S334', 'MODEL'
+            Location = 'L-29', 36662.6772, 'S334', 'c2013'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -15957,7 +15741,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-29', 36662.6772, 'S334-Q', 'MODEL'
+            Location = 'L-29', 36662.6772, 'S334-Q', 'c2013'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -16344,7 +16128,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31N', 11330.0, 'G211', 'MODEL'
+            Location = 'L-31N', 11330.0, 'G211', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -16702,7 +16486,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31N', 17220.0, 'S331P', 'MODEL'
+            Location = 'L-31N', 17220.0, 'S331P', 'c2002'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -17256,7 +17040,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31W', 15.0, 'S174', 'MODEL'
+            Location = 'L-31W', 15.0, 'S174', 'c2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -17339,7 +17123,7 @@
          EndSect  // control_str_data
 
          [control_str_data]
-            Location = 'L-31W', 11475.0, 'S175', 'MODEL'
+            Location = 'L-31W', 11475.0, 'S175', 'c2018'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
