@@ -1,0 +1,235 @@
+[MIKESHE_SheetPiling_File]
+  FileVersion = 1
+
+  [SheetPiling]
+    NrOfLayers = 5 
+    SpecifiedXYLevels = 1 
+
+    [Layer_1] 
+      LayerNumber = 1 // computational layer TOP
+
+      [GridCodes]
+        Type = 1 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = |..\..\INPUTFILES\SHEETPILE\SheetPile_20210412.dfs2|
+          ITEM_COUNT = 1
+          ITEM_NUMBERS = 2
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // GridCodes
+
+      [X_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+           ITEM_COUNT = 1
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // X_Leakage
+
+      [Y_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Y_Leakage
+
+      [Z_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Z_Leakage
+
+    EndSect // Layer_1
+
+    [Layer_2] 
+      LayerNumber = 2 // computational layer ONE BELOW TOP
+
+      [GridCodes]
+        Type = 1 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = |..\..\INPUTFILES\SHEETPILE\SheetPile_20210412.dfs2|
+          ITEM_COUNT = 1
+          ITEM_NUMBERS = 2
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // GridCodes
+
+      [X_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // X_Leakage
+
+      [Y_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Y_Leakage
+
+      [Z_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Z_Leakage
+
+    EndSect // Layer_2
+
+    [Layer_3] 
+      LayerNumber = 3 // computational layer TWO BELOW TOP
+
+      [GridCodes]
+        Type = 1 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = |..\..\INPUTFILES\SHEETPILE\SheetPile_20210412.dfs2|
+          ITEM_COUNT = 1
+          ITEM_NUMBERS = 2
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // GridCodes
+
+      [X_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+           ITEM_COUNT = 1
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // X_Leakage
+
+      [Y_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Y_Leakage
+
+      [Z_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Z_Leakage
+
+    EndSect // Layer_3
+
+    [Layer_4] 
+      LayerNumber = 4 // computational layer three below TOP
+
+      [GridCodes]
+        Type = 1 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = |..\..\INPUTFILES\SHEETPILE\SheetPile_20210412.dfs2|
+          ITEM_COUNT = 1
+          ITEM_NUMBERS = 10
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // GridCodes
+
+      [X_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+           ITEM_COUNT = 1
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // X_Leakage
+
+      [Y_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Y_Leakage
+
+      [Z_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Z_Leakage
+
+    EndSect // Layer_4
+
+    [Layer_5] 
+      LayerNumber = 5 // computational layer BOTTOM
+
+      [GridCodes]
+        Type = 1 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = |..\..\INPUTFILES\SHEETPILE\SheetPile_20210412.dfs2|
+          ITEM_COUNT = 1
+          ITEM_NUMBERS = 10
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // GridCodes
+
+      [X_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+           ITEM_COUNT = 1
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // X_Leakage
+
+      [Y_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Y_Leakage
+
+      [Z_Leakage]
+        Type = 0 // (0:Fixed value,1:DFS2 file)
+        FixedValue = 1.0E-9 // in 1/sec
+        [DFS_2D_DATA_FILE]
+          FILE_NAME = ||
+          ITEM_COUNT = 1 //(must be 1)
+          ITEM_NUMBERS = 1
+        EndSect // DFS_2D_DATA_FILE
+      EndSect // Z_Leakage
+
+    EndSect // Layer_5
+
+  EndSect // SheetPiling
+
+EndSect // MIKESHE_SheetPiling_File

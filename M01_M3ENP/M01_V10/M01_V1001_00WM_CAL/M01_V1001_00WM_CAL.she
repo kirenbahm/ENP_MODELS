@@ -1,4 +1,4 @@
-// Created     : 2021-04-12 13:8:37
+// Created     : 2021-04-12 23:42:4
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -81719,8 +81719,8 @@
    [ExtraParams]
       Touched = 1
       IsDataUsedInSetup = 1
-      MzSEPfsListItemCount = 12
-      NoOfParams = 12
+      MzSEPfsListItemCount = 14
+      NoOfParams = 14
       [ExtraParam_1]
          Touched = 1
          IsDataUsedInSetup = 1
@@ -81816,6 +81816,22 @@
          Type = 2
          Value = 0
       EndSect  // ExtraParam_12
+
+      [ExtraParam_13]
+         Touched = 1
+         IsDataUsedInSetup = 1
+         Name = 'sheet piling module'
+         Type = 2
+         Value = 1
+      EndSect  // ExtraParam_13
+
+      [ExtraParam_14]
+         Touched = 1
+         IsDataUsedInSetup = 1
+         Name = 'sheet piling file'
+         Type = 4
+         Value = |..\..\..\INPUTFILES\SHEETPILE\SheetPile_L1234Z-Existing.pfs|
+      EndSect  // ExtraParam_14
 
    EndSect  // ExtraParams
 
