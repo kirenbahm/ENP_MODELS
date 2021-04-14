@@ -1,4 +1,4 @@
-// Created     : 2021-04-12 21:49:33
+// Created     : 2021-04-14 13:34:16
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -16800,7 +16800,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 35, 5, 0.0
+               LS_parameter = 1, 5, 35, 5, 0.0
                [logical_operands]
                   logicaloperand = 0, 'C-111', 0.0, 'S331P', 0, '', 0.0, 0, 0, 1.2192, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -16849,7 +16849,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 35, 5, 0.0
+               LS_parameter = 2, 5, 35, 5, 0.0
                [logical_operands]
                   logicaloperand = 0, 'C-111', 8960.0, '', 0, '', 0.0, 0, 0, 0.9144, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -16944,7 +16944,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 33, 5, 0.0
+               LS_parameter = 1, 5, 33, 5, 0.0
                [logical_operands]
                   logicaloperand = 5, 'L-31N', 17220.0, 'S331P', 0, '', 0.0, 0, 0, 0.002831684659199999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
