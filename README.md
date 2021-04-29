@@ -13,3 +13,12 @@ The models are set up so the user runs them by opening the MIKE Zero project fil
 The ENP_MODELS repo is mostly self-contained, but some models do need a few files to run that are not contained in this repository. These files are contained in the directory ENP_FILES, which can be obtained from Kiren. The user is responsible for keeping the files in this directory up-to-date.
 
 The ENP_MODELS, ENP_TOOLS, and ENP_FILES directories should all work together if they are in the same parent folder, at the same level.
+
+These models have many authors/contributors. Credit goes to:
+
+Robert Fennema, NPS
+GIT Consulting
+Kiren Bahm, NPS
+Lago Consulting
+Amy Renshaw, NPS
+(Please let Kiren know if you have not been credited on this list.)
