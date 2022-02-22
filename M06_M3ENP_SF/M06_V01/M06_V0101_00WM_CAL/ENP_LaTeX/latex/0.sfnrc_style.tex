@@ -16,6 +16,8 @@
 %%% DECLARE PACKAGES TO USE
 %%% -----------------------------------------------------------------
 
+\documentclass[twoside,12pt]{article}
+
 \usepackage{geometry}
 \usepackage{fancyhdr} % for fancy headers and footers (**must load AFTER geometry package)
 \usepackage{sectsty}
@@ -25,7 +27,11 @@
 \usepackage{varioref} % this is for vref (MUST be before \usepackage{hyperref}. kb learned this the hard way)
 \usepackage{hyperref} % must load after varioref package
 \usepackage{caption}
-
+\usepackage{natbib}
+\usepackage{sidecap}  % for side captions
+\usepackage{booktabs}
+\usepackage{graphicx} % used to specify \graphicspath (path to figures directories)
+\usepackage{comment}
 
 % -----------------------------------------------------------------
 % TABLE OF CONTENTS, LIST OF FIGURES, BIB, etc. FORMAT
@@ -56,7 +62,7 @@
 % PAGE STYLE
 % -----------------------------------------------------------------
 %
-% Location Codes:
+% Location Codes used in \fancyhead:
 %   E: Even page
 %   O: Odd page
 %   L: Left field
