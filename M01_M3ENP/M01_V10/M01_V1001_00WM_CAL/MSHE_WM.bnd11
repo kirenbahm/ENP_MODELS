@@ -3030,7 +3030,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'LPG2', 900.5151121191341, 0.0, '', ''
+         DescType = 5, 0, 'LPG2', 564.978760662735, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
