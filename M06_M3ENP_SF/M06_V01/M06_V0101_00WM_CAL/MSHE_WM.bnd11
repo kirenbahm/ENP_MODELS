@@ -1,4 +1,4 @@
-// Created     : 2020-09-8 12:29:46
+// Created     : 2022-03-22 12:31:15
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -87,61 +87,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 1, '_AligatorCreekE', 2433.833857320577, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_BarronRiver', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_BarronRiver', 6409.579931230337, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -195,61 +141,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_BroadCreek', 15652.21354631578, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_BroadRiver', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_BroadRiver', 27844.16980403431, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -303,88 +195,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_CharleyCreek', 2362.088930553591, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_ChattamRiver', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_ChattamRiver', 12692.41972471817, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_EastCapeCanal', 4460.22855569702, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -438,33 +249,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_EastCreek', 1318.302532941196, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 1, '_FlamingoCanal', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -481,33 +265,6 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_FlamingoCanal', 6221.134767304531, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -600,60 +357,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_HalfwayCreek', 8878.504757174913, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_HarneyRiver', 15877.04565101541, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_HC', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -708,88 +411,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 1, '_HCE', 6842.565932818383, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 1, '_HCW', 1108.993655423509, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-            BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_HOC', 3903.107505971668, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_HurddesCreek', 1561.704904604635, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -818,33 +439,6 @@
 
       [BndItem]
          DescType = 5, 0, '_HustonRiver', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_HustonRiver', 7164.941835834247, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -1006,33 +600,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_LostmanRiver', 37358.80971975187, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_MainParkRoad', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -1087,61 +654,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 1, '_McCormicRiver', 897.3842682167492, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, '_MudCreek', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_MudCreek', 1031.482889347636, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -1357,33 +870,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_ORC', 2598.377057072701, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 1, '_ORC_E', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -1396,34 +882,6 @@
          EndSect  // FractionArray
 
          [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 1, '_ORC_E', 1533.720988864687, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-            BndTS = 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // HDArray
 
          [InflowArray]
@@ -1467,33 +925,6 @@
 
       [BndItem]
          DescType = 5, 0, '_OysterCreek', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_OysterCreek', 3103.474304762066, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -1628,88 +1059,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_SharkRiver', 32747.09471869883, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_SnakeBightCanal', 3161.946031517273, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 1, '_TaylorRiver', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 1, '_TaylorRiver', 3317.214180095196, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -1752,60 +1102,6 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_TaylorSlough', 22706.6973762048, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 1.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_TurnerRiver', 20156.65084260648, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -1952,60 +1248,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-102', 13603.58352512205, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_Avg-S194TW-S165HW.dfs0|, 0.0, 1, 'Avg-S194TW-S165HW', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 0, 5, 'C-103', 17373.87177212535, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S179_HW.dfs0|, 0.0, 1, 'S179_HW', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'C-103N', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -2022,33 +1264,6 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 0, 5, 'C-103N', 5775.34, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S166_HW.dfs0|, 0.0, 1, 'S166_HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -2114,33 +1329,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-111', 33291.0, 0.0, '', 'O4-S197Q'
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S197_TW.dfs0|, 0.0, 1, 'S197_TW', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'C-111E', -1215.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -2195,33 +1383,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-1W', 12651.4, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_Avg-S338TW-S148HW.dfs0|, 0.0, 1, 'Avg-S338TW-S148HW', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'C-357', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -2265,33 +1426,6 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 0, 5, 'C-4', 8052.88, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119_TW.dfs0|, 0.0, 1, 'G119_TW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -8556,7 +7690,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'culvert_53', 810.0, 0.0, '', ''
+         DescType = 5, 0, 'culvert_53', 800.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -8880,60 +8014,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 1, 'L-28', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S344_Q.dfs0|, 0.0, 1, 'S344_Q', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 0, 5, 'L-30', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S335_HW.dfs0|, 0.0, 1, 'S335_HW', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'L-31W', 18004.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -8977,33 +8057,6 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 0, 5, 'L67A', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S151_HW.dfs0|, 0.0, 1, 'S151_HW', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -9204,7 +8257,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'LPG2', 564.978760662735, 0.0, '', ''
+         DescType = 5, 0, 'LPG2', 900.5151121191341, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -9582,33 +8635,6 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'Tamiami', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_TAMIBR66.dfs0|, 0.0, 1, 'TAMIBR66', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'Tamiami', 59930.9382, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
@@ -9706,6 +8732,1734 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'L-28', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S344_Q.dfs0|, 0.0, 1, 'S344_Q', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_AligatorCreekE', 6777.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BK_Stage_GapFilled.dfs0|, 0.0, 1, 'BK  from 1:Obs, 2: TB Transf, 3: TB Obs, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_BarronRiver', 6540.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BAR_Stage_GapFilled.dfs0|, 0.0, 1, 'BAR  from 1:Obs, 2: LOP Transf, 3: LOP Obs, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_BroadCreek', 17841.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BD_Stage_GapFilled.dfs0|, 0.0, 1, 'BD  from 1:Obs, 2: SR Trans, 3: SR Obs, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_BroadRiver', 30776.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BD_Stage_GapFilled.dfs0|, 0.0, 1, 'BD  from 1:Obs, 2: SR Trans, 3: SR Obs, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_ChattamRiver', 12872.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf, 3: Distance Weighted Avg, 4: BAR Obs, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_EastCreek', 3148.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LM_Stage_GapFilled.dfs0|, 0.0, 1, 'LM  from 1:Obs, 2: TC Transf, 3: TC Obs, 4: TB Obs, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_FlamingoCanal', 7300.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\MK_Stage_GapFilled.dfs0|, 0.0, 1, 'MK  from 1:Obs, 2: SR Transf, 3: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_HalfwayCreek', 10046.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BAR_Stage_GapFilled.dfs0|, 0.0, 1, 'BAR  from 1:Obs, 2: LOP Transf, 3: LOP Obs, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_HCE', 6815.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LS_Stage_GapFilled.dfs0|, 0.0, 1, 'LS  from 1:Obs, 2: Weighted Avg, 3: TC Transf, 4: TC Obs, 5: LM Obs, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_HCW', 1130.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LS_Stage_GapFilled.dfs0|, 0.0, 1, 'LS  from 1:Obs, 2: Weighted Avg, 3: TC Transf, 4: TC Obs, 5: LM Obs, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_HustonRiver', 10510.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf, 3: Distance Weighted Avg, 4: BAR Obs, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_LostmanRiver', 37003.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LO_Stage_GapFilled.dfs0|, 0.0, 1, 'LO  from 1:Obs, 2: LOP Transf, 3: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_McCormicRiver', 4965.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\TB_Stage_GapFilled.dfs0|, 0.0, 1, 'TB  from 1:Obs, 2: Distance-W Avg, 3: BK Transform, 4: BK Obs, 5: LM Obs, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_ORC', 2732.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LS_Stage_GapFilled.dfs0|, 0.0, 1, 'LS  from 1:Obs, 2: Weighted Avg, 3: TC Transf, 4: TC Obs, 5: LM Obs, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_ORC_E', 1695.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LS_Stage_GapFilled.dfs0|, 0.0, 1, 'LS  from 1:Obs, 2: Weighted Avg, 3: TC Transf, 4: TC Obs, 5: LM Obs, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_SharkRiver', 32148.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\SR_Stage_GapFilled.dfs0|, 0.0, 1, 'SR  from 1:Obs, 2: BD Transf, 3: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_SnakeBightCanal', 5533.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BK_Stage_GapFilled.dfs0|, 0.0, 1, 'BK  from 1:Obs, 2: TB Transf, 3: TB Obs, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_TaylorRiver', 5065.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LM_Stage_GapFilled.dfs0|, 0.0, 1, 'LM  from 1:Obs, 2: TC Transf, 3: TC Obs, 4: TB Obs, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_TaylorSlough', 20573.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\TC_Stage_GapFilled.dfs0|, 1.0, 1, 'TC  from 1:Obs, 2: LM Transform, 3: LM Obs, 4: LS Obs, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, '_TurnerRiver', 20370.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf, 3: Distance Weighted Avg, 4: BAR Obs, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'AligatorCreekEToMcCormicRiver', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BK_Stage_GapFilled.dfs0|, 0.0, 1, 'BK  from 1:Obs, 2: TB Transf BK, 3: TB Transf TB, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'AligatorCreekEToMcCormicRiver', 13200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\TB_Stage_GapFilled.dfs0|, 0.0, 1, 'TB  from 1:Obs, 2: Distance-W Avg, 3: LM Transf TB, 4: BK Transf TB, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'BroadRiverToBroadCreek', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BD_Stage_GapFilled.dfs0|, 0.0, 1, 'BD  from 1:Obs, 2: SR Trans BD RA, 3: SR Transf SR RA, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'BroadRiverToBroadCreek', 2400.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BD_Stage_GapFilled.dfs0|, 0.0, 1, 'BD  from 1:Obs, 2: SR Trans BD RA, 3: SR Transf SR RA, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'BroadToHarney', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BD_Stage_GapFilled.dfs0|, 0.0, 1, 'BD  from 1:Obs, 2: SR Trans BD RA, 3: SR Transf SR RA, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'C-102', 13603.58352512205, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_Avg-S194TW-S165HW.dfs0|, 0.0, 1, 'Avg-S194TW-S165HW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'C-103', 17373.87177212535, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S179_HW.dfs0|, 0.0, 1, 'S179_HW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'C-103N', 5775.34, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S166_HW.dfs0|, 0.0, 1, 'S166_HW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'C-111', 33539.0, 0.0, '', 'O4-S197Q'
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S197_TW.dfs0|, 0.0, 1, 'S197_TW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'C-1W', 12651.4, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_Avg-S338TW-S148HW.dfs0|, 0.0, 1, 'Avg-S338TW-S148HW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'C-4', 8052.88, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_G119_TW.dfs0|, 0.0, 1, 'G119_TW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'ChattamToCharley', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf LOP, 3: BAR Transf BAR, 4: LO Transf LOP, 5:  LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'EastCapeCanalToFlamingo', 17600.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\MK_Stage_GapFilled.dfs0|, 0.0, 1, 'MK  from 1:Obs, 2: SR Transf MK, 3: SR Transf SR, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'EastCreekToMudCreek', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LM_Stage_GapFilled.dfs0|, 0.0, 1, 'LM  from 1:Obs, 2: TC Transf LM, 3: TC Transf TC, 4: TB Transf LM, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'FlamingoCanalToSnakeBightCanal', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\MK_Stage_GapFilled.dfs0|, 0.0, 1, 'MK  from 1:Obs, 2: SR Transf MK, 3: SR Transf SR, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'FlamingoCanalToSnakeBightCanal', 10800.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BK_Stage_GapFilled.dfs0|, 0.0, 1, 'BK  from 1:Obs, 2: TB Transf BK, 3: TB Transf TB, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HalfwayToBarron', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BAR_Stage_GapFilled.dfs0|, 0.0, 1, 'BAR  from 1:Obs, 2: LOP Transf BAR, 3: LOP Transf LOP, 4: LO Transf BAR, 5: LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HalfwayToBarron', 990.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BAR_Stage_GapFilled.dfs0|, 0.0, 1, 'BAR  from 1:Obs, 2: LOP Transf BAR, 3: LOP Transf LOP, 4: LO Transf BAR, 5: LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HarneyToShark', 15200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\SR_Stage_GapFilled.dfs0|, 0.0, 1, 'SR  from 1:Obs, 2: BD Transf, 3: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HCEToC-111', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LS_Stage_GapFilled.dfs0|, 0.0, 1, 'LS  from 1:Obs, 2: LM Transf LS, 3: TC Transf LS, 4: LM Transf LM, 5:  TC Transf TC, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HCEToC-111', 1600.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S197_TW.dfs0|, 0.0, 1, 'S197_TW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HustonToChattam', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf LOP, 3: BAR Transf BAR, 4: LO Transf LOP, 5:  LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'HustonToChattam', 800.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf LOP, 3: BAR Transf BAR, 4: LO Transf LOP, 5:  LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'L-30', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S335_HW.dfs0|, 0.0, 1, 'S335_HW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'L67A', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_S151_HW.dfs0|, 0.0, 1, 'S151_HW', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'LostmanToBroad', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LO_Stage_GapFilled.dfs0|, 0.0, 1, 'LO  from 1:Obs, 2: LOP Transf LOP, 3: BD Transf LO, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'LostmanToBroad', 9200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BD_Stage_GapFilled.dfs0|, 0.0, 1, 'BD  from 1:Obs, 2: SR Trans BD RA, 3: SR Transf SR RA, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'McCormicToTaylor', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\TB_Stage_GapFilled.dfs0|, 0.0, 1, 'TB  from 1:Obs, 2: Distance-W Avg, 3: LM Transf TB, 4: BK Transf TB, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'McCormicToTaylor', 10000.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LM_Stage_GapFilled.dfs0|, 0.0, 1, 'LM  from 1:Obs, 2: TC Transf LM, 3: TC Transf TC, 4: TB Transf LM, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'MudCreekToTaylorSlough', 3200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\TC_Stage_GapFilled.dfs0|, 0.0, 1, 'TC  from 1:Obs, 2: LM Transf TC, 3: LS Transf TC, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'OysterToLostman', 12000.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LO_Stage_GapFilled.dfs0|, 0.0, 1, 'LO  from 1:Obs, 2: LOP Transf LOP, 3: BD Transf LO, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'SharkToHOC', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\SR_Stage_GapFilled.dfs0|, 0.0, 1, 'SR  from 1:Obs, 2: BD Transf, 3: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'SnakeBightCanalToAligatorCreekE', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BK_Stage_GapFilled.dfs0|, 0.0, 1, 'BK  from 1:Obs, 2: TB Transf BK, 3: TB Transf TB, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'SnakeBightCanalToAligatorCreekE', 4800.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BK_Stage_GapFilled.dfs0|, 0.0, 1, 'BK  from 1:Obs, 2: TB Transf BK, 3: TB Transf TB, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'Tamiami', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BC_TAMIBR66.dfs0|, 0.0, 1, 'TAMIBR66', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TaylorRiverToEastCreek', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LM_Stage_GapFilled.dfs0|, 0.0, 1, 'LM  from 1:Obs, 2: TC Transf LM, 3: TC Transf TC, 4: TB Transf LM, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TaylorRiverToEastCreek', 1200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LM_Stage_GapFilled.dfs0|, 0.0, 1, 'LM  from 1:Obs, 2: TC Transf LM, 3: TC Transf TC, 4: TB Transf LM, 5: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TaylorSloughToORC', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\TC_Stage_GapFilled.dfs0|, 0.0, 1, 'TC  from 1:Obs, 2: LM Transf TC, 3: LS Transf TC, 4: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TaylorSloughToORC', 13200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LS_Stage_GapFilled.dfs0|, 0.0, 1, 'LS  from 1:Obs, 2: LM Transf LS, 3: TC Transf LS, 4: LM Transf LM, 5:  TC Transf TC, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TurnerToHalfway', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf LOP, 3: BAR Transf BAR, 4: LO Transf LOP, 5:  LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TurnerToHalfway', 8000.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\BAR_Stage_GapFilled.dfs0|, 0.0, 1, 'BAR  from 1:Obs, 2: LOP Transf BAR, 3: LOP Transf LOP, 4: LO Transf BAR, 5: LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TurnerToHuston', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf LOP, 3: BAR Transf BAR, 4: LO Transf LOP, 5:  LO Transf LO, 6: MatLab Fitting', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TurnerToHuston', 21200.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = false, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, |..\..\..\INPUTFILES\BC1D\LOP_Stage_GapFilled.dfs0|, 0.0, 1, 'LOP  from 1:Obs, 2: BAR Transf LOP, 3: BAR Transf BAR, 4: LO Transf LOP, 5:  LO Transf LO, 6: MatLab Fitting', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]

@@ -1,11 +1,11 @@
-// Created     : 2019-07-5 11:30:7
+// Created     : 2022-02-7 17:31:13
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
-// Version     : 17.0.0.12300
+// Version     : 17.2.0.13162
 
 [MIKE0_HD]
    [Global_Variables]
       [Global_Values]
-         G_waterlevel = 0.6096012192024385
+         G_waterlevel = 0.6096009999999999
          iLevelDepth = 0
          G_discharge = 0.0
          G_wind_factor = 1.0
@@ -177,7 +177,7 @@
          EndSect  // OutputItems
 
          [OutputFiles]
-            data = 'dfs Timeseries Bridge', false, |..\..\..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0|
+            data = 'dfs Timeseries Bridge', false, |..\..\..\Result\M06_V0101_00WM_CAL_TA16.she - Result Files\MSHE_WM.dfs0|
          EndSect  // OutputFiles
 
       EndSect  // TextOutput
