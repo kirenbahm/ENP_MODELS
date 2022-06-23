@@ -1,4 +1,4 @@
-// Created     : 2022-06-22 19:44:32
+// Created     : 2022-06-23 10:38:45
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -30,8 +30,8 @@
       [Foreground]
          Touched = 1
          IsDataUsedInSetup = 1
-         MzSEPfsListItemCount = 6
-         NumberOfLayers = 6
+         MzSEPfsListItemCount = 7
+         NumberOfLayers = 7
          [OverlayItem_1]
             Touched = 1
             IsDataUsedInSetup = 1
@@ -53,7 +53,7 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Transparency = 2
-               Display = 0
+               Display = 1
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
@@ -410,8 +410,8 @@
                PointStyle = 2
                PointType = 10
                PointColorR = 0
-               PointColorG = 0
-               PointColorB = 0
+               PointColorG = 255
+               PointColorB = 255
                PointTextColorR = 0
                PointTextColorG = 0
                PointTextColorB = 0
@@ -429,7 +429,7 @@
                PointTextBackground = 1
                LineTextBackground = 1
                PointTextColorOption = 0
-               ShowPointText = 0
+               ShowPointText = 1
                Display = 1
             EndSect  // OverlayShape
 
@@ -487,8 +487,8 @@
             [OverlayShape]
                Touched = 1
                IsDataUsedInSetup = 1
-               Filename = |..\..\..\INPUTFILES\GIS\M06_DOMAIN.shp|
-               ItemDescr = 'Uniq_ID'
+               Filename = |..\..\..\..\..\Projects\MikeRoss\GIS\ROSS_DOMAIN_02.shp|
+               ItemDescr = 'FID'
                ShapeAxisUnit = 1000
                PointSize = 1
                PointStyle = 0
@@ -535,6 +535,90 @@
             EndSect  // OverlayWell
 
          EndSect  // OverlayItem_6
+
+         [OverlayItem_7]
+            Touched = 1
+            IsDataUsedInSetup = 1
+            Type = 3
+            [OverlayBMP]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Filename = ||
+               BMP_X0 = 0.0
+               BMP_X1 = 10000.0
+               BMP_Y0 = 0.0
+               BMP_Y1 = 10000.0
+               BMP_TransparentColor = 16777215
+               BMP_DisplayStyle = 0
+               Display = 1
+            EndSect  // OverlayBMP
+
+            [OverlayGrid]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Transparency = 2
+               Display = 1
+               [DFS_2D_DATA_FILE]
+                  Touched = 1
+                  IsDataUsedInSetup = 0
+                  FILE_NAME = ||
+                  ITEM_COUNT = 1
+                  ITEM_NUMBERS = 1
+               EndSect  // DFS_2D_DATA_FILE
+
+            EndSect  // OverlayGrid
+
+            [OverlayShape]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               Filename = |..\..\..\..\..\Projects\MikeRoss\GIS\Ross_stations.shp|
+               ItemDescr = 'Station'
+               ShapeAxisUnit = 1000
+               PointSize = 1
+               PointStyle = 2
+               PointType = 10
+               PointColorR = 0
+               PointColorG = 255
+               PointColorB = 0
+               PointTextColorR = 0
+               PointTextColorG = 0
+               PointTextColorB = 0
+               LineThickness = 0.3
+               LineStyle = 0
+               PolygonStyle = 0
+               LineColorR = 0
+               LineColorG = 0
+               LineColorB = 0
+               LineTextColorR = 0
+               LineTextColorG = 0
+               LineTextColorB = 0
+               LineTextColorOption = 0
+               ShowLineText = 0
+               PointTextBackground = 1
+               LineTextBackground = 1
+               PointTextColorOption = 0
+               ShowPointText = 1
+               Display = 1
+            EndSect  // OverlayShape
+
+            [OverlayRiver]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               SourceM11NwkType = 0
+               M11NwkFilename_Specified = ||
+               Display = 1
+            EndSect  // OverlayRiver
+
+            [OverlayWell]
+               Touched = 1
+               IsDataUsedInSetup = 1
+               WellFilename = ||
+               Display = 1
+               Lables = 0
+               SourceWellType = 0
+            EndSect  // OverlayWell
+
+         EndSect  // OverlayItem_7
 
       EndSect  // Foreground
 
