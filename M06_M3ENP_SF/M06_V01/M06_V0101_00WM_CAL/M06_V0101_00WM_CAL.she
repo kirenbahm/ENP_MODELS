@@ -1,4 +1,4 @@
-// Created     : 2022-06-27 17:29:41
+// Created     : 2022-07-4 12:19:22
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -53,7 +53,7 @@
                Touched = 1
                IsDataUsedInSetup = 1
                Transparency = 2
-               Display = 1
+               Display = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
                   IsDataUsedInSetup = 1
@@ -680,8 +680,8 @@
          HotStartDate = -1, -1, -1, -1, -1
          HotStartDateIndex = 0
          SimStartFromHotStartDate = 1
-         SIMSTART = 1999, 1, 1, 0, 0
-         SIMEND = 2010, 12, 31, 0, 0
+         SIMSTART = 1996, 1, 1, 0, 0
+         SIMEND = 2017, 12, 31, 0, 0
       EndSect  // SimulationPeriod
 
       [CompControlParaTimeStep]
@@ -1080,9 +1080,9 @@
       [DFS_2D_DATA_FILE]
          Touched = 1
          IsDataUsedInSetup = 1
-         FILE_NAME = |..\..\..\..\..\Models\INPUTFILES\DOMAIN\ROSS_DOMAIN_01.dfs2|
+         FILE_NAME = |..\..\..\..\..\Models\INPUTFILES\DOMAIN\ROSS_DOMAINS.dfs2|
          ITEM_COUNT = 1
-         ITEM_NUMBERS = 1
+         ITEM_NUMBERS = 2
       EndSect  // DFS_2D_DATA_FILE
 
       [SHAPE_FILE]
@@ -63370,7 +63370,7 @@
       Drainage = 0
       TypeOfGeoParaDistribution = 0
       TypeOfVerDiscr = 0
-      Wells = 1
+      Wells = 0
       SYieldLayer1FromUZ = 1
       MinimumLayerThickness = 0.3048
       id = 14
@@ -75839,7 +75839,7 @@
 
       [Well]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          Filename = |..\..\..\INPUTFILES\WELLS\Wellfield_SingleWells.wel|
          IncludeMap = 1
       EndSect  // Well
@@ -81874,7 +81874,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary code file name'
          Type = 4
-         Value = |..\..\..\..\..\Models\INPUTFILES\DOMAIN\ROSS_DOMAIN_01.dfs2|
+         Value = |..\..\..\..\..\Models\INPUTFILES\DOMAIN\ROSS_DOMAINS.dfs2|
       EndSect  // ExtraParam_9
 
       [ExtraParam_10]
@@ -81882,7 +81882,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary code item number'
          Type = 1
-         Value = 1
+         Value = 2
       EndSect  // ExtraParam_10
 
       [ExtraParam_11]
