@@ -1,4 +1,4 @@
-// Created     : 2022-07-4 12:19:23
+// Created     : 2022-07-4 12:56:8
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -4432,7 +4432,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 35, 8, 0.0
+               LS_parameter = 1, 5, 35, 8, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -4526,7 +4526,7 @@
             [logical_statement]
                LS_parameter = 1, 0, 35, 5, 0.0
                [logical_operands]
-                  logicaloperand = 21, 'C-111', 28330.0, '', 0, '', 0.0, 2, 1, 1.249680060960122, |..\..\..\INPUTFILES\BC1D\S197.tail_water.dfs0|, 'S197.tail_water', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, 'C-111', 28330.0, '', 0, '', 0.0, 2, 1, 1.249680060960122, |..\..\..\INPUTFILES\BC1D\S18C.tail_water.dfs0|, 'S18C.tail_water', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -4661,6 +4661,90 @@
                EndSect  // CtrSummation
 
                Targetpoint = 'C-111', 28335.0, 'S197-Q', 0, '', 0.0, ||, '', 0, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+         EndSect  // control_str_data
+
+         [control_str_data]
+            Location = 'C-111', 18515.0, 'S18C-Q', 'MODEL'
+            [ReservoirData]
+               StructureType = 0
+               StorageType = 0
+               ApplyXY = 0
+               CoordXY = 0.0, 0.0
+               InitialArea = 0.0
+               [Elevation]
+               EndSect  // Elevation
+
+            EndSect  // ReservoirData
+
+            HorizOffset = 0.0
+            GateHeight = 0.0
+            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
+            Attributes = 2, 2, 0.63, 13.4112, -2.133599999999999, 0.0025399998984, false, 0.0, false, 0.0, 0.0
+            RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
+            KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
+            [logical_statement]
+               LS_parameter = 1, 0, 10, 5, 0.0
+               [logical_operands]
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  [LOSummation]
+                     LOSummationRule = 0, 0.0
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'C-111', 18515.0, 'S18C-Q', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\S18C.flow.dfs0|, 'S18C.flow_Q', 1, 0.0
+               [TargetSummation]
+                  TargetSummationRule = 0, 0.0
+               EndSect  // TargetSummation
+
+               pid_variables = 1.0, 300.0, 0.8, 1.0, 0.7, 1.0
+               iterate = 0.1, 0, 0.1, 0.1
+               [control_strategy]
+                  data = 0.0, 0.0
+               EndSect  // control_strategy
+
+               scaling = 0, 0, '', 0.0, '', 0, '', 0.0, ||, '', 0, 0.0
+               [ScaleSummation]
+                  ScaleSummationRule = 0, 0.0
+               EndSect  // ScaleSummation
+
+            EndSect  // logical_statement
+
+            [logical_statement]
+               LS_parameter = 2, 5, 0, 5, 0.0
+               [logical_operands]
+                  [LOSummation]
+                  EndSect  // LOSummation
+
+               EndSect  // logical_operands
+
+               controlpoint = '', 0.0, '', 0, '', 0.0, 0, 0.0, 0.0, 0, 0.0
+               [CtrSummation]
+                  CTRSummationRule = 0, 0.0
+               EndSect  // CtrSummation
+
+               Targetpoint = 'C-111', 18515.0, 'S18C-Q', 0, '', 0.0, ||, '', 0, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation
