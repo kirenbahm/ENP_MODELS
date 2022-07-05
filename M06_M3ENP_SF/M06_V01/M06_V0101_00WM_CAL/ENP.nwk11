@@ -1,4 +1,4 @@
-// Created     : 2022-07-4 13:4:3
+// Created     : 2022-07-5 12:51:56
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -4439,7 +4439,7 @@
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
 
-                  logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 0, 1, 0.792480060960122, |..\..\..\INPUTFILES\BC1D\S18C.tail_water.dfs0|, 'S18C.tail_water', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 22, '', 0.0, '', 0, '', 0.0, 0, 1, 0.792480060960122, |.\S18C.tail_water.dfs0|, 'S18C.tail_water', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -4524,9 +4524,9 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 5, 35, 5, 0.0
+               LS_parameter = 1, 0, 35, 5, 0.0
                [logical_operands]
-                  logicaloperand = 21, 'C-111', 28330.0, '', 0, '', 0.0, 2, 1, 1.249680060960122, |..\..\..\INPUTFILES\BC1D\S18C.tail_water.dfs0|, 'S18C.tail_water', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 21, 'C-111', 28330.0, '', 0, '', 0.0, 2, 1, 1.249680060960122, |.\S18C.tail_water.dfs0|, 'S18C.tail_water', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -4615,7 +4615,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 10, 0, 0.0
+               LS_parameter = 1, 5, 10, 0, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -4713,7 +4713,7 @@
                   CTRSummationRule = 0, 0.0
                EndSect  // CtrSummation
 
-               Targetpoint = 'C-111', 18515.0, 'S18C-Q', 0, '', 0.0, |..\..\..\INPUTFILES\BC1D\S18C.flow.dfs0|, 'S18C.flow_Q', 1, 0.0
+               Targetpoint = 'C-111', 18515.0, 'S18C-Q', 0, '', 0.0, |.\S18C.flow.dfs0|, 'S18C.flow_Q', 1, 0.0
                [TargetSummation]
                   TargetSummationRule = 0, 0.0
                EndSect  // TargetSummation

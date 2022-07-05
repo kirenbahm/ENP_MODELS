@@ -1,4 +1,4 @@
-// Created     : 2022-07-4 12:19:22
+// Created     : 2022-07-5 13:28:40
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -681,7 +681,7 @@
          HotStartDateIndex = 0
          SimStartFromHotStartDate = 1
          SIMSTART = 1996, 1, 1, 0, 0
-         SIMEND = 2017, 12, 31, 0, 0
+         SIMEND = 2019, 12, 31, 0, 0
       EndSect  // SimulationPeriod
 
       [CompControlParaTimeStep]
@@ -1080,7 +1080,7 @@
       [DFS_2D_DATA_FILE]
          Touched = 1
          IsDataUsedInSetup = 1
-         FILE_NAME = |..\..\..\..\..\Models\INPUTFILES\DOMAIN\ROSS_DOMAINS.dfs2|
+         FILE_NAME = |.\ROSS_DOMAINS.dfs2|
          ITEM_COUNT = 1
          ITEM_NUMBERS = 2
       EndSect  // DFS_2D_DATA_FILE
@@ -72108,7 +72108,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
+                     FILE_NAME = |.\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -72842,7 +72842,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
+                     FILE_NAME = |.\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -73576,7 +73576,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
+                     FILE_NAME = |.\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -74310,7 +74310,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
+                     FILE_NAME = |.\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -75044,7 +75044,7 @@
                   [DFS_2D_DATA_FILE]
                      Touched = 1
                      IsDataUsedInSetup = 1
-                     FILE_NAME = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
+                     FILE_NAME = |.\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
                      ITEM_COUNT = 1
                      ITEM_NUMBERS = 1
                   EndSect  // DFS_2D_DATA_FILE
@@ -81866,7 +81866,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary head file name'
          Type = 4
-         Value = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
+         Value = |.\BC2D_H_SZ-Unfilled-20220622-90-20-natural-linear-Ross.dfs2|
       EndSect  // ExtraParam_8
 
       [ExtraParam_9]
@@ -81874,7 +81874,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary code file name'
          Type = 4
-         Value = |..\..\..\..\..\Models\INPUTFILES\DOMAIN\ROSS_DOMAINS.dfs2|
+         Value = |.\ROSS_DOMAINS.dfs2|
       EndSect  // ExtraParam_9
 
       [ExtraParam_10]
