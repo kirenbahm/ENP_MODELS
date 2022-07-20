@@ -1,4 +1,4 @@
-// Created     : 2022-02-18 10:48:37
+// Created     : 2022-07-20 18:32:47
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -29344,7 +29344,7 @@
             RadialGateParam = 1.0, 1.0, 1.0, 1.0, 1.838, 1.5, -0.152, 0.304
             KissimeeGateParam = 1.05, 0.95, 1.55, 1.45, 0.7, 0.6, 1.12, 0.89, 0.86, 0.77, 0.21, 0.17, 0.38
             [logical_statement]
-               LS_parameter = 1, 0, 35, 8, 0.0
+               LS_parameter = 1, 5, 35, 8, 0.0
                [logical_operands]
                   logicaloperand = 36, '', 0.0, '', 0, '', 0.0, 0, 0, 22.65347727359999, ||, '', 0, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -29388,7 +29388,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 2, 0, 35, 5, 0.0
+               LS_parameter = 2, 5, 35, 5, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -29427,7 +29427,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 3, 0, 35, 8, 0.0
+               LS_parameter = 3, 5, 35, 8, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -29471,7 +29471,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 4, 0, 35, 8, 0.0
+               LS_parameter = 4, 5, 35, 8, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 2.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -29565,7 +29565,7 @@
             [logical_statement]
                LS_parameter = 1, 0, 10, 0, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
