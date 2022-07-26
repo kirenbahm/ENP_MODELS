@@ -1,4 +1,4 @@
-// Created     : 2022-02-18 10:48:37
+// Created     : 2022-07-26 16:20:41
 // DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
 // Version     : 17.2.0.13162
 
@@ -30007,7 +30007,7 @@
             [logical_statement]
                LS_parameter = 1, 0, 10, 5, 0.0
                [logical_operands]
-                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 4, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
+                  logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 0.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
                      LOSummationRule = 0, 0.0
                   EndSect  // LOSummation
@@ -30123,7 +30123,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 4, 0, 19, 5, 0.0
+               LS_parameter = 4, 5, 19, 5, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -30167,7 +30167,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 5, 0, 19, 5, 0.0
+               LS_parameter = 5, 5, 19, 5, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
@@ -30211,7 +30211,7 @@
             EndSect  // logical_statement
 
             [logical_statement]
-               LS_parameter = 6, 0, 19, 5, 0.0
+               LS_parameter = 6, 5, 19, 5, 0.0
                [logical_operands]
                   logicaloperand = 17, '', 0.0, '', 0, '', 0.0, 3, 1, 1.0, |.\M11_OPERATIONS.dfs0|, 'MODE', 1, 0, 0.0, 0.0, 0, 0.0, false, 0.0
                   [LOSummation]
