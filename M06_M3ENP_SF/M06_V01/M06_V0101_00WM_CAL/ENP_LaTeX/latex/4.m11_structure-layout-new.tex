@@ -1,0 +1,1389 @@
+
+\include{0.report_data}
+
+\include{0.sfnrc_style}
+
+\graphicspath{{../figs/}{../../../../../../ENP_FILES/LATEX/figs-not-in-git}} % this is the search path for report figures
+
+\begin{document}
+\pagestyle{sfnrctech1}
+
+\specialcomment{notes}{\begingroup\sffamily\it\color{red}}{\endgroup} % defines style of 'notes' comment
+
+\pagenumbering{roman} % use roman numerals for page numbers
+\setcounter{page}{1}  % begin numbering pages here
+
+\begingroup
+\sffamily
+\tableofcontents
+\endgroup
+\cleardoublepage
+
+\pagenumbering{arabic} % use arabic numbers for pages
+
+\normalsize
+
+%=================================================================
+%=================================================================
+\section{M11 Physical Layout - Rivers, Structures, Canals and Levees}
+%=================================================================
+%=================================================================
+
+
+The M11 network has been conceptually divided into 8 Areas, as shown in Figure~\ref{fig:M11_areas}. The layout of each Area is described in the subsections below.
+
+The shaded area includes the extensive seepage management features along the eastern boundary of the park, and is discussed in Section~\ref{sec:seepagefeatures}.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{M11_areas2.png}
+  \caption[MIKE11 Model Areas]{MIKE11 Model Areas}
+  \label{fig:M11_areas}
+  \end{center}
+\end{figure}
+
+\clearpage
+
+%=============================================================================================
+%=============================================================================================
+\subsection{BICY Area}
+%=============================================================================================
+%=============================================================================================
+This section includes the Tamiami Canal and Loop Road.
+
+
+%----------------------------------------------------------
+\subsubsection{Tamiami Canal - Carnestown to L-28}
+%----------------------------------------------------------
+
+\paragraph{Description}
+This area includes Tamiami Trail, Culverts 77 through 117, and Road 841.
+
+The culverts under the Tamiami Trail in this area are shown in Figure~\ref{fig:TamiamiCanalCulverts}.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{TamiamiCanalCulverts.png}
+  \caption{Tamiami Canal Culverts.}
+  \label{fig:TamiamiCanalCulverts}
+  \end{center}
+\end{figure}
+
+\paragraph{Model Layout}
+The model includes the Tamiami Trail roadbed as a levee, and it's associated borrow canal. It extends westward up to SR-29, where the model boundary ends.
+The numerous culverts that extend under the roadbed have been grouped into a smaller number of representative culverts based on the 400m grid size in the model.
+
+From the north, the levee and borrow canal associated with road 841 have an open connection with the Tamiami Trail features, and the Turner River connects from the south.
+
+
+
+
+\begin{notes}
+\paragraph{Notes}
+Tamiami Trail levee and canal cross sections in this area need to be checked.
+\end{notes}
+
+
+\clearpage
+
+%----------------------------------------------------------
+\subsubsection{Loop Road}
+%----------------------------------------------------------
+\paragraph{Description}
+This area includes Loop Road, its associated borrow canal, and all culverts underneath the road.
+
+\paragraph{Model Layout}
+The Loop road roadbed and borrow canal are represented as a canal and levee. Culverts extend under the levee.
+Loop road culverts have been grouped in the model based on the model grid cell size.
+
+The Loop Road levee and borrow canal do not directly connect to the Tamiami Trail canal features.
+
+\begin{notes}
+\paragraph{Notes}
+We have survey data collected by Tachiev and details on culverts and groupings that can be added here.
+\end{notes}
+
+\clearpage
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{WCA-3A and NWSRS Area}
+%=============================================================================================
+%=============================================================================================
+This section includes the L-28 canal, The L-29 canal reach extending between L-28 and S-333, the Tram Road canal, L-67A, L-67C, and the L-67ext canals.
+%----------------------------------------------------------
+\subsubsection{L-28 Canal}
+%----------------------------------------------------------
+
+\paragraph{Description}
+The levee on the L-28 is on the east side (WCA-3A) of the canal north of S-344 and on the west side (BICY) south of S-344.
+Six plugs were installed in the L-28 in the early 1980s. As time went on, these plugs became compromised and water flowed over them.  The plugs in the L-28 canal were repaired and raised in 2016 in response to high water levels in WCA-3A in late 2015 and early 2016.  All 6 plugs were raised to 10 foot elevation \citep{ USACE2016TempDev} (or maybe just above local LSE).
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=3.0in]{L28-S343A_detail.png}
+  \caption{L-28 detail at junction with S-343A}
+  \end{center}
+\end{figure}
+
+\paragraph{Model Layout}
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=4.0in]{L28_and_Tram_banks.png}
+  \caption{L-28 and Tram banks}
+  \end{center}
+\end{figure}
+
+The northern end of the L-28 canal is placed at the structure S-344 (not in model).
+
+\paragraph{L-28 topography ``c2002''}
+No plugs are present in this topo.
+
+\paragraph{L-28 topography ``TALL\_PLUGS''}
+A total of 26 cross sections have been defined for the L-28 canal, including cross sections for the 6 plugs installed in the L-28 in the early 1980s.  The elevation of the bottom of the canal and the levee was determined using as-built drawings from canal construction topography \citep{L28topo}.  ADCP bathymetry of the L-28 canal, immediately downstream of S-344 and 6 miles downstream of the S-344 structure, was used to construct the shape of the canal.  The elevation of the plugs was estimated to be at the same elevation as the bordering wetland, the model surface topography was used to estimate the west bank of the canal and the elevation of the plugs.
+
+\begin{notes}
+\paragraph{Notes}
+How to model the plugs?
+\end{notes}
+
+
+\clearpage
+
+
+%----------------------------------------------------------
+\subsubsection{Tamiami Trail and L-29 from L-28 to S-12A}
+%----------------------------------------------------------
+\paragraph{Description}
+This reach of the Tamiami Trail borrow canal extends in a NW-SE direction and includes Culverts 22-28. Running parallel and just to the north, the L-29 canal contains structures S-343A, S-343B, and S-12A. The L-29 canal has direct inflow along its entire length from WCA3A to the north. The structures S-343A and S-343B allow flow from WCA3A under the L-29 levee into the Tamiami Trail borrow canal. Culverts 22-28 allow flow from the Tamiami Trail borrow canal southward under the Tamiami Trail roadbed, and into Big Cypress National Preserve and Everglades National Park. East of Culvert 28 is the S-14 structure that also allows flow into ENP, but the S-14 is rarely used. To the east of the S-14 is the S-12A structure.
+The L-29 canal has been blocked between S-14 and S-12A. East of S-12A the Tamiami Trail roadbed is the same as the L-29 levee, and represents the southern end of WCA3A.
+
+\paragraph{Model Layout}
+Just west of the S-12A structure, the filled-in portion of the L29 canal (between S14 and S12A) has been implemented as a closed control structure 'L29plugWofS12A'. The model does not include structure S-14.
+
+Water from WCA-3A is allowed to directly enter the L-29 canal through use of a wide canal cross section that exchanges water with the adjacent MSHE cells.
+
+Culverts 22 and 23 are in the model as structures.
+
+Culverts 24-28 are not in the model as water control structures, but are included as canal branches.
+
+S-343A and S-343B are included in the model.
+
+Figure~\ref{fig:fig52a} shows the model network in this area.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.5in]{fig52a.png}
+  \caption{Western Reach of L-29, Culvert 24 to S-12A.}
+  \label{fig:fig52a}
+  \end{center}
+\end{figure}
+
+\paragraph{L-29 topography}
+Discussed in section \ref{sec:L29fromS333toS334}.
+
+\begin{notes}
+\paragraph{Notes}
+Need to check culvert structures and boundary conditions for all culverts along TT and Loop Road
+
+\paragraph{Potential References:}
+\begin{packed_items}
+\item \verb$COEDO400-34,155 S343A,B & 344 Design_.pdf$ for L28 and L29 xsect circa 1983
+\end{packed_items}
+\end{notes}
+
+
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{L-29 from S-12A to S-333}
+%----------------------------------------------------------
+
+\paragraph{Description}
+This reach of the L-29 is directly connected on it's north bank to WCA-3A. The L-29 canal has been filled in just west of S-12A. This reach of the L-29 has 5 structures: S-12A, S-12B, S-12C, S-12D, and S-333. Structures S-12A through S-12D deliver water from WCA-3A directly into ENP, and S-333 delivers water from WCA-3A into the L-29 canal. Levee 29 forms the southern boundary of WCA-3A and Levee 67A forms the southeastern boundary of WCA-3A. South of (and parallel to) the L-29 levee is the Old Tamiami Trail roadbed and borrow canal, which has several culverts under the roadbed and is depicted in Figure~\ref{fig:OTT_area}.
+
+The getaways from the S12s and parts of the Old Tamiami Trail borrow canal have been cleared and dredged at various times in the past. The S12B getaway was expanded around 2019?.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=4.0in]{OTT_area.png}
+  \caption{Schematic of Old Tamiami Trail Borrow Canal and Culverts.}
+  \label{fig:OTT_area}
+  \end{center}
+\end{figure}
+
+\paragraph{Model Layout}
+This reach of the L-29 allows overbank flow from/to WCA-3A in the model. It is connected to the Tamiami Trail canal vis structures S-343A and S-343B. Flow under the Tamiami Trail roadbed is simulated through culverts  and has 5 associated structures: S-12A, S-12B, S-12C, S-12D, and S-333. It has a connection to the L-67A canal to the north.The Old Tamiami Trail roadbed, borrow canal, and culverts 34-39 are not included in the model between S-12A and the L-67 Extension canal.
+
+\paragraph{L-29 topography}
+Discussed in section \ref{sec:L29fromS333toS334}.
+
+\begin{notes}
+\paragraph{Notes}
+
+The Old Tamiami Trail implementation of the M3ENP model explicitly includes the Old Tamiami Trail features. (see the EIS)
+\end{notes}
+
+\clearpage
+
+%----------------------------------------------------------
+\subsubsection{L-67A, L-67C, and the ``Pocket''}
+%----------------------------------------------------------
+
+\paragraph{Description}
+The L-29 canal has a direct connection to the L-67A canal.
+
+The area between the L-67A and L-67C canals is commonly referred to as the ``Pocket''. Is This transition area between WCA-3A and WCA-3B generally has a steep gradient as higher WCA-3A stages seep underneath the levees to WCA-3B, where stages are much lower.
+
+\paragraph{Model Layout}
+
+The intersection of the L-67A, L-67C, L-29, L-67EXT in the model is shown in \ref{fig:rjffig55}. The top map is the satellite image overlain by the .nwk11 representation of the canals. The center plot is the .nwk11 view showing the canal cross sections in red. The sections having a large width are set up to interact with the MSHE cells to facilitate the exchange of surface water. Structures are shown in green and include S-333, S-346 and culvert 41.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=2.0in]{rjffig55.png}
+  \caption[L-67A, L-67C, L-29, L-67ext and Culvert 41.]{L-67A, L-67C, L-29, L-67ext and Culvert 41. Top: Regional view of the intersection of the L-67A,L-67C, L-29, L-67ext and Culvert 41 canal network. L-67ext is implemented as a canal closed at both ends and a berm on the east side of the ditch. The cross sectional depth is assumed about 20 ft, the flow in the canal is allowed to over  flow to the west and it uses CLOSED boundary conditions at both ends.
+Middle: Detail of the area from the .nwk11 file, showing canals in blue and cross-sections in red, structures/culverts in green and boundary conditions in magenta.
+Bottom: Discretization of the canal network in M3ENP, canals are shifted within the model to align with grid cell boundaries.
+TODO: labels}
+  \label{fig:rjffig55}
+  \end{center}
+\end{figure}
+
+The L-67A canal connects to the L-29, and the L-67C canal does not connect to any other canals. The steep gradient of stages in the ``Pocket'' area is achieved in the model by creating a short canal from L-67A to L-67C (\ref{fig:rjffig53}).  This artificial ``Pocket'' canal along the northern boundary of the model functions to smoothly transition the boundary conditions from the relatively higher stages in WCA-3A to the lower stages in WCA-3B.  The ``Pocket'' canal is connected in the model to L-67C, abut not to L-67A.
+
+%----------------------------------------------------------
+\paragraph{L-67A}
+%----------------------------------------------------------
+
+In the model, the northern boundary of L67A is a head boundary, with prescribed timeseries of S12D\_HW.
+
+The Pocket canal intersects with L67A near the center of the canal.
+
+The southern boundary of L67A is connected to L29 between S333 and S12D.
+
+%\begin{figure}[!ht] \begin{center}
+%  \includegraphics[width=6.5in]{../figs/timeseries/S12D_HW.png}
+%  \caption{Prescribed Flow at L67A North Boundary}\label{fig:S12D_HW:STRUCTURE}\end{center}
+%\end{figure}
+
+
+%----------------------------------------------------------
+\paragraph{L-67C}
+%----------------------------------------------------------
+The north boundary of L67C is closed. The south boundary of L67C is closed, the canal is not connected to canal L67A.
+
+The Pocket canal intersects with L67C near the center of the canal.
+
+The southern end of L67C is not connected with L67A.
+
+
+%----------------------------------------------------------
+\paragraph{The Pocket}
+%----------------------------------------------------------
+
+The pocket canal has no control structures or boundary conditions, and has open connections with L67C. The pocket canal is disconnected from L67A and has no flow boundary conditions at the its western end.
+
+%The east boundary of this canal is closed, and the west boundary of the canal is a prescribed head timeseries, shown in Figure~\ref{fig:tsr79c49_HW:STRUCTURE}. It is derived from the timeseries output for Row 79 and Column 49, we think.
+
+%\begin{figure}[!ht] \begin{center}
+%  \includegraphics[width=6.5in]{../figs/timeseries/tsr79c49.png}
+%  \caption{Prescribed Flow at West Boundary of the Pocket Canal}\label{fig:tsr79c49_HW:STRUCTURE}\end{center}
+%\end{figure}
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{Tram Road and Borrow Canals}
+%----------------------------------------------------------
+\paragraph{Description}
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=3.0in]{S12B-tram_detail.png}
+  \caption{S-12B and Tram Road area detail}
+  \end{center}
+\end{figure}
+
+The Tram Road at Shark Valley in Everglades National Park extends in a north-south direction and has two sections. It is a straight road throughout the western section, and then loops back on the eastern section following a meandering curved path. The corresponding borrow canal for this road only exists on the western section of the road - the eastern section does not have a parallel borrow canal. The east portion of the Tram road has 98 culverts and the west loop has 80 culverts under the roadway. The borrow canal adjacent to the western portion of the road connects to the Old Tamiami Trail borrow canal at the north end through a culvert.
+
+There are large open culverts connecting the east and west portions of the Old Tamiami Trail borrow canal under the Tram Road. The Old Tamiami Trail borrow canal is also connected to the Tram Road borrow canal via a culvert that can be opened or closed.
+
+The numerous culverts under the Tram road have been blocked with sandbags at various times in the past, and is it common for water to overtop the Tram Road when stages are high.
+
+\paragraph{Model Layout}
+
+The model implementation of the Tram Road and borrow canal is as a shallow ditch (width of 40 ft and depth of 1.5 ft or m) with an adjacent low height berm (0.25 ft). No water control structures exist within this canal. The ditch begins just south of L-29, extends approximately 7 miles to the south, then loops back to the north and ends again near L-29, and is closed at both ends (Figure~\ref{fig:gitfig10}), and is not connected to L-29. Labeled ROAD\_SRS and ROAD\_SRS\_E in the model.
+
+The culverts under the road are not individually modeled, so the low height berm is used to model the obstruction of flow between the areas east and west of the road. The height of 0.25 ft was selected after performing simulations and observing the model response at adjacent monitoring stations.??
+
+Note that in the model setup, there is no connection between the L-29 and Tram Road borrow canals. Also, the Old Tamiami Trail roadbed/levee and borrow canal is not modeled.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig52b.png}
+  \caption{Western Reach of L-29, S-12A to S-333 and the Tram road at Shark Valley.}
+  \label{fig:rjffig52b}
+  \end{center}
+\end{figure}
+
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{GE_DIAGRAMS-ROAD_SHR.png}
+  \caption[Implementation of the road at Shark River.]{Implementation of the road at Shark River. A shallow ditch (3 ft depth? and 20 ft width?) and a berm with height of 0.25ft were used to implement the road and model the flow obstruction by the road between the areas west and south of the road.}
+  \label{fig:gitfig10}
+  \end{center}
+\end{figure}
+
+
+\begin{notes}
+\paragraph{Notes}
+\begin{packed_items}
+\item Does the model allow flow from S12B to the east side of the Tram Road? It might need this for the calib run, but not for the ops run.
+\item Rename ROAD\_SRS to Tram Road
+\item Check Tram Road canal depths, maybe delete Eastern portion of this road altogether.
+\end{packed_items}
+\end{notes}
+
+
+\clearpage
+
+%----------------------------------------------------------
+\subsubsection{L-67ext Canal}
+%----------------------------------------------------------
+\paragraph{Description}
+
+The north end of the L-67 Extension Canal is connected to L-29 just East of S-333. S-12E is an underflow structure that controls flow from the L-29 into the L-67EXT at its north end. Structures in the L-67ext canal are the S-12E, S-346, and S-347.
+
+A substantial portion of flow currently entering the north end of the L-67ext is from S-12D via the Old Tamiami Trail borrow canal. Historically, this connection has bee augmentd by a cutout bypass, and has had various other alterations.
+
+The southern end of the L-67ext was filled in sometime in the past....
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=4.0in]{S12D-L67ext_detail.png}
+  \caption{S-12D and L-67ext area detail}
+  \end{center}
+\end{figure}
+
+
+\paragraph{Model Layout}
+
+L-67ext is implemented as a borrow canal and eastern levee that connects on its north end (via the S-12E structure) with L-29 just downstream of S-333 (see Figure~\ref{fig:H_L-67-EXT}). The cross sections in L-67ext interact with the surface water on the west side of the canal.
+
+Currently the Old Tamiami Trail Borrow Canal and it's connection to the L-67ext is not included in the model.
+
+The L-67ext extends south of L-29 approximately 8400 meters, and includes structures S-12E, S-346, and S-347.
+
+\begin{figure}[!ht]
+\begin{center}
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=6.5in]{GE_DIAGRAMS-L67EXT.png}
+  \caption[Implementation of L-67ext]{Implementation of L-67ext.}
+\label{fig:H_L-67-EXT}
+\end{center}
+\end{figure}
+
+
+\clearpage
+
+%=============================================================================================
+%=============================================================================================
+\subsection{WCA-3B and NESRS Area}
+%=============================================================================================
+%=============================================================================================
+This section includes L-29 east of S333, and L-30.
+
+
+%----------------------------------------------------------
+\subsubsection{L-29 from S-333 to S-334}
+%----------------------------------------------------------
+\label{sec:L29fromS333toS334}
+
+\paragraph{Description}
+Flow into this reach of the L-29 comes from the west through S-333 and from the west through the S-356 pump station. Water leaves this section of the canal through S-334, Culverts 41 to 59, and through the Tamiami Trail bridges. The culverts under the Tamiami Trail in this area are shown in Figure~\ref{fig:L29Culverts}.
+
+In 2013, a mile-long bridge was built and a one mile long section of the Tamiami Trail roadbed (levee) was removed. As part of this project, Culvert 57 was removed, and Culverts 56 and 58 were replaced. (I believe they were circular culverts and were replaced with box culverts).
+
+In 2021, a set of bridges totaling 2.6 miles was built, and a total of 1.64 miles of the Tamiami Trail roadbed (levee) was removed. The two sections of roadbed removed were approximately 0.87 and 0.77 miles long.  This project removed Culverts 44 and 46. (I am not sure if Culvert 47 was changed.)
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=3in]{L29Culverts.png}
+  \caption{Eastern Tamiami Trail Culverts.}
+  \label{fig:L29Culverts}
+  \end{center}
+\end{figure}
+
+\paragraph{Model Layout}
+
+The culvert along L-29 were implemented as short canals with cross sections with approximate depth of 2 ft below surface. The depth of the canal has no influence on the MSHE nor M11 stages because the end of the canal uses CLOSED boundary conditions, i.e. no flow is allowed in the longitudinal direction at the canal boundary. The water flow in the longitudinal direction is minimal (zero at the boundary) and the entire flow is forced to overflow the canal banks and spill laterally.
+
+The one-mile bridge is modeled as a one-mile long broad-crested weir and centered at the location of culvert 57. It is implemented by removing the levee on the south bank of the L-29 and matching the topography of the right bank to the elevation of the marsh downstream.
+
+\paragraph{L-29 topography ``MODEL''}
+Origin unknown. Canal depths to -14 feet, width approximately 120 feet.
+
+\paragraph{L-29 topography ``c2013''}
+Same as ``MODEL'' except canal bank lowered for one-mile section.
+
+
+\clearpage
+
+%----------------------------------------------------------
+\subsubsection{L-30 Canal}
+%----------------------------------------------------------
+\paragraph{Description}
+
+The L-30 canal directs water to the south to the intersection with L-29, C-4 and L-31N as shown in Fig.~\ref{fig:rjffig56}. L-30 also captures a substantial amount of seepage from WCA-3B, in addition to any operations sending flow south for flood control and water supply.
+
+\paragraph{Model Layout}
+The canal L-30 enters the model domain approximately 1.4 miles north of S-335.
+
+The left diagram in the figure shows the structure S-335 (green) and the intersection at Dade Corners. The center plot is from the pre-processed data and shows the re-alignment of the canal with the grid cells and the stair-step pattern south of S-335 where L-30 turns to the southwest. The red cells are higher elevation cells to prevent spurious surface water from going across the canal.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig56.png}
+  \caption{L-30}
+  \label{fig:rjffig56}
+  \end{center}
+\end{figure}
+
+\begin{notes}
+\paragraph{Notes}
+Question: We could consider using a formula to add 3B seepage into L30.
+I also think SOLFAs are needed here.
+\end{notes}
+
+\clearpage
+
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{East of L-31N Area}
+%=============================================================================================
+%=============================================================================================
+This area includes L-31N, The two Rock miner's lakes, C-4, C-1W, C-102, C-103, C-103N, C-103S, and C-113
+
+The main canal affecting the eastern section of ENP is the L-31N, low canal water levels in this canal account for the majority of the seepage from the Park to the L-31N and as groundwater flow under the developed lands east of L-31N. The canal begins at Dade Corners (near S-334, see Fig.~\ref{fig:rjffig57}) and extends south to S-176/S-332D. Intersections with five west-to-east canals (C-4, C-1W, C-102, C-103 and C-113) allow flows as flood control or water supply to take place.
+
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-4 Canal}
+%----------------------------------------------------------
+\paragraph{Description}
+The C-4 canal generally moves water towards the east. Structures regulating water flow are the S-336, G-119, and S-380.  Structure G-119 was replaced sometime around 2015.  Structure S-380 was built sometime around 2002.
+
+\paragraph{Model Layout}
+A schematic of the C-4 canal is shown in Fig.~\ref{fig:rjffig47}. The upper plot represents the canal reach as displayed in the nwk11 file and bottom plot is the reach as displayed in a satellite image.
+
+Structure S-336 is located on the western start of canal C-4, and a mile downstream is the structure G-119. S-380 is not included in the model.
+
+The Miami-Dade flood control facility near the eastern boundary is not included in the model.
+
+Ponds, flow equalization basins, canals, and detention areas to the north and south of C-4 and east of Krome Ave. are not included in the model.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig47.png}
+  \caption{C-4 Canal.}
+  \label{fig:rjffig47}
+  \end{center}
+\end{figure}
+
+
+\clearpage
+
+%----------------------------------------------------------
+\subsubsection{Rockmine Lakes}
+%----------------------------------------------------------
+\paragraph{Description}
+Adjacent to the upper reach of L-31N, on the east side, are a set of lakes being excavated for rock mining operations. The lakes had a smaller horizontal extent in the 1990s, and have grown in size through the years.
+
+
+\paragraph{Model Layout}
+The lakes are represented as two canals as shown in Figure~\ref{fig:rjffig57}. The lake cross sections are shown in Fig.~\ref{fig:rjffig58b}. No operations are associated with the lakes and interaction is allowed with MSHE in the model, thereby rising and falling with the adjacent groundwater.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig58b.png}
+  \caption{Cross section for the Rockmine lakes}
+  \label{fig:rjffig58b}
+  \end{center}
+\end{figure}
+
+\begin{notes}
+\paragraph{Notes:}
+The implementation of these lakes needs to be checked, to see if the model is double-counting water volume.
+\end{notes}
+
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{L-31N}
+%----------------------------------------------------------
+\paragraph{Description}
+L-31N canal contains the structures G-211, the S-331 complex, the S332 B,C, and D pumps, and S-176.
+
+
+Note: the L-31N seepage barrier and the S332 B,C, and D pumps are discussed in the section on Seepage Management Features.
+
+
+\paragraph{Model Layout}
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig57.png}
+  \caption{L-31N.}
+  \label{fig:rjffig57}
+  \end{center}
+\end{figure}
+
+At the S-331/S-173 complex three separate structures are modeled: S-173 is a set of gated culverts, S-331S is a syphon mode of the pumps and S-331P are three pumps used when gravity  flow is not sufficient (Fig.~\ref{fig:rjffig59}). These structures are modeled in individual canals, with the canal reach associated with S-331P interacting with MSHE. The other two are placed for convenience to separate the various operational strategies in manageable chunks. In this form the individual contribution of the structures can be easily output. Thus, syphon (S-331S), pump (S-331P) and gated (S-173) components are tabulated and also shown as a total (S-331T) in the output.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=3.0in]{rjffig59.png}
+  \caption{Configuration of S331/S173 area.}
+  \label{fig:rjffig59}
+  \end{center}
+\end{figure}
+
+
+\paragraph{L-31N topography ``c2002''}
+There are 46 cross sections in the L-31N canal.  These cross sections were taken from ArcGIS file "MDC\_Points\_updated\_07032017\_M3ENPxsect".  Transect 0 is cross section from L-29 canal.  Four cross sections on the GIS file were chosen, a cross section was used to represent each reach: US41 to G-211, G-211 to S-331, S-331 to S-332B, and S-332B to S-176.
+
+\paragraph{L-31N topography ``MODEL''}
+Origin unknown
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-1W}
+%----------------------------------------------------------
+\paragraph{Description}
+C-1W allows flood control and water supply to the east through structure S-338.
+
+\paragraph{Model Layout}
+Fig.~\ref{fig:rjffig48} shows the nwk11 representation with an inset of the satellite image for the relevant area.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig48.png}
+  \caption{C-1W Canal.}
+  \label{fig:rjffig48}
+  \end{center}
+\end{figure}
+
+\paragraph{C-1W topography ``c2002''}
+There are 6 cross sections on the C-1W canal.  Cross section 0 has been imported from the L-31N canal to create the proper connection.  All cross sections were taken from ArcGIS file "MDC\_Points\_updated\_07032017\_M3ENPxsect".  Two different cross sections were chosen, one from the L-31N to the tailwater of S-337 and one downstream of S-337 to the eastern boundary of the model.
+
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-102}
+%----------------------------------------------------------
+\paragraph{Description}
+C-102 provides drainage between L-31N to the east boundary and contains structure S-194.
+
+\paragraph{Model Layout}
+Fig.~\ref{fig:rjffig49} shows the nwk11 representation with an inset of the satellite image for the relevant area. The structure is used primarily for flood control during peak summer events. The addition of the detention areas and S-332 pumps have provided much relief to the downstream developed areas by reducing the  flow through this structure.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig49.png}
+  \caption{C-102 Canal.}
+  \label{fig:rjffig49}
+  \end{center}
+\end{figure}
+
+
+\paragraph{C-102 topography ``c2002''}
+There are 14 cross sections on the C-102 canal.  Cross section 0 has been imported from the L31N canal to create the proper connection.  All cross sections were taken from ArcGIS file "MDC\_Points\_updated\_07032017\_M3ENPxsect".  Two different cross sections were chosen from the GIS file, one from the L-31N to downstream of S-194 and the other represents the area downstream of S-194 to the eastern boundary of the model.
+
+
+\begin{notes}
+\paragraph{Notes}
+As-builts are available for this canal.
+\end{notes}
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-103, C-103N, and C-103S}
+%----------------------------------------------------------
+\paragraph{Description}
+The C-103 canal in the model extends past S-167 and ends near the confluence of C-103 and C-103S. C-103N and C-103S are short canals which function both to capture groundwater and send it west and as a water supply canal during the dry season.
+
+\paragraph{Model Layout}
+Fig.~\ref{fig:rjffig50} shows the nwk11 representation on top with a satellite image for the relevant area shown below.
+
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig50.png}
+  \caption{C-103 and C-113 Canals.}
+  \label{fig:rjffig50}
+  \end{center}
+\end{figure}
+
+
+\paragraph{C-103, C-103N, and C-103S topographies ``c2002''}
+There are 13 cross sections on the C-103 canal.  Cross section 0 has been imported from the L31N canal to create the proper connection.  All cross sections were taken from ArcGIS file "MDC\_Points\_updated\_07032017\_M3ENPxsect".  Two different cross sections were chosen from the GIS file.  The first cross section is used to represent the area from L31N to upstream of S196.  The second cross section represents the area from S196 headwater to the eastern boundary of the model.
+
+\begin{notes}
+\paragraph{Notes}
+As-builts are available for these canals.
+\end{notes}
+
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-113}
+%----------------------------------------------------------
+\paragraph{Description}
+Upstream of the structure S-176 is a short canal to the east which functions both to capture groundwater and send it west and as a water supply canal during the dry season. This canal is shown also in Fig.~\ref{fig:rjffig50}.
+
+\paragraph{Model Layout}
+
+
+\begin{notes}
+As-builts: see COEDO400-31, 343 S174 S175 AsBuilt 1972\_r.pdf
+\end{notes}
+
+\clearpage
+
+
+
+
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{C-111 Area}
+%=============================================================================================
+%=============================================================================================
+Fig.~\ref{fig:rjffig51} shows the nwk11 representation on the left with a satellite image for the relevant area on the right.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{rjffig64.png}
+  \caption[C-111 canal and US-1.]{C-111 canal and US-1. A satellite image with the canal overlay is shown in the left panel. US1 is divided into a northern and southern reach and not connected near S-197 where the road crosses the C-111 canal.}
+  \label{fig:rjffig64}
+  \end{center}
+\end{figure}
+
+\clearpage
+
+%----------------------------------------------------------
+\subsubsection{C-111}
+%----------------------------------------------------------
+\paragraph{Description}
+Flows past S-176 in the L-31N canal enter the C-111 canal which terminates at structure S-197, controlling outflow to Manatee bay.
+Two structures, S-177 and S-18C, divide the canal into three reaches.
+South of S-18C, the canal is capable of overflow to the south, eventually entering Florida Bay.
+S-197 is the farthest downstream structure in C-111, and was changed from 13 to 4 gates sometime in 2011-2013.
+
+The Park anticipated that operations at S-18C would be able to maintain canal levels higher to keep surface water in the surrounding wetlands following the completion of the C-111 project.
+
+The levee south of the C-111 canal has had several sections removed to allow for overbanking flow to the ENP to the south.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=4.0in]{C111-C110_detail.png}
+  \caption{C111-C110 area detail}
+  \end{center}
+\end{figure}
+
+\paragraph{Model Layout}
+
+S-197 has 13 gates.
+
+For model runs after approximately 2012, S-197 should have 4 gates.
+
+\paragraph{C-111 topography ``c2002'' and ``MODEL''}
+Both topographies appear to be identical.
+
+C-111 levee on the south where overbanking should occur is modeled as a long flat bank.
+
+\begin{notes}
+\paragraph{Notes}
+Need to check overbanking strategy for C-111 canal.
+
+
+The Structure Books describing S197 also has a discussion of the C111 levees: The NE levee of C111 has several culverts allowing flow through it in the reach between S18C and S197, the boards in these culverts were set to an elevation of 2.0 ft on June 15 1982. There are also 54 gaps in the levee on the SW side of C111 in this area. The gaps have the levee removed to an elevation ranging between 0.2-1.6 feet (avg 1 ft), and the width of the gaps range from 72-100 ft (average  92 ft).
+\end{notes}
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-111E}
+%----------------------------------------------------------
+\paragraph{Description}
+C-111E is a drainage canal following the contours of the historical Ludlam Slough drainage. The canal flows past SR-9336 where a structure (S-178) is located. The aquifer is highly conductive in the area and substantial drainage flows around the structure in the downstream reach of C-111E, which joins C-111 downstream of S-177. C-111E connects to C-111 and C-110 connects via an overflow culvert to C-111, a flashboard set at two feet elevation controls the spillage.
+
+\paragraph{Model Layout}
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig51.png}
+  \caption{C-111E and C-110 Canals.}
+  \label{fig:rjffig51}
+  \end{center}
+\end{figure}
+
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{C-110}
+%----------------------------------------------------------
+\paragraph{Description}
+C-110 is a drainage canal which has a structure at its southern terminus connecting it to C-111. The structure are culverts with flashboards set at two feet elevation. The canal was plugged at selected intervals to prevent extensive drainage of these wetlands sometime in 2009-2010.
+
+\paragraph{Model Layout}
+Fig.~\ref{fig:rjffig51} shows the nwk11 representation on the left with a satellite image for the relevant area on the right.
+
+
+\paragraph{C-110 topography ``c2002''}
+There are 45 cross sections on the C-110 canal.  Cross section 10708, where the C-110 intersects the C-111, is a cross section from a nearby location in the C-111 to create a proper connection.    The canal cross sections are taken from the as-builts that were drawn as part of the C-111 Spreader Canal West CERP project which made no changes to the canal cross section\citep{USACE2011C111Spreader}.  Two different cross sections were used in the C-110 canal, with the levee banks removed as appropriate at the northern end of the canal.
+
+\paragraph{C-110 topography ``c2018''}
+There are 45 cross sections on the C-110 canal.  Cross section 10708, where the C-110 intersects the C-111, is a cross section from a nearby location in the C-111 to create a proper connection.    The canal cross sections are taken from the as-builts that were drawn as part of the C-111 Spreader Canal West CERP project which made no changes to the canal cross section\citep{USACE2011C111Spreader}.  Two different cross sections were used in the C-110 canal, with the levee banks removed as appropriate at the northern end of the canal.
+
+A series of 10 plugs was installed in the C-110 as part of the spreader canal project.  The elevation of the top of the plugs is the same as the ground surface elevation; the model surface topography was used to estimate the elevation of the plugs\citep{USACE2011C111Spreader}.
+
+\begin{notes}
+\paragraph{Notes}
+When were plugs added?
+\end{notes}
+
+\clearpage
+%----------------------------------------------------------
+\subsubsection{US-1 Canal}
+%----------------------------------------------------------
+\paragraph{Description}
+
+\paragraph{Model Layout}
+US-1 is modeled as a shallow ditch with a berm to simulate the obstruction of the road and separate the Model Lands from the Triangle area between Card Sound Road and US-1.
+No connection exists between the C-111 canal and US-1.
+
+
+\begin{notes}
+\paragraph{Notes}
+US1S used to be in model as the section of US-1 south of the C-111. It is no longer in the model. Historically the N and S designations were used to differentiate these cnals, but now we only use the US1N canal in the model.
+\end{notes}
+
+
+\clearpage
+
+
+
+
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{SE ENP Area}
+%=============================================================================================
+%=============================================================================================
+This section includes the Main Park Road, Old Ingraham Highway, and all rivers to the south and east (Figure~\ref{fig:M11_SE_ENP}).
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{M11_SE_ENP.png}
+  \caption{SE ENP.}
+  \label{fig:M11_SE_ENP}
+  \end{center}
+\end{figure}
+
+\clearpage
+%=============================================================================================
+\subsubsection{Main Park Road}
+%=============================================================================================
+
+\paragraph{Description}
+
+\paragraph{Model Layout}
+The Main Park Road was implemented as a shallow ditch with an adjacent low height berm. The numerous culverts under the Main Park Road are modeled individually and allow flow under the roadbed from one side to the other.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{rjffig66.png}
+  \caption{Implementation of Main Park Road}
+  \label{fig:rjffig66}
+  \end{center}
+\end{figure}
+
+\begin{notes}
+\paragraph{Notes}
+Need to change Figure to show current cross sections and culvert configurations.
+\end{notes}
+
+
+\clearpage
+%=============================================================================================
+\subsubsection{Old Ingraham Canal}
+%=============================================================================================
+\paragraph{Description}
+
+\paragraph{Model Layout}
+This is modeled as a canal and levee. The north side of the canal has no levee, but the south side has a levee approximately 0.5 meters above local LSE.
+
+\begin{notes}
+\paragraph{Notes}
+I think this road needs culverts added - check layout.
+\end{notes}
+
+\clearpage
+%=============================================================================================
+\subsubsection{Flamingo and Snake Bight Canals}
+%=============================================================================================
+\paragraph{Description}
+
+\paragraph{Model Layout}
+The banks of these features are all below local LSE.
+
+\clearpage
+%=============================================================================================
+\subsubsection{Taylor Slough}
+%=============================================================================================
+\paragraph{Description}
+
+\paragraph{Model Layout}
+Most (but not all) of the banks of Taylor Slough are below local LSE.
+
+
+\clearpage
+
+%=============================================================================================
+\subsubsection{Florida Bay Creeks and Rivers}
+%=============================================================================================
+\paragraph{Description}
+
+\paragraph{Model Layout}
+
+The following features are modeled with MIKE11:
+\begin{packed_items}
+  \item Alligator Creek
+  \item McCormick River
+  \item Taylor Rivver
+  \item East Creek
+  \item Mud Creek
+  \item ORC and ORC\_E
+  \item Highway Creek Complex
+\end{packed_items}
+
+\begin{notes}
+\paragraph{Notes}
+Bank heights of these features need to be checked.
+\end{notes}
+
+\clearpage
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{Western ENP Area}
+%=============================================================================================
+%=============================================================================================
+This section includes rivers South of Tamiami Trail and northwest of the Main Park Road (Figure~\ref{fig:M11_western_ENP}).
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{M11_western_ENP.png}
+  \caption{Western ENP.}
+  \label{fig:M11_western_ENP}
+  \end{center}
+\end{figure}
+
+\clearpage
+
+\paragraph{Description}
+
+\paragraph{Model Layout}
+The following features are modeled with MIKE11 (listed from north to south):
+\begin{packed_items}
+\item \emph{(this list might be mis-spelled or incomplete)}
+\item Barron River
+\item Halfway Creek
+\item Left Hand Turner
+\item Hurddes
+\item New River
+\item Huston River
+\item Chattham River
+\item Charley Creek
+\item Oyster Creek
+\item Alligator Creek
+\item Gator Bay Canal
+\item Lostman River
+\item Rogers River
+\item The Cutoff
+\item Broad River
+\item Wood River
+\item Broad Creek
+\item Harney River
+\item North Harney River
+\item Otter Creek
+\item Shark River
+\item Watson River
+\item North River
+\item Roberts River
+\item Lane River
+\item HOC
+\item East Cape Canal
+\end{packed_items}
+
+\begin{notes}
+\paragraph{Notes}
+Bank heights of these features need to be checked.
+\end{notes}
+
+
+
+\clearpage
+
+%=============================================================================================
+%=============================================================================================
+\begin{notes}
+
+\subsection{Notes}
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=6in]{diagram.png}
+  \caption{Sample diagram we could use for M11 structure setup.}
+  \label{fig:diagram}
+  \end{center}
+\end{figure}
+
+\end{notes}
+
+%=============================================================================================
+%=============================================================================================
+\cleardoublepage
+
+
+%=============================================================================================
+%=============================================================================================
+\section{M11 Physical Layout - Seepage Management Features}
+\label{sec:seepagefeatures}
+%=============================================================================================
+%=============================================================================================
+
+
+The extensive seepage management system is described in this chapter, and is divided into 8 areas as shown in Figure~\ref{fig:M11_seepage_areas}.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=3.0in]{M11_seepage_areas.png}
+  \caption[MIKE11 Seepage Management Areas]{MIKE11 Seepage Management Areas}
+  \label{fig:M11_seepage_areas}
+  \end{center}
+\end{figure}
+
+\clearpage
+
+Detention areas and the associated canals, pumps, weirs, and culverts included in the model and constructed under the Central and Southern Florida Project and Comprehensive Everglades Restoration Plan are outlined in the following sections. They extend from the 8.5 SMA Detention Cell southward to the Frog Pond Detention Area (Figure~\ref{fig:c111mods}). Also included in this section is the L-31N Seepage Management Barrier.
+
+In general, the detention areas are implemented in the model as a broad, shallow canals.  Canal cross sections define the boundaries of the detention areas. The implementation within M11 allows a more accurate representation of the detention area geometry and an accurate calculation of detained volumes than using overland flow cells.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=4.0in]{c111mods.png}
+  \caption{MWD and C-111 Area map}
+  \label{fig:c111mods}
+  \end{center}
+\end{figure}
+
+
+\clearpage
+%=============================================================================================
+%=============================================================================================
+\subsection{L-31N Subsurface Seepage Barrier}
+%=============================================================================================
+%=============================================================================================
+\paragraph{Description}
+The L-31N Seepage Barrier was built in two stages. The first 2 miles were completed in 2012, the last 3 miles (to make a total of 5 miles) were completed in April 2016.
+
+\paragraph{Model Layout}
+
+\begin{notes}
+Planned model implementation is to change cell transmissivities in the top layers adjacent to the canal, and then use the sheetpile function for any layers below the lowest elevation of the canal.
+\end{notes}
+
+\clearpage
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{Las Palmas Area}
+%=============================================================================================
+%=============================================================================================
+
+%----------------------------------------------------------
+\subsubsection{Las Palmas Levee}
+%----------------------------------------------------------
+
+\paragraph{Description}
+Built sometime in 2006-2007.
+
+\paragraph{Model Layout}
+Not in model
+
+
+\begin{notes}
+Previously implemented as high-elevation MIKESHE cells.
+
+Consider changing to Separated Overland Flow Areas in MIKESHE.
+\end{notes}
+
+%\clearpage
+
+%----------------------------------------------------------
+\subsubsection{Las Palmas Subsurface Seepage Barrier}
+%----------------------------------------------------------
+
+\paragraph{Description}
+Construction begins in 2021.
+
+\paragraph{Model Layout}
+Not in model
+
+
+\begin{notes}
+For areas where the barrier is adjacent to a canal, implement as high-transmissivity cells with sheetpile underneath.
+For areas where barrier is not adjacent to the canal, implement as sheetpile.
+For areas where barrier extends above ground (such as when it is built into the levee, implement as SOLFA. (If it is in a levee, it should probably already be implemented as a SOLFA.)
+\end{notes}
+
+%\clearpage
+
+%----------------------------------------------------------
+\subsubsection{C-357 Canal}
+%----------------------------------------------------------
+
+\paragraph{Description}
+Built sometime in 2006-2007.
+Approximately 60 feet wide.
+
+\paragraph{Model Layout}
+Approximately 150 feet wide.  Bank heights approximately 1-2 feet above local LSE.
+
+%\clearpage
+
+%----------------------------------------------------------
+\subsubsection{C-358 Canal}
+%----------------------------------------------------------
+
+\paragraph{Description}
+Built sometime in 2013.
+Approximately 25 feet wide.
+
+\paragraph{Model Layout}
+Approximately 150 feet wide. Bank heights approximately 4-5 feet above local LSE. Does not have MSHE links.
+
+%\clearpage
+
+%----------------------------------------------------------
+\subsubsection{8.5 Square Mile Area Detention Cell}
+%----------------------------------------------------------
+
+\paragraph{Description}
+
+Built sometime in 2006-2009.
+
+The 8.5 Square Mile Area Detention Cell includes an inflow weir along the north end of the detention area (W-S359) which connects the detention area with the S-357 getaway. The weir is 400ft long and 9.5 NGVD29 high. Water is pumped from C-357 to getaway by the S-357 pump and reaches the detention area via the S-359 weir. Two out flow weirs (W-S360W and W-360E) are located along the southern end of the detention area. C-357 is a seepage collection canal. The S-357 pump operations control the water level within the canal and prevents overland flow.
+
+To increase the flood protection of the 8.5 SMA, a canal (C-357) labeled S-357 in the model was constructed and connected to a pump station S-357, which discharges in the detention area NDA via a short flowway with weirs.
+
+
+\paragraph{Model Layout}
+The canal is implemented with a closed boundary on the north, a pump on the south, and recharge by groundwater infiltration. Overland flow is not active and does not directly collect surface water runoff.
+
+
+
+
+\clearpage
+%=============================================================================================
+%=============================================================================================
+\subsection{Northern Detention Area (NDA)}
+%=============================================================================================
+%=============================================================================================
+
+
+
+\paragraph{Description}
+The NDA is the 2018 configuration of the detention area between the 8.5 SMA Detention Cell and the SDA. From 2002-2017, a portion of this area was used, and was called S-332BN.
+
+The S-332BN detention area had an emergency out flow weir along the eastern side.
+
+\paragraph{Model Layout}
+
+The configuration of the NDA is changed through different canal topographies and separated flow areas, as well as turning on or off certain structures.
+
+The completed NDA is the active configuration in the operational model. It receives water from the 8.5 SMA detention area on the north and from the S-332BN pump on the southern end. The S-332BN overflow weir is not represented.
+
+
+
+\clearpage
+%=============================================================================================
+%=============================================================================================
+\subsection{Southern Detention Area (SDA)}
+%=============================================================================================
+%=============================================================================================
+
+\paragraph{Description}
+
+S-332BW: The north side of the S-332BW detention area includes a control structure to release discharge from the S-332BN detention area. The west side of the area has an emergency outflow weir. The east side includes 8 culverts and a 350ft long, 9.5ft NGVD29 high weir.
+
+S-332 Connectors: In 2002 the S-332B partial connector and the S-332C partial connector cells were constructed. Each partial connector cell was connected to the respective western cell with a weir and set of several culverts. The middle portion of the connector cell was built in 2010, connecting the S-332B partial connector and the S-332C partial connector to form the full connector cell between BW and C.
+
+Current construction includes only the . The USACOE plans to join the partial connectors and create one large southern detention area (SDAC). The model currently implements the entire SDAC detention area.
+
+
+
+S-332C: The S-332C detention area receives flow from pump S-332C discharging from L-31N. An overflow weir along the southern east side of the detention area provides a discharge outlet.
+
+The pumps from S-332BW, the westward facing components of the field station S-332B deliver water into the Southern Detention Area (SDA), which is made up of former farm lands (scraped down to remove the soil) and the natural, never farmed, areas.
+In addition, the SDAC connector canal/flowway (constructed because some of the lands were not yet purchased at the time of construction) is also modeled, with a set of weirs connecting it to SDA. A fully open connector is modeled.
+The entry and exit points of the connector contain both weirs and culverts in the field.
+
+Details of the detention areas are shown in Fig.~\ref{fig:rjffig63}.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{rjffig63.png}
+  \caption[S-357, S-332BN and SDA Detention Areas Details.]{S-357, S-332BN and SDA Detention Areas Details. The re-alignment of the S-357 detention area with the grid (upper left) and the L-357 levee (as a topographic feature) with the C-357 canal (upper right). The S-332BN detention area (bottom left) and the emergency over  flow weir is shown with the location of the S-332BN pump. The SDA and SDAC detention areas with the S-332C pump are presented in the bottom right.}
+  \label{fig:rjffig63}
+  \end{center}
+\end{figure}
+
+
+\paragraph{Model Layout}
+
+
+
+
+\clearpage
+%=============================================================================================
+%=============================================================================================
+\subsection{L-31W Canal Area}
+%=============================================================================================
+%=============================================================================================
+
+\paragraph{Description}
+The L-31W canal is located in western Miami-Dade County along the eastern boundary of Everglades National Park (Figure~\ref{fig:L31W_Overview}).  The canal was originally constructed in 1968 to deliver water to Taylor Slough, but was later used to provide drainage to agricultural areas between the canal and the C-111.  Originally there were two structures in the canal. The S-174 delivered water from the L-31N canal into the L-31W.  The S-175 structure was operated as a drainage divide and allowed drainage from the basin into Everglades National Park south of SR-9336.  A pump station, S-332, was constructed in 1981 to pump water directly into the headwaters of Taylor Slough.  In 1992 the capacity of the pump station was increased by adding the S-332i.  After the S-332 structures were found to be ineffective at delivering water, a new pump station and detention basin was added just south of S-174.  The S-332D pump does not deliver water directly to the L-31W but rather to the Frogpond area to the east of the canal.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{L31W_Overview.png}
+  \caption[Map of L-31W Canal and surrounding area.]{Map of L-31W Canal and surrounding area.}
+  \label{fig:L31W_Overview}
+  \end{center}
+\end{figure}
+
+The L-31W canal was broken into 6 reaches based on the East-West or North-South orientation of the canal.  The first reach begins upstream of the S-174 structure and continues to the point where the canal turns to the south.  Reach 2 begins after the first bend to the south, and ends when the canal turns to the west, just south of C-328.  The third reach is the east-west section that begins south of C-328 and conveys water to the west.  Reach 4 is the north-south part of the canal that contains the levee removal zone on the east and west sides of the canal near Taylor Slough and the S-332/S-332I structures.  The east-west stretch connecting the S-332 reach of the canal to the reach that contains S-175 is Reach 5.  The bottom section of the canal, Reach 6, contains S-175 and conveys water south and under SR-9337.
+
+A levee was constructed along the entire eastern side of the canal to protect the Frog Pond area from flooding associated with water deliveries to the Park.  There is not a levee along most of the western side of the canal; however several areas have banks that were built up slightly to provide vehicle access to structures or other features.  This includes the southern area of reach 4, all of reach 5, and small stretches of reach 6.
+
+\paragraph{Model Layout}
+
+A series of 49 cross sections were defined for the L-31W canal in the M3ENP model to define the L-31W topography circa 2002 for the IOP model run.   The data for the cross sections was obtained from two sources: as-built drawings done by Caribbean Land Surveyors Inc. in 1994 as part of the Hurricane Andrew Rehabilitation of Taylor Slough Basis and the M3ENP surface topography \citep{L31Wtopo}.   The as-builts were used to define the elevation profile of the canal and the levees.  The model surface topography is used to describe the banks where the canal does not have levees or in locations where the levee has been removed.  Cross sections for the plugs will be added at part of the L-31W topography circa 2017.
+
+Cross sections were placed up and downstream of all structures located on the L-31W (S-174, S-175), and at the canal intersection of all structures that withdraw or input water to the L-31W but are not located in line with the canal (S-332DX1, SDA, S-328, Frog Pond Gap, S-332/S-332I, G-737).   Lowest point for the cross sections at the intersections was taken from the lowest point for the nearest cross section on the structure branch. Cross sections were also placed before and after every bend in the canal.  Finally, cross sections were placed 10m above and below each future location of a plug in the L-31W.
+
+Cross sections for the as-builts were compared to 2 profiles from ADCP measurements taken in June of 2012 to confirm the general shape of the canal bottom and that the depth of the canal remains similar to earlier surveys (Figure~\ref{fig:ADCPcombo}).  The first ADCP cross section was taken on the L-31W near the location of the S-332D detention area headcell.  The tail water stage at S-332DX1 on the measurement date, 6/14/2012, was 6.20 feet NGVD29.  The bottom elevation of the canal was calculated to be -9.7 feet.  The canal has a flat bottom with sloping sides.  The as-builts show that the maximum depth of the L-31W in this area is variable and the maximum depth of the cross sections within 1000 feet of this location is between -9.93 and -12.13 feet NGVD29.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{ADCPcombo.png}
+  \caption[ADCP profiles of the L-31W canal. a. L31W canal near the bottom of S-332D headcell. b. L-31W canal south of SR9336 near the southern terminus.]{ADCP profiles of the L-31W canal. a. L-31W canal near the bottom of S-332D headcell. b. L-31W canal south of SR-9336 near the southern terminus.}
+  \label{fig:ADCPcombo}
+  \end{center}
+\end{figure}
+
+The second ADCP cross section was taken south of SR-9336, approximately half way between the road and the southern terminus of the canal.  S-175 tail water stage on the measurement date,  6/15/2012,   day was 2.94 ft.  The bottom elevation of the canal in this area was calculated to be  -9.66 feet NGVD29.  Plants on the side and bottom of the canal make it more difficult to get a good cross section.  The as-builts show that the maximum depth of the L-31W in this area is variable and the maximum depth of the cross sections within 1000 feet of this location is between -9.12 and -12.13 feet NGVD29.
+
+Cross sections from the as-builts are 100 feet apart.  There is variability between cross sections, but the data from the cross sections was not analyzed to determine average depth or elevations.  A representative cross section was chosen based on length of the canal segment (Table~\ref{tab:asbuilt_crosssections}).  One cross section from the as-builts is used to define all the cross sections in short canal segments – such as section 1 and 3.  Long sections, such as 4 and 6, are defined using several cross sections that are selected from the area of the canal that cross section represents.
+
+\begin{table}[!h]
+\caption{As-built Cross Section used to create model cross sections in L-31W canal.}
+\label{tab:asbuilt_crosssections}
+\begin{tabular}{cc}
+\hline
+Reach & As-built Cross Sections                                         \\
+\hline
+1     & 536                                                             \\
+2     & 575                                                             \\
+3     & 651                                                             \\
+4     & \begin{tabular}[c]{@{}l@{}}707\\ 756\\ 805\\ 845\end{tabular}   \\
+5     & \begin{tabular}[c]{@{}l@{}}859\\ 908\end{tabular}               \\
+6     & \begin{tabular}[c]{@{}l@{}}918\\ 972\\ 1017\\ 1062\end{tabular} \\
+\hline
+\end{tabular}
+\end{table}
+
+The elevation of areas on west side of the canal where there is either no, or a low levee, was defined using the elevation of the bordering M3ENP surface elevation grid cell.  Elevations on the as-builts vary, and are less than the surface elevation in some locations.  Several reaches have more than one grid cell that defines the elevation along the western side of the canal.  When more than one grid cell makes up the western boundary, the marsh is prescribed the value of the neighboring grid cell.
+
+Portions of the levee have been removed at the headwaters of Taylor Slough.  The levee removal on the east side is approximately 2,000 feet (Figure~\ref{fig:LeveeRemovalZone}).  The levee removal on the west side is approximately 1,000 feet.  There is no source of reliable elevations for this area since the levee was removed after 1994 when the as-builts were drawn, and the grid cells along the boundaries of the canal incorporate a large area including the canal and levees.  The surface topography from the neighboring cell was used to define the east and west elevation of the levee removal zone.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{leveeremovalzone.png}
+  \caption[Cross sections at the Taylor Slough Levee removal area on the L-31W canal.]{Cross sections at the Taylor Slough Levee removal area on the L-31W canal.}
+  \label{fig:LeveeRemovalZone}
+  \end{center}
+\end{figure}
+
+\paragraph{Operational Model Layout}
+
+The SFWMD has made several alternations to the L-31W canal and levee as part of the C-111 South Dade project.  Under Contract 9, 9 new plugs have been added to the L-31W canal.  With the exception of the plug in Reach 5, the plugs were constructed to match the adjacent marsh grade \citep{USACE2016C111SD}.  Two plugs had been added to Reach 1 in an earlier project, but the plug near the S-174 structure was expanded in 2017 ((Figure~\ref{fig:L31Wcanalcrosssections}).  A 940 ft plug was added on the southern end of Reach 2.  No plugs have been added to Reach 3.  Three plugs have been added in Reach 4, the farthest north is 1500 feet long, a 1000 feet long plug to the south, and a third plug that is 1,000 feet long located near the midpoint of Reach 4.  The plug placed on Reach 5 is 5,000 feet long and stretches most of the distance along the reach.   Instead of being at marsh level like the other plugs, the Reach 5 plug is located 2-3 feet below marsh level to allow conveyance from G-737 to the west into Taylor Slough.  Three new plugs have been installed in Reach 6: A 700 foot plug is located just south of S-175, a second plug (1,000 ft.) is located north of SR-9336, and a final 1000 ft. plug located south of SR-9336.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{L31Wcanalcrosssections.png}
+  \caption[Cross sections at the Taylor Slough Levee removal area on the L-31W canal.]{Cross sections at the Taylor Slough Levee removal area on the L-31W canal.}
+  \label{fig:L31Wcanalcrosssections}
+  \end{center}
+\end{figure}
+
+
+The plug cross sections were created using the elevation of the adjacent marsh from the M3ENP surface topography.  The elevation of the adjacent marsh is set, and the elevations of the points on the cross sections are reduced by 0.1 foot for every point along the cross section to the center of the canal ((Figure~\ref{fig:L31Wplugcrosssection}).  Plug elevations then increase by 0.1 foot until the cross section intercepts the adjacent levee or marsh surface.  Cross sections were placed in the canal at the beginning and ending of each plug.  Previously existing canal cross sections that are located within the footprint of a plug have been altered to reflect the plug topography.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{L31Wplugcrosssection.png}
+  \caption[Cross sections at the Taylor Slough Levee removal area on the L-31W canal.]{Cross sections at the Taylor Slough Levee removal area on the L-31W canal.}
+  \label{fig:L31Wplugcrosssection}
+  \end{center}
+\end{figure}
+
+
+The eastern levee gap near Taylor Slough (Reach 4) was also altered in 2017.  Previously the eastern gap was approximately 2,000 feet long.  As a result of modifications, this gap has been reduced to 500 feet and a weir was constructed +2 feet above ground level (GSE=4.0 feet NGVD29) (USACE, 2016).  The degraded levee segment has been rebuilt along the remaining 1,600 feet of the gap.  Existing cross sections have been modified to reflect the new elevation of the weir (6 foot NGVD29) or presence of the rebuilt eastern levee.  Several new cross sections were added to reflect the new location of the southern end of the weir.
+
+
+
+\begin{notes}
+\paragraph{Notes}
+Need to sort out the first reach of L-31W where S-174 was replaced with a plug, and where the SDA canal intersects with L-31W.
+\end{notes}
+
+\clearpage
+
+%=============================================================================================
+%=============================================================================================
+\subsection{S-332D Detention Area}
+%=============================================================================================
+%=============================================================================================
+\paragraph{Description}
+
+The former agricultural area between C-111 and L-31W, in large part, has been converted to a series of detention areas with associated infrastructure (Fig.~\ref{fig:rjffig60}). Adjacent and to the north of S-176 are the S-332D pumps designed to pump westward into a high-head cell with an over flow weir on the west side allowing flow to enter the western two sections of the Frogpond. The high-head cell stacks water to an elevation of 8 feet before over flow, thereby (because it is a highly permeable karstic geology underneath) resulting in large seepage into the C-111 canal. It has been estimated that in excess of 50\% of the pumpage returns to this canal as seepage.
+On the western end seepage also entered L-31W directly downstream of corner plugs in the canal and also entered into the remnants of L-31W on the north side where, during high water levels, return flow goes directly across abandoned structure S-174. The S-174 structure was removed sometime in 2017 or 2018.
+It is not clear what possible reason there is for a high-head cell in this environment.
+The weir crest elevation was originally at 8.2 feet for a length of 1900 feet, which gave it a design of 500 cfs at 8.45 feet. A portion of this weir has since been lowered.
+
+Flows that cross the weir and discharge into a flowway encounter another weir downstream set to over flow at 6.4 feet elevation.
+Little flow enters the two western sections of the Frogpond under normal conditions.
+Opposite the old pump station S-332 the embankment has been lowered to provide a direct exchange with the western sections allowing water to  flow east or west.
+Lowering of the embankment on the west side, adjacent to S-332 facilitates  flow into Taylor Slough.
+
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5.0in]{rjffig60.png}
+  \caption[Frogpond canal/detention basin complex.]{Frogpond canal/detention basin complex. L-31W, S-332D and Frogpond detention areas. The Frogpond is a low-lying former agricultural area bounded by C-111 and L-31W Detention areas associated with the S-332D pump and high head cell allow flows to enter the western sections of the Frogpond.
+
+  Three detention areas are downstream of S200 (FPDA-1, FPDA-2 and FPDA-3). The canal from the Pump S-200 is lined to the western corner in order to minimize seepage back into C-111 canal. The purpose of the detention areas are to maintain a higher hydraulic head in the area to minimize eastern groundwater flows from ENP to C-111, thereby encouraging flows into Taylor Slough.}
+  \label{fig:rjffig60}
+  \end{center}
+\end{figure}
+
+
+\paragraph{Calibration Model Layout}
+
+The bottom map in Fig.~\ref{fig:rjffig61} is the .nwk11 representation of the southern part of the Frogpond system.
+The flowway Fp delivers water from the high-head cell to the western section of the Frogpond, where the canal reach intersects with the MSHE cells for both surface water flow and groundwater flow.
+
+Fig.~\ref{fig:rjffig61} are two detailed representations of the .nwk11 M11 canal layout file.
+The top map shows the configuration of the S-332D high-head cell and adjacent canals.
+The southern terminus of the Southern Detention Area (SDA), the start of the Frogpond (FP) flowway and the northern reach of L-31W are shown.
+S-332D pumps from L-31N canal, north of S-176, into the high-head cell and S-176 structure controls southward  flow into C-111.
+The pump station is capable of delivering 575 cfs using four diesel pumps at 125 cfs each and on electric pump at 75 cfs.
+The lowered embankment on the west side of L-31W, adjacent to S-332, is modeled with a short canal to the southwest labeled S-332 in the model (Fig.~\ref{fig:rjffig61}).
+
+The S-332D high head cell receives discharge from the S-332D pump. The high head cell is implemented as an additional canal and the area of the cell is defined by the canal cross sections. There is a weir along the south side of the cell which is 1900ft long and 8.1ft NGVD29 high. The weir connects the high head cell with S-332D cell 1.
+
+The S-332D Cell 1 detention area has an earthen berm along the south side with a length of 2100ft and a height of 6.5ft NGVD29. The berm is implemented as a weir and connects Cell 1 with Cell 2. Cell 2 has a 1900ft long, 6ft NGVD29 high, weir along the south side. The weir connects Cell 2 with S-332D Cell 3.
+
+S-332D Cell 3, also called Frog Pond or Flow Way, is the southern most detention area. Flow is received across the weir joining the S-332D Cell 2 and Cell 3. The canal implemented in the model to represent  flow through the detention areas ends in the center of Cell 3.
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=2.5in]{rjffig61.png}
+  \caption[Details of the Frogpond canal complex.]{Details of the Frogpond canal complex.
+
+  Top: The northern portion of the Frogpond includes the high-head cell (S-332D) represented as a canal with cross section from field surveys. The L-31W canal was eliminated from the intersection with L-31N (at S-174) to facilitate the M11/MSHE interaction of the high-head cell in the 4000m model, since both canals fall on the same cell interface.
+
+  Bottom: Detail of the area from the .nwk11 file, showing the central Frogpond area. Both the deep canal L-31W and the shallow flowway FP convey water from north. FPgap is a short canal representing the elimination of the L-31W western berm allwing exchange between canal and flowway. S-332 takes L-31W water and distributes it to MSHE cells into Taylor Slough. Each of the Frog Pond Detention Area cells have weirs from the inlet canal, FPDA-INLET, connected to pump station S-199.}
+  \label{fig:rjffig61}
+  \end{center}
+\end{figure}
+
+
+\paragraph{Operational Model Layout}
+In the operational model, the groundwater link for the High Head Cell has been shortened to account for the ``lining'' of the getaway from the S-332D pump station in 2017-2018. Also, the S-332D High Head Cell weir S-327 is changed to it's new configuration to account for the area where a portion of this weir was degraded.
+
+The tail end of Cell three should be modified to reflect the new weir and flow barrier separating Cell 3 from the L-31W.
+
+\clearpage
+
+
+%=============================================================================================
+%=============================================================================================
+\subsection{Frog Pond Detention Area}
+%=============================================================================================
+%=============================================================================================
+
+\paragraph{Description}
+Built in 2013.
+
+\paragraph{Model Layout}
+
+
+
+\clearpage
+%=============================================================================================
+%=============================================================================================
+\subsection{Aerojet and Aerojet-EXT Area}
+%=============================================================================================
+%=============================================================================================
+
+\paragraph{Description}
+Aerojet Ext and S-199 were built around 2013.
+A lined canal reach starts from C-111 just north of S-177 (Fig.~\ref{fig:rjffig65}).
+The reach receives water from C-111 via the S-199 pump station.
+A weir ends the lined reach and the canal flows into the next reach labeled Aerojet.
+This canal has weirs at chainages 5600, 8700 (Aerojet-rock1), 14000 (Aerojet-rock2) and 25700.
+
+\paragraph{Model Layout}
+
+
+
+\begin{figure}[!h]
+  \begin{center}
+  \includegraphics[width=5in]{rjffig65.png}
+  \caption[Aerojet and Aerojet-EXT.]{Aerojet and Aerojet-EXT. A profile is shown in the bottom insert detailing the weirs in the canal as elevated cross sections. The .nwk11 representation is shown in the upper right plan view.}
+  \label{fig:rjffig65}
+  \end{center}
+\end{figure}
+
+
+
+\clearpage
+
+\cleardoublepage
+
+\end{document}
+

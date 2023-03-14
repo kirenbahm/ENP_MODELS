@@ -1,0 +1,1210 @@
+
+\include{0.report_data}
+
+\include{0.sfnrc_style}
+
+\graphicspath{{../figs/}{../../../../../../ENP_FILES/LATEX/figs-not-in-git}} % this is the search path for report figures
+
+\begin{document}
+\pagestyle{sfnrctech1}
+
+\specialcomment{notes}{\begingroup\sffamily\it\color{red}}{\endgroup} % defines style of 'notes' comment
+
+\pagenumbering{roman} % use roman numerals for page numbers
+\setcounter{page}{1}  % begin numbering pages here
+
+\begingroup
+\sffamily
+\tableofcontents
+\endgroup
+\cleardoublepage
+
+\pagenumbering{arabic} % use arabic numbers for pages
+
+\normalsize
+
+%=================================================================
+%=================================================================
+\section{M11 Operations and Boundary Conditions}
+%=================================================================
+%=================================================================
+
+\normalsize
+%=================================================================
+%=================================================================
+Note that the last priority for each Control Definition will always evaluate to true. This will occur when none of the previous conditions evaluate to true. This is known as the 'default' condition.
+
+%The timestep for the MIKE11/MIKE1D model is a Fixed Time Step set to 2 minutes.
+
+\clearpage
+%=============================================================================================
+\subsection{Boundary Conditions}
+%=============================================================================================
+
+This section lists open canal boundary conditions where water is added or removed from the M3ENP (MIKE11) domain. Canals with closed ends are not listed. This does not include river boundaries. These are points at the end of canals, and do not contain any control structures.
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Summary of MIKE11 Boundary Conditions affecting Mass Balance}
+\label{tab:M11BCfiles}
+\begin{tabular}{llll}
+\hline
+\textbf{Canal}  & \textbf{Location} & \textbf{Type}   & \textbf{File}     \\
+\hline
+L-28            & N boundary  & Inflow          & BC\_S344\_Q.dfs0 \\
+Tamiami            & W boundary  & Water Level     & BC\_TAMIBR66.dfs0 \\
+L-67\_A         & N boundary  & Water Level     & BC\_S151+HW.dfs0 \\
+L-30            & N boundary  & Water Level     & BC\_S335\_HW.dfs0 \\
+C-4             & E boundary  & Water Level     & BC\_G119TW.dfs0 \\
+C-1W            & E boundary  & Water Level     & BC\_S338TW-S148HW.dfs0 \\
+C-102           & E boundary  & Water Level     & BC\_S194TW-S165HW.dfs0 \\
+C-103N          & E boundary  & Water Level     & BC\_S166\_HW.dfs0 \\
+C-103           & E boundary  & Water Level     & BC\_S179\_HW.dfs0 \\
+C-111           & S boundary  & Water Level     & BC\_S197\_TW.dfs0 \\
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+%=============================================================================================
+\subsection{Operations: L-67A, L-67C, and Pocket Canals}
+%=============================================================================================
+
+No structures here. No operations.
+
+
+%=============================================================================================
+\subsection{Operations: Tram Road Canals (ROAD\_SRS and ROAD\_SRS\_E)}
+%=============================================================================================
+
+No structures here. No operations.
+
+%=============================================================================================
+\subsection{Operations: TAMIAMI Canal}
+%=============================================================================================
+
+No structures here. No operations.
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: L-29 Canal}
+%=============================================================================================
+
+%%%   https://stackoverflow.com/questions/42937290/latex-how-do-i-make-my-second-table-column-span-multiple-rows
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-29 Canal}
+\label{tab:M11opsL29a}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S343A         &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+S343B         &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+culvert\_24   &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+culvert\_25   &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+culvert\_26   &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+culvert\_27   &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+culvert\_28   &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S-12A         &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+S-12B         &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+S-12C         &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+S-12D         &  1  & \it{default}    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-29 Canal (cont.)}
+\label{tab:M11opsL29}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S333-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+S333          &  1  & IF $Mode=1$ AND $H_{ds}<S333\_TW_{obs}$                   & GL    & GL   \\
+              &     & AND $Q_{str}<1300$ cfs   & -3.1  & -3   \\
+              &     &        &  8.4  & 8.5  \\
+\hline
+              &  2  & IF $Mode=1$  AND $H_{ds}>S333\_TW_{obs}$                 & GL    & GL   \\
+              &     &    & -3    & -3.1 \\
+              &     &                               & 8.5   & 8.4  \\
+\hline
+              &  3  & IF $Mode>=2$ AND $H_{ds}<S333\_TW_{obs}$                  & GL    & GL   \\
+              &     & AND $Q_{str}<1300$ cfs  & -3.1  & -3   \\
+              &     &         &  8.4  & 8.5  \\
+\hline
+              &  4  & IF $Mode>=2$ AND $H_{ds}>S333\_TW_{obs}$                  & GL    & GL   \\
+              &     &   & -3    & -3.1 \\
+              &     &                               & 8.5   & 8.4  \\
+\hline
+              &  5  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S334-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+S334          &  1  & IF $Mode=1$  AND $H_{ds}<S334\_TW_{obs}$                 & GL    & GL   \\
+              &     & AND $Q_{str}<800$ cfs    & -6.9  & -6.8 \\
+              &     &         & 6.1   & 6.2  \\
+\hline
+              &  2  & IF $Mode=1$ AND $H_{ds}>S334\_TW_{obs}$                  & GL    & GL   \\
+              &     &    & -6.8 & -6.9  \\
+              &     &                               & 6.2  & 6.1   \\
+\hline
+              &  3  & IF $Mode>=2$ AND $H_{ds}<S334\_TW_{obs}$                   & GL    & GL   \\
+              &     &  AND $Q_{str}<800$ cfs  & -6.9  & -6.8 \\
+              &     &        & 6.1   & 6.2  \\
+\hline
+              &  4  & IF $Mode>=2$ AND $H_{ds}>S334\_TW_{obs}$                   & GL    & GL   \\
+              &     &  & -6.8 & -6.9  \\
+              &     &                               & 6.2  & 6.1   \\
+\hline
+              &  5  & \it{default}                  & \multicolumn{2}{|c|}{Close}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S356          &  1  & IF $Mode=0$     & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & IF $Mode>=1$    & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  3  & \it{default}    & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: L-67EXT Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-67EXT Canal}
+\label{tab:M11opsL67}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S-12E         &  1  & \it{default}    & \multicolumn{2}{|c|}{Close}   \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+S-346         &  1  & \it{default}    & \multicolumn{2}{|c|}{Fully Open}   \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+S-347         &  1  & \it{default}    & \multicolumn{2}{|c|}{Fully Open}   \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+%=============================================================================================
+\subsection{Operations: L-30 Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-30 Canal}
+\label{tab:M11opsL30}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S335-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S335          &  1  & IF $Mode=1$ AND $H_{ds}<S335\_TW_{obs}$                   & GL    & GL   \\
+              &     &  AND $Q_{str}<=800$ cfs       & -4.2  & -4.1 \\
+              &     &        & 7.9   & 8.0  \\
+\hline
+              &  2  & IF $Mode=1$ AND $H_{ds}>S335\_TW_{obs}$                   & GL    & GL   \\
+              &     &   & -4.1 & -4.2  \\
+              &     &                               & 8.0  & 7.9   \\
+\hline
+              &  3  & IF $Mode>=2$ AND $H_{ds}<S335\_TW_{obs}$                 & GL    & GL   \\
+              &     & AND $Q_{str}<=800$ cfs   & -4.2  & -4.1 \\
+              &     &          & 7.9   & 8.0  \\
+\hline
+              &  4  & IF $Mode>=2$ AND $H_{ds}>S335\_TW_{obs}$                  & GL    & GL   \\
+              &     &   & -4.1 & -4.2  \\
+              &     &                               & 8.0  & 7.9   \\
+\hline
+              &  5  & \it{default}                  & \multicolumn{2}{|c|}{Close}   \\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+%=============================================================================================
+\subsection{Operations: C-4 Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-4 Canal}
+\label{tab:M11opsC4}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S336          &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+G119-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+G119          &  1  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: L-31N Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-31N Canal}
+\label{tab:M11opsL31Na}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+G211          &  1  & IF $Q_{str}>1100$ cfs         & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$  AND $H_{us}>=6.0ft$                     & GL    & GL   \\
+              &     &        & -2.5  & -2.4 \\
+              &     &                               & 3.4   & 3.5  \\
+\hline
+              &  3  & IF $Mode=0$ AND $H_{us}>=5.5ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode=1$ AND $H_{us}>=6.0ft$                   & GL    & GL   \\
+              &     &           & -2.5  & -2.4 \\
+              &     &                               & 3.4   & 3.5  \\
+\hline
+              &  5  & IF $Mode=1$ AND $H_{us}>=5.5ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=5.7ft$                  & GL    & GL   \\
+              &     &           & -2.5  & -2.4 \\
+              &     &                               & 3.4   & 3.5  \\
+\hline
+              &  7  & IF $Mode>=2$ AND $H_{us}>=5.3ft$                  & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  8  & \textcolor[rgb]{1.00,0.00,0.00}{IF $Mode=0$ AND $S331P\_Q>1000$ cfs}   & \multicolumn{2}{|c|}{\textcolor[rgb]{1.00,0.00,0.00}{Close}}           \\
+\hline
+              &  9  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-31N Canal (cont.)}
+\label{tab:M11opsL31Nb}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S331\_S173    &  1  & IF  $S176HW < 4 ft$                        & GL    & GL   \\
+              &     & AND $Mode >= 0$ AND $S331P\_Q < 0.1 cfs$   & -2.5  & -2.4 \\
+              &     & AND $(S173HW-S173TW) > 0 ft$               & 3.4   & 3.5  \\
+\hline
+              &  2  & IF  $S177\_H < 3 ft$                       & GL    & GL   \\
+              &     & AND $Mode >= 0$ AND $S331P\_Q < 0.1 cfs$   & -2.5  & -2.4 \\
+              &     &                                            & 3.4   & 3.5  \\
+\hline
+              &  3  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+
+
+
+%---------------------------------------------------------------------------------------------------------
+S331S         &  1  & IF  S331P flow $<$ 0.1 cfs                   & HW-TW (ft) & Q (cfs)  \\
+              &     & AND S176HW $<$ 5.5 ft AND $Mode >= 0$        & 0	&	0   \\
+              &     &                                              & 0.1	&	50  \\
+              &     &                                              & 0.2	&	65  \\
+              &     &                                              & 0.4	&	90  \\
+              &     &                                              & 0.6    &	105 \\
+              &     &                                              & 0.8	&	120 \\
+              &     &                                              & 1.2	&	140 \\
+              &     &                                              & 1.4 &   150 \\
+              &     &                                              & 1.6 &   180 \\
+              &     &                                              & 1.8 &   190 \\
+              &     &                                              & 2.0 &   195 \\
+              &     &                                              & 3.0 &   208 \\
+              &     &                                              & 3.4 &   220 \\
+              &     &                                              & 4.0 &   236 \\
+              &     &                                              & 10.0 &	340      \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-31N Canal (cont.)}
+\label{tab:M11opsL31Nc}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+
+%---------------------------------------------------------------------------------------------------------
+S331P         &  1  & IF $Mode=0$                                  & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & IF $Mode>=1$ AND S176HW $>$ 5.5 ft           & \multicolumn{2}{|c|}{Close}  \\
+\hline
+              &  3  & IF $Mode>=1$ AND S331TW $>=$ 6.0 ft          & \multicolumn{2}{|c|}{Close}  \\
+\hline
+              &  4  & IF $Mode>=1$                                 &  HW (ft) & Q (cfs)  \\
+              &     & AND water level at Angels Well is $>$ 6.00 ft.      & 0	&	  0    \\
+              &     &                                              & 4.49	&	  0    \\
+              &     &                                              & 4.5	&	387  \\
+              &     &                                              & 5	&	774  \\
+              &     &                                              & 6	&	774  \\
+              &     &                                              & 6.5	&	1161  \\
+              &     &                                              & 10	&	1161  \\
+\hline
+              &  5  & IF $Mode>=1$                                 &  HW (ft) & Q (cfs)  \\
+              &     & AND water level at Angels Well is $>$ 5.75 ft.  & 0	&	  0    \\
+              &     &                                              & 4.49	&	  0    \\
+              &     &                                              & 4.5	&	387  \\
+              &     &                                              & 5	&	387  \\
+              &     &                                              & 6	&	774  \\
+              &     &                                              & 6.5	&	1161  \\
+              &     &                                              & 10	&	1161  \\
+\hline
+              &  6  & IF $Mode>=1$                                 &  HW (ft) & Q (cfs)  \\
+              &     & AND water level at Angels Well is $>$ 5.50 ft.  & 0	&	  0    \\
+              &     &                                              & 4.49	&	  0    \\
+              &     &                                              & 4.5	&	387  \\
+              &     &                                              & 5	&	387  \\
+              &     &                                              & 6	&	387  \\
+              &     &                                              & 6.5	&	1161  \\
+              &     &                                              & 10	&	1161  \\
+\hline
+              &  7  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: S332BN and S332BW}
+\label{tab:M11opsS332BNBW}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S332BN        &  1  & IF $Year<2004$                               & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$                                  & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=5.0ft$              & HW (ft) & Q (cfs)  \\
+              &     &                                              & 0    &  0   \\
+              &     &                                              & 4.7  &  0 \\
+              &     &                                              & 4.71 &  125 \\
+              &     &                                              & 5    &  250 \\
+              &     &                                              & 6    &  250 \\
+              &     &                                              & 12   &  250 \\
+\hline
+              &  4  & IF $Mode=1$ AND $H_{us}>=4.7ft$              & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  5  & IF $Mode>=2$ AND $H_{us}>=4.8ft$             & HW (ft) & Q (cfs)  \\
+              &     &                                              & 0    &  0   \\
+              &     &                                              & 4.5  &  0 \\
+              &     &                                              & 4.51 &  125 \\
+              &     &                                              & 4.8  &  250 \\
+              &     &                                              & 6    &  250 \\
+              &     &                                              & 12   &  250 \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=4.5ft$             & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  7  & \it{default}                                 & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S332BW        &  1  & IF $Year<2000$                               & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$                                  & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=5.0ft$              & HW (ft) & Q (cfs)  \\
+              &     &                                              & 0    &  0   \\
+              &     &                                              & 4.7  &  0 \\
+              &     &                                              & 4.71 &  125 \\
+              &     &                                              & 5    &  250 \\
+              &     &                                              & 6    &  325 \\
+              &     &                                              & 12   &  325 \\
+\hline
+              &  4  & IF $Mode=1$ AND $H_{us}>=4.7ft$              & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  5  & IF $Mode>=2$ AND $H_{us}>=4.8ft$             & HW (ft) & Q (cfs)  \\
+              &     &                                              & 0    &  0   \\
+              &     &                                              & 4.5  &  0 \\
+              &     &                                              & 4.51 &  125 \\
+              &     &                                              & 4.8  &  250 \\
+              &     &                                              & 6    &  325 \\
+              &     &                                              & 12   &  325 \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=4.5ft$             & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  7  & \it{default}                                 & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: S332C}
+\label{tab:M11opsS332C}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S332C         &  1  & IF $Year<2002$                               & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$                                  & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=5.0ft$              & HW (ft) & Q (cfs)  \\
+              &     &                                              & 0    &  0   \\
+              &     &                                              & 4.7  &  0 \\
+              &     &                                              & 4.71 &  250 \\
+              &     &                                              & 5    &  500 \\
+              &     &                                              & 6    &  500 \\
+              &     &                                              & 12   &  575 \\
+\hline
+              &  4  & IF $Mode=1$ AND $H_{us}>=4.7ft$              & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  5  & IF $Mode>=2$ AND $H_{us}>=4.8ft$             & HW (ft) & Q (cfs)  \\
+              &     &                                              & 0    &  0   \\
+              &     &                                              & 4.5  &  0 \\
+              &     &                                              & 4.51 &  250 \\
+              &     &                                              & 4.8  &  500 \\
+              &     &                                              & 6    &  500 \\
+              &     &                                              & 12   &  575 \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=4.5ft$             & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  7  & \it{default}                                 & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: S332D}
+\label{tab:M11opsS332D}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S332D         &  1  & IF $Mode=0$                                  & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & IF $Mode=1$ AND $H_{us}>=4.85ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY<=31$ (Jan 31)                       & 0    &  325 \\
+              &     &                                              & 10   &  325 \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=4.85ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY>=32$ (Feb 1)                        & 0    &  165 \\
+              &     & AND $DOY<=196$ (Jul 15)                      & 10   &  165 \\
+\hline
+              &  4  & IF $Mode=1$ AND $H_{us}>=4.85ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY>=197$ (Jul 16)                      & 0    &  325 \\
+              &     & AND $DOY<=334$ (Nov 30)                      & 4    &  325 \\
+              &     &                                              & 5    &  500 \\
+              &     &                                              & 10   &  500 \\
+\hline
+              &  5  & IF $Mode=1$ AND $H_{us}>=4.85ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY>=335$ (Dec 1)                       & 0    &  325 \\
+              &     &                                              & 10   &  325 \\
+\hline
+              &  6  & IF $Mode=1$ AND $H_{us}>=4.65ft$             & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+
+
+              &  7  & IF $Mode>=2$ AND $H_{us}>=4.7ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY<=31$ (Jan 31)                       & 0    &  325 \\
+              &     &                                              & 10   &  325 \\
+\hline
+              &  8  & IF $Mode>=2$ AND $H_{us}>=4.7ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY>=32$ (Feb 1)                        & 0    &  165 \\
+              &     & AND $DOY<=196$ (Jul 15)                      & 10   &  165 \\
+\hline
+              &  9  & IF $Mode>=2$ AND $H_{us}>=4.7ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY>=197$ (Jul 16)                      & 0    &  325 \\
+              &     & AND $DOY<=334$ (Nov 30)                      & 4    &  325 \\
+              &     &                                              & 5    &  500 \\
+              &     &                                              & 10   &  500 \\
+\hline
+              &  10 & IF $Mode>=2$ AND $H_{us}>=4.7ft$             & HW (ft) & Q (cfs)  \\
+              &     & AND $DOY>=335$ (Dec 1)                       & 0    &  325 \\
+              &     &                                              & 10   &  325 \\
+\hline
+              &  11 & IF $Mode>=2$ AND $H_{us}>=4.5ft$             & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+
+
+\hline
+              &  12  & \it{default}                                 & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: Las Palmas Area}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-357 and C-358}
+\label{tab:M11ops85SMA}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S357          &  1  & IF $Mode=0$                                  & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                                 & \multicolumn{2}{|c|}{Close}           \\
+\hline
+%---------------------------------------------------------------------------------------------------------
+S358 \textcolor[rgb]{1.00,0.00,0.00}{(should be S357N)}          &  1  & \it{default}                                 & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+%=============================================================================================
+\subsection{Operations: C-1W Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-1W Canal}
+\label{tab:M11opsC1W}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S338-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S338          &  1  & IF $Q_{str}>9999$ cfs                              & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=1$ AND $H_{us}>=5.8 ft$                   & GL    & GL   \\
+              &     &                                                    & -4.5  & -4.4 \\
+              &     &                                                    & 2.4   & 2.5  \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=5.5ft$                    & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode>=2$ AND $H_{us}>=5.8 ft$                  & GL    & GL   \\
+              &     &                                                    & -4.5  & -4.4 \\
+              &     &                                                    & 2.4   & 2.5  \\
+\hline
+              &  5  & IF $Mode>=2$ AND $H_{us}>=5.4ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & \it{default}                                       & \multicolumn{2}{|c|}{Close}   \\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: C-102 Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-102 Canal}
+\label{tab:M11opsC102}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S194-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S194          &  1  & IF $Q_{str}>500$ cfs                               & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=1$ AND $H_{us}>=5.5 ft$                   & GL    & GL   \\
+              &     &                                                    & -3.5  & -3.4 \\
+              &     &                                                    & 3.4   & 3.5  \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=4.8ft$                    & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode>=2$ AND $H_{us}>=4.9 ft$                  & GL    & GL   \\
+              &     &                                                    & -3.5  & -3.4 \\
+              &     &                                                    & 3.4   & 3.5  \\
+\hline
+              &  5  & IF $Mode>=2$ AND $H_{us}>=4.5ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & \it{default}                                       & GL    & GL    \\
+              &     &                                                    & -3.4  & -3.5 \\
+              &     &                                                    & 3.5   & 3.4  \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: C-103 Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-103 Canal}
+\label{tab:M11opsC103}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S196-Q        &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S196          &  1  & IF $Q_{str}>300$ cfs                               & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=1$ AND $H_{us}>=5.5 ft$                   & GL    & GL   \\
+              &     &                                                    & -3.5  & -3.4 \\
+              &     &                                                    & 3.4   & 3.5  \\
+\hline
+              &  3  & IF $Mode=1$ AND $H_{us}>=4.8ft$                    & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode>=2$ AND $H_{us}>=4.9 ft$                  & GL    & GL   \\
+              &     &                                                    & -3.5  & -3.4 \\
+              &     &                                                    & 3.4   & 3.5  \\
+\hline
+              &  5  & IF $Mode>=2$ AND $H_{us}>=4.5ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & \it{default}                                       & GL    & GL    \\
+              &     &                                                    & -3.4  & -3.5 \\
+              &     &                                                    & 3.5   & 3.4  \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S167          &  1  & IF $Q_{str}>9999$ cfs                              & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$ AND $H_{us}>=5.9 ft$                   & GL    & GL   \\
+              &     &                                                    & -0.5  & -0.4 \\
+              &     &                                                    & 6.4   & 6.5  \\
+\hline
+              &  3  & IF $Mode=0$ AND $H_{us}>=5.1ft$                    & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode>0$ AND $H_{us}>=5.9 ft$                   & GL    & GL   \\
+              &     &                                                    & -0.5  & -0.4 \\
+              &     &                                                    & 6.4   & 6.5  \\
+\hline
+              &  5  & IF $Mode>0$ AND $H_{us}>=5.1ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & \it{default}                                       & GL    & GL    \\
+              &     &                                                    & -0.4  & -0.5 \\
+              &     &                                                    & 6.5   & 6.4  \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+\clearpage
+%=============================================================================================
+\subsection{Operations: L-31W Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: L-31W Canal}
+\label{tab:M11opsL31W}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S174          &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S332DX1       &  1  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S328          &  1  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+G737          &  1  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S175          &  1  & IF $Mode=0$                   & \multicolumn{2}{|c|}{Close}           \\
+\hline
+              &  2  & \it{default}                  & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: C-111 Canal}
+%=============================================================================================
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-111 Canal}
+\label{tab:M11opsC111a}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S176          &  1  & IF $Q_{str}>1200$ cfs                  & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$  AND $H_{us}>5.0ft$       & GL    & GL   \\
+              &     &                                        & -1.0  & -0.9 \\
+              &     &                                        & 6.9   & 7.0  \\
+\hline
+              &  3  & IF $Mode=0$ AND $H_{us}>4.75ft$       & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode=1$  AND $H_{us}>=5.0ft$       & GL    & GL   \\
+              &     &                                        & -1.0  & -0.9 \\
+              &     &                                        & 6.9   & 7.0  \\
+\hline
+              &  5  & IF $Mode=1$ AND $H_{us}>=4.75ft$       & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=4.9ft$       & GL    & GL   \\
+              &     &                                        & -1.0  & -0.9 \\
+              &     &                                        & 6.9   & 7.0  \\
+\hline
+              &  7  & IF $Mode>=2$ AND $H_{us}>=4.7ft$       & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  8  & \it{default}                           & GL    & GL    \\
+              &     &                                        & -0.9  & -1.0 \\
+              &     &                                        & 7.0   & 6.9  \\
+\hline
+\hline
+
+
+%---------------------------------------------------------------------------------------------------------
+S200          &  1  & IF $Mode=0$                            & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & IF $Mode>=1$ AND $H_{us}>3.8ft$        & HW (ft) & Q (cfs)  \\
+              &     & AND $YEAR = 2012$ AND $MONTH >=7$      & 0	&  0      \\
+              &     &                                        & 3.59	&  0      \\
+              &     &                                        & 3.6	&  75   \\
+              &     &                                        & 3.8	&  75   \\
+              &     &                                        & 3.89	&  75   \\
+              &     &                                        & 3.9	&  150  \\
+              &     &                                        & 3.99	&  150  \\
+              &     &                                        & 4	&  225  \\
+              &     &                                        & 4.2	&  225  \\
+              &     &                                        & 10	&  225  \\
+\hline
+              &  3  & IF $Mode>=1$ AND $H_{us}>3.8ft$        & HW (ft) & Q (cfs)  \\
+              &     & AND $YEAR >= 2013$                     & 0	&  0      \\
+              &     &                                        & 3.59	&  0      \\
+              &     &                                        & 3.6	&  75   \\
+              &     &                                        & 3.8	&  75   \\
+              &     &                                        & 3.89	&  75   \\
+              &     &                                        & 3.9	&  150  \\
+              &     &                                        & 3.99	&  150  \\
+              &     &                                        & 4	&  225  \\
+              &     &                                        & 4.2	&  225  \\
+              &     &                                        & 10	&  225  \\
+\hline
+              &  4  & IF $Mode>=1$ AND $H_{us}>3.6ft$        & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  5  & \it{default}                           & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-111 Canal (cont.)}
+\label{tab:M11opsC111b}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S177          &  1  & IF $Q_{str}>1700$ cfs                  & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$  AND $H_{us}>4.2ft$       & GL    & GL   \\
+              &     &                                        & -7.1  & -7.0 \\
+              &     &                                        & 6.8   & 6.9  \\
+\hline
+              &  3  & IF $Mode=0$ AND $H_{us}>3.6ft$        & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode=1$  AND $H_{us}>=4.2ft$       & GL    & GL   \\
+              &     &                                        & -7.1  & -7.0 \\
+              &     &                                        & 6.8   & 6.9  \\
+\hline
+              &  5  & IF $Mode=1$ AND $H_{us}>=3.6ft$        & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=4.2ft$       & GL    & GL   \\
+              &     &                                        & -7.1  & -7.0 \\
+              &     &                                        & 6.8   & 6.9  \\
+\hline
+              &  7  & IF $Mode>=2$ AND $H_{us}>=3.6ft$       & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  8  & \it{default}                           & GL    & GL    \\
+              &     &                                        & -7.0  & -7.1 \\
+              &     &                                        & 6.9   & 6.8  \\
+\hline
+\hline
+
+
+%---------------------------------------------------------------------------------------------------------
+S199          &  1  & IF $Mode=0$                            & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+              &  2  & IF $Mode>=1$ AND $H_{us}>3.8ft$        & HW (ft) & Q (cfs)  \\
+              &     & AND $YEAR = 2012$ AND $MONTH >=6$      & 0	&  0      \\
+              &     &                                        & 3.59	&  0      \\
+              &     &                                        & 3.6	&  75   \\
+              &     &                                        & 3.8	&  75   \\
+              &     &                                        & 3.89	&  75   \\
+              &     &                                        & 3.9	&  150  \\
+              &     &                                        & 3.99	&  150  \\
+              &     &                                        & 4	&  225  \\
+              &     &                                        & 4.2	&  225  \\
+              &     &                                        & 10	&  225  \\
+\hline
+              &  3  & IF $Mode>=1$ AND $H_{us}>3.8ft$        & HW (ft) & Q (cfs)  \\
+              &     & AND $YEAR >= 2013$                     & 0	&  0      \\
+              &     &                                        & 3.59	&  0      \\
+              &     &                                        & 3.6	&  75   \\
+              &     &                                        & 3.8	&  75   \\
+              &     &                                        & 3.89	&  75   \\
+              &     &                                        & 3.9	&  150  \\
+              &     &                                        & 3.99	&  150  \\
+              &     &                                        & 4	&  225  \\
+              &     &                                        & 4.2	&  225  \\
+              &     &                                        & 10	&  225  \\
+\hline
+              &  4  & IF $Mode>=1$ AND $H_{us}>3.6ft$        & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  5  & \it{default}                           & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-111 Canal (cont.)}
+\label{tab:M11opsC111c}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S18C          &  1  & IF $Q_{str}>2300$ cfs                  & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$  AND $H_{us}>2.6ft$        & GL    & GL   \\
+              &     &                                        & -7.0  & -6.9 \\
+              &     &                                        & 5.6   & 5.7  \\
+\hline
+              &  3  & IF $Mode=0$ AND $H_{us}>2.3ft$         & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  4  & IF $Mode=1$  AND $H_{us}>=2.6ft$       & GL    & GL   \\
+              &     &                                        & -7.0  & -6.9 \\
+              &     &                                        & 6.9   & 7.0  \\
+\hline
+              &  5  & IF $Mode=1$ AND $H_{us}>=2.3ft$        & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & IF $Mode>=2$ AND $H_{us}>=2.25ft$      & GL    & GL   \\
+              &     &                                        & -7.0  & -6.9 \\
+              &     &                                        & 6.9   & 7.0  \\
+\hline
+              &  7  & IF $Mode>=2$ AND $H_{us}>=2.00ft$      & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  8  & \it{default}                           & GL    & GL    \\
+              &     &                                        & -6.9  & -7.0 \\
+              &     &                                        & 7.0   & 6.9  \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+\clearpage
+
+
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-111 Canal (cont.)}
+\label{tab:M11opsC111d}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S197-Q        &  1  & IF $Mode=0$                            & \multicolumn{2}{|c|}{$Q = Q_{obs}$}   \\
+\hline
+\hline
+
+%---------------------------------------------------------------------------------------------------------
+S197-03       &  1  & IF $S177_{HW}>4.1 ft$ AND $Mode>0$     & GL    & GL    \\
+              &     &                                        & -8.0  & -7.9  \\
+              &     &                                        & -1.0  & -0.9  \\
+\hline
+              &  2  & IF $S18C_{HW}>2.8 ft$ AND $Mode>0$     & GL    & GL    \\
+              &     &                                        & -8.0  & -7.9  \\
+              &     &                                        & -1.0  & -0.9  \\
+\hline
+              &  3  & IF $S176_{HW}<5.2 ft$ AND $Mode>0$     & \multicolumn{2}{|c|}{Close}  \\
+              &     & AND $S177_{HW}<4.2 ft$                 & \multicolumn{2}{|c|}{}    \\
+              &     &                                        & \multicolumn{2}{|c|}{}     \\
+\hline
+              &  4  & \it{default}                           & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S197-07       &  1  & IF $S177_{HW}>4.2 ft$ (24-hr average)  & GL    & GL    \\
+              &     & AND $Mode>0$                           & -8.0  & -7.9  \\
+              &     &                                        & -1.0  & -0.9  \\
+\hline
+              &  2  & IF $S18C_{HW}>3.1 ft$ AND $Mode>0$     & GL    & GL    \\
+              &     &                                        & -8.0  & -7.9  \\
+              &     &                                        & -1.0  & -0.9  \\
+\hline
+              &  3  & IF $S176_{HW}<5.2 ft$ AND $S177_{HW}<4.2 ft$     & \multicolumn{2}{|c|}{Close}  \\
+              &     & AND $Mode>0$                           & \multicolumn{2}{|c|}{}    \\
+              &     &                                        & \multicolumn{2}{|c|}{}     \\
+\hline
+              &  4  & \it{default}                           & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S197-13       &  1  & IF $S177_{HW}>4.3 ft$ AND $Mode>0$     & GL    & GL    \\
+              &     &                                        & -8.0  & -7.9  \\
+              &     &                                        & -1.0  & -0.9  \\
+\hline
+              &  2  & IF $S18C_{HW}>3.3 ft$ AND $Mode>0$     & GL    & GL    \\
+              &     &                                        & -8.0  & -7.9  \\
+              &     &                                        & -1.0  & -0.9  \\
+\hline
+              &  3  & IF $S176_{HW}<5.2 ft$ AND $S177_{HW}<4.2 ft$     & \multicolumn{2}{|c|}{Close}  \\
+              &     & AND $Mode>0$                           & \multicolumn{2}{|c|}{}    \\
+              &     &                                        & \multicolumn{2}{|c|}{}     \\
+\hline
+              &  4  & \it{default}                           & \multicolumn{2}{|c|}{Close}           \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+These are the locations of the trigger points in the model:
+\begin{packed_items}
+\item S-176 HW: Branch C-111 chainage 0 m.
+\item S-177 HW: Branch C-111 chainage 8960 m.
+\item S-18C HW: Branch C-111 chainage 18450 m.
+\item S-197: Branch C-111 chainage 28335 m.
+\end{packed_items}
+
+\clearpage
+
+%=============================================================================================
+\subsection{Operations: C-111E Canal}
+%=============================================================================================
+\scriptsize
+\begin{table}[!h]
+\centering
+\caption{Operations: C-111E Canal}
+\label{tab:M11opsC111E}
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\textbf{Structure} & \textbf{Priority}  & \textbf{Conditions} & \multicolumn{2}{|c|}{\textbf{Operation}}   \\
+\hline
+\hline
+%---------------------------------------------------------------------------------------------------------
+S178          &  1  & IF $Q_{str}>9999$ cfs                              & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  2  & IF $Mode=0$ AND $H_{ds}<S178TW_{obs}$              & GL    & GL   \\
+              &     &                                                    & -3.0  & -2.9 \\
+              &     &                                                    & 4.9   & 5.0  \\
+\hline
+              &  3  & IF $Mode=0$ AND $H_{ds}>S178TW_{obs}$              & \multicolumn{2}{|c|}{Close}   \\
+\hline
+              &  4  & IF $Mode>0$ AND $H_{us}>=4.6 ft$                   & GL    & GL   \\
+              &     &                                                    & -3.0  & -2.9 \\
+              &     &                                                    & 4.9   & 5.0  \\
+\hline
+              &  5  & IF $Mode>0$ AND $H_{us}>=4.4ft$                   & \multicolumn{2}{|c|}{Unchanged}   \\
+\hline
+              &  6  & \it{default}                                       & GL    & GL    \\
+              &     &                                                    & -2.9  & -3.0 \\
+              &     &                                                    & 5.0   & 4.9  \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\normalsize
+
+
+\cleardoublepage
+
+\end{document}
