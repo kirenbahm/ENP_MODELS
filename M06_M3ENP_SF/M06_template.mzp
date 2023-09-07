@@ -48,6 +48,113 @@
                      ShowOnMap="false"
                   />
                </File>
+               <File
+                  RelPath="..\Result\.gitignore"
+                  Notes=""
+                  State="25"
+                  SortType="-1"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
+                  RelPath="..\Result\M06_V0101_00WM_CAL.she - Result Files"
+                  Notes=""
+                  State="60"
+                  SortType="-1"
+                  FolderType="0"
+               >
+               </File>
+               <File
+                  RelPath="..\Result\M06_V0101_00WM_CAL.she - Result Files\M06_V0101_00WM_CAL_PP_Print.log"
+                  Notes=""
+                  State="25"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
+                  RelPath="..\Result\M06_V0101_00WM_CAL.she - Result Files\M06_V0101_00WM_CAL.fif"
+                  Notes=""
+                  State="25"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
+                  RelPath="..\Result\M06_V0101_00WM_CAL.she - Result Files\M06_V0101_00WM_CAL_PreProcessed.bin"
+                  Notes=""
+                  State="25"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
+               <File
+                  RelPath="..\Result\M06_V0101_00WM_CAL.she - Result Files\MSHE_WM.dfs0"
+                  Notes=""
+                  State="25"
+                  SortType="-1"
+                  FolderType="0"
+               >
+                  <GeoInfo
+                     Latitude="-9999.000000"
+                     Longitude="-9999.000000"
+                     PointMark="1"
+                     PointColor="0"
+                     PointStyle="0"
+                     PointSize="1"
+                     TextBackground="1"
+                     TextJustification="1"
+                     FontColor="0"
+                     ShowOnMap="false"
+                  />
+               </File>
             </Files>
             <FolderTypes>
                <FolderType
@@ -59,7 +166,6 @@
                   FontItalic="0"
                   Color="0"
                   DynShowAll="true"
-                  Vcs="true"
                   Remove="false"
                />
                <FolderType
@@ -71,7 +177,6 @@
                   FontItalic="0"
                   Color="255"
                   DynShowAll="false"
-                  Vcs="false"
                   Remove="false"
                />
             </FolderTypes>
