@@ -1,4 +1,4 @@
-// Created     : 2024-09-19 7:54:56
+// Created     : 2024-10-25 11:50:41
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -87,61 +87,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_006_US', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'CMP_012_DS', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'CMP_012_US', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -195,61 +141,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_018_US', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'CMP_022_DS', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'CMP_022_US', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -303,61 +195,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_023_US', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
          DescType = 5, 0, 'CMP_024_DS', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'CMP_024_US', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false

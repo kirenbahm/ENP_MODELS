@@ -1,4 +1,4 @@
-// Created     : 2024-10-25 10:49:54
+// Created     : 2024-10-25 11:50:51
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -60862,7 +60862,7 @@
    [Overland]
       Touched = 1
       IsDataUsedInSetup = 1
-      SeparatedFlowAreas = 0
+      SeparatedFlowAreas = 1
       OverlandGroundWaterExchangeOption = 0
       SpecifyOnlyReducedContactInPonded = 0
       ReducedPavedLeakage = 0
@@ -61039,7 +61039,7 @@
 
       [SeparatedFlowAreas]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          FixedValue = 0
          Type = 1
          ShapeAxisUnit = 1000
@@ -61051,7 +61051,7 @@
          ShapeItemUnit = 99013
          [DFS_2D_DATA_FILE]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             FILE_NAME = |..\..\..\INPUTFILES\SOLFAS\SOLFA-20220222.dfs2|
             ITEM_COUNT = 1
             ITEM_NUMBERS = 1
@@ -61067,7 +61067,7 @@
 
          [XYZ_FILE]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             FILE_NAME = ||
          EndSect  // XYZ_FILE
 
