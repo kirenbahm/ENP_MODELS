@@ -1,4 +1,4 @@
-// Created     : 2024-10-21 13:32:40
+// Created     : 2024-10-25 10:49:54
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -14,10 +14,10 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 508178.7610619518
-      DefaultZoomDataArea_Y0 = 2795741.592920884
-      DefaultZoomDataArea_X1 = 586497.3451327482
-      DefaultZoomDataArea_Y1 = 2817201.769912034
+      DefaultZoomDataArea_X0 = 458400.0000000049
+      DefaultZoomDataArea_Y0 = 2777600.000000529
+      DefaultZoomDataArea_X1 = 558400.0000000049
+      DefaultZoomDataArea_Y1 = 2867600.000000529
       MaxZoomDataAreaUndefined = 0
       MaxZoomDataArea_X0 = 458400.0000000049
       MaxZoomDataArea_Y0 = 2777600.000000529
@@ -564,10 +564,10 @@
       [ModelComp]
          Touched = 1
          IsDataUsedInSetup = 1
-         ET = 1
+         ET = 0
          OL = 1
-         SZ = 1
-         UZ = 1
+         SZ = 0
+         UZ = 0
          WM = 1
          River = 1
          WQ = 0
@@ -632,7 +632,7 @@
 
       [CompControlParaUZ]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          MaxWaterBalanceError = 0.03
          MaxNoOfIter = 200
          IterStopCriteria = 0.001
@@ -641,11 +641,11 @@
 
       [CompControlParaSZ]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          SolverOption = 0
          [CompControlParaSZPCGTrans]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             MaxNoOfIter = 50
             GradualDrainActivation = 1
             MaxHeadChange = 0.003048
@@ -681,7 +681,7 @@
 
          [CompControlParaRivEx]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             MaxFractionHPointVolume = 0.9
          EndSect  // CompControlParaRivEx
 
@@ -33209,11 +33209,11 @@
 
       [POTEVAPTRANS]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          DistributionType = 1
          [GLOBAL]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             FIXED_VALUE = 0
             TYPE = 1
             [TIME_SERIES_FILE]
@@ -33228,7 +33228,7 @@
 
          [STATION_BASED]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             NO_TIMESERIES = 1628
             Type = 2
             ShapeAxisUnit = 1000
@@ -33253,7 +33253,7 @@
 
          [FULLY_DISTRIBUTED]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             TYPE = 1
             [DFS_2D_DATA_FILE]
                Touched = 1
@@ -59794,7 +59794,7 @@
 
       [NetRainfallFraction]
          Touched = 1
-         IsDataUsedInSetup = 0
+         IsDataUsedInSetup = 1
          FixedValue = 0.3
          Type = 0
          ShapeAxisUnit = 1000
@@ -59822,7 +59822,7 @@
 
          [XYZ_FILE]
             Touched = 1
-            IsDataUsedInSetup = 0
+            IsDataUsedInSetup = 1
             FILE_NAME = ||
          EndSect  // XYZ_FILE
 
@@ -59868,12 +59868,12 @@
 
    [LandUse]
       Touched = 1
-      IsDataUsedInSetup = 1
+      IsDataUsedInSetup = 0
       Irrigation = 0
       Priorities = 1
       [VEGETATION]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          SETUP_TYPE = 1
          DistributionType = 2
          C1 = 0.3
@@ -59884,7 +59884,7 @@
          ETReduced = 1.0
          [GLOBAL]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             FIXED_VALUE_LAI = 3
             FIXED_VALUE_RD = 500
             TYPE = 3
@@ -59906,7 +59906,7 @@
 
             [VEG_PROP_FILES]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 0
                RecycleMode = 0
             EndSect  // VEG_PROP_FILES
@@ -59915,14 +59915,14 @@
 
          [STATION_BASED]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             NO_TIMESERIES = 1
             Type = 1
             ShapeAxisUnit = 1000
             ShapeGapFillName = 'A13'
             [DFS_2D_DATA_FILE]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FILE_NAME = |..\..\..\INPUTFILES\VEGETATION\M06_VEG_GRID.dfs2|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 3
@@ -59940,7 +59940,7 @@
 
          [FULLY_DISTRIBUTED]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             TYPE = 1
             [DFS_2D_DATA_FILE]
                Touched = 1
@@ -60678,16 +60678,16 @@
 
             [VEG_PROP_FILES]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 1
                RecycleMode = 2
                [VegNo_1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   STARTDATE = 1987, 1, 1
                   [VEGETATION_PROPERTY_FILE]
                      Touched = 1
-                     IsDataUsedInSetup = 1
+                     IsDataUsedInSetup = 0
                      FILE_NAME = |..\..\..\INPUTFILES\VEGETATION\M06_VEG_DB.etv|
                      STAGE_NAMES = 'Wet Prairie'
                   EndSect  // VEGETATION_PROPERTY_FILE
@@ -61903,7 +61903,7 @@
 
    [Unsatzone]
       Touched = 1
-      IsDataUsedInSetup = 1
+      IsDataUsedInSetup = 0
       Bypass = 0
       ClassificationType = 2
       InitialCondition = 0
@@ -61913,7 +61913,7 @@
       USE_Green_And_Ampt = 0
       [UZSoilProfiles]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          DistributionType = 1
          Type = 1
          ShapeAxisUnit = 1000
@@ -61921,7 +61921,7 @@
          NO_SOIL_PROFILES = 5
          [DFS_2D_DATA_FILE]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             FILE_NAME = |..\..\..\INPUTFILES\UZ\M06_UZ_SOILS.dfs2|
             ITEM_COUNT = 1
             ITEM_NUMBERS = 1
@@ -61937,7 +61937,7 @@
 
          [UZSoilProfileProp]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             ProfileSecNumber = 1
             GridCode = '1'
             SoilProfile_ID = 'Marl'
@@ -61946,12 +61946,12 @@
             THR2 = 0.05
             [CUZSoilProfilePropLayerListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfLayers = 2
                [UZSoilProfilePropLayerItem1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 1.2192
                   SoilID = 'Marl'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -61959,7 +61959,7 @@
 
                [UZSoilProfilePropLayerItem2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 17.9222
                   SoilID = 'Miami Oolite'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -61969,12 +61969,12 @@
 
             [CUZSoilProfilePropDiscrListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 7
                NumberOfDiscr = 7
                [UZSoilProfilePropDiscr1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.03048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -61982,7 +61982,7 @@
 
                [UZSoilProfilePropDiscr2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.06096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -61990,7 +61990,7 @@
 
                [UZSoilProfilePropDiscr3]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.1524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -61998,7 +61998,7 @@
 
                [UZSoilProfilePropDiscr4]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.3048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62006,7 +62006,7 @@
 
                [UZSoilProfilePropDiscr5]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.6096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62014,7 +62014,7 @@
 
                [UZSoilProfilePropDiscr6]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 1.524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62022,7 +62022,7 @@
 
                [UZSoilProfilePropDiscr7]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 3.048
                   NoCells = 5
                   Dispersivity = 0.0
@@ -62034,7 +62034,7 @@
 
          [UZSoilProfileProp]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             ProfileSecNumber = 2
             GridCode = '2'
             SoilProfile_ID = 'Gandy peat'
@@ -62043,12 +62043,12 @@
             THR2 = 0.05
             [CUZSoilProfilePropLayerListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfLayers = 2
                [UZSoilProfilePropLayerItem1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 1.2192
                   SoilID = 'Gandy peat'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62056,7 +62056,7 @@
 
                [UZSoilProfilePropLayerItem2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 17.9222
                   SoilID = 'Miami Oolite'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62066,12 +62066,12 @@
 
             [CUZSoilProfilePropDiscrListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 7
                NumberOfDiscr = 7
                [UZSoilProfilePropDiscr1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.03048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62079,7 +62079,7 @@
 
                [UZSoilProfilePropDiscr2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.06096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62087,7 +62087,7 @@
 
                [UZSoilProfilePropDiscr3]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.1524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62095,7 +62095,7 @@
 
                [UZSoilProfilePropDiscr4]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.3048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62103,7 +62103,7 @@
 
                [UZSoilProfilePropDiscr5]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.6096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62111,7 +62111,7 @@
 
                [UZSoilProfilePropDiscr6]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 1.524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62119,7 +62119,7 @@
 
                [UZSoilProfilePropDiscr7]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 3.048
                   NoCells = 5
                   Dispersivity = 0.0
@@ -62131,7 +62131,7 @@
 
          [UZSoilProfileProp]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             ProfileSecNumber = 3
             GridCode = '3'
             SoilProfile_ID = 'Everglades peat'
@@ -62140,12 +62140,12 @@
             THR2 = 0.05
             [CUZSoilProfilePropLayerListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfLayers = 2
                [UZSoilProfilePropLayerItem1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 1.2192
                   SoilID = 'Everglades peat'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62153,7 +62153,7 @@
 
                [UZSoilProfilePropLayerItem2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 17.9222
                   SoilID = 'Miami Oolite'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62163,12 +62163,12 @@
 
             [CUZSoilProfilePropDiscrListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 7
                NumberOfDiscr = 7
                [UZSoilProfilePropDiscr1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.03048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62176,7 +62176,7 @@
 
                [UZSoilProfilePropDiscr2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.06096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62184,7 +62184,7 @@
 
                [UZSoilProfilePropDiscr3]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.1524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62192,7 +62192,7 @@
 
                [UZSoilProfilePropDiscr4]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.3048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62200,7 +62200,7 @@
 
                [UZSoilProfilePropDiscr5]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.6096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62208,7 +62208,7 @@
 
                [UZSoilProfilePropDiscr6]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 1.524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62216,7 +62216,7 @@
 
                [UZSoilProfilePropDiscr7]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 3.048
                   NoCells = 5
                   Dispersivity = 0.0
@@ -62228,7 +62228,7 @@
 
          [UZSoilProfileProp]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             ProfileSecNumber = 4
             GridCode = '4'
             SoilProfile_ID = 'Mangrove peat'
@@ -62237,12 +62237,12 @@
             THR2 = 0.05
             [CUZSoilProfilePropLayerListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfLayers = 2
                [UZSoilProfilePropLayerItem1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 1.2192
                   SoilID = 'Mangrove peat'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62250,7 +62250,7 @@
 
                [UZSoilProfilePropLayerItem2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 17.9222
                   SoilID = 'Miami Oolite'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62260,12 +62260,12 @@
 
             [CUZSoilProfilePropDiscrListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 7
                NumberOfDiscr = 7
                [UZSoilProfilePropDiscr1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.03048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62273,7 +62273,7 @@
 
                [UZSoilProfilePropDiscr2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.06096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62281,7 +62281,7 @@
 
                [UZSoilProfilePropDiscr3]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.1524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62289,7 +62289,7 @@
 
                [UZSoilProfilePropDiscr4]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.3048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62297,7 +62297,7 @@
 
                [UZSoilProfilePropDiscr5]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.6096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62305,7 +62305,7 @@
 
                [UZSoilProfilePropDiscr6]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 1.524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62313,7 +62313,7 @@
 
                [UZSoilProfilePropDiscr7]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 3.048
                   NoCells = 5
                   Dispersivity = 0.0
@@ -62325,7 +62325,7 @@
 
          [UZSoilProfileProp]
             Touched = 1
-            IsDataUsedInSetup = 1
+            IsDataUsedInSetup = 0
             ProfileSecNumber = 5
             GridCode = '5'
             SoilProfile_ID = 'Rockdale'
@@ -62334,12 +62334,12 @@
             THR2 = 0.05
             [CUZSoilProfilePropLayerListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfLayers = 2
                [UZSoilProfilePropLayerItem1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 1.2192
                   SoilID = 'Rockdale'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62347,7 +62347,7 @@
 
                [UZSoilProfilePropLayerItem2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Depth = 17.9222
                   SoilID = 'Miami Oolite'
                   DataBase = |..\..\..\INPUTFILES\UZ\M06_UZ_DB.uzs|
@@ -62357,12 +62357,12 @@
 
             [CUZSoilProfilePropDiscrListPfs]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 7
                NumberOfDiscr = 7
                [UZSoilProfilePropDiscr1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.03048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62370,7 +62370,7 @@
 
                [UZSoilProfilePropDiscr2]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.06096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62378,7 +62378,7 @@
 
                [UZSoilProfilePropDiscr3]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.1524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62386,7 +62386,7 @@
 
                [UZSoilProfilePropDiscr4]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.3048
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62394,7 +62394,7 @@
 
                [UZSoilProfilePropDiscr5]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 0.6096
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62402,7 +62402,7 @@
 
                [UZSoilProfilePropDiscr6]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 1.524
                   NoCells = 1
                   Dispersivity = 0.0
@@ -62410,7 +62410,7 @@
 
                [UZSoilProfilePropDiscr7]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   CellHeight = 3.048
                   NoCells = 5
                   Dispersivity = 0.0
@@ -63434,7 +63434,7 @@
 
    [SaturatedZone]
       Touched = 1
-      IsDataUsedInSetup = 1
+      IsDataUsedInSetup = 0
       DispersionOption = 0
       Drainage = 0
       TypeOfGeoParaDistribution = 0
@@ -63493,7 +63493,7 @@
 
       [GeoLayersSZ]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          MzSEPfsListItemCount = 5
          NumberOfLayers = 5
          [Layer_1]
@@ -63501,7 +63501,7 @@
             id = 8
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -0.9144
                Type = 0
                ShapeAxisUnit = 1000
@@ -63530,7 +63530,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -63574,7 +63574,7 @@
 
             [HorHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 3.52778e-05
                Type = 1
                ShapeAxisUnit = 1000
@@ -63586,7 +63586,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -63602,7 +63602,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -63610,7 +63610,7 @@
 
             [VerHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 3.52778e-05
                Type = 1
                ShapeAxisUnit = 1000
@@ -63622,7 +63622,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -63638,7 +63638,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -63646,7 +63646,7 @@
 
             [SpecificYield]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.2
                Type = 0
                ShapeAxisUnit = 1000
@@ -63674,7 +63674,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -63682,7 +63682,7 @@
 
             [StorageCoef]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.000656168
                Type = 0
                ShapeAxisUnit = 1000
@@ -63710,7 +63710,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64011,7 +64011,7 @@
             id = 4
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -3.048
                Type = 0
                ShapeAxisUnit = 1000
@@ -64040,7 +64040,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64084,7 +64084,7 @@
 
             [HorHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.00352778
                Type = 1
                ShapeAxisUnit = 1000
@@ -64096,7 +64096,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 2
@@ -64112,7 +64112,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64120,7 +64120,7 @@
 
             [VerHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.00352778
                Type = 1
                ShapeAxisUnit = 1000
@@ -64132,7 +64132,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 2
@@ -64148,7 +64148,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64156,7 +64156,7 @@
 
             [SpecificYield]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.1
                Type = 0
                ShapeAxisUnit = 1000
@@ -64184,7 +64184,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64192,7 +64192,7 @@
 
             [StorageCoef]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.000656168
                Type = 0
                ShapeAxisUnit = 1000
@@ -64220,7 +64220,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64521,7 +64521,7 @@
             id = 5
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -18.288
                Type = 0
                ShapeAxisUnit = 1000
@@ -64550,7 +64550,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64594,7 +64594,7 @@
 
             [HorHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.0352778
                Type = 1
                ShapeAxisUnit = 1000
@@ -64606,7 +64606,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 3
@@ -64622,7 +64622,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64630,7 +64630,7 @@
 
             [VerHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.0352778
                Type = 1
                ShapeAxisUnit = 1000
@@ -64642,7 +64642,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 3
@@ -64658,7 +64658,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64666,7 +64666,7 @@
 
             [SpecificYield]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.1
                Type = 0
                ShapeAxisUnit = 1000
@@ -64694,7 +64694,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -64702,7 +64702,7 @@
 
             [StorageCoef]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.000656168
                Type = 0
                ShapeAxisUnit = 1000
@@ -64730,7 +64730,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65031,7 +65031,7 @@
             id = 9
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -21.336
                Type = 0
                ShapeAxisUnit = 1000
@@ -65060,7 +65060,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65104,7 +65104,7 @@
 
             [HorHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.00352778
                Type = 1
                ShapeAxisUnit = 1000
@@ -65116,7 +65116,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 4
@@ -65132,7 +65132,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65140,7 +65140,7 @@
 
             [VerHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.00352778
                Type = 1
                ShapeAxisUnit = 1000
@@ -65152,7 +65152,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 4
@@ -65168,7 +65168,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65176,7 +65176,7 @@
 
             [SpecificYield]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.1
                Type = 0
                ShapeAxisUnit = 1000
@@ -65204,7 +65204,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65212,7 +65212,7 @@
 
             [StorageCoef]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.000656168
                Type = 0
                ShapeAxisUnit = 1000
@@ -65240,7 +65240,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65541,7 +65541,7 @@
             id = 10
             [LowerLevel]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -60.96
                Type = 0
                ShapeAxisUnit = 1000
@@ -65570,7 +65570,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65614,7 +65614,7 @@
 
             [HorHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.0176389
                Type = 1
                ShapeAxisUnit = 1000
@@ -65626,7 +65626,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KH.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 5
@@ -65642,7 +65642,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65650,7 +65650,7 @@
 
             [VerHydrCon]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.0176389
                Type = 1
                ShapeAxisUnit = 1000
@@ -65662,7 +65662,7 @@
                ShapeItemUnit = 2000
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\SZ\M06_KV.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 5
@@ -65678,7 +65678,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65686,7 +65686,7 @@
 
             [SpecificYield]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.1
                Type = 0
                ShapeAxisUnit = 1000
@@ -65714,7 +65714,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -65722,7 +65722,7 @@
 
             [StorageCoef]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = 0.000656168
                Type = 0
                ShapeAxisUnit = 1000
@@ -65750,7 +65750,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -66050,7 +66050,7 @@
 
       [GeoLensesSZ]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          MzSEPfsListItemCount = 0
          NumberOfLenses = 0
       EndSect  // GeoLensesSZ
@@ -72971,7 +72971,7 @@
 
       [CompLayersGeoSZ]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          MzSEPfsListItemCount = 5
          NumberOfLayers = 5
          [Layer_1]
@@ -72981,7 +72981,7 @@
             id = -1
             [InitPotHead]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -6.096
                Type = 1
                ShapeAxisUnit = 1000
@@ -72994,7 +72994,7 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL-Toy_Model.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -73010,7 +73010,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -73054,12 +73054,12 @@
 
             [OuterBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfBoundaryConditions = 2
                [OuterBoundaryProp_1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Name = 'WestSouthEast'
                   X = 552152.5073612389
                   Y = 2813845.183974612
@@ -73265,7 +73265,7 @@
 
             [InternalBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                Type = 0
                ShapeAxisUnit = 1000
                NoInternalBoundaries = 0
@@ -73892,7 +73892,7 @@
             id = -1
             [InitPotHead]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -6.096
                Type = 1
                ShapeAxisUnit = 1000
@@ -73905,7 +73905,7 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL-Toy_Model.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -73921,7 +73921,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -73965,12 +73965,12 @@
 
             [OuterBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfBoundaryConditions = 2
                [OuterBoundaryProp_1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Name = 'WestSouthEast'
                   X = 552152.5
                   Y = 2813845.25
@@ -74176,7 +74176,7 @@
 
             [InternalBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                Type = 0
                ShapeAxisUnit = 1000
                NoInternalBoundaries = 0
@@ -74803,7 +74803,7 @@
             id = -1
             [InitPotHead]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -6.096
                Type = 1
                ShapeAxisUnit = 1000
@@ -74816,7 +74816,7 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL-Toy_Model.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -74832,7 +74832,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -74876,12 +74876,12 @@
 
             [OuterBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfBoundaryConditions = 2
                [OuterBoundaryProp_1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Name = 'WestSouthEast'
                   X = 552152.5
                   Y = 2813845.25
@@ -75087,7 +75087,7 @@
 
             [InternalBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                Type = 0
                ShapeAxisUnit = 1000
                NoInternalBoundaries = 0
@@ -75714,7 +75714,7 @@
             id = -1
             [InitPotHead]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -6.096
                Type = 1
                ShapeAxisUnit = 1000
@@ -75727,7 +75727,7 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL-Toy_Model.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -75743,7 +75743,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -75787,12 +75787,12 @@
 
             [OuterBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfBoundaryConditions = 2
                [OuterBoundaryProp_1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Name = 'WestSouthEast'
                   X = 552152.5
                   Y = 2813845.25
@@ -75998,7 +75998,7 @@
 
             [InternalBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                Type = 0
                ShapeAxisUnit = 1000
                NoInternalBoundaries = 0
@@ -76625,7 +76625,7 @@
             id = -1
             [InitPotHead]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                FixedValue = -6.096
                Type = 1
                ShapeAxisUnit = 1000
@@ -76638,7 +76638,7 @@
                RelativeToGround = 0
                [DFS_2D_DATA_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = |..\..\..\INPUTFILES\INITIAL\M06_INITIAL-Toy_Model.dfs2|
                   ITEM_COUNT = 1
                   ITEM_NUMBERS = 1
@@ -76654,7 +76654,7 @@
 
                [XYZ_FILE]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   FILE_NAME = ||
                EndSect  // XYZ_FILE
 
@@ -76698,12 +76698,12 @@
 
             [OuterBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                MzSEPfsListItemCount = 2
                NumberOfBoundaryConditions = 2
                [OuterBoundaryProp_1]
                   Touched = 1
-                  IsDataUsedInSetup = 1
+                  IsDataUsedInSetup = 0
                   Name = 'WestSouthEast'
                   X = 552152.5
                   Y = 2813845.25
@@ -76909,7 +76909,7 @@
 
             [InternalBoundary]
                Touched = 1
-               IsDataUsedInSetup = 1
+               IsDataUsedInSetup = 0
                Type = 0
                ShapeAxisUnit = 1000
                NoInternalBoundaries = 0
@@ -77693,7 +77693,7 @@
 
       [Well]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          Filename = |..\..\..\INPUTFILES\WELLS\Wellfield_SingleWells.wel|
          IncludeMap = 1
       EndSect  // Well
@@ -80950,8 +80950,8 @@
       [GridSeriesOutput]
          Touched = 1
          IsDataUsedInSetup = 1
-         MzSEPfsListItemCount = 15
-         NumberOfItems = 15
+         MzSEPfsListItemCount = 12
+         NumberOfItems = 12
          [Item_1]
             Touched = 1
             IsDataUsedInSetup = 1
@@ -80961,86 +80961,68 @@
          [Item_2]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 58
+            DataType = 374
          EndSect  // Item_2
 
          [Item_3]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 59
+            DataType = 375
          EndSect  // Item_3
 
          [Item_4]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 241
+            DataType = 376
          EndSect  // Item_4
 
          [Item_5]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 304
+            DataType = 58
          EndSect  // Item_5
 
          [Item_6]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 305
+            DataType = 59
          EndSect  // Item_6
 
          [Item_7]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 306
+            DataType = 342
          EndSect  // Item_7
 
          [Item_8]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 101
+            DataType = 91
          EndSect  // Item_8
 
          [Item_9]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 107
+            DataType = 241
          EndSect  // Item_9
 
          [Item_10]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 108
+            DataType = 304
          EndSect  // Item_10
 
          [Item_11]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 102
+            DataType = 305
          EndSect  // Item_11
 
          [Item_12]
             Touched = 1
             IsDataUsedInSetup = 1
-            DataType = 103
+            DataType = 306
          EndSect  // Item_12
-
-         [Item_13]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 104
-         EndSect  // Item_13
-
-         [Item_14]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 109
-         EndSect  // Item_14
-
-         [Item_15]
-            Touched = 1
-            IsDataUsedInSetup = 1
-            DataType = 105
-         EndSect  // Item_15
 
       EndSect  // GridSeriesOutput
 
