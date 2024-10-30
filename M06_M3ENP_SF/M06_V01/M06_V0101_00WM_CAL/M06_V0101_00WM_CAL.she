@@ -1,4 +1,4 @@
-// Created     : 2024-10-30 14:27:55
+// Created     : 2024-10-30 15:11:59
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -14,19 +14,19 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 507817.2494172544
-      DefaultZoomDataArea_Y0 = 2795082.517483047
-      DefaultZoomDataArea_X1 = 576115.6177156226
-      DefaultZoomDataArea_Y1 = 2813031.235431765
+      DefaultZoomDataArea_X0 = 513000.0
+      DefaultZoomDataArea_Y0 = 2793000.0
+      DefaultZoomDataArea_X1 = 553000.0
+      DefaultZoomDataArea_Y1 = 2819000.0
       MaxZoomDataAreaUndefined = 0
-      MaxZoomDataArea_X0 = 458400.0000000049
-      MaxZoomDataArea_Y0 = 2777600.000000529
-      MaxZoomDataArea_X1 = 558400.0000000049
-      MaxZoomDataArea_Y1 = 2867600.000000529
+      MaxZoomDataArea_X0 = 513000.0
+      MaxZoomDataArea_Y0 = 2793000.0
+      MaxZoomDataArea_X1 = 553000.0
+      MaxZoomDataArea_Y1 = 2819000.0
    EndSect  // ViewSettings
 
    [Overlays]
-      UseModelDomain = 1
+      UseModelDomain = 0
       [Foreground]
          Touched = 1
          IsDataUsedInSetup = 1
@@ -78898,7 +78898,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 0
-               FILE_NAME = |x.dfs0|
+               FILE_NAME = |.\x.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78916,7 +78916,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 0
-               FILE_NAME = |x.dfs0|
+               FILE_NAME = |.\x.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
@@ -78934,7 +78934,7 @@
             [TIME_SERIES_FILE]
                Touched = 1
                IsDataUsedInSetup = 0
-               FILE_NAME = |x.dfs0|
+               FILE_NAME = |.\x.dfs0|
                ITEM_COUNT = 1
                ITEM_NUMBERS = 1
             EndSect  // TIME_SERIES_FILE
