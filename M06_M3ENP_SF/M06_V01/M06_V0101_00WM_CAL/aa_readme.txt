@@ -1,2 +1,6 @@
-Before saving final .nwk11 and .hd11 files, go into the pages for each and sort by ID (nwk11) and Chainage&Branch (hd11).
+Initial culvert tests model
+
+Main branches have same xns as Original large-domain model
+Culvert branches have same xns as Origial large-domain model too
+
 

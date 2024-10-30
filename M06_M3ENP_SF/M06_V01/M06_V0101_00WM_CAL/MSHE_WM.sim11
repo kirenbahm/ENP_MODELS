@@ -1,4 +1,4 @@
-// Created     : 2024-10-21 13:20:45
+// Created     : 2024-10-30 14:33:12
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -20,7 +20,7 @@
 
    [Input]
       nwk = |.\ENP.nwk11|
-      xs = |.\ENP-toy-flat.xns11|
+      xs = |.\ENP-test.xns11|
       bnd = |.\MSHE_WM.bnd11|
       rr = ||
       hd = |.\ENP.hd11|

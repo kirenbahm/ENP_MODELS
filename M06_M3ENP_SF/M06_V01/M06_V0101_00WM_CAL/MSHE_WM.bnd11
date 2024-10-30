@@ -1,4 +1,4 @@
-// Created     : 2024-10-25 11:50:41
+// Created     : 2024-10-30 14:19:3
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -6,61 +6,7 @@
    Comment = ''
    [BndCndArray]
       [BndItem]
-         DescType = 5, 0, '_MainParkRoad', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'C-111E', -1215.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, 'CMP_006_DS', 0.0, 0.0, '', ''
+         DescType = 5, 0, 'DSculv1', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -87,7 +33,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_012_DS', 0.0, 0.0, '', ''
+         DescType = 5, 0, 'DSculv2', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -114,7 +60,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_018_DS', 0.0, 0.0, '', ''
+         DescType = 5, 0, 'DSculv3', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -141,7 +87,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_022_DS', 0.0, 0.0, '', ''
+         DescType = 5, 0, 'DSculv4', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -168,7 +114,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_023_DS', 0.0, 0.0, '', ''
+         DescType = 5, 0, 'Main1', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -195,7 +141,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'CMP_024_DS', 0.0, 0.0, '', ''
+         DescType = 5, 0, 'Main1', 7999.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -222,7 +168,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, '_MainParkRoad', 37655.6004, 0.0, '', ''
+         DescType = 5, 0, 'Main2', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -249,7 +195,169 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'C-111E', 7755.27076, 0.0, '', ''
+         DescType = 5, 0, 'Main2', 7999.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'Main3', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'Main3', 7999.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'Main4', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'Main4', 7999.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'MainX', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'MainX', 5600.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
