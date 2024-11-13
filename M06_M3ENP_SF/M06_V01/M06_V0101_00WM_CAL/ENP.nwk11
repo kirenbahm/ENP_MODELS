@@ -1,4 +1,4 @@
-// Created     : 2024-11-5 7:37:24
+// Created     : 2024-11-13 9:19:14
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2022\bin\x64\pfs2004.dll
 // Version     : 20.1.0.16132
 
@@ -16,48 +16,41 @@
    EndSect  // DATA_AREA
 
    [POINTS]
-      point = 1881, 517500.0, 2809200.0, 0, 2400.0, 0
-      point = 1882, 517500.0, 2806800.0, 0, 0.0, 0
-      point = 2229, 514400.0, 2808000.0, 0, 0.0, 0
-      point = 2230, 522399.0, 2808000.0, 0, 7999.0, 0
-      point = 2231, 522400.0, 2808000.0, 0, 0.0, 0
-      point = 2232, 530399.0, 2808000.0, 0, 7999.0, 0
-      point = 2233, 530400.0, 2808000.0, 0, 0.0, 0
-      point = 2234, 538399.0, 2808000.0, 0, 7999.0, 0
-      point = 2235, 538400.0, 2808000.0, 0, 0.0, 0
-      point = 2236, 546399.0, 2808000.0, 0, 7999.0, 0
-      point = 2237, 546400.0, 2808000.0, 0, 0.0, 0
-      point = 2238, 552000.0, 2808000.0, 0, 5600.0, 0
-      point = 2241, 517500.0, 2808000.0, 0, 3100.0, 0
+      point = 2229, 522399.0, 2808000.0, 0, 0.0, 0
+      point = 2230, 514400.0, 2808000.0, 0, 7999.0, 0
+      point = 2231, 530399.0, 2808000.0, 0, 0.0, 0
+      point = 2232, 522400.0, 2808000.0, 0, 7999.0, 0
+      point = 2233, 538399.0, 2808000.0, 0, 0.0, 0
+      point = 2234, 530400.0, 2808000.0, 0, 7999.0, 0
+      point = 2235, 546399.0, 2808000.0, 0, 0.0, 0
+      point = 2236, 538400.0, 2808000.0, 0, 7999.0, 0
+      point = 2237, 552000.0, 2808000.0, 0, 0.0, 0
+      point = 2238, 546400.0, 2808000.0, 0, 5600.0, 0
       point = 2242, 525500.0, 2806800.0, 0, 0.0, 0
       point = 2243, 525500.0, 2809200.0, 0, 2400.0, 0
       point = 2244, 533500.0, 2807150.0, 0, 0.0, 0
       point = 2245, 533500.0, 2807950.0, 0, 800.0, 0
-      point = 2248, 541500.0, 2807150.0, 0, 0.0, 0
-      point = 2249, 541500.0, 2807950.0, 0, 800.0, 0
+      point = 2248, 518399.0, 2807950.0, 0, 0.0, 0
+      point = 2249, 518399.0, 2807150.0, 0, 800.0, 0
+      point = 2250, -1e-155, -1e-155, 0, -1e-155, 0
+      point = 2251, 518400.0, 2808000.0, 0, 3999.0, 0
    EndSect  // POINTS
 
    [BRANCHES]
       [branch]
          definitions = 'DSculv3', 'shallow', 0.0, 800.0, 0, 10000.0, 0
-         connections = '', -1e-155, 'Main3', 3100.0
+         connections = '', -1e-155, '', -1e-155
          points = 2244, 2245
       EndSect  // branch
 
       [branch]
-         definitions = 'DSculv4', 'shallow', 0.0, 800.0, 0, 10000.0, 0
-         connections = '', -1e-155, 'Main4', 3100.0
+         definitions = 'DSculv1', 'shallow', 0.0, 800.0, 0, 10000.0, 0
+         connections = 'Main1', 3999.0, '', -1e-155
          points = 2248, 2249
       EndSect  // branch
 
       [branch]
-         definitions = 'USDSculv1', 'shallow', 0.0, 2400.0, 0, 10000.0, 0
-         connections = '', -1e-155, '', -1e-155
-         points = 1882, 1881
-      EndSect  // branch
-
-      [branch]
-         definitions = 'USDSculv2', 'shallow', 0.0, 2400.0, 0, 10000.0, 0
+         definitions = 'B2-ConceptA', 'shallow', 0.0, 2400.0, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
          points = 2242, 2243
       EndSect  // branch
@@ -71,7 +64,7 @@
       [branch]
          definitions = 'Main1', 'shallow', 0.0, 7999.0, 0, 10000.0, 0
          connections = '', -1e-155, '', -1e-155
-         points = 2229, 2241, 2230
+         points = 2229, 2251, 2230
       EndSect  // branch
 
       [branch]
@@ -103,60 +96,7 @@
 
       [WEIR]
          [weir_data]
-            Location = 'USDSculv1', 1200.0, 'weir1', 'shallow'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0.0
-            Attributes = 0, 0
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
-            WeirFormula2Param = 0.0, 0.0, 0.0
-            WeirFormula3Param = 0.0, 0.0, 0.0, 0.6, 1.02, 1.37, 1.0, 0.03, 1.018, 1.0, 0.0, 2.6, 1.0, 0.7
-            [Geometry]
-               Attributes = 0, 0.0
-               [Level_Width]
-                  Data = 0.6095999999999999, 2.86512
-                  Data = 1.2192, 3.048
-               EndSect  // Level_Width
-
-            EndSect  // Geometry
-
-            [QH_Relations]
-               Data = 0.0, 0.6096, 0.6096, 0.6096, 2.86512, 0.0
-               Data = 0.0516334, 0.665552, 0.665552, 0.641684, 2.87475, 0.0920796
-               Data = 0.146214, 0.7211109999999999, 0.7211109999999999, 0.673768, 2.88437, 0.184468
-               Data = 0.268931, 0.776281, 0.776281, 0.705853, 2.894, 0.277165
-               Data = 0.414537, 0.831066, 0.831066, 0.737937, 2.90362, 0.370171
-               Data = 0.580018, 0.885475, 0.885475, 0.770021, 2.91325, 0.463486
-               Data = 0.7633529999999999, 0.939517, 0.939517, 0.802105, 2.92287, 0.55711
-               Data = 0.96307, 0.993206, 0.993206, 0.83419, 2.9325, 0.651042
-               Data = 1.17803, 1.04655, 1.04655, 0.866274, 2.94212, 0.7452839999999999
-               Data = 1.40733, 1.09957, 1.09957, 0.898358, 2.95175, 0.839834
-               Data = 1.65022, 1.15226, 1.15226, 0.930442, 2.96137, 0.934693
-               Data = 1.90608, 1.20465, 1.20465, 0.962527, 2.971, 1.02986
-               Data = 2.17437, 1.25674, 1.25674, 0.994611, 2.98062, 1.12534
-               Data = 2.45462, 1.30852, 1.30852, 1.02669, 2.99025, 1.22112
-               Data = 2.74643, 1.36003, 1.36003, 1.05878, 2.99987, 1.31722
-               Data = 3.04945, 1.41126, 1.41126, 1.09086, 3.0095, 1.41362
-               Data = 3.36334, 1.46222, 1.46222, 1.12295, 3.01912, 1.51033
-               Data = 3.68782, 1.51292, 1.51292, 1.15503, 3.02875, 1.60735
-               Data = 4.02263, 1.56336, 1.56336, 1.18712, 3.03837, 1.70468
-               Data = 4.36754, 1.61356, 1.61356, 1.2192, 3.048, 1.80232
-            EndSect  // QH_Relations
-
-         EndSect  // weir_data
-
-         [weir_data]
-            Location = 'USDSculv2', 1200.0, 'weir2', 'shallow'
+            Location = 'B2-ConceptA', 1200.0, 'weir2', 'shallow'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -261,215 +201,11 @@
 
          EndSect  // weir_data
 
-         [weir_data]
-            Location = 'DSculv4', 750.0, 'weir4', 'shallow'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0.0
-            Attributes = 0, 0
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.5, 1.0, 1.0
-            WeirFormulaParam = 1.0, 1.0, 1.838, 1.5, 1.0
-            WeirFormula2Param = 0.0, 0.0, 0.0
-            WeirFormula3Param = 0.0, 0.0, 0.0, 0.6, 1.02, 1.37, 1.0, 0.03, 1.018, 1.0, 0.0, 2.6, 1.0, 0.7
-            [Geometry]
-               Attributes = 0, 0.0
-               [Level_Width]
-                  Data = 0.6095999999999999, 2.86512
-                  Data = 1.2192, 3.048
-               EndSect  // Level_Width
-
-            EndSect  // Geometry
-
-            [QH_Relations]
-               Data = 0.0, 0.6096, 0.6096, 0.6096, 2.86512, 0.0
-               Data = 0.0516334, 0.665552, 0.665552, 0.641684, 2.87475, 0.0920796
-               Data = 0.146214, 0.7211109999999999, 0.7211109999999999, 0.673768, 2.88437, 0.184468
-               Data = 0.268931, 0.776281, 0.776281, 0.705853, 2.894, 0.277165
-               Data = 0.414537, 0.831066, 0.831066, 0.737937, 2.90362, 0.370171
-               Data = 0.580018, 0.885475, 0.885475, 0.770021, 2.91325, 0.463486
-               Data = 0.7633529999999999, 0.939517, 0.939517, 0.802105, 2.92287, 0.55711
-               Data = 0.96307, 0.993206, 0.993206, 0.83419, 2.9325, 0.651042
-               Data = 1.17803, 1.04655, 1.04655, 0.866274, 2.94212, 0.7452839999999999
-               Data = 1.40733, 1.09957, 1.09957, 0.898358, 2.95175, 0.839834
-               Data = 1.65022, 1.15226, 1.15226, 0.930442, 2.96137, 0.934693
-               Data = 1.90608, 1.20465, 1.20465, 0.962527, 2.971, 1.02986
-               Data = 2.17437, 1.25674, 1.25674, 0.994611, 2.98062, 1.12534
-               Data = 2.45462, 1.30852, 1.30852, 1.02669, 2.99025, 1.22112
-               Data = 2.74643, 1.36003, 1.36003, 1.05878, 2.99987, 1.31722
-               Data = 3.04945, 1.41126, 1.41126, 1.09086, 3.0095, 1.41362
-               Data = 3.36334, 1.46222, 1.46222, 1.12295, 3.01912, 1.51033
-               Data = 3.68782, 1.51292, 1.51292, 1.15503, 3.02875, 1.60735
-               Data = 4.02263, 1.56336, 1.56336, 1.18712, 3.03837, 1.70468
-               Data = 4.36754, 1.61356, 1.61356, 1.2192, 3.048, 1.80232
-            EndSect  // QH_Relations
-
-         EndSect  // weir_data
-
       EndSect  // WEIR
 
       [CULVERTS]
          [culvert_data]
-            Location = 'USDSculv1', 1200.0, 'culvert1', 'shallow'
-            [ReservoirData]
-               StructureType = 0
-               StorageType = 0
-               ApplyXY = 0
-               CoordXY = 0.0, 0.0
-               InitialArea = 0.0
-               [Elevation]
-               EndSect  // Elevation
-
-            EndSect  // ReservoirData
-
-            HorizOffset = 0.0
-            Attributes = -0.3048, -0.3048, 9.143999999999998, 0.02, 1, 0, 0
-            [Geometry]
-               Type = 1
-               Rectangular = 0.0, 0.0
-               Cicular_Diameter = 0.6095999999999999
-               [Irregular]
-                  Data = -1e-155, -1e-155
-               EndSect  // Irregular
-
-            EndSect  // Geometry
-
-            HeadLossFactors = 0.5, 1.0, 1.0, 0.0, 0.5, 1.0, 1.0, 0.0
-            [Flow_Conditions]
-               [QHRelations_Positive_Flow]
-                  Data = 0.0, 0.0, 0
-                  Data = 0.0162063, 3.74436e-05, 2
-                  Data = 0.0334379, 0.000589574, 2
-                  Data = 0.0651233, 0.00290616, 2
-                  Data = 0.104331, 0.00884894, 2
-                  Data = 0.152824, 0.0205964, 2
-                  Data = 0.20869, 0.040298, 2
-                  Data = 0.272171, 0.0697332, 2
-                  Data = 0.342769, 0.110032, 2
-                  Data = 0.419411, 0.161508, 2
-                  Data = 0.50209, 0.223633, 2
-                  Data = 0.591486, 0.295195, 2
-                  Data = 0.6907990000000001, 0.374623, 2
-                  Data = 0.815317, 0.460517, 2
-                  Data = 0.974655, 0.5524289999999999, 2
-                  Data = 1.16648, 0.652073, 2
-                  Data = 1.40966, 0.765585, 2
-                  Data = 1.54218, 0.813604, 4
-                  Data = 1.6747, 0.86915, 4
-                  Data = 1.80722, 0.921319, 4
-                  Data = 1.93974, 0.9706630000000001, 4
-                  Data = 2.07227, 1.0176, 4
-                  Data = 2.20479, 1.06244, 4
-                  Data = 2.33731, 1.10546, 4
-                  Data = 2.46983, 1.14685, 4
-                  Data = 2.60235, 1.18679, 4
-                  Data = 2.73487, 1.22542, 4
-                  Data = 2.8674, 1.26286, 4
-                  Data = 2.99992, 1.29922, 4
-                  Data = 3.13244, 1.33459, 4
-                  Data = 3.26496, 1.36904, 4
-                  Data = 3.39748, 1.40263, 4
-                  Data = 3.53, 1.43544, 4
-                  Data = 3.66253, 1.46752, 4
-                  Data = 3.79505, 1.4989, 4
-                  Data = 3.92757, 1.52964, 4
-                  Data = 4.06009, 1.55977, 4
-                  Data = 4.19261, 1.58933, 4
-                  Data = 4.32514, 1.61835, 4
-                  Data = 4.45766, 1.64685, 4
-               EndSect  // QHRelations_Positive_Flow
-
-               [QHRelations_Negative_Flow]
-                  Data = 0.0, 0.0, 0
-                  Data = 0.0162063, 3.74436e-05, 2
-                  Data = 0.0334379, 0.000589574, 2
-                  Data = 0.0651233, 0.00290616, 2
-                  Data = 0.104331, 0.00884894, 2
-                  Data = 0.152824, 0.0205964, 2
-                  Data = 0.20869, 0.040298, 2
-                  Data = 0.272171, 0.0697332, 2
-                  Data = 0.342769, 0.110032, 2
-                  Data = 0.419411, 0.161508, 2
-                  Data = 0.50209, 0.223633, 2
-                  Data = 0.591486, 0.295195, 2
-                  Data = 0.6907990000000001, 0.374623, 2
-                  Data = 0.815317, 0.460517, 2
-                  Data = 0.974655, 0.5524289999999999, 2
-                  Data = 1.16648, 0.652073, 2
-                  Data = 1.40966, 0.765585, 2
-                  Data = 1.54218, 0.813604, 4
-                  Data = 1.6747, 0.86915, 4
-                  Data = 1.80722, 0.921319, 4
-                  Data = 1.93974, 0.9706630000000001, 4
-                  Data = 2.07227, 1.0176, 4
-                  Data = 2.20479, 1.06244, 4
-                  Data = 2.33731, 1.10546, 4
-                  Data = 2.46983, 1.14685, 4
-                  Data = 2.60235, 1.18679, 4
-                  Data = 2.73487, 1.22542, 4
-                  Data = 2.8674, 1.26286, 4
-                  Data = 2.99992, 1.29922, 4
-                  Data = 3.13244, 1.33459, 4
-                  Data = 3.26496, 1.36904, 4
-                  Data = 3.39748, 1.40263, 4
-                  Data = 3.53, 1.43544, 4
-                  Data = 3.66253, 1.46752, 4
-                  Data = 3.79505, 1.4989, 4
-                  Data = 3.92757, 1.52964, 4
-                  Data = 4.06009, 1.55977, 4
-                  Data = 4.19261, 1.58933, 4
-                  Data = 4.32514, 1.61835, 4
-                  Data = 4.45766, 1.64685, 4
-               EndSect  // QHRelations_Negative_Flow
-
-               [Hydraulic_Parameters]
-                  Data = 0.0, 1e-05, 0.000177828, 3.16228e-08
-                  Data = 0.00375259, 0.000238866, 0.00249454, 4.39354e-06
-                  Data = 0.014918, 0.00188283, 0.00983143, 8.64085e-05
-                  Data = 0.0332212, 0.00619946, 0.0215808, 0.000480543
-                  Data = 0.0582116, 0.0141947, 0.0370596, 0.00157783
-                  Data = 0.0892739, 0.0265144, 0.0553791, 0.00385223
-                  Data = 0.125643, 0.043381, 0.0755064, 0.00774978
-                  Data = 0.166424, 0.0645722, 0.09633460000000001, 0.0135696
-                  Data = 0.210612, 0.0894419, 0.116758, 0.0213664
-                  Data = 0.257119, 0.116984, 0.135744, 0.0308987
-                  Data = 0.3048, 0.145932, 0.1524, 0.0416364
-                  Data = 0.352481, 0.174879, 0.166028, 0.0528273
-                  Data = 0.398988, 0.202422, 0.176161, 0.0636108
-                  Data = 0.443176, 0.227291, 0.182589, 0.0731531
-                  Data = 0.483957, 0.248482, 0.185354, 0.0807789
-                  Data = 0.520326, 0.265349, 0.18474, 0.08607140000000001
-                  Data = 0.550384, 0.27727, 0.181349, 0.0888341
-                  Data = 0.576379, 0.285664, 0.175486, 0.08953990000000001
-                  Data = 0.594682, 0.289981, 0.168241, 0.0883738
-                  Data = 0.605847, 0.291625, 0.16029, 0.08605210000000001
-                  Data = 0.6096, 0.291864, 0.1524, 0.08327279999999999
-               EndSect  // Hydraulic_Parameters
-
-               [OrificeCoef_Positive_Flow]
-                  Data = 1.0, 0.65
-                  Data = 5.0, 0.65
-               EndSect  // OrificeCoef_Positive_Flow
-
-               [OrificeCoef_Negative_Flow]
-                  Data = 1.0, 0.65
-                  Data = 5.0, 0.65
-               EndSect  // OrificeCoef_Negative_Flow
-
-            EndSect  // Flow_Conditions
-
-         EndSect  // culvert_data
-
-         [culvert_data]
-            Location = 'USDSculv2', 1200.0, 'culvert2', 'shallow'
+            Location = 'B2-ConceptA', 1200.0, 'culvert2', 'shallow'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -771,7 +507,7 @@
          EndSect  // culvert_data
 
          [culvert_data]
-            Location = 'DSculv4', 750.0, 'culvert4', 'shallow'
+            Location = 'DSculv1', 50.0, 'culvert1', 'shallow'
             [ReservoirData]
                StructureType = 0
                StorageType = 0
@@ -958,34 +694,6 @@
    [COMPUTATIONAL_SETUP]
       SaveAllGridPoints = true
       [branch]
-         name = 'DSculv1'
-         [points]
-            point = 0.0, 1, 0.0, 1.0
-            point = 325.0, 1, 1.0, 0.0
-            point = 650.0, 1, 0.0, 1.0
-            point = 675.0, 1, 1.0, 0.0
-            point = 700.0, 1, 0.0, 1.0
-            point = 750.0, 1, 1.0, 0.0
-            point = 800.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'DSculv2'
-         [points]
-            point = 0.0, 1, 0.0, 1.0
-            point = 325.0, 1, 1.0, 0.0
-            point = 650.0, 1, 0.0, 1.0
-            point = 675.0, 1, 1.0, 0.0
-            point = 700.0, 1, 0.0, 1.0
-            point = 750.0, 1, 1.0, 0.0
-            point = 800.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
          name = 'DSculv3'
          [points]
             point = 0.0, 1, 0.0, 1.0
@@ -1014,81 +722,37 @@
       EndSect  // branch
 
       [branch]
-         name = 'Main1'
+         name = 'USDSculv1'
          [points]
             point = 0.0, 1, 0.0, 1.0
-            point = 1550.0, 1, 1.0, 0.0
-            point = 3100.0, 1, 0.0, 1.0
+            point = 580.0, 1, 1.0, 0.0
+            point = 1160.0, 1, 0.0, 1.0
+            point = 1170.0, 1, 1.0, 0.0
+            point = 1180.0, 1, 0.0, 1.0
+            point = 1200.0, 1, 1.0, 2.0
+            point = 1220.0, 1, 0.0, 1.0
+            point = 1230.0, 1, 1.0, 0.0
+            point = 1240.0, 1, 0.0, 1.0
+            point = 1820.0, 1, 1.0, 0.0
+            point = 2400.0, 1, 0.0, 1.0
          EndSect  // points
 
       EndSect  // branch
 
       [branch]
-         name = 'Main1'
-         [points]
-            point = 3100.0, 1, 0.0, 0.0
-            point = 5549.5, 1, 1.0, 0.0
-            point = 7999.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'Main2'
+         name = 'USDSculv2'
          [points]
             point = 0.0, 1, 0.0, 1.0
-            point = 1550.0, 1, 1.0, 0.0
-            point = 3100.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'Main2'
-         [points]
-            point = 3100.0, 1, 0.0, 0.0
-            point = 5549.5, 1, 1.0, 0.0
-            point = 7999.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'Main3'
-         [points]
-            point = 0.0, 1, 0.0, 1.0
-            point = 1550.0, 1, 1.0, 0.0
-            point = 3100.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'Main3'
-         [points]
-            point = 3100.0, 1, 0.0, 0.0
-            point = 5549.5, 1, 1.0, 0.0
-            point = 7999.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'Main4'
-         [points]
-            point = 0.0, 1, 0.0, 1.0
-            point = 1550.0, 1, 1.0, 0.0
-            point = 3100.0, 1, 0.0, 1.0
-         EndSect  // points
-
-      EndSect  // branch
-
-      [branch]
-         name = 'Main4'
-         [points]
-            point = 3100.0, 1, 0.0, 0.0
-            point = 5549.5, 1, 1.0, 0.0
-            point = 7999.0, 1, 0.0, 1.0
+            point = 580.0, 1, 1.0, 0.0
+            point = 1160.0, 1, 0.0, 1.0
+            point = 1170.0, 1, 1.0, 0.0
+            point = 1180.0, 1, 0.0, 1.0
+            point = 1200.0, 1, 1.0, 2.0
+            point = 1220.0, 1, 0.0, 1.0
+            point = 1230.0, 1, 1.0, 0.0
+            point = 1240.0, 1, 0.0, 1.0
+            point = 1820.0, 1, 1.0, 0.0
+            point = 2400.0, 1, 0.0, 1.0
          EndSect  // points
 
       EndSect  // branch
@@ -1097,10 +761,68 @@
          name = 'MainX'
          [points]
             point = 0.0, 1, 0.0, 1.0
-            point = 1550.0, 1, 1.0, 0.0
-            point = 3100.0, 1, 0.0, 1.0
-            point = 4350.0, 1, 1.0, 0.0
+            point = 2800.0, 1, 1.0, 0.0
             point = 5600.0, 1, 0.0, 1.0
+         EndSect  // points
+
+      EndSect  // branch
+
+      [branch]
+         name = 'Main1'
+         [points]
+            point = 0.0, 1, 0.0, 1.0
+            point = 3999.5, 1, 1.0, 0.0
+            point = 7999.0, 1, 0.0, 1.0
+         EndSect  // points
+
+      EndSect  // branch
+
+      [branch]
+         name = 'Main2'
+         [points]
+            point = 0.0, 1, 0.0, 1.0
+            point = 3999.5, 1, 1.0, 0.0
+            point = 7999.0, 1, 0.0, 1.0
+         EndSect  // points
+
+      EndSect  // branch
+
+      [branch]
+         name = 'Main3'
+         [points]
+            point = 0.0, 1, 0.0, 1.0
+            point = 1550.0, 1, 1.0, 0.0
+            point = 3100.0, 1, 0.0, 0.0
+         EndSect  // points
+
+      EndSect  // branch
+
+      [branch]
+         name = 'Main3'
+         [points]
+            point = 3100.0, 1, 0.0, 0.0
+            point = 5549.5, 1, 1.0, 0.0
+            point = 7999.0, 1, 0.0, 1.0
+         EndSect  // points
+
+      EndSect  // branch
+
+      [branch]
+         name = 'Main4'
+         [points]
+            point = 0.0, 1, 0.0, 1.0
+            point = 1550.0, 1, 1.0, 0.0
+            point = 3100.0, 1, 0.0, 0.0
+         EndSect  // points
+
+      EndSect  // branch
+
+      [branch]
+         name = 'Main4'
+         [points]
+            point = 3100.0, 1, 0.0, 0.0
+            point = 5549.5, 1, 1.0, 0.0
+            point = 7999.0, 1, 0.0, 1.0
          EndSect  // points
 
       EndSect  // branch
@@ -1108,17 +830,13 @@
    EndSect  // COMPUTATIONAL_SETUP
 
    [MIKESHECOUPLING]
-      MikeSheCoupling = 'USDSculv1', 0.0, 800.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
-      MikeSheCoupling = 'USDSculv2', 0.0, 800.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'DSculv3', 0.0, 800.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
-      MikeSheCoupling = 'DSculv4', 0.0, 800.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
+      MikeSheCoupling = 'DSculv1', 0.0, 800.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'Main1', 0.0, 8000.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 0, 0, 0
       MikeSheCoupling = 'Main2', 0.0, 8000.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'Main3', 0.0, 8000.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'Main4', 0.0, 8000.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
       MikeSheCoupling = 'MainX', 0.0, 5600.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.1, 1.0, 1, 0, 0
-      MikeSheCoupling = 'USDSculv1', 1600.0, 2400.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.09999999989839981, 1.0, 1, 0, 0
-      MikeSheCoupling = 'USDSculv2', 1600.0, 2400.0, 0, -1e-155, 1, -99999, 1, 1, 1.838, 1.5, 0.09999999989839981, 1.0, 1, 0, 0
    EndSect  // MIKESHECOUPLING
 
    [CHANNELROUTING]
