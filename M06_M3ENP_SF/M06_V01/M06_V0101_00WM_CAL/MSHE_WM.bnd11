@@ -1,4 +1,4 @@
-// Created     : 2025-04-1 14:49:57
+// Created     : 2025-04-1 15:23:32
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -2114,7 +2114,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 0, 5, 'C-111', 33291.0, 0.0, '', 'O4-S197Q'
+         DescType = 0, 5, 'C-111', 33290.9906, 0.0, '', 'O4-S197Q'
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = false, false, false, false
