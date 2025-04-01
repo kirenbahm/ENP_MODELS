@@ -1,4 +1,4 @@
-// Created     : 2025-03-31 11:2:23
+// Created     : 2025-03-31 15:49:19
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -14,15 +14,15 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 530735.4304635794
-      DefaultZoomDataArea_Y0 = 2808434.326710809
-      DefaultZoomDataArea_X1 = 550823.73068433
-      DefaultZoomDataArea_Y1 = 2813953.090507719
+      DefaultZoomDataArea_X0 = 458400.0000000009
+      DefaultZoomDataArea_Y0 = 2777599.999999993
+      DefaultZoomDataArea_X1 = 558400.0000000009
+      DefaultZoomDataArea_Y1 = 2867599.999999993
       MaxZoomDataAreaUndefined = 0
-      MaxZoomDataArea_X0 = 458550.0000000033
-      MaxZoomDataArea_Y0 = 2777749.999999993
-      MaxZoomDataArea_X1 = 558550.0000000033
-      MaxZoomDataArea_Y1 = 2867749.999999993
+      MaxZoomDataArea_X0 = 458400.0000000009
+      MaxZoomDataArea_Y0 = 2777599.999999993
+      MaxZoomDataArea_X1 = 558400.0000000009
+      MaxZoomDataArea_Y1 = 2867599.999999993
    EndSect  // ViewSettings
 
    [Overlays]
@@ -997,7 +997,7 @@
       [DFS_2D_DATA_FILE]
          Touched = 1
          IsDataUsedInSetup = 1
-         FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\M06_ICF-OIH.dfs2|
+         FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\M06_ICF-OIH-50m.dfs2|
          ITEM_COUNT = 1
          ITEM_NUMBERS = 1
       EndSect  // DFS_2D_DATA_FILE
@@ -83783,7 +83783,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary code file name'
          Type = 4
-         Value = |..\..\..\INPUTFILES\BC2D\M06_ICF-OIH_OLB.dfs2|
+         Value = |..\..\..\INPUTFILES\BC2D\M06_ICF-OIH-OLB-50m.dfs2|
       EndSect  // ExtraParam_9
 
       [ExtraParam_10]
