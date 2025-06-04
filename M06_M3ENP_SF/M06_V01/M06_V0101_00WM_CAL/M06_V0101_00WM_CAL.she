@@ -1,4 +1,4 @@
-// Created     : 2025-04-1 14:49:56
+// Created     : 2025-06-4 16:31:12
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -805,15 +805,15 @@
       Touched = 1
       IsDataUsedInSetup = 0
       Ecolab_OL = 1
-      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2023, 1, 18, 8, 47, 39
+      TemplateFile_OL = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_OL.ecolab|, 2021, 4, 12, 10, 32, 39
       Method_OL = 0
       Freq_OL = 1
       Ecolab_UZ = 1
-      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2023, 1, 18, 8, 47, 39
+      TemplateFile_UZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_UZ.ecolab|, 2021, 4, 12, 10, 32, 39
       Method_UZ = 0
       Freq_UZ = 1
       Ecolab_SZ = 1
-      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2023, 1, 18, 8, 47, 39
+      TemplateFile_SZ = |..\..\..\INPUTFILES\WQ\M01_ECOLAB_SZ.ecolab|, 2021, 4, 12, 10, 32, 39
       Method_SZ = 0
       Freq_SZ = 1
       [OL_Constants]
@@ -83807,7 +83807,7 @@
          IsDataUsedInSetup = 1
          Name = 'use mike 1d'
          Type = 2
-         Value = 0
+         Value = 1
       EndSect  // ExtraParam_12
 
    EndSect  // ExtraParams
