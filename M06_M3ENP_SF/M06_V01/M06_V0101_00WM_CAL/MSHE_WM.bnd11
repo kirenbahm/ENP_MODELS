@@ -1,4 +1,4 @@
-// Created     : 2025-07-3 15:32:29
+// Created     : 2025-07-3 15:35:41
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -6963,33 +6963,6 @@
 
       [BndItem]
          DescType = 5, 0, 'LPG2', 564.978760662735, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = true, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 1, 'OldIngraham', 0.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
