@@ -61617,7 +61617,7 @@
          [DFS_2D_DATA_FILE]
             Touched = 1
             IsDataUsedInSetup = 1
-            FILE_NAME = |..\..\..\INPUTFILES\SOLFAS\SOLFA-20220222.dfs2|
+            FILE_NAME = |..\..\..\INPUTFILES\SOLFAS\SOLFA-20250708.dfs2|
             ITEM_COUNT = 1
             ITEM_NUMBERS = 1
          EndSect  // DFS_2D_DATA_FILE
