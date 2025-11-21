@@ -1,4 +1,4 @@
-// Created     : 2025-06-4 16:31:12
+// Created     : 2025-11-21 13:59:20
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -14,15 +14,15 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 458400.0000000049
-      DefaultZoomDataArea_Y0 = 2777600.000000529
-      DefaultZoomDataArea_X1 = 558400.0000000049
-      DefaultZoomDataArea_Y1 = 2867600.000000529
+      DefaultZoomDataArea_X0 = 458400.0
+      DefaultZoomDataArea_Y0 = 2777600.0
+      DefaultZoomDataArea_X1 = 558400.0
+      DefaultZoomDataArea_Y1 = 2867600.0
       MaxZoomDataAreaUndefined = 0
-      MaxZoomDataArea_X0 = 458400.0000000049
-      MaxZoomDataArea_Y0 = 2777600.000000529
-      MaxZoomDataArea_X1 = 558400.0000000049
-      MaxZoomDataArea_Y1 = 2867600.000000529
+      MaxZoomDataArea_X0 = 458400.0
+      MaxZoomDataArea_Y0 = 2777600.0
+      MaxZoomDataArea_X1 = 558400.0
+      MaxZoomDataArea_Y1 = 2867600.0
    EndSect  // ViewSettings
 
    [Overlays]
@@ -985,18 +985,18 @@
    [Catchment]
       Touched = 1
       IsDataUsedInSetup = 1
-      type = 1
+      type = 2
       nxShp = 250
       nyShp = 225
       sizeShp = 400.0
       x0Shp = 458400.0
-      y0Shp = 2777500.0
+      y0Shp = 2777600.0
       MapProjShp = 'PROJCS["NAD_1983_UTM_Zone_17N",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000],PARAMETER["False_Northing",0],PARAMETER["Central_Meridian",-81],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0],UNIT["Meter",1]]'
       rotationShp = 0.0
       ShapeAxisUnit = 1000
       [DFS_2D_DATA_FILE]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\M06_DOMAIN.dfs2|
          ITEM_COUNT = 1
          ITEM_NUMBERS = 1
@@ -1004,8 +1004,8 @@
 
       [SHAPE_FILE]
          Touched = 1
-         IsDataUsedInSetup = 0
-         FILE_NAME = |..\MIKEHYDRO\GIS_FILES\M06_DOMAIN_SF_UTM17N.shp|
+         IsDataUsedInSetup = 1
+         FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\FineSc_dom_v1\FineSc_dom_v1.shp|
          ITEM_COUNT = 1
          ITEM_NUMBERS = ''
       EndSect  // SHAPE_FILE
@@ -64004,7 +64004,7 @@
       Drainage = 0
       TypeOfGeoParaDistribution = 0
       TypeOfVerDiscr = 0
-      Wells = 1
+      Wells = 0
       SYieldLayer1FromUZ = 1
       MinimumLayerThickness = 0.3048
       id = 14
@@ -77748,7 +77748,7 @@
 
       [Well]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          Filename = |..\..\..\INPUTFILES\WELLS\Wellfield_SingleWells.wel|
          IncludeMap = 1
       EndSect  // Well
