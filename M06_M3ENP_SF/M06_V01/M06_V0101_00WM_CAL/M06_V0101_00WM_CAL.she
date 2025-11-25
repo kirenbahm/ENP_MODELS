@@ -1,4 +1,4 @@
-// Created     : 2025-11-25 14:49:37
+// Created     : 2025-11-25 15:5:12
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -646,7 +646,7 @@
          [CompControlParaSZPCGTrans]
             Touched = 1
             IsDataUsedInSetup = 1
-            MaxNoOfIter = 100
+            MaxNoOfIter = 200
             GradualDrainActivation = 1
             MaxHeadChange = 0.003048
             HorizontalConductanceAveraging = 1
