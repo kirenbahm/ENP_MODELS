@@ -1,4 +1,4 @@
-// Created     : 2025-07-1 15:11:37
+// Created     : 2025-12-2 10:11:17
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -1022,33 +1022,6 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
-         EndSect  // InflowArray
-
-         [QhArray]
-         EndSect  // QhArray
-
-         [ComponentArray]
-         EndSect  // ComponentArray
-
-      EndSect  // BndItem
-
-      [BndItem]
-         DescType = 5, 0, '_MainParkRoad', 0.0, 0.0, '', ''
-         OpenDesc = 0, 0
-         Dam = 0.0, 0.0, 0.0
-         Inflow = false, false, false, false
-         ADRR = '', 0.0, 0
-         QhADM12 = 2, 1.0, 0.0
-         AutoCalQh = 0, 0.001, 40.0
-         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
-         [FractionArray]
-         EndSect  // FractionArray
-
-         [HDArray]
-         EndSect  // HDArray
-
-         [InflowArray]
-            Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
@@ -8140,6 +8113,33 @@
 
          [InflowArray]
             Inflow = 2, 0.0, 1, ||, 0.0, 0, '', 0, 1.0
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, 'MainParkRoad', 0.0, 0.0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0.0, 0.0, 0.0
+         Inflow = true, false, false, false
+         ADRR = '', 0.0, 0
+         QhADM12 = 2, 1.0, 0.0
+         AutoCalQh = 0, 0.001, 40.0
+         BndTS = 0, ||, 0.0, 0, '', 0, 1.0
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0.0, 0, ||, 0.0, 0, '', 0, 1.0
          EndSect  // InflowArray
 
          [QhArray]
