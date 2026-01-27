@@ -1,4 +1,4 @@
-// Created     : 2025-12-30 15:45:29
+// Created     : 2026-01-27 14:50:8
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -17,12 +17,12 @@
       DefaultZoomDataArea_X0 = 458400.0
       DefaultZoomDataArea_Y0 = 2777600.0
       DefaultZoomDataArea_X1 = 558400.0
-      DefaultZoomDataArea_Y1 = 2867600.0
+      DefaultZoomDataArea_Y1 = 2872600.0
       MaxZoomDataAreaUndefined = 0
       MaxZoomDataArea_X0 = 458400.0
       MaxZoomDataArea_Y0 = 2777600.0
       MaxZoomDataArea_X1 = 558400.0
-      MaxZoomDataArea_Y1 = 2867600.0
+      MaxZoomDataArea_Y1 = 2872600.0
    EndSect  // ViewSettings
 
    [Overlays]
@@ -986,9 +986,9 @@
       Touched = 1
       IsDataUsedInSetup = 1
       type = 2
-      nxShp = 250
-      nyShp = 225
-      sizeShp = 400.0
+      nxShp = 2000
+      nyShp = 1900
+      sizeShp = 50.0
       x0Shp = 458400.0
       y0Shp = 2777600.0
       MapProjShp = 'PROJCS["NAD_1983_UTM_Zone_17N",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000],PARAMETER["False_Northing",0],PARAMETER["Central_Meridian",-81],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0],UNIT["Meter",1]]'
@@ -83783,7 +83783,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary code file name'
          Type = 4
-         Value = |..\..\..\INPUTFILES\BC2D\M06_OLB_CODE-400m.dfs2|
+         Value = |..\..\..\INPUTFILES\BC2D\M06_OLB_CODE-050m.dfs2|
       EndSect  // ExtraParam_9
 
       [ExtraParam_10]
