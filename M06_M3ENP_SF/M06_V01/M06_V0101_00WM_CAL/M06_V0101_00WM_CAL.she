@@ -1,4 +1,4 @@
-// Created     : 2026-01-27 14:50:8
+// Created     : 2026-01-28 16:27:47
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -602,10 +602,10 @@
       [CompControlParaTimeStep]
          Touched = 1
          IsDataUsedInSetup = 1
-         InitialTimeStep = 0.5
-         MaxAllowedOLTimeStep = 0.5
-         MaxAllowedUZTimeStep = 1
-         MaxAllowedSZTimeStep = 6
+         InitialTimeStep = 0.1
+         MaxAllowedOLTimeStep = 0.1
+         MaxAllowedUZTimeStep = 0.2
+         MaxAllowedSZTimeStep = 1
          IncrementRate = 0.1
          MaxPrecDepthPerTimeStep = 100
          MaxInfiltDepthPerTimeStep  = 100
@@ -1005,7 +1005,7 @@
       [SHAPE_FILE]
          Touched = 1
          IsDataUsedInSetup = 1
-         FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\M06_inner_cell_polygon\M06_inner_cell_polygon.shp|
+         FILE_NAME = |..\..\..\INPUTFILES\DOMAIN\model_domain_jan0826\M06_domain_010826.shp|
          ITEM_COUNT = 1
          ITEM_NUMBERS = ''
       EndSect  // SHAPE_FILE
@@ -64004,7 +64004,7 @@
       Drainage = 0
       TypeOfGeoParaDistribution = 0
       TypeOfVerDiscr = 0
-      Wells = 1
+      Wells = 0
       SYieldLayer1FromUZ = 1
       MinimumLayerThickness = 0.3048
       id = 14
@@ -77748,7 +77748,7 @@
 
       [Well]
          Touched = 1
-         IsDataUsedInSetup = 1
+         IsDataUsedInSetup = 0
          Filename = |..\..\..\INPUTFILES\WELLS\Wellfield_SingleWells.wel|
          IncludeMap = 1
       EndSect  // Well
