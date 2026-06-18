@@ -1,4 +1,4 @@
-// Created     : 2025-04-1 14:49:57
+// Created     : 2026-06-18 15:55:48
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -86,10 +86,4 @@
    EndSect  // Results
 
 EndSect  // Run11
-
-[SYSTEM]
-   ResultRootFolder = |..\..\..\Result|
-   UseCustomResultFolder = false
-   CustomResultFolder = ||
-EndSect  // SYSTEM
 

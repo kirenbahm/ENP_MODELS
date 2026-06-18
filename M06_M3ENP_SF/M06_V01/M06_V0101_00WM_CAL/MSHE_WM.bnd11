@@ -1,4 +1,4 @@
-// Created     : 2026-06-18 15:31:22
+// Created     : 2026-06-18 15:55:48
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -5163,7 +5163,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'cRR_east', 150.0, 0.0, '', ''
+         DescType = 5, 0, 'cRR_06', 150.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
@@ -5190,7 +5190,7 @@
       EndSect  // BndItem
 
       [BndItem]
-         DescType = 5, 0, 'cRR_west', 150.0, 0.0, '', ''
+         DescType = 5, 0, 'cRR_07', 150.0, 0.0, '', ''
          OpenDesc = 0, 0
          Dam = 0.0, 0.0, 0.0
          Inflow = true, false, false, false
