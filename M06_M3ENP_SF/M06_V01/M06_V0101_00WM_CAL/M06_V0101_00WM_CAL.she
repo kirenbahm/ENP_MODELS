@@ -590,13 +590,13 @@
       [SimulationPeriod]
          Touched = 1
          IsDataUsedInSetup = 1
-         HotStart = 0
-         HotStartResultFile = |..\M06_V0101_00WM_CAL-OPS\M06_V0101_00WM_CAL-OPS.she - Result Files\M06_V0101_00WM_CAL-OPS.Sheres|
-         HotStartDate = -1, -1, -1, -1, -1
-         HotStartDateIndex = 0
+         HotStart = 1
+         HotStartResultFile = |..\M06_V0101_NA_Cur_3M_HS\M06_V0101_NA_Cur_3M_HS.she - Result Files\M06_V0101_NA_Cur_3M_HS.Sheres|
+         HotStartDate = 2003, 3, 2, 0, 0
+         HotStartDateIndex = 1
          SimStartFromHotStartDate = 1
-         SIMSTART = 1999, 1, 1, 0, 0
-         SIMEND = 2019, 12, 31, 0, 0
+         SIMSTART = 2003, 3, 2, 0, 0
+         SIMEND = 2004, 4, 30, 0, 0
       EndSect  // SimulationPeriod
 
       [CompControlParaTimeStep]
@@ -646,7 +646,7 @@
          [CompControlParaSZPCGTrans]
             Touched = 1
             IsDataUsedInSetup = 1
-            MaxNoOfIter = 50
+            MaxNoOfIter = 200
             GradualDrainActivation = 1
             MaxHeadChange = 0.003048
             HorizontalConductanceAveraging = 1
@@ -83537,7 +83537,7 @@
          IsDataUsedInSetup = 1
          Name = 'ol boundary head file name'
          Type = 4
-         Value = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\M06_BC2D_H_OL_20180403.dfs2|
+         Value = |..\..\..\..\ENP_FILES\INPUTFILES\BC2D\ComputedHead_RSM_H_OL_20260417.dfs2|
       EndSect  // ExtraParam_8
 
       [ExtraParam_9]
@@ -83625,8 +83625,8 @@
       [RunStatistics]
          Touched = 1
          IsDataUsedInSetup = 1
-         HtmlFilename = |.\M06_V0101_00WM_CAL-OPS4.she - Result Files\M06_V0101_00WM_CAL-OPS4_PreProcessed_Stat.Html|
-         ShapeFilename = |.\M06_V0101_00WM_CAL-OPS4.she - Result Files\M06_V0101_00WM_CAL-OPS4_PreProcessed_Stat.shp|
+         HtmlFilename = |.\M06_V0101_00WM_CAL.she - Result Files\M06_V0101_00WM_CAL_PreProcessed_Stat.Html|
+         ShapeFilename = |.\M06_V0101_00WM_CAL.she - Result Files\M06_V0101_00WM_CAL_PreProcessed_Stat.shp|
       EndSect  // RunStatistics
 
       [PT_Reg_Extraction]
