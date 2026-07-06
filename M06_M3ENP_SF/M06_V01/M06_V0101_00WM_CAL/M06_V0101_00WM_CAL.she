@@ -1,4 +1,4 @@
-// Created     : 2026-06-18 15:56:0
+// Created     : 2026-07-6 13:12:29
 // DLL         : C:\Program Files (x86)\DHI\MIKE Zero\2023\bin\x64\pfs2004.dll
 // Version     : 21.0.0.16308
 
@@ -14,10 +14,10 @@
       IsDataUsedInSetup = 1
       ShowValidationIcons = 1
       DefaultZoomDataAreaUndefined = 0
-      DefaultZoomDataArea_X0 = 533400.0
-      DefaultZoomDataArea_Y0 = 2812687.719298245
-      DefaultZoomDataArea_X1 = 557742.1052631579
-      DefaultZoomDataArea_Y1 = 2819705.263157895
+      DefaultZoomDataArea_X0 = 458400.0
+      DefaultZoomDataArea_Y0 = 2777600.0
+      DefaultZoomDataArea_X1 = 558400.0
+      DefaultZoomDataArea_Y1 = 2872600.0
       MaxZoomDataAreaUndefined = 0
       MaxZoomDataArea_X0 = 458400.0
       MaxZoomDataArea_Y0 = 2777600.0
@@ -591,11 +591,11 @@
          Touched = 1
          IsDataUsedInSetup = 1
          HotStart = 1
-         HotStartResultFile = |..\M06_V0101_NA_Cur_3M_HS\M06_V0101_NA_Cur_3M_HS.she - Result Files\M06_V0101_NA_Cur_3M_HS.Sheres|
-         HotStartDate = 2003, 3, 2, 0, 0
-         HotStartDateIndex = 1
+         HotStartResultFile = |..\..\..\..\ENP_FILES\INPUTFILES\HOTSTART\M06_20230401_50m-20260706.hot.Sheres|
+         HotStartDate = 2003, 4, 1, 0, 0
+         HotStartDateIndex = 2
          SimStartFromHotStartDate = 1
-         SIMSTART = 2003, 3, 2, 0, 0
+         SIMSTART = 2003, 4, 1, 0, 0
          SIMEND = 2004, 4, 30, 0, 0
       EndSect  // SimulationPeriod
 
@@ -79409,9 +79409,9 @@
       ADInputData = 0
       WaterBalance = 0
       AdRadio = 0
-      HotStartData = 0
+      HotStartData = 1
       OnlyStoreHotDataAtEndOfSimulation = 0
-      HotstartStoringTimestep_Hrs = 168
+      HotstartStoringTimestep_Hrs = 720
       WM_OverlandFrequency = 24
       WM_PrecFrequency = 24
       WM_FHeadsFrequency = 24
@@ -83235,7 +83235,7 @@
          [Item_188]
             Touched = 1
             IsDataUsedInSetup = 1
-            Name = 'cRR_east'
+            Name = 'cRR_06'
             DataType = 1
             BranchName = 'cRR_east'
             Chainage = 15
@@ -83253,7 +83253,7 @@
          [Item_189]
             Touched = 1
             IsDataUsedInSetup = 1
-            Name = 'cRR_west'
+            Name = 'cRR_07'
             DataType = 1
             BranchName = 'cRR_west'
             Chainage = 15
@@ -83662,4 +83662,10 @@
    EndSect  // GeoScene3D
 
 EndSect  // MIKESHE_FLOWMODEL
+
+[SYSTEM]
+   ResultRootFolder = |..\..\..\Result|
+   UseCustomResultFolder = false
+   CustomResultFolder = ||
+EndSect  // SYSTEM
 
